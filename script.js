@@ -36,10 +36,10 @@ var progress = [
     },
 	{
         "name": "Listening to an audiobook: <a href='https://www.audible.com/pd/Science-Technology/The-Elegant-Universe-Audiobook/B002V0TEUO' target='_blank'>The Elegant Universe</a>",
-        "currentValue": 68,
-        "currentText": "9:55:22 of 15:37:19",
+        "currentValue": 60,
+        "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": 0
+        "weeklyProgress": 8
     },	
     {
         "name": "Reading a book: <a href='https://www.amazon.com/Data-Structures-Abstraction-Design-Using-ebook/dp/B01AKSZA2E' target='_blank'>Data Structures: Abstraction and Design Using Java, 3rd Edition</a>",
@@ -60,7 +60,7 @@ var progress = [
         "currentValue": 17,
         "currentText": "",
 		"lastWeeksProgress": 1,
-        "weeklyProgress": 1
+        "weeklyProgress": 3
     }
 ]
 
