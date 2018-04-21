@@ -60,7 +60,7 @@ var progress = [
         "currentValue": 17,
         "currentText": "",
 		"lastWeeksProgress": 1,
-        "weeklyProgress": 3
+        "weeklyProgress": 5
     }
 ]
 
