@@ -49,9 +49,9 @@ var progress = [
         "weeklyProgress": 0
     },
     {
-        "name": "Solving puzzles with <a href='https://golang.org/' target='_blank'>Go</a> and C++ on: <a href='https://www.codingame.com/home' target='_blank'>CodinGame</a>",
+        "name": "Solving programming puzzles with <a href='https://golang.org/' target='_blank'>Go</a> and C++ on: <a href='https://www.codingame.com/home' target='_blank'>CodinGame</a>",
         "currentValue": 65,
-        "currentText": "28/43 puzzles",
+        "currentText": "",
 		"lastWeeksProgress": 0,
         "weeklyProgress": 0
     },
