@@ -1,6 +1,6 @@
 var progress = [
 	{
-		"name": "Completing a course: <a href='https://classroom.udacity.com/courses/ud611' target='_blank'>Intro to DevOps</a>",
+		"name": "Completing a course: <a href='https://www.udacity.com/course/intro-to-devops--ud611' target='_blank'>Intro to DevOps</a>",
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 0,
