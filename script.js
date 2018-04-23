@@ -1,24 +1,24 @@
 var progress = [
     {
 		"name": "Completing a course: <a href='http://shop.oreilly.com/product/0636920039518.do' target='_blank'>Distributed Systems</a>",
-        "currentValue": 0,
+        "currentValue": (92/254) * 100,
         "currentText": "",
-		"lastWeeksProgress": (92/254) * 100,
-        "weeklyProgress": (254/254) * 100 - (92/254) * 100
+		"lastWeeksProgress": (254/254) * 100 - (92/254) * 100,
+        "weeklyProgress": 0
 	},
 	{
         "name": "Listening to an audiobook: <a href='https://www.audible.com/pd/Science-Technology/Astrophysics-for-People-in-a-Hurry-Audiobook/B06X9MXN32' target='_blank'>Astrophysics for People in a Hurry</a>",
-        "currentValue": 21,
+        "currentValue": 60,
         "currentText": "",
-		"lastWeeksProgress": 39,
-        "weeklyProgress": 40
+		"lastWeeksProgress": 40,
+        "weeklyProgress": 0
     },	
 	{
         "name": "Completing a course: <a href='https://www.udacity.com/course/advanced-operating-systems--ud189' target='_blank'>Advanced Operating Systems</a>",
-        "currentValue": 12,
+        "currentValue": 26,
         "currentText": "",
-		"lastWeeksProgress": 26-12,
-        "weeklyProgress": 30-26
+		"lastWeeksProgress": 30-26,
+        "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='http://www.stroustrup.com/4th.html' target='_blank'>The C++ Programming Language (4th Edition)</a>",
@@ -38,8 +38,8 @@ var progress = [
         "name": "Listening to an audiobook: <a href='https://www.audible.com/pd/Science-Technology/The-Elegant-Universe-Audiobook/B002V0TEUO' target='_blank'>The Elegant Universe</a>",
         "currentValue": 60,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 8
+		"lastWeeksProgress": 8,
+        "weeklyProgress": 0
     },	
     {
         "name": "Reading a book: <a href='https://www.amazon.com/Data-Structures-Abstraction-Design-Using-ebook/dp/B01AKSZA2E' target='_blank'>Data Structures: Abstraction and Design Using Java, 3rd Edition</a>",
@@ -57,10 +57,10 @@ var progress = [
     },
 	{
         "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
-        "currentValue": 17,
+        "currentValue": 18,
         "currentText": "",
-		"lastWeeksProgress": 1,
-        "weeklyProgress": 5
+		"lastWeeksProgress": 5,
+        "weeklyProgress": 0
     }
 ]
 
