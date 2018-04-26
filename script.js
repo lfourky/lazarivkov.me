@@ -39,7 +39,7 @@ var progress = [
         "currentValue": (63/446)*100,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": 0
+        "weeklyProgress": (70/446)*100 - (63/446)*100
     },
 	{
         "name": "Listening to an audiobook: <a href='https://www.audible.com/pd/Science-Technology/The-Elegant-Universe-Audiobook/B002V0TEUO' target='_blank'>The Elegant Universe</a>",
