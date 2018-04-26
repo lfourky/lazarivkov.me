@@ -25,7 +25,7 @@ var progress = [
         "currentValue": 26,
         "currentText": "",
 		"lastWeeksProgress": 30-26,
-        "weeklyProgress": 32-30
+        "weeklyProgress": 35-30
     },
 	{
         "name": "Reading a book: <a href='http://www.stroustrup.com/4th.html' target='_blank'>The C++ Programming Language (4th Edition)</a>",
@@ -66,8 +66,8 @@ var progress = [
         "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
         "currentValue": 18,
         "currentText": "",
-		"lastWeeksProgress": 5,
-        "weeklyProgress": 9
+		"lastWeeksProgress": 23-18,
+        "weeklyProgress": 34-23
     }
 ]
 
