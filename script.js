@@ -25,7 +25,7 @@ var progress = [
         "currentValue": 26,
         "currentText": "",
 		"lastWeeksProgress": 30-26,
-        "weeklyProgress": 35-30
+        "weeklyProgress": 36-30
     },
 	{
         "name": "Reading a book: <a href='http://www.stroustrup.com/4th.html' target='_blank'>The C++ Programming Language (4th Edition)</a>",
@@ -39,7 +39,7 @@ var progress = [
         "currentValue": (63/446)*100,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": (70/446)*100 - (63/446)*100
+        "weeklyProgress": (75/446)*100 - (63/446)*100
     },
 	{
         "name": "Listening to an audiobook: <a href='https://www.audible.com/pd/Science-Technology/The-Elegant-Universe-Audiobook/B002V0TEUO' target='_blank'>The Elegant Universe</a>",
