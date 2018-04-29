@@ -46,7 +46,7 @@ var progress = [
         "currentValue": 60,
         "currentText": "",
 		"lastWeeksProgress": 8,
-        "weeklyProgress": 0
+        "weeklyProgress": 2
     },	
     {
         "name": "Reading a book: <a href='https://www.amazon.com/Data-Structures-Abstraction-Design-Using-ebook/dp/B01AKSZA2E' target='_blank'>Data Structures: Abstraction and Design Using Java, 3rd Edition</a>",
