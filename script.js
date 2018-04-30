@@ -3,36 +3,29 @@ var progress = [
         "name": "Listening to an audiobook: <a href='https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592' target='_blank'>The Phoenix Project</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 13
+		"lastWeeksProgress": 1,
+        "weeklyProgress": 0
     },	
 	{
 		"name": "Completing a course: <a href='https://www.udacity.com/course/intro-to-devops--ud611' target='_blank'>Intro to DevOps</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 52
+		"lastWeeksProgress": 52,
+        "weeklyProgress": 0
 	},
     {
 		"name": "Completing a course: <a href='http://shop.oreilly.com/product/0636920039518.do' target='_blank'>Distributed Systems</a>",
-        "currentValue": (92/254) * 100,
+        "currentValue": (254/254) * 100,
         "currentText": "",
-		"lastWeeksProgress": (254/254) * 100 - (92/254) * 100,
+		"lastWeeksProgress": 0,
         "weeklyProgress": 0
 	},
 	{
-        "name": "Listening to an audiobook: <a href='https://www.audible.com/pd/Science-Technology/Astrophysics-for-People-in-a-Hurry-Audiobook/B06X9MXN32' target='_blank'>Astrophysics for People in a Hurry</a>",
-        "currentValue": 60,
-        "currentText": "",
-		"lastWeeksProgress": 40,
-        "weeklyProgress": 0
-    },	
-	{
         "name": "Completing a course: <a href='https://www.udacity.com/course/advanced-operating-systems--ud189' target='_blank'>Advanced Operating Systems</a>",
-        "currentValue": 26,
+        "currentValue": 30,
         "currentText": "",
-		"lastWeeksProgress": 30-26,
-        "weeklyProgress": 36-30
+		"lastWeeksProgress": 36-30,
+        "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='http://www.stroustrup.com/4th.html' target='_blank'>The C++ Programming Language (4th Edition)</a>",
@@ -45,15 +38,15 @@ var progress = [
         "name": "Reading a book: <a href='https://www.apress.com/gp/book/9781484224021' target='_blank'>Low-Level Programming</a>",
         "currentValue": (63/446)*100,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": (75/446)*100 - (63/446)*100
+		"lastWeeksProgress": (75/446)*100 - (63/446)*100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Listening to an audiobook: <a href='https://www.audible.com/pd/Science-Technology/The-Elegant-Universe-Audiobook/B002V0TEUO' target='_blank'>The Elegant Universe</a>",
-        "currentValue": 60,
+        "currentValue": 68,
         "currentText": "",
-		"lastWeeksProgress": 8,
-        "weeklyProgress": 2
+		"lastWeeksProgress": 2,
+        "weeklyProgress": 0
     },	
     {
         "name": "Reading a book: <a href='https://www.amazon.com/Data-Structures-Abstraction-Design-Using-ebook/dp/B01AKSZA2E' target='_blank'>Data Structures: Abstraction and Design Using Java, 3rd Edition</a>",
@@ -71,10 +64,10 @@ var progress = [
     },
 	{
         "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
-        "currentValue": 18,
+        "currentValue": 23,
         "currentText": "",
-		"lastWeeksProgress": 23-18,
-        "weeklyProgress": 34-23
+		"lastWeeksProgress": 34-23,
+        "weeklyProgress": 0
     }
 ]
 
