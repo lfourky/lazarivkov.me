@@ -3,7 +3,7 @@ var progress = [
         "name": "Listening to an audiobook: <a href='https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592' target='_blank'>The Phoenix Project</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": 1,
+		"lastWeeksProgress": 13,
         "weeklyProgress": 0
     },	
 	{
