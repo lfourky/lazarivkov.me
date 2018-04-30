@@ -72,6 +72,14 @@ var progress = [
 ]
 
 var achievements = [
+    {
+        "id": 52,
+        "title": "Finished an Audiobook",
+        "date": "April 20th, 2018",
+        "link": "https://www.audible.com/pd/Science-Technology/Astrophysics-for-People-in-a-Hurry-Audiobook/B06X9MXN32",
+        "shortlink": "Astrophysics for People in a Hurry",
+        "text": ""
+    },
 	{
         "id": 51,
         "title": "Completed a personal GitHub project",
