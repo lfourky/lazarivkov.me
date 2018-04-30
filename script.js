@@ -13,13 +13,6 @@ var progress = [
 		"lastWeeksProgress": 52,
         "weeklyProgress": 0
 	},
-    {
-		"name": "Completing a course: <a href='http://shop.oreilly.com/product/0636920039518.do' target='_blank'>Distributed Systems</a>",
-        "currentValue": (254/254) * 100,
-        "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 0
-	},
 	{
         "name": "Completing a course: <a href='https://www.udacity.com/course/advanced-operating-systems--ud189' target='_blank'>Advanced Operating Systems</a>",
         "currentValue": 30,
