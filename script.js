@@ -18,7 +18,7 @@ var progress = [
         "currentValue": 30,
         "currentText": "",
 		"lastWeeksProgress": 36-30,
-        "weeklyProgress": 0
+        "weeklyProgress": 40-36
     },
 	{
         "name": "Reading a book: <a href='http://www.stroustrup.com/4th.html' target='_blank'>The C++ Programming Language (4th Edition)</a>",
