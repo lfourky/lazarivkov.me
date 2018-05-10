@@ -1,5 +1,12 @@
 var progress = [
 	{
+		"name": "Completing a course: <a href='https://www.pluralsight.com/courses/grpc-enhancing-application-communication' target='_blank'>Enhancing Application Communication with gRPC</a>",
+        "currentValue": 0,
+        "currentText": "",
+		"lastWeeksProgress": 0,
+        "weeklyProgress": 100
+	},
+	{
         "name": "Listening to an audiobook: <a href='https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592' target='_blank'>The Phoenix Project</a>",
         "currentValue": 0,
         "currentText": "",
@@ -65,6 +72,14 @@ var progress = [
 ]
 
 var achievements = [
+	{
+        "id": 53,
+        "title": "Completed A Course",
+        "date": "May 10th, 2018",
+        "link": " https://www.pluralsight.com/courses/grpc-enhancing-application-communication",
+        "shortlink": "Enhancing Application Communication with gRPC",
+        "text": "" 
+    },
     {
         "id": 52,
         "title": "Finished an Audiobook",
