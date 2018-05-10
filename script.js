@@ -4,7 +4,7 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 13,
-        "weeklyProgress": 11
+        "weeklyProgress": 16
     },	
 	{
 		"name": "Completing a course: <a href='https://www.udacity.com/course/intro-to-devops--ud611' target='_blank'>Intro to DevOps</a>",
@@ -18,7 +18,7 @@ var progress = [
         "currentValue": 30,
         "currentText": "",
 		"lastWeeksProgress": 36-30,
-        "weeklyProgress": 41-36
+        "weeklyProgress": 47-36
     },
 	{
         "name": "Reading a book: <a href='http://www.stroustrup.com/4th.html' target='_blank'>The C++ Programming Language (4th Edition)</a>",
@@ -32,7 +32,7 @@ var progress = [
         "currentValue": (63/446)*100,
         "currentText": "",
 		"lastWeeksProgress": (75/446)*100 - (63/446)*100,
-        "weeklyProgress": (98/446)*100 - (75/446)*100
+        "weeklyProgress": (100/446)*100 - (75/446)*100
     },
 	{
         "name": "Listening to an audiobook: <a href='https://www.audible.com/pd/Science-Technology/The-Elegant-Universe-Audiobook/B002V0TEUO' target='_blank'>The Elegant Universe</a>",
@@ -60,7 +60,7 @@ var progress = [
         "currentValue": 23,
         "currentText": "",
 		"lastWeeksProgress": 34-23,
-        "weeklyProgress": 41-34
+        "weeklyProgress": 44-34
     }
 ]
 
