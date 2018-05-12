@@ -4,7 +4,7 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": 52
+        "weeklyProgress": 80
 	},
 	{
 		"name": "Completing a course: <a href='https://www.pluralsight.com/courses/grpc-enhancing-application-communication' target='_blank'>Enhancing Application Communication with gRPC</a>",
@@ -74,7 +74,7 @@ var progress = [
         "currentValue": 23,
         "currentText": "",
 		"lastWeeksProgress": 34-23,
-        "weeklyProgress": 44-34
+        "weeklyProgress": 45-34
     }
 ]
 
