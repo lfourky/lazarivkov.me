@@ -4,7 +4,7 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": 80
+        "weeklyProgress": 100
 	},
 	{
 		"name": "Completing a course: <a href='https://www.pluralsight.com/courses/grpc-enhancing-application-communication' target='_blank'>Enhancing Application Communication with gRPC</a>",
@@ -79,6 +79,14 @@ var progress = [
 ]
 
 var achievements = [
+	{
+        "id": 54,
+        "title": "Completed A Course",
+        "date": "May 12th, 2018",
+        "link": " https://www.pluralsight.com/courses/protocol-buffers-beyond-json-xml",
+        "shortlink": "Moving Beyond JSON and XML with Protocol Buffers",
+        "text": "" 
+    },
 	{
         "id": 53,
         "title": "Completed A Course",
