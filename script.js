@@ -18,7 +18,7 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 13,
-        "weeklyProgress": 24
+        "weeklyProgress": 26
     },	
 	{
 		"name": "Completing a course: <a href='https://www.udacity.com/course/intro-to-devops--ud611' target='_blank'>Intro to DevOps</a>",
@@ -32,7 +32,7 @@ var progress = [
         "currentValue": 30,
         "currentText": "",
 		"lastWeeksProgress": 36-30,
-        "weeklyProgress": 47-36
+        "weeklyProgress": 49-36
     },
 	{
         "name": "Reading a book: <a href='http://www.stroustrup.com/4th.html' target='_blank'>The C++ Programming Language (4th Edition)</a>",
