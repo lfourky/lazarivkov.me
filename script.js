@@ -25,7 +25,7 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 52,
-        "weeklyProgress": 26
+        "weeklyProgress": 48
 	},
 	{
         "name": "Completing a course: <a href='https://www.udacity.com/course/advanced-operating-systems--ud189' target='_blank'>Advanced Operating Systems</a>",
@@ -79,6 +79,14 @@ var progress = [
 ]
 
 var achievements = [
+	{
+        "id": 55,
+        "title": "Completed A Course",
+        "date": "May 13th, 2018",
+        "link": " https://www.udacity.com/course/intro-to-devops--ud611",
+        "shortlink": "Intro to DevOps",
+        "text": "Quite an interesting topic." 
+    },
 	{
         "id": 54,
         "title": "Completed A Course",
