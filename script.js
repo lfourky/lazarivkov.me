@@ -1,5 +1,12 @@
 var progress = [
 	{
+		"name": "Completing a course: <a href='https://www.pluralsight.com/courses/implementing-devops-real-world' target='_blank'>Implementing DevOps in the Real World</a>",
+        "currentValue": 0,
+        "currentText": "",
+		"lastWeeksProgress": 0,
+        "weeklyProgress": 20
+	},
+	{
 		"name": "Completing a course: <a href='https://www.pluralsight.com/courses/protocol-buffers-beyond-json-xml' target='_blank'>Moving Beyond JSON and XML with Protocol Buffers</a>",
         "currentValue": 0,
         "currentText": "",
