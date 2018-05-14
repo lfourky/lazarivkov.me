@@ -3,36 +3,36 @@ var progress = [
 		"name": "Completing a course: <a href='https://www.pluralsight.com/courses/protocol-buffers-beyond-json-xml' target='_blank'>Moving Beyond JSON and XML with Protocol Buffers</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 100
+		"lastWeeksProgress": 100,
+        "weeklyProgress": 0
 	},
 	{
 		"name": "Completing a course: <a href='https://www.pluralsight.com/courses/grpc-enhancing-application-communication' target='_blank'>Enhancing Application Communication with gRPC</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 100
+		"lastWeeksProgress": 100,
+        "weeklyProgress": 0
 	},
 	{
         "name": "Listening to an audiobook: <a href='https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592' target='_blank'>The Phoenix Project</a>",
-        "currentValue": 0,
+        "currentValue": 13,
         "currentText": "",
-		"lastWeeksProgress": 13,
-        "weeklyProgress": 26
+		"lastWeeksProgress": 26,
+        "weeklyProgress": 0
     },	
 	{
 		"name": "Completing a course: <a href='https://www.udacity.com/course/intro-to-devops--ud611' target='_blank'>Intro to DevOps</a>",
-        "currentValue": 0,
+        "currentValue": 52,
         "currentText": "",
-		"lastWeeksProgress": 52,
-        "weeklyProgress": 48
+		"lastWeeksProgress": 48,
+        "weeklyProgress": 0
 	},
 	{
         "name": "Completing a course: <a href='https://www.udacity.com/course/advanced-operating-systems--ud189' target='_blank'>Advanced Operating Systems</a>",
-        "currentValue": 30,
+        "currentValue": 36,
         "currentText": "",
-		"lastWeeksProgress": 36-30,
-        "weeklyProgress": 49-36
+		"lastWeeksProgress": 49-36,
+        "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='http://www.stroustrup.com/4th.html' target='_blank'>The C++ Programming Language (4th Edition)</a>",
@@ -43,16 +43,16 @@ var progress = [
     },
 	{
         "name": "Reading a book: <a href='https://www.apress.com/gp/book/9781484224021' target='_blank'>Low-Level Programming</a>",
-        "currentValue": (63/446)*100,
+        "currentValue": (75/446)*100,
         "currentText": "",
-		"lastWeeksProgress": (75/446)*100 - (63/446)*100,
-        "weeklyProgress": (100/446)*100 - (75/446)*100
+		"lastWeeksProgress": (100/446)*100 - (75/446)*100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Listening to an audiobook: <a href='https://www.audible.com/pd/Science-Technology/The-Elegant-Universe-Audiobook/B002V0TEUO' target='_blank'>The Elegant Universe</a>",
-        "currentValue": 68,
+        "currentValue": 70,
         "currentText": "",
-		"lastWeeksProgress": 2,
+		"lastWeeksProgress": 0,
         "weeklyProgress": 0
     },	
     {
@@ -71,10 +71,10 @@ var progress = [
     },
 	{
         "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
-        "currentValue": 23,
+        "currentValue": 34,
         "currentText": "",
-		"lastWeeksProgress": 34-23,
-        "weeklyProgress": 50-34
+		"lastWeeksProgress": 50-34,
+        "weeklyProgress": 0
     }
 ]
 
