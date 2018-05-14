@@ -4,7 +4,7 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": 20
+        "weeklyProgress": 39
 	},
 	{
 		"name": "Completing a course: <a href='https://www.pluralsight.com/courses/protocol-buffers-beyond-json-xml' target='_blank'>Moving Beyond JSON and XML with Protocol Buffers</a>",
