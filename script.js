@@ -4,7 +4,7 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": 73
+        "weeklyProgress": 88
 	},
 	{
 		"name": "Completing a course: <a href='https://www.pluralsight.com/courses/protocol-buffers-beyond-json-xml' target='_blank'>Moving Beyond JSON and XML with Protocol Buffers</a>",
@@ -24,8 +24,8 @@ var progress = [
         "name": "Listening to an audiobook: <a href='https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592' target='_blank'>The Phoenix Project</a>",
         "currentValue": 13,
         "currentText": "",
-		"lastWeeksProgress": 26,
-        "weeklyProgress": 0
+		"lastWeeksProgress": 39-13, 
+        "weeklyProgress": 43-39
     },	
 	{
 		"name": "Completing a course: <a href='https://www.udacity.com/course/intro-to-devops--ud611' target='_blank'>Intro to DevOps</a>",
