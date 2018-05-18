@@ -11,7 +11,7 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": 88
+        "weeklyProgress": 100
 	},
 	{
 		"name": "Completing a course: <a href='https://www.pluralsight.com/courses/protocol-buffers-beyond-json-xml' target='_blank'>Moving Beyond JSON and XML with Protocol Buffers</a>",
@@ -93,6 +93,14 @@ var progress = [
 ]
 
 var achievements = [
+	{
+        "id": 56,
+        "title": "Completed A Course",
+        "date": "May 18th, 2018",
+        "link": "https://www.pluralsight.com/courses/implementing-devops-real-world",
+        "shortlink": "Implementing DevOps in the Real World",
+        "text": "This course kind of took another route instead of the one I thought it'd take. Still, it was interesting to see the perspective of a senior director of product from Pivotal on this subject." 
+    },
 	{
         "id": 55,
         "title": "Completed A Course",
