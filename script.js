@@ -4,7 +4,7 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": 86
+        "weeklyProgress": 100
 	},
 	{
 		"name": "Completing a course: <a href='https://www.pluralsight.com/courses/implementing-devops-real-world' target='_blank'>Implementing DevOps in the Real World</a>",
@@ -92,7 +92,18 @@ var progress = [
     }
 ]
 
+		"name": "Completinetes' target='_blank'>Getting Started with Kubernetes</a>",
+
+
 var achievements = [
+	{
+        "id": 57,
+        "title": "Completed A Course",
+        "date": "May 19th, 2018",
+        "link": "https://www.pluralsight.com/courses/getting-started-kubernetes",
+        "shortlink": "Getting Started with Kubernetes",
+        "text": "Well, it seems that Kubernetes is really cool." 
+    },
 	{
         "id": 56,
         "title": "Completed A Course",
