@@ -46,14 +46,7 @@ var progress = [
         "currentValue": 36,
         "currentText": "",
 		"lastWeeksProgress": 49-36,
-        "weeklyProgress": 0
-    },
-	{
-        "name": "Reading a book: <a href='http://www.stroustrup.com/4th.html' target='_blank'>The C++ Programming Language (4th Edition)</a>",
-        "currentValue": (114/1366)*100,
-        "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 0
+        "weeklyProgress": 52-49
     },
 	{
         "name": "Reading a book: <a href='https://www.apress.com/gp/book/9781484224021' target='_blank'>Low-Level Programming</a>",
@@ -91,6 +84,16 @@ var progress = [
         "weeklyProgress": 51-50
     }
 ]
+
+/*
+	{
+        "name": "Reading a book: <a href='http://www.stroustrup.com/4th.html' target='_blank'>The C++ Programming Language (4th Edition)</a>",
+        "currentValue": (114/1366)*100,
+        "currentText": "",
+		"lastWeeksProgress": 0,
+        "weeklyProgress": 0
+    },
+*/
 
 var achievements = [
 	{
