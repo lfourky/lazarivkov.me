@@ -92,9 +92,6 @@ var progress = [
     }
 ]
 
-		"name": "Completinetes' target='_blank'>Getting Started with Kubernetes</a>",
-
-
 var achievements = [
 	{
         "id": 57,
