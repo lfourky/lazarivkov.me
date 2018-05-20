@@ -32,7 +32,7 @@ var progress = [
         "currentValue": 13,
         "currentText": "",
 		"lastWeeksProgress": 39-13, 
-        "weeklyProgress": 46-39
+        "weeklyProgress": 52-39
     },	
 	{
 		"name": "Completing a course: <a href='https://www.udacity.com/course/intro-to-devops--ud611' target='_blank'>Intro to DevOps</a>",
@@ -67,7 +67,7 @@ var progress = [
         "currentValue": (191/686)*100,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": 0
+        "weeklyProgress": (213/686)*100 - (191/686)*100
     },
     {
         "name": "Solving programming puzzles with <a href='https://golang.org/' target='_blank'>Go</a> and C++ on: <a href='https://www.codingame.com/home' target='_blank'>CodinGame</a>",
