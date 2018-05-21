@@ -3,25 +3,11 @@ var progress = [
 		"name": "Completing a course: <a href='https://www.pluralsight.com/courses/getting-started-kubernetes' target='_blank'>Getting Started with Kubernetes</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 100
-	},
-	{
-		"name": "Completing a course: <a href='https://www.pluralsight.com/courses/implementing-devops-real-world' target='_blank'>Implementing DevOps in the Real World</a>",
-        "currentValue": 0,
-        "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 100
-	},
-	{
-		"name": "Completing a course: <a href='https://www.pluralsight.com/courses/protocol-buffers-beyond-json-xml' target='_blank'>Moving Beyond JSON and XML with Protocol Buffers</a>",
-        "currentValue": 0,
-        "currentText": "",
 		"lastWeeksProgress": 100,
         "weeklyProgress": 0
 	},
 	{
-		"name": "Completing a course: <a href='https://www.pluralsight.com/courses/grpc-enhancing-application-communication' target='_blank'>Enhancing Application Communication with gRPC</a>",
+		"name": "Completing a course: <a href='https://www.pluralsight.com/courses/implementing-devops-real-world' target='_blank'>Implementing DevOps in the Real World</a>",
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 100,
@@ -29,30 +15,23 @@ var progress = [
 	},
 	{
         "name": "Listening to an audiobook: <a href='https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592' target='_blank'>The Phoenix Project</a>",
-        "currentValue": 13,
+        "currentValue": 39,
         "currentText": "",
-		"lastWeeksProgress": 39-13, 
-        "weeklyProgress": 52-39
+		"lastWeeksProgress": 52-39, 
+        "weeklyProgress": 0
     },	
 	{
-		"name": "Completing a course: <a href='https://www.udacity.com/course/intro-to-devops--ud611' target='_blank'>Intro to DevOps</a>",
-        "currentValue": 52,
-        "currentText": "",
-		"lastWeeksProgress": 48,
-        "weeklyProgress": 0
-	},
-	{
         "name": "Completing a course: <a href='https://www.udacity.com/course/advanced-operating-systems--ud189' target='_blank'>Advanced Operating Systems</a>",
-        "currentValue": 36,
+        "currentValue": 49,
         "currentText": "",
-		"lastWeeksProgress": 49-36,
-        "weeklyProgress": 52-49
+		"lastWeeksProgress": 52-49,
+        "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='https://www.apress.com/gp/book/9781484224021' target='_blank'>Low-Level Programming</a>",
-        "currentValue": (75/446)*100,
+        "currentValue": (100/446)*100,
         "currentText": "",
-		"lastWeeksProgress": (100/446)*100 - (75/446)*100,
+		"lastWeeksProgress": 0,
         "weeklyProgress": 0
     },
 	{
@@ -66,22 +45,22 @@ var progress = [
         "name": "Reading a book: <a href='https://www.amazon.com/Data-Structures-Abstraction-Design-Using-ebook/dp/B01AKSZA2E' target='_blank'>Data Structures: Abstraction and Design Using Java, 3rd Edition</a>",
         "currentValue": (191/686)*100,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": (213/686)*100 - (191/686)*100
+		"lastWeeksProgress": (213/686)*100 - (191/686)*100,
+        "weeklyProgress": 0
     },
     {
         "name": "Solving programming puzzles with <a href='https://golang.org/' target='_blank'>Go</a> and C++ on: <a href='https://www.codingame.com/home' target='_blank'>CodinGame</a>",
         "currentValue": (30/48) * 100,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": (32/48) * 100 - (30/48) * 100
+		"lastWeeksProgress": (32/48) * 100 - (30/48) * 100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
-        "currentValue": 34,
+        "currentValue": 50,
         "currentText": "",
-		"lastWeeksProgress": 50-34,
-        "weeklyProgress": 51-50
+		"lastWeeksProgress": 51-50,
+        "weeklyProgress": 0
     }
 ]
 
