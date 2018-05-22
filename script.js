@@ -53,7 +53,7 @@ var progress = [
         "currentValue": (30/48) * 100,
         "currentText": "",
 		"lastWeeksProgress": (32/48) * 100 - (30/48) * 100,
-        "weeklyProgress": 0
+        "weeklyProgress": (33/48) * 100 - (32/48) * 100
     },
 	{
         "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
