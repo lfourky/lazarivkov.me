@@ -45,8 +45,8 @@ var progress = [
         "name": "Reading a book: <a href='https://www.amazon.com/Data-Structures-Abstraction-Design-Using-ebook/dp/B01AKSZA2E' target='_blank'>Data Structures: Abstraction and Design Using Java, 3rd Edition</a>",
         "currentValue": (191/686)*100,
         "currentText": "",
-		"lastWeeksProgress": (213/686)*100 - (191/686)*100,
-        "weeklyProgress": 0
+		"lastWeeksProgress": ((213-191)/686)*100,
+        "weeklyProgress": ((217-213)/686)*100
     },
     {
         "name": "Solving programming puzzles with <a href='https://golang.org/' target='_blank'>Go</a> and C++ on: <a href='https://www.codingame.com/home' target='_blank'>CodinGame</a>",
