@@ -18,7 +18,7 @@ var progress = [
         "currentValue": 39,
         "currentText": "",
 		"lastWeeksProgress": 52-39, 
-        "weeklyProgress": 58-52
+        "weeklyProgress": 60-52
     },	
 	{
         "name": "Completing a course: <a href='https://www.udacity.com/course/advanced-operating-systems--ud189' target='_blank'>Advanced Operating Systems</a>",
@@ -52,8 +52,8 @@ var progress = [
         "name": "Solving programming puzzles with <a href='https://golang.org/' target='_blank'>Go</a> and C++ on: <a href='https://www.codingame.com/home' target='_blank'>CodinGame</a>",
         "currentValue": (30/48) * 100,
         "currentText": "",
-		"lastWeeksProgress": (32/48) * 100 - (30/48) * 100,
-        "weeklyProgress": (33/48) * 100 - (32/48) * 100
+		"lastWeeksProgress": ((32-30)/48) * 100,
+        "weeklyProgress": ((33-32)/48) * 100
     },
 	{
         "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
