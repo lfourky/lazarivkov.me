@@ -542,7 +542,7 @@ function getProgressTemplate(progress) {
 					<td>
 						<div class="progress">
 							<div class="progress-bar" style="width: ` + progress.currentValue + `%">
-								<span style="color:white">` + progress.currentText + `</span>
+								<span>` + progress.currentText + `</span>
 							</div>
 							<div class="progress-bar progress-bar-info" style="width: ` + progress.lastWeeksProgress + `%"></div>
 							<div class="progress-bar progress-bar-warning" style="width: ` + progress.weeklyProgress + `%"></div>
