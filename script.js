@@ -1,5 +1,12 @@
 var progress = [
 	{
+        "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920043874.do' target='_blank'>Kubernetes: Up and Running</a>",
+        "currentValue": 0,
+        "currentText": "",
+		"lastWeeksProgress": 0,
+        "weeklyProgress": (17/354)*100
+    },
+	{
 		"name": "Completing a course: <a href='https://www.pluralsight.com/courses/getting-started-kubernetes' target='_blank'>Getting Started with Kubernetes</a>",
         "currentValue": 0,
         "currentText": "Completed",
