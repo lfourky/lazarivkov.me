@@ -4,7 +4,7 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": (17/354)*100
+        "weeklyProgress": (50/354)*100
     },
 	{
 		"name": "Completing a course: <a href='https://www.pluralsight.com/courses/getting-started-kubernetes' target='_blank'>Getting Started with Kubernetes</a>",
@@ -46,7 +46,7 @@ var progress = [
         "currentValue": 70,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": 0
+        "weeklyProgress": 73-70
     },	
     {
         "name": "Reading a book: <a href='https://www.amazon.com/Data-Structures-Abstraction-Design-Using-ebook/dp/B01AKSZA2E' target='_blank'>Data Structures: Abstraction and Design Using Java, 3rd Edition</a>",
