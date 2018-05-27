@@ -4,7 +4,7 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": (228/354)*100
+        "weeklyProgress": (237/354)*100
     },
 	{
 		"name": "Completing a course: <a href='https://www.pluralsight.com/courses/getting-started-kubernetes' target='_blank'>Getting Started with Kubernetes</a>",
