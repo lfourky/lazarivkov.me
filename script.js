@@ -3,22 +3,22 @@ var progress = [
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920043874.do' target='_blank'>Kubernetes: Up and Running</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": (237/354)*100
+		"lastWeeksProgress": (237/354)*100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Listening to an audiobook: <a href='https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592' target='_blank'>The Phoenix Project</a>",
-        "currentValue": 39,
+        "currentValue": 52,
         "currentText": "",
-		"lastWeeksProgress": 52-39, 
-        "weeklyProgress": 60-52
+		"lastWeeksProgress": 60-52, 
+        "weeklyProgress": 0
     },	
 	{
         "name": "Completing a course: <a href='https://www.udacity.com/course/advanced-operating-systems--ud189' target='_blank'>Advanced Operating Systems</a>",
-        "currentValue": 49,
+        "currentValue": 52,
         "currentText": "",
-		"lastWeeksProgress": 52-49,
-        "weeklyProgress": 55-52
+		"lastWeeksProgress": 55-52,
+        "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='https://www.apress.com/gp/book/9781484224021' target='_blank'>Low-Level Programming</a>",
@@ -31,28 +31,28 @@ var progress = [
         "name": "Listening to an audiobook: <a href='https://www.audible.com/pd/Science-Technology/The-Elegant-Universe-Audiobook/B002V0TEUO' target='_blank'>The Elegant Universe</a>",
         "currentValue": 70,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 83-70
+		"lastWeeksProgress": 83-70,
+        "weeklyProgress": 0
     },	
     {
         "name": "Reading a book: <a href='https://www.amazon.com/Data-Structures-Abstraction-Design-Using-ebook/dp/B01AKSZA2E' target='_blank'>Data Structures: Abstraction and Design Using Java, 3rd Edition</a>",
-        "currentValue": (191/686)*100,
+        "currentValue": (213/686)*100,
         "currentText": "",
-		"lastWeeksProgress": ((213-191)/686)*100,
-        "weeklyProgress": ((217-213)/686)*100
+		"lastWeeksProgress": ((217-213)/686)*100,
+        "weeklyProgress": 0
     },
     {
         "name": "Solving programming puzzles with <a href='https://golang.org/' target='_blank'>Go</a> and C++ on: <a href='https://www.codingame.com/home' target='_blank'>CodinGame</a>",
-        "currentValue": (30/48) * 100,
+        "currentValue": (32/48) * 100,
         "currentText": "",
-		"lastWeeksProgress": ((32-30)/48) * 100,
-        "weeklyProgress": ((33-32)/48) * 100
+		"lastWeeksProgress": ((33-32)/48) * 100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
-        "currentValue": 50,
+        "currentValue": 51,
         "currentText": "",
-		"lastWeeksProgress": 51-50,
+		"lastWeeksProgress": 0,
         "weeklyProgress": 0
     }
 ]
