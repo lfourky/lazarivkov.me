@@ -69,6 +69,14 @@ var progress = [
 
 var achievements = [
 	{
+        "id": 58,
+        "title": "Finished Reading A Book",
+        "date": "May 28th, 2018",
+        "link": "http://shop.oreilly.com/product/0636920043874.do",
+        "shortlink": "Kubernetes: Up and Running",
+        "text": "Yeah, definitely cool."
+    },
+	{
         "id": 57,
         "title": "Completed A Course",
         "date": "May 19th, 2018",
