@@ -4,7 +4,7 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": 0
+        "weeklyProgress": (16/164)*100
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920043874.do' target='_blank'>Kubernetes: Up and Running</a>",
