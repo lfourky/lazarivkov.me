@@ -76,6 +76,14 @@ var progress = [
 
 var achievements = [
 	{
+        "id": 59,
+        "title": "Finished an Audiobook",
+        "date": "June 2nd, 2018",
+        "link": "https://www.audible.com/pd/Science-Technology/The-Elegant-Universe-Audiobook/B002V0TEUO",
+        "shortlink": "The Elegant Universe",
+        "text": ""
+    },
+	{
         "id": 58,
         "title": "Finished Reading A Book",
         "date": "May 28th, 2018",
