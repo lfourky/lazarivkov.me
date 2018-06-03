@@ -4,7 +4,7 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": 85
+        "weeklyProgress": 100
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920072768.do' target='_blank'>Designing Distributed Systems</a>",
@@ -81,7 +81,16 @@ var progress = [
     },
 */
 
+
 var achievements = [
+	{
+        "id": 60,
+        "title": "Completed A Course",
+        "date": "June 3rd, 2018",
+        "link": "https://www.udacity.com/course/networking-for-web-developers--ud256",
+        "shortlink": "Networking for Web Developers",
+        "text": "Served as a nice intro to a more in-depth course that I'm planning to take after this one." 
+    },
 	{
         "id": 59,
         "title": "Finished an Audiobook",
