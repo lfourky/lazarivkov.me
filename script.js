@@ -25,7 +25,7 @@ var progress = [
         "currentValue": 60,
         "currentText": "",
 		"lastWeeksProgress": 0, 
-        "weeklyProgress": 70-60
+        "weeklyProgress": 72-60
     },	
 	{
         "name": "Completing a course: <a href='https://www.udacity.com/course/advanced-operating-systems--ud189' target='_blank'>Advanced Operating Systems</a>",
