@@ -32,7 +32,7 @@ var progress = [
         "currentValue": 55,
         "currentText": "",
 		"lastWeeksProgress": 60-55,
-        "weeklyProgress": 0
+        "weeklyProgress": 65-60
     },
 	{
         "name": "Reading a book: <a href='https://www.apress.com/gp/book/9781484224021' target='_blank'>Low-Level Programming</a>",
