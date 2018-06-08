@@ -1,5 +1,12 @@
 var progress = [
 	{
+        "name": "Completing a course: <a href='	https://www.udacity.com/course/computer-networking--ud436' target='_blank'>Computer Networking</a>",
+        "currentValue": 0,
+        "currentText": "",
+		"lastWeeksProgress": 0,
+        "weeklyProgress": 14
+    },
+	{
         "name": "Completing a course: <a href='https://www.udacity.com/course/networking-for-web-developers--ud256' target='_blank'>Networking for Web Developers</a>",
         "currentValue": 0,
         "currentText": "",
