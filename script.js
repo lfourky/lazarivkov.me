@@ -4,7 +4,7 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 26,
-        "weeklyProgress": 40-26
+        "weeklyProgress": 48-26
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920072768.do' target='_blank'>Designing Distributed Systems</a>",
