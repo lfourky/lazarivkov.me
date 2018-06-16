@@ -67,8 +67,15 @@ var progress = [
     },
 */
 
-
 var achievements = [
+	{
+        "id": 61,
+        "title": "Completed A Course",
+        "date": "June 16th, 2018",
+        "link": "https://www.pluralsight.com/courses/practical-networking",
+        "shortlink": "Practical Networking",
+        "text": "" 
+    },
 	{
         "id": 60,
         "title": "Completed A Course",
