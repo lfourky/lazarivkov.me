@@ -1,5 +1,12 @@
 var progress = [
 	{
+        "name": "Completing a course: <a href='https://www.pluralsight.com/courses/practical-networking' target='_blank'>Practical Networking</a>",
+        "currentValue": 0,
+        "currentText": "",
+		"lastWeeksProgress": 0,
+        "weeklyProgress": 100
+    },
+	{
         "name": "Completing a course: <a href='	https://www.udacity.com/course/computer-networking--ud436' target='_blank'>Computer Networking</a>",
         "currentValue": 0,
         "currentText": "",
