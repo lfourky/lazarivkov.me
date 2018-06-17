@@ -18,7 +18,7 @@ var progress = [
         "currentValue": (31/164)*100,
         "currentText": "",
 		"lastWeeksProgress": ((72-31)/164)*100,
-        "weeklyProgress": ((99-72)/164)*100
+        "weeklyProgress": ((124-72)/164)*100
     },
 	{
         "name": "Listening to an audiobook: <a href='https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592' target='_blank'>The Phoenix Project</a>",
