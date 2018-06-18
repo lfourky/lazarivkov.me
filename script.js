@@ -31,7 +31,7 @@ var progress = [
         "name": "Completing a course: <a href='https://www.udacity.com/course/advanced-operating-systems--ud189' target='_blank'>Advanced Operating Systems</a>",
         "currentValue": 67,
         "currentText": "",
-		"lastWeeksProgress": 67-60,
+		"lastWeeksProgress": 0,
         "weeklyProgress": 0
     },
 	{
