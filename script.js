@@ -69,6 +69,14 @@ var progress = [
 
 var achievements = [
 	{
+        "id": 62,
+        "title": "Completed A Course",
+        "date": "June 18th, 2018",
+        "link": "https://www.udacity.com/course/computer-networking--ud436",
+        "shortlink": "Computer Networking",
+        "text": "A bit more advanced course on networking this time. Still not there, yet." 
+    },
+	{
         "id": 61,
         "title": "Completed A Course",
         "date": "June 16th, 2018",
