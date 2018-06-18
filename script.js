@@ -10,7 +10,7 @@ var progress = [
         "name": "Completing a course: <a href='	https://www.udacity.com/course/computer-networking--ud436' target='_blank'>Computer Networking</a>",
         "currentValue": 26,
         "currentText": "",
-		"lastWeeksProgress": 65-26,
+		"lastWeeksProgress": 100-26,
         "weeklyProgress": 0
     },
 	{
