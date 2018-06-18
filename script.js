@@ -3,33 +3,33 @@ var progress = [
         "name": "Completing a course: <a href='https://www.pluralsight.com/courses/practical-networking' target='_blank'>Practical Networking</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 100
+		"lastWeeksProgress": 100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Completing a course: <a href='	https://www.udacity.com/course/computer-networking--ud436' target='_blank'>Computer Networking</a>",
-        "currentValue": 0,
+        "currentValue": 26,
         "currentText": "",
-		"lastWeeksProgress": 26,
-        "weeklyProgress": 65-26
+		"lastWeeksProgress": 65-26,
+        "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920072768.do' target='_blank'>Designing Distributed Systems</a>",
-        "currentValue": (31/164)*100,
+        "currentValue": (72/164)*100,
         "currentText": "",
-		"lastWeeksProgress": ((72-31)/164)*100,
-        "weeklyProgress": ((124-72)/164)*100
+		"lastWeeksProgress": ((130-72)/164)*100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Listening to an audiobook: <a href='https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592' target='_blank'>The Phoenix Project</a>",
-        "currentValue": 60,
+        "currentValue": 75,
         "currentText": "",
-		"lastWeeksProgress": 75-60, 
-        "weeklyProgress": 80-75
+		"lastWeeksProgress": 80-75, 
+        "weeklyProgress": 0
     },	
 	{
         "name": "Completing a course: <a href='https://www.udacity.com/course/advanced-operating-systems--ud189' target='_blank'>Advanced Operating Systems</a>",
-        "currentValue": 60,
+        "currentValue": 67,
         "currentText": "",
 		"lastWeeksProgress": 67-60,
         "weeklyProgress": 0
