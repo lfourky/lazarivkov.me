@@ -69,6 +69,14 @@ var progress = [
 
 var achievements = [
 	{
+        "id": 63,
+        "title": "Finished Reading A Book",
+        "date": "June 19th, 2018",
+        "link": "http://shop.oreilly.com/product/0636920072768.do",
+        "shortlink": "Designing Distributed Systems",
+        "text": "A surprising amount of Kubernetes examples can be found in this book, but, I'm just fine with it. Overall a pretty good book."
+    },
+	{
         "id": 62,
         "title": "Completed A Course",
         "date": "June 18th, 2018",
