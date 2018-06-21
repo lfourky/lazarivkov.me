@@ -25,7 +25,7 @@ var progress = [
         "currentValue": 75,
         "currentText": "",
 		"lastWeeksProgress": 80-75, 
-        "weeklyProgress": 93-80
+        "weeklyProgress": 100-80
     },	
 	{
         "name": "Completing a course: <a href='https://www.udacity.com/course/advanced-operating-systems--ud189' target='_blank'>Advanced Operating Systems</a>",
@@ -66,8 +66,16 @@ var progress = [
         "weeklyProgress": 0
     },
 */
-
+ 
 var achievements = [
+	{
+        "id": 64,
+        "title": "Finished an Audiobook",
+        "date": "June 21st, 2018",
+        "link": "https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592",
+        "shortlink": "The Phoenix Project",
+        "text": "Enjoyed this one quite a lot."
+    },
 	{
         "id": 63,
         "title": "Finished Reading A Book",
