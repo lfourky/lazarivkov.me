@@ -1,4 +1,11 @@
-var progress = [
+var progress = [ 
+	{
+        "name": "Reading a book: <a href='https://mitpress.mit.edu/books/algorithms-unlocked' target='_blank'>Algorithms Unlocked</a>",
+        "currentValue": 0,
+        "currentText": "",
+		"lastWeeksProgress": 0,
+        "weeklyProgress": ((45-0)/237)*100
+    },
 	{
         "name": "Completing a course: <a href='https://www.pluralsight.com/courses/practical-networking' target='_blank'>Practical Networking</a>",
         "currentValue": 0,
