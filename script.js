@@ -3,8 +3,8 @@ var progress = [
         "name": "Reading a book: <a href='https://mitpress.mit.edu/books/algorithms-unlocked' target='_blank'>Algorithms Unlocked</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": ((53-0)/237)*100
+		"lastWeeksProgress": ((53-0)/237)*100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Completing a course: <a href='	https://www.udacity.com/course/computer-networking--ud436' target='_blank'>Computer Networking</a>",
