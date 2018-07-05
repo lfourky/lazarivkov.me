@@ -7,13 +7,6 @@ var progress = [
         "weeklyProgress": ((105-75)/237)*100
     },
 	{
-        "name": "Completing a course: <a href='	https://www.udacity.com/course/computer-networking--ud436' target='_blank'>Computer Networking</a>",
-        "currentValue": 75,
-        "currentText": "",
-		"lastWeeksProgress": 100-75,
-        "weeklyProgress": 0
-    },
-	{
         "name": "Completing a course: <a href='https://www.udacity.com/course/advanced-operating-systems--ud189' target='_blank'>Advanced Operating Systems</a>",
         "currentValue": 67,
         "currentText": "",
