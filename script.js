@@ -1,10 +1,10 @@
 var progress = [ 
 	{
         "name": "Reading a book: <a href='https://mitpress.mit.edu/books/algorithms-unlocked' target='_blank'>Algorithms Unlocked</a>",
-        "currentValue": 0,
+        "currentValue": ((53-0)/237)*100,
         "currentText": "",
-		"lastWeeksProgress": ((53-0)/237)*100,
-        "weeklyProgress": ((75-53)/237)*100
+		"lastWeeksProgress": ((75-53)/237)*100,
+        "weeklyProgress": ((105-75)/237)*100
     },
 	{
         "name": "Completing a course: <a href='	https://www.udacity.com/course/computer-networking--ud436' target='_blank'>Computer Networking</a>",
@@ -13,20 +13,6 @@ var progress = [
 		"lastWeeksProgress": 100-75,
         "weeklyProgress": 0
     },
-	{
-        "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920072768.do' target='_blank'>Designing Distributed Systems</a>",
-        "currentValue": (130/164)*100,
-        "currentText": "",
-		"lastWeeksProgress": ((164-130)/164)*100,
-        "weeklyProgress": 0
-    },
-	{
-        "name": "Listening to an audiobook: <a href='https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592' target='_blank'>The Phoenix Project</a>",
-        "currentValue": 80,
-        "currentText": "",
-		"lastWeeksProgress": 100-80, 
-        "weeklyProgress": 0
-    },	
 	{
         "name": "Completing a course: <a href='https://www.udacity.com/course/advanced-operating-systems--ud189' target='_blank'>Advanced Operating Systems</a>",
         "currentValue": 67,
@@ -50,9 +36,9 @@ var progress = [
     },
 	{
         "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
-        "currentValue": 51,
+        "currentValue": 56,
         "currentText": "",
-		"lastWeeksProgress": 56-51,
+		"lastWeeksProgress": 0,
         "weeklyProgress": 0
     }
 ]
