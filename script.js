@@ -1,17 +1,17 @@
 var progress = [ 
 	{
         "name": "Reading a book: <a href='https://mitpress.mit.edu/books/algorithms-unlocked' target='_blank'>Algorithms Unlocked</a>",
-        "currentValue": ((53-0)/237)*100,
+        "currentValue": ((75-0)/237)*100,
         "currentText": "",
-		"lastWeeksProgress": ((75-53)/237)*100,
-        "weeklyProgress": ((105-75)/237)*100
+		"lastWeeksProgress": ((105-75)/237)*100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Completing a course: <a href='https://www.udacity.com/course/advanced-operating-systems--ud189' target='_blank'>Advanced Operating Systems</a>",
         "currentValue": 67,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 75-67
+		"lastWeeksProgress": 75-67,
+        "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='https://www.apress.com/gp/book/9781484224021' target='_blank'>Low-Level Programming</a>",
