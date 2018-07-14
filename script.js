@@ -54,7 +54,15 @@ var progress = [
 */
  
 var achievements = [
-		{
+	{
+        "id": 66,
+        "title": "Completed a personal GitHub project",
+        "date": "July 14th, 2018",
+        "link": "https://github.com/lfourky/definitely-not-an-illegal-book-downloader",
+        "shortlink": "github.com/lfourky/definitely-not-an-illegal-book-downloader",
+        "text": "Basically, not everyone can pay for books. And everyone should be able to access them. Just my two cents on the topic." 
+    },
+	{
         "id": 65,
         "title": "Completed a personal GitHub project",
         "date": "June 29th, 2018",
