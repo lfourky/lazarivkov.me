@@ -4,7 +4,7 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": ((81-0)/118)*100
+        "weeklyProgress": (118/118)*100
     },
 	{
         "name": "Reading a book: <a href='https://mitpress.mit.edu/books/algorithms-unlocked' target='_blank'>Algorithms Unlocked</a>",
@@ -54,6 +54,14 @@ var progress = [
 */
  
 var achievements = [
+	{
+        "id": 67,
+        "title": "Finished Reading A Book",
+        "date": "July 15th, 2018",
+        "link": "http://shop.oreilly.com/product/0636920039334.do",
+        "shortlink": "Decentralized Applications",
+        "text": "As I see it, it's a good introduction book for showing what kind of apps can be built using blockchain technology."
+    },
 	{
         "id": 66,
         "title": "Completed a personal GitHub project",
