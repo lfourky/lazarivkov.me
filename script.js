@@ -3,21 +3,21 @@ var progress = [
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920039334.do' target='_blank'>Decentralized Applications</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": (118/118)*100
+		"lastWeeksProgress": (118/118)*100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='https://mitpress.mit.edu/books/algorithms-unlocked' target='_blank'>Algorithms Unlocked</a>",
-        "currentValue": ((75-0)/237)*100,
+        "currentValue": ((105-0)/237)*100,
         "currentText": "",
-		"lastWeeksProgress": ((105-75)/237)*100,
+		"lastWeeksProgress": 0,
         "weeklyProgress": 0
     },
 	{
         "name": "Completing a course: <a href='https://www.udacity.com/course/advanced-operating-systems--ud189' target='_blank'>Advanced Operating Systems</a>",
-        "currentValue": 67,
+        "currentValue": 75,
         "currentText": "",
-		"lastWeeksProgress": 75-67,
+		"lastWeeksProgress": 0,
         "weeklyProgress": 0
     },
 	{
