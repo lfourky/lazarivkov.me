@@ -1,5 +1,12 @@
 var progress = [ 
 	{
+        "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920052036.do' target='_blank'>Understanding Compression</a>",
+        "currentValue": 0,
+        "currentText": "",
+		"lastWeeksProgress": 0,
+        "weeklyProgress": (46/241)*100
+    },
+	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920039334.do' target='_blank'>Decentralized Applications</a>",
         "currentValue": 0,
         "currentText": "",
