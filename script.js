@@ -4,7 +4,7 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": (76/241)*100
+        "weeklyProgress": (91/241)*100
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920039334.do' target='_blank'>Decentralized Applications</a>",
