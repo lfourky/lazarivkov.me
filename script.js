@@ -25,7 +25,7 @@ var progress = [
         "currentValue": ((105-0)/237)*100,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": 0
+        "weeklyProgress": ((115-105)/237)*100
     },
 	{
         "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
