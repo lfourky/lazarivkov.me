@@ -28,13 +28,6 @@ var progress = [
         "weeklyProgress": 0
     },
 	{
-        "name": "Completing a course: <a href='https://www.udacity.com/course/advanced-operating-systems--ud189' target='_blank'>Advanced Operating Systems</a>",
-        "currentValue": 75,
-        "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 0
-    },
-	{
         "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
         "currentValue": 56,
         "currentText": "",
@@ -61,6 +54,13 @@ var progress = [
     {
         "name": "Reading a book: <a href='https://www.amazon.com/Data-Structures-Abstraction-Design-Using-ebook/dp/B01AKSZA2E' target='_blank'>Data Structures: Abstraction and Design Using Java, 3rd Edition</a>",
         "currentValue": (217/686)*100,
+        "currentText": "",
+		"lastWeeksProgress": 0,
+        "weeklyProgress": 0
+    },
+	{
+        "name": "Completing a course: <a href='https://www.udacity.com/course/advanced-operating-systems--ud189' target='_blank'>Advanced Operating Systems</a>",
+        "currentValue": 75,
         "currentText": "",
 		"lastWeeksProgress": 0,
         "weeklyProgress": 0
