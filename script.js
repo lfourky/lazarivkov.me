@@ -1,5 +1,12 @@
 var progress = [ 
 	{
+        "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920039297.do' target='_blank'>Infrastructure as Code</a>",
+        "currentValue": 0,
+        "currentText": "",
+		"lastWeeksProgress": 0,
+        "weeklyProgress": (30/362)*100
+    },
+	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920052036.do' target='_blank'>Understanding Compression</a>",
         "currentValue": 0,
         "currentText": "",
@@ -28,20 +35,6 @@ var progress = [
         "weeklyProgress": 0
     },
 	{
-        "name": "Reading a book: <a href='https://www.apress.com/gp/book/9781484224021' target='_blank'>Low-Level Programming</a>",
-        "currentValue": (100/446)*100,
-        "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 0
-    },	
-    {
-        "name": "Reading a book: <a href='https://www.amazon.com/Data-Structures-Abstraction-Design-Using-ebook/dp/B01AKSZA2E' target='_blank'>Data Structures: Abstraction and Design Using Java, 3rd Edition</a>",
-        "currentValue": (217/686)*100,
-        "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 0
-    },
-	{
         "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
         "currentValue": 56,
         "currentText": "",
@@ -54,6 +47,20 @@ var progress = [
 	{
         "name": "Reading a book: <a href='http://www.stroustrup.com/4th.html' target='_blank'>The C++ Programming Language (4th Edition)</a>",
         "currentValue": (114/1366)*100,
+        "currentText": "",
+		"lastWeeksProgress": 0,
+        "weeklyProgress": 0
+    },
+	{
+        "name": "Reading a book: <a href='https://www.apress.com/gp/book/9781484224021' target='_blank'>Low-Level Programming</a>",
+        "currentValue": (100/446)*100,
+        "currentText": "",
+		"lastWeeksProgress": 0,
+        "weeklyProgress": 0
+    },	
+    {
+        "name": "Reading a book: <a href='https://www.amazon.com/Data-Structures-Abstraction-Design-Using-ebook/dp/B01AKSZA2E' target='_blank'>Data Structures: Abstraction and Design Using Java, 3rd Edition</a>",
+        "currentValue": (217/686)*100,
         "currentText": "",
 		"lastWeeksProgress": 0,
         "weeklyProgress": 0
