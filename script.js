@@ -3,36 +3,29 @@ var progress = [
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920039297.do' target='_blank'>Infrastructure as Code</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": (35/362)*100
+		"lastWeeksProgress": (35/362)*100,
+        "weeklyProgress": (45-35/362)*100
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920052036.do' target='_blank'>Understanding Compression</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": (91/241)*100
-    },
-	{
-        "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920039334.do' target='_blank'>Decentralized Applications</a>",
-        "currentValue": 0,
-        "currentText": "",
-		"lastWeeksProgress": (118/118)*100,
+		"lastWeeksProgress": (91/241)*100,
         "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='https://mitpress.mit.edu/books/algorithms-unlocked' target='_blank'>Algorithms Unlocked</a>",
         "currentValue": ((105-0)/237)*100,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": ((115-105)/237)*100
+		"lastWeeksProgress": ((115-105)/237)*100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
         "currentValue": 56,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 60-56
+		"lastWeeksProgress": 60-56,
+        "weeklyProgress": 0
     }
 ]
 
