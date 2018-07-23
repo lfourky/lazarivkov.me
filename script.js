@@ -4,7 +4,7 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": (35/362)*100,
-        "weeklyProgress": (45-35/362)*100
+        "weeklyProgress": ((45-35)/362)*100
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920052036.do' target='_blank'>Understanding Compression</a>",
