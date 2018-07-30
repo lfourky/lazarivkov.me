@@ -1,31 +1,31 @@
 var progress = [ 
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920039297.do' target='_blank'>Infrastructure as Code</a>",
-        "currentValue": 0,
+        "currentValue": (35/362)*100,
         "currentText": "",
-		"lastWeeksProgress": (35/362)*100,
-        "weeklyProgress": ((60-35)/362)*100
+		"lastWeeksProgress": ((60-35)/362)*100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920052036.do' target='_blank'>Understanding Compression</a>",
-        "currentValue": 0,
+        "currentValue": (91/241)*100,
         "currentText": "",
-		"lastWeeksProgress": (91/241)*100,
+		"lastWeeksProgress": 0,
         "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='https://mitpress.mit.edu/books/algorithms-unlocked' target='_blank'>Algorithms Unlocked</a>",
-        "currentValue": ((105-0)/237)*100,
+        "currentValue": ((115-0)/237)*100,
         "currentText": "",
-		"lastWeeksProgress": ((115-105)/237)*100,
+		"lastWeeksProgress": 0,
         "weeklyProgress": 0
     },
 	{
         "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
-        "currentValue": 56,
+        "currentValue": 60,
         "currentText": "",
-		"lastWeeksProgress": 60-56,
-        "weeklyProgress": 64-60
+		"lastWeeksProgress": 64-60,
+        "weeklyProgress": 0
     }
 ]
 
