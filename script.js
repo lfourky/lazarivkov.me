@@ -370,7 +370,7 @@ var achievements = [
         "date": "March 10th, 2017",
         "link": "https://www.pluralsight.com/courses/build-go-apps-gorilla-toolkit",
         "shortlink": "Building Better Go Web Apps with the Gorilla Toolkit",
-        "text": "Started doing some Golang. :)"
+        "text": ""
     },
     {
         "id": 29,
