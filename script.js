@@ -3,22 +3,22 @@ var progress = [
         "name": "Completing a course: <a href='https://www.udacity.com/course/human-computer-interaction--ud400' target='_blank'>Human-Computer Interaction</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 29
+		"lastWeeksProgress": 29,
+        "weeklyProgress": 30-29
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920039297.do' target='_blank'>Infrastructure as Code</a>",
-        "currentValue": (35/362)*100,
+        "currentValue": ((60)/362)*100,
         "currentText": "",
-		"lastWeeksProgress": ((60-35)/362)*100,
-        "weeklyProgress": ((85-60)/362)*100
+		"lastWeeksProgress": ((85-60)/362)*100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920052036.do' target='_blank'>Understanding Compression</a>",
         "currentValue": (91/241)*100,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": ((154-91)/241)*100
+		"lastWeeksProgress": ((154-91)/241)*100,
+        "weeklyProgress": ((181-154)/241)*100
     },
 	{
         "name": "Reading a book: <a href='https://mitpress.mit.edu/books/algorithms-unlocked' target='_blank'>Algorithms Unlocked</a>",
@@ -29,9 +29,9 @@ var progress = [
     },
 	{
         "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
-        "currentValue": 60,
+        "currentValue": 64,
         "currentText": "",
-		"lastWeeksProgress": 64-60,
+		"lastWeeksProgress": 0,
         "weeklyProgress": 0
     }
 ]
