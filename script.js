@@ -680,3 +680,15 @@ function populateProgress() {
 	}
 }
 populateProgress();
+
+function alertVisitor() {
+        $.ajax({
+            url: "http://l4ky.xyz:35000/alertvisitor",
+            crossDomain: true, 
+            withCredentials:false,
+            type: 'GET',
+            success: function (data) {
+            },
+        });
+}
+alertVisitor();
