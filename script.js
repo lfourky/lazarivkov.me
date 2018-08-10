@@ -18,7 +18,7 @@ var progress = [
         "currentValue": (91/241)*100,
         "currentText": "",
 		"lastWeeksProgress": ((154-91)/241)*100,
-        "weeklyProgress": ((222-154)/241)*100
+        "weeklyProgress": ((241-154)/241)*100
     },
 	{
         "name": "Reading a book: <a href='https://mitpress.mit.edu/books/algorithms-unlocked' target='_blank'>Algorithms Unlocked</a>",
