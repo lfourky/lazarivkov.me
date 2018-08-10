@@ -69,6 +69,14 @@ var progress = [
  
 var achievements = [
 	{
+        "id": 68,
+        "title": "Finished Reading A Book",
+        "date": "August 10th, 2018",
+        "link": "http://shop.oreilly.com/product/0636920052036.do",
+        "shortlink": "Understanding Compression",
+        "text": "What a fantastic book!"
+    },
+	{
         "id": 67,
         "title": "Finished Reading A Book",
         "date": "July 15th, 2018",
