@@ -683,12 +683,10 @@ populateProgress();
 
 function alertVisitor() {
         $.ajax({
-            url: "http://l4ky.xyz:35000/alertvisitor",
+            url: "http://l4ky.xyz:35000/alert/visitor",
             crossDomain: true, 
             withCredentials:false,
-            type: 'GET',
-            success: function (data) {
-            },
+            type: 'GET'
         });
 }
 alertVisitor();
