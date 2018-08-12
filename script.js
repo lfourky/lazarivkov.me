@@ -24,8 +24,8 @@ var progress = [
         "name": "Reading a book: <a href='https://mitpress.mit.edu/books/algorithms-unlocked' target='_blank'>Algorithms Unlocked</a>",
         "currentValue": ((115-0)/237)*100,
         "currentText": "",
-		"lastWeeksProgress": ((130-115)/237)*100,
-        "weeklyProgress": 0
+		"lastWeeksProgress": 0,
+        "weeklyProgress": ((130-115)/237)*100
     },
 	{
         "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
