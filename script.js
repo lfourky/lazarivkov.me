@@ -1,31 +1,31 @@
 var progress = [ 
 	{
         "name": "Completing a course: <a href='https://www.udacity.com/course/human-computer-interaction--ud400' target='_blank'>Human-Computer Interaction</a>",
-        "currentValue": 0,
+        "currentValue": 29,
         "currentText": "",
-		"lastWeeksProgress": 29,
-        "weeklyProgress": 43-29
+		"lastWeeksProgress": 43-29,
+        "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920039297.do' target='_blank'>Infrastructure as Code</a>",
-        "currentValue": ((60)/362)*100,
+        "currentValue": ((85-0)/362)*100,
         "currentText": "",
-		"lastWeeksProgress": ((85-60)/362)*100,
+		"lastWeeksProgress": 0,
         "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920052036.do' target='_blank'>Understanding Compression</a>",
-        "currentValue": (91/241)*100,
+        "currentValue": ((154-0)/241)*100,
         "currentText": "",
-		"lastWeeksProgress": ((154-91)/241)*100,
-        "weeklyProgress": ((241-154)/241)*100
+		"lastWeeksProgress": ((241-154)/241)*100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='https://mitpress.mit.edu/books/algorithms-unlocked' target='_blank'>Algorithms Unlocked</a>",
         "currentValue": ((115-0)/237)*100,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": ((130-115)/237)*100
+		"lastWeeksProgress": ((130-115)/237)*100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
