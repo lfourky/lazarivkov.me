@@ -11,7 +11,7 @@ var progress = [
         "currentValue": ((85-0)/362)*100,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": 0
+        "weeklyProgress": ((100-85)/362)*100
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920052036.do' target='_blank'>Understanding Compression</a>",
@@ -25,7 +25,7 @@ var progress = [
         "currentValue": ((115-0)/237)*100,
         "currentText": "",
 		"lastWeeksProgress": ((130-115)/237)*100,
-        "weeklyProgress": 0
+        "weeklyProgress": ((133-130)/237)*100
     },
 	{
         "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
