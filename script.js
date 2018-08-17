@@ -1,5 +1,19 @@
 var progress = [ 
 	{
+        "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
+        "currentValue": 0,
+        "currentText": "",
+		"lastWeeksProgress": 0,
+        "weeklyProgress": ((39-0)/508)*100
+    },
+	{
+        "name": "Completing a course: <a href='https://www.pluralsight.com/courses/domain-driven-design-fundamentals' target='_blank'>Domain-Driven Design Fundamentals</a>",
+        "currentValue": 0,
+        "currentText": "",
+		"lastWeeksProgress": 0,
+        "weeklyProgress": 51
+    },
+	{
         "name": "Completing a course: <a href='https://www.udacity.com/course/human-computer-interaction--ud400' target='_blank'>Human-Computer Interaction</a>",
         "currentValue": 29,
         "currentText": "",
