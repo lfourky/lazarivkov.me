@@ -18,7 +18,7 @@ var progress = [
         "currentValue": 29,
         "currentText": "",
 		"lastWeeksProgress": 43-29,
-        "weeklyProgress": 0
+        "weeklyProgress": 47-43
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920039297.do' target='_blank'>Infrastructure as Code</a>",
