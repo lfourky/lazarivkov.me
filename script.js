@@ -4,7 +4,7 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": ((39-0)/508)*100
+        "weeklyProgress": ((51-0)/508)*100
     },
 	{
         "name": "Completing a course: <a href='https://www.pluralsight.com/courses/domain-driven-design-fundamentals' target='_blank'>Domain-Driven Design Fundamentals</a>",
