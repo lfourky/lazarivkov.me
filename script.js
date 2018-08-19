@@ -3,50 +3,43 @@ var progress = [
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": ((51-0)/508)*100
+		"lastWeeksProgress": ((51-0)/508)*100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Completing a course: <a href='https://www.pluralsight.com/courses/domain-driven-design-fundamentals' target='_blank'>Domain-Driven Design Fundamentals</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 82
+		"lastWeeksProgress": 82,
+        "weeklyProgress": 0
     },
 	{
         "name": "Completing a course: <a href='https://www.udacity.com/course/human-computer-interaction--ud400' target='_blank'>Human-Computer Interaction</a>",
-        "currentValue": 29,
+        "currentValue": 43,
         "currentText": "",
-		"lastWeeksProgress": 43-29,
-        "weeklyProgress": 47-43
+		"lastWeeksProgress": 47-43,
+        "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920039297.do' target='_blank'>Infrastructure as Code</a>",
         "currentValue": ((85-0)/362)*100,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": ((106-85)/362)*100
-    },
-	{
-        "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920052036.do' target='_blank'>Understanding Compression</a>",
-        "currentValue": ((154-0)/241)*100,
-        "currentText": "",
-		"lastWeeksProgress": ((241-154)/241)*100,
+		"lastWeeksProgress": ((106-85)/362)*100,
         "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='https://mitpress.mit.edu/books/algorithms-unlocked' target='_blank'>Algorithms Unlocked</a>",
-        "currentValue": ((115-0)/237)*100,
+        "currentValue": ((130-0)/237)*100,
         "currentText": "",
-		"lastWeeksProgress": ((130-115)/237)*100,
-        "weeklyProgress": ((133-130)/237)*100
+		"lastWeeksProgress": ((133-130)/237)*100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
         "currentValue": 64,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 69-64
+		"lastWeeksProgress": 69-64,
+        "weeklyProgress": 0
     }
 ]
 
