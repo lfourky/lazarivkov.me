@@ -4,14 +4,14 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": ((51-0)/508)*100,
-        "weeklyProgress": 0
+        "weeklyProgress": ((67-51)/508)*100
     },
 	{
         "name": "Completing a course: <a href='https://www.pluralsight.com/courses/domain-driven-design-fundamentals' target='_blank'>Domain-Driven Design Fundamentals</a>",
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 82,
-        "weeklyProgress": 0
+        "weeklyProgress": 18
     },
 	{
         "name": "Completing a course: <a href='https://www.udacity.com/course/human-computer-interaction--ud400' target='_blank'>Human-Computer Interaction</a>",
