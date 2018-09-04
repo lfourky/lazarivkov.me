@@ -1,44 +1,37 @@
 var progress = [ 
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
-        "currentValue": 0,
+        "currentValue": ((67-0)/508)*100,
         "currentText": "",
-		"lastWeeksProgress": ((51-0)/508)*100,
-        "weeklyProgress": ((67-51)/508)*100
-    },
-	{
-        "name": "Completing a course: <a href='https://www.pluralsight.com/courses/domain-driven-design-fundamentals' target='_blank'>Domain-Driven Design Fundamentals</a>",
-        "currentValue": 0,
-        "currentText": "",
-		"lastWeeksProgress": 82,
-        "weeklyProgress": 18
+		"lastWeeksProgress": 0,
+        "weeklyProgress": 0
     },
 	{
         "name": "Completing a course: <a href='https://www.udacity.com/course/human-computer-interaction--ud400' target='_blank'>Human-Computer Interaction</a>",
-        "currentValue": 43,
+        "currentValue": 47,
         "currentText": "",
-		"lastWeeksProgress": 47-43,
+		"lastWeeksProgress": 0,
         "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920039297.do' target='_blank'>Infrastructure as Code</a>",
-        "currentValue": ((85-0)/362)*100,
+        "currentValue": ((106-0)/362)*100,
         "currentText": "",
-		"lastWeeksProgress": ((106-85)/362)*100,
+		"lastWeeksProgress": 0,
         "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='https://mitpress.mit.edu/books/algorithms-unlocked' target='_blank'>Algorithms Unlocked</a>",
-        "currentValue": ((130-0)/237)*100,
+        "currentValue": ((133-0)/237)*100,
         "currentText": "",
-		"lastWeeksProgress": ((133-130)/237)*100,
+		"lastWeeksProgress": 0,
         "weeklyProgress": 0
     },
 	{
         "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
-        "currentValue": 64,
+        "currentValue": 69,
         "currentText": "",
-		"lastWeeksProgress": 69-64,
+		"lastWeeksProgress": 0,
         "weeklyProgress": 0
     }
 ]
