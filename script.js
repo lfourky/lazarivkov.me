@@ -4,18 +4,18 @@ var progress = [
         "currentValue": ((67-0)/508)*100,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": 0
+        "weeklyProgress": (96-67)/508)*100
     },
 	{
         "name": "Completing a course: <a href='https://www.udacity.com/course/human-computer-interaction--ud400' target='_blank'>Human-Computer Interaction</a>",
         "currentValue": 47,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": 0
+        "weeklyProgress": 51-47
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920039297.do' target='_blank'>Infrastructure as Code</a>",
-        "currentValue": ((106-0)/362)*100,
+        "currentValue": ((105-0)/362)*100,
         "currentText": "",
 		"lastWeeksProgress": 0,
         "weeklyProgress": 0
