@@ -4,7 +4,7 @@ var progress = [
         "currentValue": ((67-0)/508)*100,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": ((98-67)/508)*100
+        "weeklyProgress": ((125-67)/508)*100
     },
 	{
         "name": "Completing a course: <a href='https://www.udacity.com/course/human-computer-interaction--ud400' target='_blank'>Human-Computer Interaction</a>",
