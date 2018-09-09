@@ -11,14 +11,14 @@ var progress = [
         "currentValue": 47,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": 68-47
+        "weeklyProgress": 72-47
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920039297.do' target='_blank'>Infrastructure as Code</a>",
         "currentValue": ((105-0)/362)*100,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": ((111-105)/362)*100
+        "weeklyProgress": ((133-105)/362)*100
     },
 	{
         "name": "Reading a book: <a href='https://mitpress.mit.edu/books/algorithms-unlocked' target='_blank'>Algorithms Unlocked</a>",
