@@ -1,24 +1,24 @@
 var progress = [ 
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
-        "currentValue": ((67-0)/508)*100,
+        "currentValue": ((125-0)/508)*100,
         "currentText": "",
-		"lastWeeksProgress": ((125-67)/508)*100,
+		"lastWeeksProgress": 0,
         "weeklyProgress": 0
     },
 	{
         "name": "Completing a course: <a href='https://www.udacity.com/course/human-computer-interaction--ud400' target='_blank'>Human-Computer Interaction</a>",
-        "currentValue": 47,
+        "currentValue": 72,
         "currentText": "",
-		"lastWeeksProgress": 72-47,
-        "weeklyProgress": 75-72
+		"lastWeeksProgress": 75-72,
+        "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920039297.do' target='_blank'>Infrastructure as Code</a>",
-        "currentValue": ((105-0)/362)*100,
+        "currentValue": ((150-0)/362)*100,
         "currentText": "",
-		"lastWeeksProgress": ((150-105)/362)*100,
-        "weeklyProgress": ((211-150)/362)*100
+		"lastWeeksProgress": ((211-150)/362)*100,
+        "weeklyProgress": ((227-211)/362)*100
     },
 	{
         "name": "Reading a book: <a href='https://mitpress.mit.edu/books/algorithms-unlocked' target='_blank'>Algorithms Unlocked</a>",
