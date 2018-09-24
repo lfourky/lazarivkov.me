@@ -1,5 +1,4 @@
 var progress = [ 
-
 	{
         "name": "Completing a course: <a href='https://www.pluralsight.com/courses/understanding-machine-learning' target='_blank'>Understanding Machine Learning</a>",
         "currentValue": 0,
