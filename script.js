@@ -1,4 +1,12 @@
 var progress = [ 
+
+	{
+        "name": "Completing a course: <a href='https://www.pluralsight.com/courses/understanding-machine-learning' target='_blank'>Understanding Machine Learning</a>",
+        "currentValue": 0,
+        "currentText": "",
+		"lastWeeksProgress": 0,
+        "weeklyProgress": 100
+    },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
         "currentValue": ((125-0)/508)*100,
@@ -67,7 +75,15 @@ var progress = [
     },
 */
  
-var achievements = [
+var achievements = 
+	{
+        "id": 69,
+        "title": "Completed A Course",
+        "date": "September 24th, 2018",
+        "link": "https://www.pluralsight.com/courses/understanding-machine-learning",
+        "shortlink": "Understanding Machine Learning",
+        "text": "Just something to kill time with. :)" 
+    },
 	{
         "id": 68,
         "title": "Finished Reading A Book",
