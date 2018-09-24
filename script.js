@@ -1,5 +1,12 @@
 var progress = [ 
 	{
+        "name": "Completing a course: <a href='https://www.pluralsight.com/courses/continuous-integration-delivery-big-picture' target='_blank'>Continuous Integration and Continuous Delivery: The Big Picture</a>",
+        "currentValue": 0,
+        "currentText": "",
+		"lastWeeksProgress": 0,
+        "weeklyProgress": 100
+    },
+	{
         "name": "Completing a course: <a href='https://www.pluralsight.com/courses/understanding-machine-learning' target='_blank'>Understanding Machine Learning</a>",
         "currentValue": 0,
         "currentText": "",
@@ -75,6 +82,14 @@ var progress = [
 */
  
 var achievements =  [
+	{
+        "id": 70,
+        "title": "Completed A Course",
+        "date": "September 24th, 2018",
+        "link": "https://www.pluralsight.com/courses/continuous-integration-delivery-big-picture",
+        "shortlink": "Continuous Integration and Continuous Delivery: The Big Picture",
+        "text": "Another shorter course to fill up time required to prepare some meals and exercise." 
+    },
 	{
         "id": 69,
         "title": "Completed A Course",
