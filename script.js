@@ -74,7 +74,7 @@ var progress = [
     },
 */
  
-var achievements = 
+var achievements =  [
 	{
         "id": 69,
         "title": "Completed A Course",
