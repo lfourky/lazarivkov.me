@@ -17,7 +17,7 @@ var progress = [
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920039297.do' target='_blank'>Infrastructure as Code</a>",
         "currentValue": ((211-0)/362)*100,
         "currentText": "",
-		"lastWeeksProgress": ((255-211)/362)*100,
+		"lastWeeksProgress": ((270-211)/362)*100,
         "weeklyProgress": 0
     },
 	{
