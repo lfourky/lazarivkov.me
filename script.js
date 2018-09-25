@@ -1,5 +1,12 @@
 var progress = [ 
 	{
+        "name": "Completing a course: <a href='https://www.pluralsight.com/courses/pragmatic-unit-testing' target='_blank'>Building a Pragmatic Unit Test Suite</a>",
+        "currentValue": 0,
+        "currentText": "",
+		"lastWeeksProgress": 0,
+        "weeklyProgress": 32
+    },
+	{
         "name": "Completing a course: <a href='https://www.pluralsight.com/courses/continuous-integration-delivery-big-picture' target='_blank'>Continuous Integration and Continuous Delivery: The Big Picture</a>",
         "currentValue": 0,
         "currentText": "",
