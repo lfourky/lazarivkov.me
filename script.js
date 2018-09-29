@@ -4,7 +4,7 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": 32
+        "weeklyProgress": 54
     },
 	{
         "name": "Completing a course: <a href='https://www.pluralsight.com/courses/continuous-integration-delivery-big-picture' target='_blank'>Continuous Integration and Continuous Delivery: The Big Picture</a>",
