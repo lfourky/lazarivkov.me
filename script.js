@@ -3,22 +3,22 @@ var progress = [
         "name": "Completing a course: <a href='https://www.pluralsight.com/courses/pragmatic-unit-testing' target='_blank'>Building a Pragmatic Unit Test Suite</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 54
+		"lastWeeksProgress": 88,
+        "weeklyProgress": 0
     },
 	{
         "name": "Completing a course: <a href='https://www.pluralsight.com/courses/continuous-integration-delivery-big-picture' target='_blank'>Continuous Integration and Continuous Delivery: The Big Picture</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 100
+		"lastWeeksProgress": 100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Completing a course: <a href='https://www.pluralsight.com/courses/understanding-machine-learning' target='_blank'>Understanding Machine Learning</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 100
+		"lastWeeksProgress": 100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
@@ -36,10 +36,10 @@ var progress = [
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920039297.do' target='_blank'>Infrastructure as Code</a>",
-        "currentValue": ((211-0)/362)*100,
+        "currentValue": ((270-0)/362)*100,
         "currentText": "",
-		"lastWeeksProgress": ((270-211)/362)*100,
-        "weeklyProgress": ((288-270)/362)*100
+		"lastWeeksProgress": ((321-270)/362)*100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='https://mitpress.mit.edu/books/algorithms-unlocked' target='_blank'>Algorithms Unlocked</a>",
