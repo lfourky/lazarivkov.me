@@ -4,7 +4,7 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 88,
-        "weeklyProgress": 0
+        "weeklyProgress": 12
     },
 	{
         "name": "Completing a course: <a href='https://www.pluralsight.com/courses/continuous-integration-delivery-big-picture' target='_blank'>Continuous Integration and Continuous Delivery: The Big Picture</a>",
@@ -89,6 +89,14 @@ var progress = [
 */
  
 var achievements =  [
+	{
+        "id": 71,
+        "title": "Completed A Course",
+        "date": "October 1st, 2018",
+        "link": "https://www.pluralsight.com/courses/pragmatic-unit-testing",
+        "shortlink": "Building a Pragmatic Unit Test Suite",
+        "text": "" 
+    },
 	{
         "id": 70,
         "title": "Completed A Course",
