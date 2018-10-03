@@ -1,5 +1,12 @@
 var progress = [ 
 	{
+        "name": "Listening to an audiobook: <a href='https://www.amazon.com/AUDIO-BOOK-Influence-Science-Practice/dp/0615513182' target='_blank'>Influence: Science and Practice</a>",
+        "currentValue": 0,
+        "currentText": "",
+		"lastWeeksProgress": 0,
+        "weeklyProgress": 20
+    },
+	{
         "name": "Completing a course: <a href='https://www.pluralsight.com/courses/pragmatic-unit-testing' target='_blank'>Building a Pragmatic Unit Test Suite</a>",
         "currentValue": 0,
         "currentText": "",
