@@ -39,7 +39,7 @@ var progress = [
         "currentValue": ((270-0)/362)*100,
         "currentText": "",
 		"lastWeeksProgress": ((321-270)/362)*100,
-        "weeklyProgress": 0
+        "weeklyProgress": ((362-321)/362)*100
     },
 	{
         "name": "Reading a book: <a href='https://mitpress.mit.edu/books/algorithms-unlocked' target='_blank'>Algorithms Unlocked</a>",
@@ -87,8 +87,18 @@ var progress = [
         "weeklyProgress": 0
     },
 */
+
+ 
  
 var achievements =  [
+	{
+        "id": 72,
+        "title": "Finished Reading A Book",
+        "date": "October 2nd, 2018",
+        "link": "http://shop.oreilly.com/product/0636920039297.do",
+        "shortlink": "Infrastructure as Code",
+        "text": "Awesome."
+    },
 	{
         "id": 71,
         "title": "Completed A Course",
