@@ -1,5 +1,12 @@
 var progress = [ 
 	{
+        "name": "Reading a book: <a href='https://www.tragicdesign.com/' target='_blank'>Tragic Design</a>",
+        "currentValue": 0,
+        "currentText": "",
+		"lastWeeksProgress": 0,
+        "weeklyProgress": ((20-0)/220)*100
+    },
+	{
         "name": "Listening to an audiobook: <a href='https://www.amazon.com/AUDIO-BOOK-Influence-Science-Practice/dp/0615513182' target='_blank'>Influence: Science and Practice</a>",
         "currentValue": 0,
         "currentText": "",
