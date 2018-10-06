@@ -4,7 +4,7 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": 20
+        "weeklyProgress": 35
     },
 	{
         "name": "Completing a course: <a href='https://www.pluralsight.com/courses/pragmatic-unit-testing' target='_blank'>Building a Pragmatic Unit Test Suite</a>",
