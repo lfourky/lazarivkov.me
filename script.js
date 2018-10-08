@@ -1,37 +1,23 @@
 var progress = [ 
 	{
-        "name": "Reading a book: <a href='https://www.tragicdesign.com/' target='_blank'>Tragic Design</a>",
+        "name": "Reading a book: <a href='https://www.apress.com/us/book/9781484228869' target='_blank'>Advanced Microservices</a>",
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": ((20-0)/220)*100
+        "weeklyProgress": ((66-0)/193)*100
+    },
+	{
+        "name": "Reading a book: <a href='https://www.tragicdesign.com/' target='_blank'>Tragic Design</a>",
+        "currentValue": 0,
+        "currentText": "",
+		"lastWeeksProgress": ((20-0)/220)*100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Listening to an audiobook: <a href='https://www.amazon.com/AUDIO-BOOK-Influence-Science-Practice/dp/0615513182' target='_blank'>Influence: Science and Practice</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 35
-    },
-	{
-        "name": "Completing a course: <a href='https://www.pluralsight.com/courses/pragmatic-unit-testing' target='_blank'>Building a Pragmatic Unit Test Suite</a>",
-        "currentValue": 0,
-        "currentText": "",
-		"lastWeeksProgress": 88,
-        "weeklyProgress": 12
-    },
-	{
-        "name": "Completing a course: <a href='https://www.pluralsight.com/courses/continuous-integration-delivery-big-picture' target='_blank'>Continuous Integration and Continuous Delivery: The Big Picture</a>",
-        "currentValue": 0,
-        "currentText": "",
-		"lastWeeksProgress": 100,
-        "weeklyProgress": 0
-    },
-	{
-        "name": "Completing a course: <a href='https://www.pluralsight.com/courses/understanding-machine-learning' target='_blank'>Understanding Machine Learning</a>",
-        "currentValue": 0,
-        "currentText": "",
-		"lastWeeksProgress": 100,
+		"lastWeeksProgress": 35,
         "weeklyProgress": 0
     },
 	{
@@ -43,17 +29,10 @@ var progress = [
     },
 	{
         "name": "Completing a course: <a href='https://www.udacity.com/course/human-computer-interaction--ud400' target='_blank'>Human-Computer Interaction</a>",
-        "currentValue": 75,
+        "currentValue": 79,
         "currentText": "",
-		"lastWeeksProgress": 79-75,
+		"lastWeeksProgress": 0,
         "weeklyProgress": 0
-    },
-	{
-        "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920039297.do' target='_blank'>Infrastructure as Code</a>",
-        "currentValue": ((270-0)/362)*100,
-        "currentText": "",
-		"lastWeeksProgress": ((321-270)/362)*100,
-        "weeklyProgress": ((362-321)/362)*100
     },
 	{
         "name": "Reading a book: <a href='https://mitpress.mit.edu/books/algorithms-unlocked' target='_blank'>Algorithms Unlocked</a>",
