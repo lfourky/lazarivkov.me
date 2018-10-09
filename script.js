@@ -4,7 +4,7 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": ((81-0)/193)*100
+        "weeklyProgress": ((103-0)/193)*100
     },
 	{
         "name": "Reading a book: <a href='https://www.tragicdesign.com/' target='_blank'>Tragic Design</a>",
