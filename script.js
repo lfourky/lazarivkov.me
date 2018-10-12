@@ -4,7 +4,7 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": ((150-0)/193)*100
+        "weeklyProgress": ((193-0)/193)*100
     },
 	{
         "name": "Reading a book: <a href='https://www.tragicdesign.com/' target='_blank'>Tragic Design</a>",
@@ -82,8 +82,15 @@ var progress = [
 */
 
  
- 
 var achievements =  [
+	{
+        "id": 73,
+        "title": "Finished Reading A Book",
+        "date": "October 12th, 2018",
+        "link": "https://www.apress.com/us/book/9781484228869",
+        "shortlink": "Advanced Microservices",
+        "text": ""
+    },
 	{
         "id": 72,
         "title": "Finished Reading A Book",
