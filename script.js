@@ -7,11 +7,11 @@ var progress = [
         "weeklyProgress": ((193-0)/193)*100
     },
 	{
-        "name": "Reading a book: <a href='https://www.tragicdesign.com/' target='_blank'>Tragic Design</a>",
+        "name": "Reading a book: <a href='https://www.apress.com/us/book/9781484210741' target='_blank'>Scalability Patterns</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": ((20-0)/220)*100,
-        "weeklyProgress": 0
+		"lastWeeksProgress": 0,
+        "weeklyProgress": ((54-0)/167)*100
     },
 	{
         "name": "Listening to an audiobook: <a href='https://www.amazon.com/AUDIO-BOOK-Influence-Science-Practice/dp/0615513182' target='_blank'>Influence: Science and Practice</a>",
