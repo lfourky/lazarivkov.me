@@ -1,5 +1,12 @@
 var progress = [ 
 	{
+        "name": "Completing a course: <a href='https://www.pluralsight.com/courses/mysql-query-optimization-performance-tuning' target='_blank'>MySQL Query Optimization and Performance Tuning</a>",
+        "currentValue": 0,
+        "currentText": "",
+		"lastWeeksProgress": 0,
+        "weeklyProgress": 100
+    },
+	{
         "name": "Reading a book: <a href='https://www.apress.com/us/book/9781484228869' target='_blank'>Advanced Microservices</a>",
         "currentValue": 0,
         "currentText": "",
@@ -80,9 +87,16 @@ var progress = [
         "weeklyProgress": 0
     },
 */
-
  
 var achievements =  [
+	{
+        "id": 74,
+        "title": "Completed A Course",
+        "date": "October 1st, 2018",
+        "link": "https://www.pluralsight.com/courses/mysql-query-optimization-performance-tuning",
+        "shortlink": "MySQL Query Optimization and Performance Tuning",
+        "text": "" 
+    },
 	{
         "id": 73,
         "title": "Finished Reading A Book",
