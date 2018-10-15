@@ -3,29 +3,29 @@ var progress = [
         "name": "Completing a course: <a href='https://www.pluralsight.com/courses/mysql-query-optimization-performance-tuning' target='_blank'>MySQL Query Optimization and Performance Tuning</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 100
+		"lastWeeksProgress": 100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='https://www.apress.com/us/book/9781484228869' target='_blank'>Advanced Microservices</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": ((193-0)/193)*100
+		"lastWeeksProgress": ((193-0)/193)*100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='https://www.apress.com/us/book/9781484210741' target='_blank'>Scalability Patterns</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": ((93-0)/167)*100
+		"lastWeeksProgress": ((93-0)/167)*100,
+        "weeklyProgress": ((126-93)/167)*100
     },
 	{
         "name": "Listening to an audiobook: <a href='https://www.amazon.com/AUDIO-BOOK-Influence-Science-Practice/dp/0615513182' target='_blank'>Influence: Science and Practice</a>",
-        "currentValue": 0,
+        "currentValue": 35,
         "currentText": "",
-		"lastWeeksProgress": 35,
-        "weeklyProgress": 42-35
+		"lastWeeksProgress": 42-35,
+        "weeklyProgress": 43-42
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
