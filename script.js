@@ -18,7 +18,7 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": ((93-0)/167)*100,
-        "weeklyProgress": ((126-93)/167)*100
+        "weeklyProgress": ((167-93)/167)*100
     },
 	{
         "name": "Listening to an audiobook: <a href='https://www.amazon.com/AUDIO-BOOK-Influence-Science-Practice/dp/0615513182' target='_blank'>Influence: Science and Practice</a>",
@@ -58,37 +58,45 @@ var progress = [
 ]
 
 /*
-	{
-        "name": "Reading a book: <a href='http://www.stroustrup.com/4th.html' target='_blank'>The C++ Programming Language (4th Edition)</a>",
-        "currentValue": (114/1366)*100,
-        "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 0
-    },
-	{
-        "name": "Reading a book: <a href='https://www.apress.com/gp/book/9781484224021' target='_blank'>Low-Level Programming</a>",
-        "currentValue": (100/446)*100,
-        "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 0
-    },	
-    {
-        "name": "Reading a book: <a href='https://www.amazon.com/Data-Structures-Abstraction-Design-Using-ebook/dp/B01AKSZA2E' target='_blank'>Data Structures: Abstraction and Design Using Java, 3rd Edition</a>",
-        "currentValue": (217/686)*100,
-        "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 0
-    },
-	{
-        "name": "Completing a course: <a href='https://www.udacity.com/course/advanced-operating-systems--ud189' target='_blank'>Advanced Operating Systems</a>",
-        "currentValue": 75,
-        "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 0
-    },
+{
+	"name": "Reading a book: <a href='http://www.stroustrup.com/4th.html' target='_blank'>The C++ Programming Language (4th Edition)</a>",
+	"currentValue": (114/1366)*100,
+	"currentText": "",
+	"lastWeeksProgress": 0,
+	"weeklyProgress": 0
+},
+{
+	"name": "Reading a book: <a href='https://www.apress.com/gp/book/9781484224021' target='_blank'>Low-Level Programming</a>",
+	"currentValue": (100/446)*100,
+	"currentText": "",
+	"lastWeeksProgress": 0,
+	"weeklyProgress": 0
+},	
+{
+	"name": "Reading a book: <a href='https://www.amazon.com/Data-Structures-Abstraction-Design-Using-ebook/dp/B01AKSZA2E' target='_blank'>Data Structures: Abstraction and Design Using Java, 3rd Edition</a>",
+	"currentValue": (217/686)*100,
+	"currentText": "",
+	"lastWeeksProgress": 0,
+	"weeklyProgress": 0
+},
+{
+	"name": "Completing a course: <a href='https://www.udacity.com/course/advanced-operating-systems--ud189' target='_blank'>Advanced Operating Systems</a>",
+	"currentValue": 75,
+	"currentText": "",
+	"lastWeeksProgress": 0,
+	"weeklyProgress": 0
+},
 */
- 
+
 var achievements =  [
+	{
+        "id": 75,
+        "title": "Finished Reading A Book",
+        "date": "October 15th, 2018",
+        "link": "https://www.apress.com/us/book/9781484210741",
+        "shortlink": "Scalability Patterns",
+        "text": ""
+    },
 	{
         "id": 74,
         "title": "Completed A Course",
