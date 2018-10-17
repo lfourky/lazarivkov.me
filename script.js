@@ -100,7 +100,7 @@ var achievements =  [
 	{
         "id": 74,
         "title": "Completed A Course",
-        "date": "October 1st, 2018",
+        "date": "October 13th, 2018",
         "link": "https://www.pluralsight.com/courses/mysql-query-optimization-performance-tuning",
         "shortlink": "MySQL Query Optimization and Performance Tuning",
         "text": "" 
