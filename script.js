@@ -39,7 +39,7 @@ var progress = [
         "currentValue": 79,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": 86-79
+        "weeklyProgress": 100-79
     },
 	{
         "name": "Reading a book: <a href='https://mitpress.mit.edu/books/algorithms-unlocked' target='_blank'>Algorithms Unlocked</a>",
@@ -87,8 +87,17 @@ var progress = [
 	"weeklyProgress": 0
 },
 */
+        
 
 var achievements =  [
+	{
+        "id": 77,
+        "title": "Completed A Course",
+        "date": "October 20th, 2018",
+        "link": "https://www.udacity.com/course/human-computer-interaction--ud400",
+        "shortlink": "Human-Computer Interaction",
+        "text": "" 
+    },
 	{
         "id": 76,
         "title": "Finished Reading A Book",
