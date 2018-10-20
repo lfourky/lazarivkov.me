@@ -46,7 +46,7 @@ var progress = [
         "currentValue": ((133-0)/237)*100,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": ((203-133)/237)*100
+        "weeklyProgress": ((237-133)/237)*100
     },
 	{
         "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
@@ -89,6 +89,14 @@ var progress = [
 */
 
 var achievements =  [
+	{
+        "id": 76,
+        "title": "Finished Reading A Book",
+        "date": "October 20th, 2018",
+        "link": "https://mitpress.mit.edu/books/algorithms-unlocked",
+        "shortlink": "Algorithms Unlocked",
+        "text": ""
+    },
 	{
         "id": 75,
         "title": "Finished Reading A Book",
