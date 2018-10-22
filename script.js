@@ -1,6 +1,6 @@
 var progress = [ 
 	{
-        "name": "Reading a book: <a href='https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/' target='_blank'>Designing Data-Intensive Applications</a>",
+        "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920032175.do' target='_blank'>Designing Data-Intensive Applications</a>",
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 0,
