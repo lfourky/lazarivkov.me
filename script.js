@@ -10,7 +10,7 @@ var progress = [
         "name": "Listening to an audiobook: <a href='https://www.amazon.com/AUDIO-BOOK-Influence-Science-Practice/dp/0615513182' target='_blank'>Influence: Science and Practice</a>",
         "currentValue": 42,
         "currentText": "",
-		"lastWeeksProgress": 43-42,
+		"lastWeeksProgress": 44-42,
         "weeklyProgress": 0
     },
 	{
