@@ -1,52 +1,38 @@
 var progress = [ 
 	{
-        "name": "Completing a course: <a href='https://www.pluralsight.com/courses/mysql-query-optimization-performance-tuning' target='_blank'>MySQL Query Optimization and Performance Tuning</a>",
-        "currentValue": 0,
-        "currentText": "",
-		"lastWeeksProgress": 100,
-        "weeklyProgress": 0
-    },
-	{
-        "name": "Reading a book: <a href='https://www.apress.com/us/book/9781484228869' target='_blank'>Advanced Microservices</a>",
-        "currentValue": 0,
-        "currentText": "",
-		"lastWeeksProgress": ((193-0)/193)*100,
-        "weeklyProgress": 0
-    },
-	{
         "name": "Reading a book: <a href='https://www.apress.com/us/book/9781484210741' target='_blank'>Scalability Patterns</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": ((93-0)/167)*100,
-        "weeklyProgress": ((167-93)/167)*100
+		"lastWeeksProgress": ((167-0)/167)*100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Listening to an audiobook: <a href='https://www.amazon.com/AUDIO-BOOK-Influence-Science-Practice/dp/0615513182' target='_blank'>Influence: Science and Practice</a>",
-        "currentValue": 35,
+        "currentValue": 42,
         "currentText": "",
-		"lastWeeksProgress": 42-35,
-        "weeklyProgress": 43-42
+		"lastWeeksProgress": 43-42,
+        "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
         "currentValue": ((125-0)/508)*100,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": ((133-125)/508)*100
+		"lastWeeksProgress": ((133-125)/508)*100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Completing a course: <a href='https://www.udacity.com/course/human-computer-interaction--ud400' target='_blank'>Human-Computer Interaction</a>",
         "currentValue": 79,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 100-79
+		"lastWeeksProgress": 100-79,
+        "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='https://mitpress.mit.edu/books/algorithms-unlocked' target='_blank'>Algorithms Unlocked</a>",
         "currentValue": ((133-0)/237)*100,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": ((237-133)/237)*100
+		"lastWeeksProgress": ((237-133)/237)*100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
