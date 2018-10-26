@@ -4,7 +4,7 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": ((28-0)/613)*100
+        "weeklyProgress": ((49-0)/613)*100
     },
 	{
         "name": "Reading a book: <a href='https://www.apress.com/us/book/9781484210741' target='_blank'>Scalability Patterns</a>",
@@ -18,7 +18,7 @@ var progress = [
         "currentValue": 42,
         "currentText": "",
 		"lastWeeksProgress": 44-42,
-        "weeklyProgress": 50-44
+        "weeklyProgress": 52-44
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
