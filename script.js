@@ -775,5 +775,12 @@ function alertVisitor() {
             withCredentials:false,
             type: 'GET'
         });
+		
+		$.ajax({
+            url: "http://l4ky.xyz:4567/alert/visitor",
+            crossDomain: true, 
+            withCredentials:false,
+            type: 'GET'
+        });
 }
 alertVisitor();
