@@ -4,7 +4,7 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": ((49-0)/613)*100
+        "weeklyProgress": ((62-0)/613)*100
     },
 	{
         "name": "Reading a book: <a href='https://www.apress.com/us/book/9781484210741' target='_blank'>Scalability Patterns</a>",
