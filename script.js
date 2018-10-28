@@ -3,42 +3,21 @@ var progress = [
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920032175.do' target='_blank'>Designing Data-Intensive Applications</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": ((71-0)/613)*100
-    },
-	{
-        "name": "Reading a book: <a href='https://www.apress.com/us/book/9781484210741' target='_blank'>Scalability Patterns</a>",
-        "currentValue": 0,
-        "currentText": "",
-		"lastWeeksProgress": ((167-0)/167)*100,
-        "weeklyProgress": 0 
+		"lastWeeksProgress": ((71-0)/613)*100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Listening to an audiobook: <a href='https://www.amazon.com/AUDIO-BOOK-Influence-Science-Practice/dp/0615513182' target='_blank'>Influence: Science and Practice</a>",
-        "currentValue": 42,
+        "currentValue": 44,
         "currentText": "",
-		"lastWeeksProgress": 44-42,
-        "weeklyProgress": 52-44
+		"lastWeeksProgress": 61-44,
+        "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
-        "currentValue": ((125-0)/508)*100,
+        "currentValue": ((133-0)/508)*100,
         "currentText": "",
-		"lastWeeksProgress": ((133-125)/508)*100,
-        "weeklyProgress": 0
-    },
-	{
-        "name": "Completing a course: <a href='https://www.udacity.com/course/human-computer-interaction--ud400' target='_blank'>Human-Computer Interaction</a>",
-        "currentValue": 79,
-        "currentText": "",
-		"lastWeeksProgress": 100-79,
-        "weeklyProgress": 0
-    },
-	{
-        "name": "Reading a book: <a href='https://mitpress.mit.edu/books/algorithms-unlocked' target='_blank'>Algorithms Unlocked</a>",
-        "currentValue": ((133-0)/237)*100,
-        "currentText": "",
-		"lastWeeksProgress": ((237-133)/237)*100,
+		"lastWeeksProgress": 0,
         "weeklyProgress": 0
     },
 	{
