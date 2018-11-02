@@ -4,14 +4,14 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": ((78-0)/613)*100,
-        "weeklyProgress": ((100-78)/613)*100
+        "weeklyProgress": ((111-78)/613)*100
     },
 	{
         "name": "Listening to an audiobook: <a href='https://www.amazon.com/AUDIO-BOOK-Influence-Science-Practice/dp/0615513182' target='_blank'>Influence: Science and Practice</a>",
         "currentValue": 44,
         "currentText": "",
 		"lastWeeksProgress": 61-44,
-        "weeklyProgress": 66-61
+        "weeklyProgress": 69-61
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
