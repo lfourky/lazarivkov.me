@@ -18,7 +18,7 @@ var progress = [
         "currentValue": 61,
         "currentText": "",
 		"lastWeeksProgress": 86-61,
-        "weeklyProgress": 0
+        "weeklyProgress": 100-86
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
@@ -69,6 +69,14 @@ var progress = [
         
 
 var achievements =  [
+   {
+      "id":78,
+      "title":"Finished an Audiobook",
+      "date":"November 5th, 2018",
+      "link":"https://www.amazon.com/AUDIO-BOOK-Influence-Science-Practice/dp/0615513182",
+      "shortlink":"Influence: Science and Practice",
+      "text":""
+   },
    {
       "id":77,
       "title":"Completed A Course",
