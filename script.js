@@ -3,22 +3,22 @@ var progress = [
         "name": "Reading a book: <a href='https://www.apress.com/us/book/9781484237298' target='_blank'>The Linux Philosophy for SysAdmins</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": ((39-0)/516)*100
+		"lastWeeksProgress": ((39-0)/516)*100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920032175.do' target='_blank'>Designing Data-Intensive Applications</a>",
-        "currentValue": 0,
+        "currentValue": ((78-0)/613)*100,
         "currentText": "",
-		"lastWeeksProgress": ((78-0)/613)*100,
-        "weeklyProgress": ((144-78)/613)*100
+		"lastWeeksProgress": ((144-78)/613)*100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Listening to an audiobook: <a href='https://www.amazon.com/AUDIO-BOOK-Influence-Science-Practice/dp/0615513182' target='_blank'>Influence: Science and Practice</a>",
-        "currentValue": 44,
+        "currentValue": 61,
         "currentText": "",
-		"lastWeeksProgress": 61-44,
-        "weeklyProgress": 86-61
+		"lastWeeksProgress": 86-61,
+        "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
