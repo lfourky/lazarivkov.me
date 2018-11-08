@@ -11,7 +11,7 @@ var progress = [
         "currentValue": ((78-0)/613)*100,
         "currentText": "",
 		"lastWeeksProgress": ((144-78)/613)*100,
-        "weeklyProgress": ((167-144)/613)*100
+        "weeklyProgress": ((178-144)/613)*100
     },
 	{
         "name": "Listening to an audiobook: <a href='https://www.amazon.com/AUDIO-BOOK-Influence-Science-Practice/dp/0615513182' target='_blank'>Influence: Science and Practice</a>",
