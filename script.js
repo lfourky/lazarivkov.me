@@ -11,7 +11,7 @@ var progress = [
         "currentValue": ((144-0)/613)*100,
         "currentText": "",
 		"lastWeeksProgress": ((178-144)/613)*100,
-        "weeklyProgress": 0
+        "weeklyProgress": ((191-178)/613)*100
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
