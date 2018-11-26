@@ -10,7 +10,7 @@ var progress = [
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920032175.do' target='_blank'>Designing Data-Intensive Applications</a>",
         "currentValue": ((178-0)/613)*100,
         "currentText": "",
-		"lastWeeksProgress": ((221-178)/613)*100,
+		"lastWeeksProgress": ((243-178)/613)*100,
         "weeklyProgress": 0
     },
 	{
