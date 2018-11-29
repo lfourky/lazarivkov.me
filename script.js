@@ -63,6 +63,14 @@ var progress = [
 
 var achievements =  [
    {
+      "id":79,
+      "title":"Completed a personal GitHub project",
+      "date":"November 29th, 2018",
+      "link":"https://github.com/lfourky/last-docker-tag",
+      "shortlink":"github.com/lfourky/last-docker-tag",
+      "text":""
+   },
+   {
       "id":78,
       "title":"Finished an Audiobook",
       "date":"November 5th, 2018",
