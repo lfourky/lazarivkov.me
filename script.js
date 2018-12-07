@@ -37,7 +37,7 @@ var progress = [
 	{
         "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
         "currentValue": 69,
-        "currentText": "",
+        "currentText": "Paused",
 		"lastWeeksProgress": 0,
         "weeklyProgress": 0
     }
