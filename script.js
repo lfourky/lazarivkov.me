@@ -1,10 +1,10 @@
 var progress = [
 	{
-        "name": "Contributing to Open Source <a href='https://github.com/lfourky/last-docker-tag' target='_blank'>lfourky/last-docker-tag</a>",
+        "name": "Reading a book: <a href='http://shop.oreilly.com/product/9780596516246.do' target='_blank'>Algorithms in a Nutshell</a>",
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": 100
+        "weeklyProgress": 22.9
     },
 	{
         "name": "Reading a book: <a href='https://www.apress.com/us/book/9781484237298' target='_blank'>The Linux Philosophy for SysAdmins</a>",
@@ -15,15 +15,15 @@ var progress = [
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920032175.do' target='_blank'>Designing Data-Intensive Applications</a>",
-        "currentValue": ((178-0)/613)*100,
+        "currentValue": ((243)/613)*100,
         "currentText": "",
-		"lastWeeksProgress": ((243-178)/613)*100,
-        "weeklyProgress": 0
+		"lastWeeksProgress": 0,
+        "weeklyProgress": ((262-243)/613)*100
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
         "currentValue": ((133-0)/508)*100,
-        "currentText": "",
+        "currentText": "Paused",
 		"lastWeeksProgress": 0,
         "weeklyProgress": 0
     },
