@@ -7,6 +7,13 @@ var progress = [
         "weeklyProgress": 22.9
     },
 	{
+        "name": "Contributing to Open Source <a href='https://github.com/lfourky/last-docker-tag' target='_blank'>lfourky/last-docker-tag</a>",
+        "currentValue": 0,
+        "currentText": "",
+		"lastWeeksProgress": 100,
+        "weeklyProgress": 0
+    },
+	{
         "name": "Reading a book: <a href='https://www.apress.com/us/book/9781484237298' target='_blank'>The Linux Philosophy for SysAdmins</a>",
         "currentValue": ((39-0)/516)*100,
         "currentText": "",
