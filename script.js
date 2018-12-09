@@ -1,10 +1,10 @@
 var progress = [
 	{
-        "name": "Reading a book: <a href='http://shop.oreilly.com/product/9780596516246.do' target='_blank'>Algorithms in a Nutshell</a>",
+        "name": "Completing a course: <a href='https://www.pluralsight.com/courses/git-advanced-tips-tricks' target='_blank'>Advanced Git Tips and Tricks</a>",
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": 22.9
+        "weeklyProgress": 22
     },
 	{
         "name": "Contributing to Open Source <a href='https://github.com/lfourky/last-docker-tag' target='_blank'>lfourky/last-docker-tag</a>",
@@ -25,7 +25,7 @@ var progress = [
         "currentValue": ((243)/613)*100,
         "currentText": "",
 		"lastWeeksProgress": 0,
-        "weeklyProgress": ((262-243)/613)*100
+        "weeklyProgress": ((264-243)/613)*100
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
