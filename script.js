@@ -3,29 +3,15 @@ var progress = [
         "name": "Completing a course: <a href='https://www.pluralsight.com/courses/git-advanced-tips-tricks' target='_blank'>Advanced Git Tips and Tricks</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": 22
-    },
-	{
-        "name": "Contributing to Open Source <a href='https://github.com/lfourky/last-docker-tag' target='_blank'>lfourky/last-docker-tag</a>",
-        "currentValue": 0,
-        "currentText": "",
-		"lastWeeksProgress": 100,
-        "weeklyProgress": 0
-    },
-	{
-        "name": "Reading a book: <a href='https://www.apress.com/us/book/9781484237298' target='_blank'>The Linux Philosophy for SysAdmins</a>",
-        "currentValue": ((39-0)/516)*100,
-        "currentText": "",
-		"lastWeeksProgress": 0,
+		"lastWeeksProgress": 22,
         "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920032175.do' target='_blank'>Designing Data-Intensive Applications</a>",
         "currentValue": ((243)/613)*100,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": ((264-243)/613)*100
+		"lastWeeksProgress": ((264-243)/613)*100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
@@ -44,6 +30,13 @@ var progress = [
 ]
 
 /*
+{
+	"name": "Reading a book: <a href='https://www.apress.com/us/book/9781484237298' target='_blank'>The Linux Philosophy for SysAdmins</a>",
+	"currentValue": ((39-0)/516)*100,
+	"currentText": "",
+	"lastWeeksProgress": 0,
+	"weeklyProgress": 0
+},
 {
 	"name": "Reading a book: <a href='http://www.stroustrup.com/4th.html' target='_blank'>The C++ Programming Language (4th Edition)</a>",
 	"currentValue": (114/1366)*100,
