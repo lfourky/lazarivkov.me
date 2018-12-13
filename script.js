@@ -4,14 +4,14 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 22,
-        "weeklyProgress": 60-22
+        "weeklyProgress": 83-22
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920032175.do' target='_blank'>Designing Data-Intensive Applications</a>",
         "currentValue": ((243)/613)*100,
         "currentText": "",
 		"lastWeeksProgress": ((264-243)/613)*100,
-        "weeklyProgress": ((272-264)/613)*100
+        "weeklyProgress": ((284-264)/613)*100
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
