@@ -4,14 +4,14 @@ var progress = [
         "currentValue": 0,
         "currentText": "",
 		"lastWeeksProgress": 22,
-        "weeklyProgress": 83-22
+        "weeklyProgress": 100-22
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920032175.do' target='_blank'>Designing Data-Intensive Applications</a>",
         "currentValue": ((243)/613)*100,
         "currentText": "",
 		"lastWeeksProgress": ((264-243)/613)*100,
-        "weeklyProgress": ((284-264)/613)*100
+        "weeklyProgress": ((295-264)/613)*100
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
@@ -69,6 +69,14 @@ var progress = [
         
 
 var achievements =  [
+	{
+      "id":80,
+      "title":"Completed A Course",
+      "date":"December 14th, 2018",
+      "link":"https://www.pluralsight.com/courses/git-advanced-tips-tricks",
+      "shortlink":"Advanced Git Tips and Tricks",
+      "text":""
+   },
    {
       "id":79,
       "title":"Completed a personal GitHub project",
