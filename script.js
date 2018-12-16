@@ -3,8 +3,8 @@ var progress = [
         "name": "Completing a course: <a href='https://www.pluralsight.com/courses/git-advanced-tips-tricks' target='_blank'>Advanced Git Tips and Tricks</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": 22,
-        "weeklyProgress": 100-22
+		"lastWeeksProgress": 21,
+        "weeklyProgress": 100-21
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920032175.do' target='_blank'>Designing Data-Intensive Applications</a>",
