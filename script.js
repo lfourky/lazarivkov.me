@@ -1,4 +1,12 @@
 var progress = [
+
+	{
+        "name": "Reading a book: <a href='https://www.amazon.com/Architecting-Scale-Availability-Growing-Applications/dp/1491943394' target='_blank'>Architecting for Scale</a>",
+        "currentValue": 0,
+        "currentText": "",
+		"lastWeeksProgress": 0,
+        "weeklyProgress": ((60-0)/220)*100
+    },
 	{
         "name": "Completing a course: <a href='https://www.pluralsight.com/courses/git-advanced-tips-tricks' target='_blank'>Advanced Git Tips and Tricks</a>",
         "currentValue": 0,
