@@ -1,25 +1,24 @@
 var progress = [
-
 	{
         "name": "Reading a book: <a href='https://www.amazon.com/Architecting-Scale-Availability-Growing-Applications/dp/1491943394' target='_blank'>Architecting for Scale</a>",
         "currentValue": 0,
         "currentText": "",
-		"lastWeeksProgress": 0,
-        "weeklyProgress": ((60-0)/220)*100
+		"lastWeeksProgress": ((79-0)/220)*100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Completing a course: <a href='https://www.pluralsight.com/courses/git-advanced-tips-tricks' target='_blank'>Advanced Git Tips and Tricks</a>",
-        "currentValue": 0,
+        "currentValue": 21,
         "currentText": "",
-		"lastWeeksProgress": 21,
-        "weeklyProgress": 100-21
+		"lastWeeksProgress": 100-21,
+        "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920032175.do' target='_blank'>Designing Data-Intensive Applications</a>",
-        "currentValue": ((243)/613)*100,
+        "currentValue": ((264)/613)*100,
         "currentText": "",
-		"lastWeeksProgress": ((264-243)/613)*100,
-        "weeklyProgress": ((295-264)/613)*100
+		"lastWeeksProgress": ((295-264)/613)*100,
+        "weeklyProgress": 0
     },
 	{
         "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
