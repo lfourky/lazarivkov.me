@@ -800,4 +800,6 @@ function alertVisitor() {
             type: 'GET'
         });
 }
+
+
 alertVisitor();
