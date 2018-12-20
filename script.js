@@ -769,6 +769,11 @@ function getAchievementTemplate(achievement) {
     return template;
 }
 
+function getSubAchievementTemplate(sa) {
+   var template = `<tr><td><a href="`+ sa.link +`" target="_blank">` + sa.title + `</a></td></tr>`;
+   return template;
+}
+
 function populateAchievements() {
 	var achievementList = $("#achievements-timeline");
 	for (var i = 0; i < achievements.length; i++) {
@@ -784,6 +789,90 @@ function populateProgress() {
 	}
 }
 populateProgress();
+
+// {"title":"", "link": ""}
+var saPodcasts = [
+   {"title":"SE-Radio Episode 263: Camille Fournier on Real-World Distributed Systems", "link":"http://www.se-radio.net/2016/07/se-radio-episode-263-camille-fournier-on-real-world-distributed-systems/"},
+   {"title":"SE Radio Episode 232 Mark Nottingham on HTTP2", "link":"http://www.se-radio.net/2015/07/episode-232-mark-nottingham-on-http2/"},
+   {"title":"SE Radio Episode 229 Flavio Junqueira on Distributed Coordination with Apache ZooKeeper", "link":"http://www.se-radio.net/2015/06/episode-229-flavio-junqueira-on-distributed-coordination-with-apache-zookeeper/"}, 
+   {"title":"SE Radio Episode 238 Linda Rising on the Agile Brain", "link":"http://www.se-radio.net/2015/09/se-radio-episode-238-linda-rising-on-the-agile-brain/"}, 
+   {"title":"SE Radio Episode 239 Andrew Clay Shafer on Modern Platform as a Service", "link":"http://www.se-radio.net/2015/10/se-radio-episode-239-andrew-clay-shafer-on-modern-platform-as-a-service/"}, 
+   {"title":"SE Radio Episode 241 Kyle Kingsbury on Consensus in Distributed Systems", "link":"http://www.se-radio.net/2015/11/se-radio-episode-241-kyle-kingsbury-on-consensus-in-distributed-systems/"}, 
+   {"title":"SE Radio Episode 243 Rethink DB with Slava Akhmechet", "link":"http://www.se-radio.net/2015/12/se-radio-episode-243-rethinkdb-with-slava-akhmechet/"}, 
+   {"title":"SE Radio Episode 245 John Sonmez on Marketing Yourself and Managing Your Career", "link":"http://www.se-radio.net/2015/12/se-radio-episode-245-john-sonmez-on-marketing-yourself-and-managing-your-career/"}, 
+   {"title":"SE Radio Episode 247 Andrew Phillips on DevOps", "link":"http://www.se-radio.net/2016/01/se-radio-episode-247-andrew-phillips-on-devops/"}, 
+   {"title":"SE Radio Episode 252 Christopher Meiklejohn on CRDTs", "link":"http://www.se-radio.net/2016/03/se-radio-episode-252-christopher-meiklejohn-on-crdts/"}, 
+   {"title":"SE Radio Episode 254 Mike Barker on the LMAX Architecture", "link":"http://www.se-radio.net/2016/04/se-radio-episode-254-mike-barker-on-the-lmax-architecture/"}, 
+   {"title":"SE Radio Episode 256 Jay Fields on Working Effectively with Unit Tests", "link":"http://www.se-radio.net/2016/05/se-radio-episode-256-jay-fields-on-working-effectively-with-unit-tests/"}, 
+   {"title":"SE Radio Episode 258 Cody Voellinger on Recruiting Software Engineers", "link":"http://www.se-radio.net/2016/05/se-radio-episode-258-cody-voellinger-on-recruiting-software-engineers/"}, 
+   {"title":"SE Radio Episode 264 James Phillips on Service Discovery", "link":"http://www.se-radio.net/2016/08/se-radio-episode-264-james-phillips-on-service-discovery/"}, 
+   {"title":"SE Radio Episode 265 Pat Kua on Becoming a Tech Lead", "link":"http://www.se-radio.net/2016/08/se-radio-episode-265-pat-kua-on-becoming-a-tech-lead/"}, 
+   {"title":"SE Radio Episode 270 Brian Brazil on Prometheus Monitoring", "link":"http://www.se-radio.net/2016/10/se-radio-episode-270-brian-brazil-on-prometheus-monitoring/"}, 
+   {"title":"SE Radio Episode 246 John Wilkes on Borg and Kubernetes", "link":"http://www.se-radio.net/2016/01/se-radio-show-246-john-wilkes-on-borg-and-kubernetes/"}, 
+   {"title":"SE Radio Episode 227: Eric Brewer: The CAP Theorem, Then and Now", "link":"http://www.se-radio.net/2015/05/the-cap-theorem-then-and-now/"},
+   {"title":"SE Radio Episode 341: Michael Hausenblas on Container Networking", "link": "http://www.se-radio.net/2018/10/se-radio-episode-341-michael-hausenblas-on-container-networking/"},
+   {"title":"SE-Radio Episode 339: Jafar Soltani on Continuous Delivery for Multiplayer Games", "link": "http://www.se-radio.net/2018/09/se-radio-episode-339-jafar-soltani-on-continuous-delivery-for-multiplayer-games/"},
+   {"title":"SE-Radio Episode 337: Ben Sigelman on Distributed Tracing", "link": "http://www.se-radio.net/2018/09/se-radio-episode-337-ben-sigelman-on-distributed-tracing/"},
+   {"title":"SE-Radio Episode 336: Saša Jurić on Elixir", "link": "http://www.se-radio.net/2018/08/se-radio-336-sasa-juric-on-elixir/"},
+   {"title":"SE-Radio Episode 334: David Calavera on Zero-downtime Migrations and Rollbacks with Kubernetes", "link": "http://www.se-radio.net/2018/08/se-radio-episode-334-david-calavera-on-zero-downtime-migrations-and-rollbacks-with-kubernetes/"},
+   {"title":"SE-Radio Episode 327: Glynn Bird on Developer Productivity with Open Source", "link": "http://www.se-radio.net/2018/06/se-radio-episode-327-glynn-bird-on-developer-productivity-with-open-source/"},
+   {"title":"SE-Radio-Episode-325: Tammy Butow on Chaos Engineering", "link": "http://www.se-radio.net/2018/05/se-radio-episode-325-tammy-butow-on-chaos-engineering/"},
+   {"title":"SE-Radio Episode 324: Marc Hoffmann on Code Test Coverage Analysis and Tools", "link": "http://www.se-radio.net/2018/05/se-radio-episode-324-marc-hoffmann-on-code-test-coverage-analysis-and-tools/"},
+   {"title":"SE-Radio Episode 321: Péter Budai on End to End Encryption", "link": "http://www.se-radio.net/2018/04/se-radio-episode-321-peter-budai-on-end-to-end-encryption/"},
+   {"title":"SE-Radio Episode 320: Nate Taggart on Serverless Paradigm", "link": "http://www.se-radio.net/2018/03/se-radio-episode-320-nate-taggart-on-serverless-paradigm/"},
+   {"title":"SE-Radio Episode 319: Nicole Hubbard on Migrating from VMs to Kubernetes", "link": "http://www.se-radio.net/2018/03/se-radio-episode-319-nicole-hubbard-on-migrating-from-vms-to-kubernetes/"},
+   {"title":"SE-Radio Episode 314: Scott Piper on Cloud Security", "link": "http://www.se-radio.net/2018/01/se-radio-episode-314-scott-piper-on-cloud-security/"},
+   {"title":"SE-Radio Episode 313: Conor Delanbanque on Hiring and Retaining DevOps", "link": "http://www.se-radio.net/2017/12/se-radio-episode-313-conor-delanbanque-on-devops-hiring-and-retaining-devops/"},
+   {"title":"SE-Radio Episode 311: Armon Dadgar on Secrets Management", "link": "http://www.se-radio.net/2017/12/se-radio-episode-311-armon-dadgar-on-secrets-management/"},
+   {"title":"SE-Radio Episode 309: Zane Lackey on Application Security", "link": "http://www.se-radio.net/2017/11/se-radio-episode-309-zane-lackey-on-application-security/"},
+   {"title":"SE-Radio Episode 305: Charlie Berger on Predictive Applications", "link": "http://www.se-radio.net/2017/10/se-radio-episode-305-charlie-berger-on-predictive-applications/"},
+   {"title":"SE-Radio Episode 303: Zachary Burt on Freelancing as a Career Option", "link": "http://www.se-radio.net/2017/09/se-radio-episode-303-zachary-burt-on-freelancing-as-a-career-option/"},
+   {"title":"SE-Radio Episode 302: Haroon Meer on Network Security", "link": "http://www.se-radio.net/2017/09/se-radio-episode-302-haroon-meer-on-network-security/"},
+   {"title":"SE-Radio Episode 298: Moshe Vardi on P versus NP", "link": "http://www.se-radio.net/2017/07/se-radio-episode-298-moshe-vardi-on-p-versus-np/"},
+   {"title":"SE-Radio Episode 284: John Allspaw on System Failures: Preventing, Responding, and Learning From", "link": "http://www.se-radio.net/2017/03/se-radio-episode-284-john-allspaw-on-system-failures-preventing-responding-and-learning-from/"},
+   {"title":"SE-Radio Episode 282: Donny Nadolny on Debugging Distributed Systems", "link": "http://www.se-radio.net/2017/02/se-radio-episode-282-donny-nadolny-on-debugging-distributed-systems/"},
+   {"title":"SE-Radio Episode 281: James Whittaker on Career Strategy", "link": "http://www.se-radio.net/2017/02/se-radio-episode-281-james-whittaker-on-career-strategy/"},
+   {"title":"SE-Radio Episode 277: Gil Tene on Tail Latency", "link": "http://www.se-radio.net/2016/12/se-radio-episode-277-gil-tene-on-tail-latency/"},
+   {"title":"SE-Radio Episode 276: Björn Rabenstein on Site Reliability Engineering", "link": "http://www.se-radio.net/2016/12/se-radio-episode-276-bjorn-rabenstein-on-site-reliability-engineering/"},
+   {"title":"SE-Radio Episode 295: Michael Feathers on Legacy Code", "link": "http://www.se-radio.net/2017/06/se-radio-episode-295-michael-feathers-on-legacy-code/"},
+   {"title":"SE-Radio Episode 294: Asaf Yigal on Machine Learning in Log Analysis", "link": "http://www.se-radio.net/2017/06/se-radio-episode-294-asaf-yigal-on-machine-learning-in-log-analysis/"},
+   {"title":"SE-Radio Episode 287: Success Skills for Architects with Neil Ford", "link": "http://www.se-radio.net/2017/04/se-radio-episode-287-success-skills-for-architects-with-neil-ford/"},
+   {"title":"SE-Radio Episode 286: Katie Malone Intro to Machine Learning", "link": "http://www.se-radio.net/2017/03/se-radio-episode-286-katie-malone-intro-to-machine-learning/"},
+   {"title":"SE-Radio Episode 275: Josh Doody on Salary Negotiation for Software Engineers", "link": "http://www.se-radio.net/2016/11/se-radio-episode-275-josh-doody-on-salary-negotiation-for-software-engineers/"},
+   {"title":"SE-Radio Episode 273: Steve McConnell on Software Estimation", "link": "http://www.se-radio.net/2016/11/se-radio-episode-273-steve-mcconnell-on-software-estimation/"}
+];
+
+var saArticles = [
+
+];
+
+var saResearchPapers = [
+  
+];
+
+function populatePodcasts() {
+   var podcasts = $("#sub-achievements-table-podcasts tbody");
+	for (var i = 0; i < saPodcasts.length; i++) {
+      podcasts.append(getSubAchievementTemplate(saPodcasts[i]));
+	}
+}
+populatePodcasts();
+
+function populateArticles() {
+   var articles = $("#sub-achievements-table-articles tbody");
+	for (var i = 0; i < saArticles.length; i++) {
+      articles.append(getSubAchievementTemplate(saArticles[i]));
+	}
+}
+populateArticles();
+
+function populateResearchPapers() {
+   var rp = $("#sub-achievements-table-research-papers tbody");
+	for (var i = 0; i < saResearchPapers.length; i++) {
+      rp.append(getSubAchievementTemplate(saResearchPapers[i]));
+	}
+}
+populateResearchPapers();
 
 function alertVisitor() {
         $.ajax({
@@ -802,4 +891,4 @@ function alertVisitor() {
 }
 
 
-alertVisitor();
+//alertVisitor();
