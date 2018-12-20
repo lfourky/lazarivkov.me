@@ -890,5 +890,4 @@ function alertVisitor() {
         });
 }
 
-
-//alertVisitor();
+alertVisitor();
