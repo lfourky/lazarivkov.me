@@ -1,10 +1,10 @@
 var progress = [
    {
-      "name": "Listening to an audiobook: <a href='https://www.audible.com/pd/How-to-Win-Friends-Influence-People-Audiobook/B002V5BV96' target='_blank'>How to Win Friends & Influence People</a>",
+      "name": "Reading & listening to <a href='https://www.audible.com/pd/How-to-Win-Friends-Influence-People-Audiobook/B002V5BV96' target='_blank'>How to Win Friends & Influence People</a>",
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": 5
+      "weeklyProgress": 21
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/react-big-picture' target='_blank'>React: The Big Picture</a>",
