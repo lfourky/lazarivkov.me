@@ -7,8 +7,6 @@ body {
 	height: 100%;
 }
 
-.styled-date {}
-
 .centered {
 	text-align: center;
 }
@@ -20,8 +18,6 @@ body {
 .goals {
 	font-size: 1.3em;
 }
-
-.about {}
 
 .about img {
 	float: left;
