@@ -904,4 +904,4 @@ function alertVisitor() {
         });
 }
 
-//alertVisitor();
+alertVisitor();
