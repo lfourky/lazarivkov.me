@@ -25,7 +25,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": ((79-0)/220)*100,
-      "weeklyProgress": ((185-79)/220)*100
+      "weeklyProgress": ((192-79)/220)*100
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/git-advanced-tips-tricks' target='_blank'>Advanced Git Tips and Tricks</a>",
