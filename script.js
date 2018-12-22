@@ -11,7 +11,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": 29
+      "weeklyProgress": 48
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/react-big-picture' target='_blank'>React: The Big Picture</a>",
@@ -863,10 +863,12 @@ var saPodcasts = [
    {"title":"SE-Radio Episode 273: Steve McConnell on Software Estimation", "link": "http://www.se-radio.net/2016/11/se-radio-episode-273-steve-mcconnell-on-software-estimation/"}
 ];
 
+// {"title":"", "link": ""}
 var saArticles = [
-
+   {"title":"How to beat the CAP theorem", "link": "http://nathanmarz.com/blog/how-to-beat-the-cap-theorem.html"}
 ];
 
+// {"title":"", "link": ""}
 var saResearchPapers = [
   
 ];
