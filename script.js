@@ -25,7 +25,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": ((79-0)/220)*100,
-      "weeklyProgress": ((192-79)/220)*100
+      "weeklyProgress": ((220-79)/220)*100
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/git-advanced-tips-tricks' target='_blank'>Advanced Git Tips and Tricks</a>",
@@ -97,6 +97,14 @@ var progress = [
         
 
 var achievements =  [
+	{
+      "id":81,
+      "title":"Finished Reading A Book",
+      "date":"December 23rd, 2018",
+      "link":"https://www.amazon.com/Architecting-Scale-Availability-Growing-Applications/dp/1491943394",
+      "shortlink":"Architecting for Scale",
+      "text":""
+    },
 	{
       "id":80,
       "title":"Completed A Course",
