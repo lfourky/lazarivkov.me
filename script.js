@@ -3,42 +3,35 @@ var progress = [
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/eda' target='_blank'>The Elements of Distributed Architecture</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 12
+      "lastWeeksProgress": 12,
+      "weeklyProgress": 0
    },
    {
       "name": "Reading & listening to <a href='https://www.audible.com/pd/How-to-Win-Friends-Influence-People-Audiobook/B002V5BV96' target='_blank'>How to Win Friends & Influence People</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 55
+      "lastWeeksProgress": 55,
+      "weeklyProgress": 0
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/react-big-picture' target='_blank'>React: The Big Picture</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 100
+      "lastWeeksProgress": 100,
+      "weeklyProgress": 0
    },
 	{
       "name": "Reading a book: <a href='https://www.amazon.com/Architecting-Scale-Availability-Growing-Applications/dp/1491943394' target='_blank'>Architecting for Scale</a>",
-      "currentValue": 0,
+      "currentValue": ((79-0)/220)*100,
       "currentText": "",
-      "lastWeeksProgress": ((79-0)/220)*100,
-      "weeklyProgress": ((220-79)/220)*100
-   },
-   {
-      "name": "Completing a course: <a href='https://www.pluralsight.com/courses/git-advanced-tips-tricks' target='_blank'>Advanced Git Tips and Tricks</a>",
-      "currentValue": 21,
-      "currentText": "",
-      "lastWeeksProgress": 100-21,
+      "lastWeeksProgress": ((220-79)/220)*100,
       "weeklyProgress": 0
    },
 	{
       "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920032175.do' target='_blank'>Designing Data-Intensive Applications</a>",
-      "currentValue": ((264)/613)*100,
+      "currentValue": ((295)/613)*100,
       "currentText": "",
-      "lastWeeksProgress": ((295-264)/613)*100,
+      "lastWeeksProgress": 0,
       "weeklyProgress": 0
    },
 	{
