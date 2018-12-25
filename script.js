@@ -866,6 +866,7 @@ var saPodcasts = [
 
 // {"title":"", "link": ""}
 var saArticles = [
+   {"title":"How League Of Legends Scaled Chat To 70 Million Players", "link": "http://highscalability.com/blog/2014/10/13/how-league-of-legends-scaled-chat-to-70-million-players-it-t.html"},
    {"title":"How to beat the CAP theorem", "link": "http://nathanmarz.com/blog/how-to-beat-the-cap-theorem.html"}
 ];
 
