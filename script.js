@@ -11,7 +11,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 55,
-      "weeklyProgress": 71-55
+      "weeklyProgress": 77-55
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/react-big-picture' target='_blank'>React: The Big Picture</a>",
