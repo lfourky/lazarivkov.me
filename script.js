@@ -11,7 +11,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 55,
-      "weeklyProgress": 87-55
+      "weeklyProgress": 100-55
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/react-big-picture' target='_blank'>React: The Big Picture</a>",
@@ -88,8 +88,15 @@ var progress = [
 },
 */
         
-
 var achievements =  [
+   {
+      "id":82,
+      "title":"Finished an Audiobook",
+      "date":"December 26th, 2018",
+      "link":"https://www.audible.com/pd/How-to-Win-Friends-Influence-People-Audiobook/B002V5BV96",
+      "shortlink":"How to Win Friends & Influence People",
+      "text":""
+   },
 	{
       "id":81,
       "title":"Finished Reading A Book",
