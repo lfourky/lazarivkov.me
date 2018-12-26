@@ -4,7 +4,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 12,
-      "weeklyProgress": 83-12
+      "weeklyProgress": 84-12
    },
    {
       "name": "Reading & listening to <a href='https://www.audible.com/pd/How-to-Win-Friends-Influence-People-Audiobook/B002V5BV96' target='_blank'>How to Win Friends & Influence People</a>",
