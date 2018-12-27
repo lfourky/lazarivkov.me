@@ -4,7 +4,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 12,
-      "weeklyProgress": 84-12
+      "weeklyProgress": 100-12
    },
    {
       "name": "Reading & listening to <a href='https://www.audible.com/pd/How-to-Win-Friends-Influence-People-Audiobook/B002V5BV96' target='_blank'>How to Win Friends & Influence People</a>",
@@ -87,8 +87,16 @@ var progress = [
 	"weeklyProgress": 0
 },
 */
-        
+     
 var achievements =  [
+   {
+      "id":83,
+      "title":"Completed A Course",
+      "date":"December 14th, 2018",
+      "link":"https://www.pluralsight.com/courses/eda",
+      "shortlink":"The Elements of Distributed Architecture",
+      "text":""
+   },
    {
       "id":82,
       "title":"Finished an Audiobook",
