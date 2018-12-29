@@ -843,7 +843,7 @@ populateProgress();
 
 // {"title":"", "link": ""}
 var saPodcasts = [
-	{"title":"SE-Radio Episode 297: Kieren James-Lubin on Blockchain", "link": "http://www.se-radio.net/2017/07/se-radio-episode-297-kieren-james-lubin-on-blockchain/"}
+	{"title":"SE-Radio Episode 297: Kieren James-Lubin on Blockchain", "link": "http://www.se-radio.net/2017/07/se-radio-episode-297-kieren-james-lubin-on-blockchain/"},
    {"title":"SE-Radio Episode 263: Camille Fournier on Real-World Distributed Systems", "link":"http://www.se-radio.net/2016/07/se-radio-episode-263-camille-fournier-on-real-world-distributed-systems/"},
    {"title":"SE Radio Episode 232 Mark Nottingham on HTTP2", "link":"http://www.se-radio.net/2015/07/episode-232-mark-nottingham-on-http2/"},
    {"title":"SE Radio Episode 229 Flavio Junqueira on Distributed Coordination with Apache ZooKeeper", "link":"http://www.se-radio.net/2015/06/episode-229-flavio-junqueira-on-distributed-coordination-with-apache-zookeeper/"}, 
