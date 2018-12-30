@@ -111,7 +111,7 @@ var progress = [
      
 var achievements =  [
    {
-      "id":83,
+      "id":84,
       "title":"Completed A Course",
       "date":"December 14th, 2018",
       "link":"https://www.pluralsight.com/courses/eda",
@@ -119,11 +119,19 @@ var achievements =  [
       "text":""
    },
    {
-      "id":82,
+      "id":83,
       "title":"Finished an Audiobook",
       "date":"December 26th, 2018",
       "link":"https://www.audible.com/pd/How-to-Win-Friends-Influence-People-Audiobook/B002V5BV96",
       "shortlink":"How to Win Friends & Influence People",
+      "text":""
+   },
+   {
+      "id":82,
+      "title":"Completed A Course",
+      "date":"December 24th, 2018",
+      "link":"https://www.pluralsight.com/courses/react-big-picture",
+      "shortlink":"React: The Big Picture",
       "text":""
    },
 	{
