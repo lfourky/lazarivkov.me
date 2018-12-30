@@ -11,7 +11,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": 34
+      "weeklyProgress": 43
    },
 	{
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/eda' target='_blank'>The Elements of Distributed Architecture</a>",
