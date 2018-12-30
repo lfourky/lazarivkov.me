@@ -11,7 +11,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": 29
+      "weeklyProgress": 34
    },
 	{
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/eda' target='_blank'>The Elements of Distributed Architecture</a>",
@@ -841,8 +841,9 @@ function populateProgress() {
 }
 populateProgress();
 
-// {"title":"", "link": ""}
+// {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"SE-Radio Episode 221: Jez Humble on Continuous Delivery", "link": "http://www.se-radio.net/2015/02/episode-221-jez-humble-on-continuous-delivery/"},
 	{"title":"SE-Radio Episode 297: Kieren James-Lubin on Blockchain", "link": "http://www.se-radio.net/2017/07/se-radio-episode-297-kieren-james-lubin-on-blockchain/"},
    {"title":"SE-Radio Episode 263: Camille Fournier on Real-World Distributed Systems", "link":"http://www.se-radio.net/2016/07/se-radio-episode-263-camille-fournier-on-real-world-distributed-systems/"},
    {"title":"SE Radio Episode 232 Mark Nottingham on HTTP2", "link":"http://www.se-radio.net/2015/07/episode-232-mark-nottingham-on-http2/"},
