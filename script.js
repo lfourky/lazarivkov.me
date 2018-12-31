@@ -34,13 +34,6 @@ var progress = [
       "lastWeeksProgress": 100-55,
       "weeklyProgress": 0
    },
-   {
-      "name": "Completing a course: <a href='https://www.pluralsight.com/courses/react-big-picture' target='_blank'>React: The Big Picture</a>",
-      "currentValue": 0,
-      "currentText": "",
-      "lastWeeksProgress": 100,
-      "weeklyProgress": 0
-   },
 	{
       "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920032175.do' target='_blank'>Designing Data-Intensive Applications</a>",
       "currentValue": ((295)/613)*100,
