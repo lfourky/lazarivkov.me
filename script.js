@@ -3,36 +3,36 @@ var progress = [
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Chaos-Audiobook/B004I7C00O?ref=a_lib_c4_libItem_0_B004I7C00O&pf_rd_p=ae76b2bb-e63d-4a67-b357-dab3dee05ca1&pf_rd_r=Y5FB770H8Q672GTQRA7H&' target='_blank'>Chaos - Making a New Science</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": (653-602)/653*100
+      "lastWeeksProgress": (653-602)/653*100,
+      "weeklyProgress": 0
    },
    {
       "name": "Reading a book: <a href='https://www.crcpress.com/Essentials-of-Computer-Architecture/Comer/p/book/9781138626591' target='_blank'>Essentials of Computer Architecture</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": ((36-0)/536)*100
+      "lastWeeksProgress": ((36-0)/536)*100,
+      "weeklyProgress": 0
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/rethinking-asynchronous-programming' target='_blank'>Rethinking Asynchronous Programming</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 43
+      "lastWeeksProgress": 43,
+      "weeklyProgress": 0
    },
 	{
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/eda' target='_blank'>The Elements of Distributed Architecture</a>",
-      "currentValue": 0,
+      "currentValue": 12,
       "currentText": "",
-      "lastWeeksProgress": 12,
-      "weeklyProgress": 100-12
+      "lastWeeksProgress": 100-12,
+      "weeklyProgress": 0
    },
    {
       "name": "Reading & listening to <a href='https://www.audible.com/pd/How-to-Win-Friends-Influence-People-Audiobook/B002V5BV96' target='_blank'>How to Win Friends & Influence People</a>",
-      "currentValue": 0,
+      "currentValue": 55,
       "currentText": "",
-      "lastWeeksProgress": 55,
-      "weeklyProgress": 100-55
+      "lastWeeksProgress": 100-55,
+      "weeklyProgress": 0
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/react-big-picture' target='_blank'>React: The Big Picture</a>",
@@ -42,18 +42,11 @@ var progress = [
       "weeklyProgress": 0
    },
 	{
-      "name": "Reading a book: <a href='https://www.amazon.com/Architecting-Scale-Availability-Growing-Applications/dp/1491943394' target='_blank'>Architecting for Scale</a>",
-      "currentValue": ((79-0)/220)*100,
-      "currentText": "",
-      "lastWeeksProgress": ((220-79)/220)*100,
-      "weeklyProgress": 0
-   },
-	{
       "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920032175.do' target='_blank'>Designing Data-Intensive Applications</a>",
       "currentValue": ((295)/613)*100,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": ((316-295)/613)*100
+      "lastWeeksProgress": ((320-295)/613)*100,
+      "weeklyProgress": 0
    },
 	{
       "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
