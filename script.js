@@ -896,8 +896,9 @@ var saPodcasts = [
    {"title":"SE-Radio Episode 273: Steve McConnell on Software Estimation", "link": "http://www.se-radio.net/2016/11/se-radio-episode-273-steve-mcconnell-on-software-estimation/"}
 ];
 
-// {"title":"", "link": ""}
+// {"title":"", "link": ""},
 var saArticles = [
+   {"title":"The Saddest Moment", "link": "https://www.usenix.org/system/files/login-logout_1305_mickens.pdf"},
    {"title":"How League Of Legends Scaled Chat To 70 Million Players", "link": "http://highscalability.com/blog/2014/10/13/how-league-of-legends-scaled-chat-to-70-million-players-it-t.html"},
    {"title":"How to beat the CAP theorem", "link": "http://nathanmarz.com/blog/how-to-beat-the-cap-theorem.html"}
 ];
