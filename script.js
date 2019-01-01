@@ -3,8 +3,8 @@ var progress = [
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Chaos-Audiobook/B004I7C00O?ref=a_lib_c4_libItem_0_B004I7C00O&pf_rd_p=ae76b2bb-e63d-4a67-b357-dab3dee05ca1&pf_rd_r=Y5FB770H8Q672GTQRA7H&' target='_blank'>Chaos - Making a New Science</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": (653-547)/653*100,
-      "weeklyProgress": 0
+      "lastWeeksProgress": (653-605)/653*100,
+      "weeklyProgress": (605-547)/653*100
    },
    {
       "name": "Reading a book: <a href='https://www.crcpress.com/Essentials-of-Computer-Architecture/Comer/p/book/9781138626591' target='_blank'>Essentials of Computer Architecture</a>",
