@@ -1,4 +1,11 @@
-var progress = [	
+var progress = [
+   {
+      "name": "Completing a course: <a href='https://www.pluralsight.com/courses/security-architecture-design-big-picture' target='_blank'>Security Architecture and Design: The Big Picture</a>",
+      "currentValue": 0,
+      "currentText": "",
+      "lastWeeksProgress": 0,
+      "weeklyProgress": 10
+   },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/bigdata-bigpicture' target='_blank'>Big Data: The Big Picture</a>",
       "currentValue": 0,
