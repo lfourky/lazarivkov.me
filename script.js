@@ -1,5 +1,12 @@
 var progress = [	
    {
+      "name": "Completing a course: <a href='https://www.pluralsight.com/courses/bigdata-bigpicture' target='_blank'>Big Data: The Big Picture</a>",
+      "currentValue": 0,
+      "currentText": "",
+      "lastWeeksProgress": 0,
+      "weeklyProgress": 100
+   },
+   {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/cqrs-theory-practice' target='_blank'>Patterns for Building Distributed Systems for The Enterprise</a>",
       "currentValue": 0,
       "currentText": "",
@@ -18,7 +25,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": ((36-0)/536)*100,
-      "weeklyProgress": ((51-36)/536)*100
+      "weeklyProgress": ((70-36)/536)*100
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/rethinking-asynchronous-programming' target='_blank'>Rethinking Asynchronous Programming</a>",
@@ -103,6 +110,14 @@ var progress = [
 */
 
 var achievements =  [
+   {
+      "id":86,
+      "title":"Completed A Course",
+      "date":"January 5th, 2019",
+      "link":"https://www.pluralsight.com/courses/bigdata-bigpicture",
+      "shortlink":"Big Data: The Big Picture",
+      "text":""
+   },   
    {
       "id":85,
       "title":"Completed A Course",
