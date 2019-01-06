@@ -1,5 +1,12 @@
 var progress = [
    {
+      "name": "Completing a course: <a href='https://www.pluralsight.com/courses/react-js-getting-started' target='_blank'>React.js: Getting Started</a>",
+      "currentValue": 0,
+      "currentText": "",
+      "lastWeeksProgress": 0,
+      "weeklyProgress": 54
+   },
+   {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/security-architecture-design-big-picture' target='_blank'>Security Architecture and Design: The Big Picture</a>",
       "currentValue": 0,
       "currentText": "",
@@ -32,14 +39,14 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": ((36-0)/536)*100,
-      "weeklyProgress": ((70-36)/536)*100
+      "weeklyProgress": ((78-36)/536)*100
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/rethinking-asynchronous-programming' target='_blank'>Rethinking Asynchronous Programming</a>",
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 43,
-      "weeklyProgress": 53-43
+      "weeklyProgress": 64-43
    },
 	{
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/eda' target='_blank'>The Elements of Distributed Architecture</a>",
