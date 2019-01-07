@@ -4,7 +4,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 54,
-      "weeklyProgress": 0
+      "weeklyProgress": 82-54
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/security-architecture-design-big-picture' target='_blank'>Security Architecture and Design: The Big Picture</a>",
