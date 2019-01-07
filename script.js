@@ -3,71 +3,57 @@ var progress = [
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/react-js-getting-started' target='_blank'>React.js: Getting Started</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 54
+      "lastWeeksProgress": 54,
+      "weeklyProgress": 0
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/security-architecture-design-big-picture' target='_blank'>Security Architecture and Design: The Big Picture</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 16
+      "lastWeeksProgress": 16,
+      "weeklyProgress": 0
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/bigdata-bigpicture' target='_blank'>Big Data: The Big Picture</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 100
+      "lastWeeksProgress": 100,
+      "weeklyProgress": 0
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/cqrs-theory-practice' target='_blank'>Patterns for Building Distributed Systems for The Enterprise</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 100
-   },
-   {
-      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Chaos-Audiobook/B004I7C00O?ref=a_lib_c4_libItem_0_B004I7C00O&pf_rd_p=ae76b2bb-e63d-4a67-b357-dab3dee05ca1&pf_rd_r=Y5FB770H8Q672GTQRA7H&' target='_blank'>Chaos - Making a New Science</a>",
-      "currentValue": 0,
-      "currentText": "",
-      "lastWeeksProgress": (653-605)/653*100,
-      "weeklyProgress": (605-453)/653*100
-   },
-   {
-      "name": "Reading a book: <a href='https://www.crcpress.com/Essentials-of-Computer-Architecture/Comer/p/book/9781138626591' target='_blank'>Essentials of Computer Architecture</a>",
-      "currentValue": 0,
-      "currentText": "",
-      "lastWeeksProgress": ((36-0)/536)*100,
-      "weeklyProgress": ((78-36)/536)*100
-   },
-   {
-      "name": "Completing a course: <a href='https://www.pluralsight.com/courses/rethinking-asynchronous-programming' target='_blank'>Rethinking Asynchronous Programming</a>",
-      "currentValue": 0,
-      "currentText": "",
-      "lastWeeksProgress": 43,
-      "weeklyProgress": 64-43
-   },
-	{
-      "name": "Completing a course: <a href='https://www.pluralsight.com/courses/eda' target='_blank'>The Elements of Distributed Architecture</a>",
-      "currentValue": 12,
-      "currentText": "",
-      "lastWeeksProgress": 100-12,
+      "lastWeeksProgress": 100,
       "weeklyProgress": 0
    },
    {
-      "name": "Reading & listening to <a href='https://www.audible.com/pd/How-to-Win-Friends-Influence-People-Audiobook/B002V5BV96' target='_blank'>How to Win Friends & Influence People</a>",
-      "currentValue": 55,
+      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Chaos-Audiobook/B004I7C00O?ref=a_lib_c4_libItem_0_B004I7C00O&pf_rd_p=ae76b2bb-e63d-4a67-b357-dab3dee05ca1&pf_rd_r=Y5FB770H8Q672GTQRA7H&' target='_blank'>Chaos - Making a New Science</a>",
+      "currentValue": (653-605)/653*100,
       "currentText": "",
-      "lastWeeksProgress": 100-55,
+      "lastWeeksProgress": (605-453)/653*100,
+      "weeklyProgress": 0
+   },
+   {
+      "name": "Reading a book: <a href='https://www.crcpress.com/Essentials-of-Computer-Architecture/Comer/p/book/9781138626591' target='_blank'>Essentials of Computer Architecture</a>",
+      "currentValue": ((36-0)/536)*100,
+      "currentText": "",
+      "lastWeeksProgress": ((78-36)/536)*100,
+      "weeklyProgress": 0
+   },
+   {
+      "name": "Completing a course: <a href='https://www.pluralsight.com/courses/rethinking-asynchronous-programming' target='_blank'>Rethinking Asynchronous Programming</a>",
+      "currentValue": 43,
+      "currentText": "",
+      "lastWeeksProgress": 64-43,
       "weeklyProgress": 0
    },
 	{
       "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920032175.do' target='_blank'>Designing Data-Intensive Applications</a>",
-      "currentValue": ((295)/613)*100,
+      "currentValue": ((320)/613)*100,
       "currentText": "",
-      "lastWeeksProgress": ((320-295)/613)*100,
-      "weeklyProgress": ((343-320)/613)*100
+      "lastWeeksProgress": ((343-320)/613)*100,
+      "weeklyProgress": 0
    },
 	{
       "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
