@@ -4,14 +4,14 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 54,
-      "weeklyProgress": 82-54
+      "weeklyProgress": 100-54
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/security-architecture-design-big-picture' target='_blank'>Security Architecture and Design: The Big Picture</a>",
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 16,
-      "weeklyProgress": 0
+      "weeklyProgress": 25-16
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/bigdata-bigpicture' target='_blank'>Big Data: The Big Picture</a>",
@@ -111,8 +111,16 @@ var progress = [
 
 var achievements =  [
    {
+      "id":87,
+      "title":"Completed a Course",
+      "date":"January 9th, 2019",
+      "link":"https://www.pluralsight.com/courses/react-js-getting-started",
+      "shortlink":"React.js: Getting Started",
+      "text":""
+   },   
+   {
       "id":86,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"January 5th, 2019",
       "link":"https://www.pluralsight.com/courses/bigdata-bigpicture",
       "shortlink":"Big Data: The Big Picture",
@@ -120,7 +128,7 @@ var achievements =  [
    },   
    {
       "id":85,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"January 5th, 2019",
       "link":"https://www.pluralsight.com/courses/cqrs-theory-practice",
       "shortlink":"Patterns for Building Distributed Systems for The Enterprise",
@@ -128,7 +136,7 @@ var achievements =  [
    },      
    {
       "id":84,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"December 14th, 2018",
       "link":"https://www.pluralsight.com/courses/eda",
       "shortlink":"The Elements of Distributed Architecture",
@@ -144,7 +152,7 @@ var achievements =  [
    },
    {
       "id":82,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"December 24th, 2018",
       "link":"https://www.pluralsight.com/courses/react-big-picture",
       "shortlink":"React: The Big Picture",
@@ -160,7 +168,7 @@ var achievements =  [
     },
 	{
       "id":80,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"December 14th, 2018",
       "link":"https://www.pluralsight.com/courses/git-advanced-tips-tricks",
       "shortlink":"Advanced Git Tips and Tricks",
@@ -184,7 +192,7 @@ var achievements =  [
    },
    {
       "id":77,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"October 20th, 2018",
       "link":"https://www.udacity.com/course/human-computer-interaction--ud400",
       "shortlink":"Human-Computer Interaction",
@@ -208,7 +216,7 @@ var achievements =  [
    },
    {
       "id":74,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"October 13th, 2018",
       "link":"https://www.pluralsight.com/courses/mysql-query-optimization-performance-tuning",
       "shortlink":"MySQL Query Optimization and Performance Tuning",
@@ -232,7 +240,7 @@ var achievements =  [
    },
    {
       "id":71,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"October 1st, 2018",
       "link":"https://www.pluralsight.com/courses/pragmatic-unit-testing",
       "shortlink":"Building a Pragmatic Unit Test Suite",
@@ -240,7 +248,7 @@ var achievements =  [
    },
    {
       "id":70,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"September 24th, 2018",
       "link":"https://www.pluralsight.com/courses/continuous-integration-delivery-big-picture",
       "shortlink":"Continuous Integration and Continuous Delivery: The Big Picture",
@@ -248,7 +256,7 @@ var achievements =  [
    },
    {
       "id":69,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"September 24th, 2018",
       "link":"https://www.pluralsight.com/courses/understanding-machine-learning",
       "shortlink":"Understanding Machine Learning",
@@ -304,7 +312,7 @@ var achievements =  [
    },
    {
       "id":62,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"June 18th, 2018",
       "link":"https://www.udacity.com/course/computer-networking--ud436",
       "shortlink":"Computer Networking",
@@ -312,7 +320,7 @@ var achievements =  [
    },
    {
       "id":61,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"June 16th, 2018",
       "link":"https://www.pluralsight.com/courses/practical-networking",
       "shortlink":"Practical Networking",
@@ -320,7 +328,7 @@ var achievements =  [
    },
    {
       "id":60,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"June 3rd, 2018",
       "link":"https://www.udacity.com/course/networking-for-web-developers--ud256",
       "shortlink":"Networking for Web Developers",
@@ -344,7 +352,7 @@ var achievements =  [
    },
    {
       "id":57,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"May 19th, 2018",
       "link":"https://www.pluralsight.com/courses/getting-started-kubernetes",
       "shortlink":"Getting Started with Kubernetes",
@@ -352,7 +360,7 @@ var achievements =  [
    },
    {
       "id":56,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"May 18th, 2018",
       "link":"https://www.pluralsight.com/courses/implementing-devops-real-world",
       "shortlink":"Implementing DevOps in the Real World",
@@ -360,7 +368,7 @@ var achievements =  [
    },
    {
       "id":55,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"May 13th, 2018",
       "link":" https://www.udacity.com/course/intro-to-devops--ud611",
       "shortlink":"Intro to DevOps",
@@ -368,7 +376,7 @@ var achievements =  [
    },
    {
       "id":54,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"May 12th, 2018",
       "link":" https://www.pluralsight.com/courses/protocol-buffers-beyond-json-xml",
       "shortlink":"Moving Beyond JSON and XML with Protocol Buffers",
@@ -376,7 +384,7 @@ var achievements =  [
    },
    {
       "id":53,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"May 10th, 2018",
       "link":" https://www.pluralsight.com/courses/grpc-enhancing-application-communication",
       "shortlink":"Enhancing Application Communication with gRPC",
@@ -400,7 +408,7 @@ var achievements =  [
    },
    {
       "id":50,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"April 17th, 2018",
       "link":" http://shop.oreilly.com/product/0636920039518.do",
       "shortlink":"Distributed Systems",
@@ -408,7 +416,7 @@ var achievements =  [
    },
    {
       "id":49,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"April 6th, 2018",
       "link":" http://shop.oreilly.com/product/0636920047513.do",
       "shortlink":"Intermediate Go Programming",
@@ -416,7 +424,7 @@ var achievements =  [
    },
    {
       "id":48,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"April 3rd, 2018",
       "link":" https://www.udacity.com/course/gt-refresher-advanced-os--ud098",
       "shortlink":"Intro to Advanced Operating Systems",
@@ -424,7 +432,7 @@ var achievements =  [
    },
    {
       "id":47,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"March 25th, 2018",
       "link":" https://www.udacity.com/course/intro-to-theoretical-computer-science--cs313",
       "shortlink":"Intro to Theoretical Computer Science",
@@ -432,7 +440,7 @@ var achievements =  [
    },
    {
       "id":46,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"March 24th, 2018",
       "link":" http://shop.oreilly.com/product/0636920024774.do",
       "shortlink":"Mastering Advanced Git (O'Reilly)",
@@ -440,7 +448,7 @@ var achievements =  [
    },
    {
       "id":45,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"March 13th, 2018",
       "link":" http://shop.oreilly.com/product/0636920017462.do",
       "shortlink":"Mastering Git (O'Reilly)",
@@ -464,7 +472,7 @@ var achievements =  [
    },
    {
       "id":42,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"February 19th, 2018",
       "link":" https://www.udacity.com/course/c-for-programmers--ud210",
       "shortlink":"C++ For Programmers",
@@ -480,7 +488,7 @@ var achievements =  [
    },
    {
       "id":40,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"January 7th, 2018",
       "link":"https://www.udacity.com/course/firebase-in-a-weekend-by-google-android--ud0352",
       "shortlink":"Firebase in a Weekend: Android course by Google",
@@ -504,7 +512,7 @@ var achievements =  [
    },
    {
       "id":37,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"August 12th, 2017",
       "link":"https://www.pluralsight.com/courses/integrating-docker-with-devops-automated-workflows",
       "shortlink":"Integrating Docker with DevOps Automated Workflows",
@@ -520,7 +528,7 @@ var achievements =  [
    },
    {
       "id":35,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"June 7th, 2017",
       "link":"https://www.pluralsight.com/courses/docker-deep-dive",
       "shortlink":"Docker Deep Dive",
@@ -528,7 +536,7 @@ var achievements =  [
    },
    {
       "id":34,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"May 20th, 2017",
       "link":"https://www.pluralsight.com/courses/go-horizontal-scaling-apps",
       "shortlink":"Scaling Go Applications Horizontally",
@@ -536,7 +544,7 @@ var achievements =  [
    },
    {
       "id":33,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"May 8th, 2017",
       "link":"https://www.pluralsight.com/courses/oauth2-json-web-tokens-openid-connect-introduction",
       "shortlink":"Introduction to OAuth2, OpenID Connect and JSON Web Tokens (JWT)",
@@ -544,7 +552,7 @@ var achievements =  [
    },
    {
       "id":32,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"May 7th, 2017",
       "link":"https://www.pluralsight.com/courses/microservices-architecture",
       "shortlink":"Microservices Architecture",
@@ -552,7 +560,7 @@ var achievements =  [
    },
    {
       "id":31,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"March 19th, 2017",
       "link":"https://www.udacity.com/course/website-performance-optimization--ud884",
       "shortlink":"Website Performance Optimization by Google",
@@ -560,7 +568,7 @@ var achievements =  [
    },
    {
       "id":30,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"March 10th, 2017",
       "link":"https://www.pluralsight.com/courses/build-go-apps-gorilla-toolkit",
       "shortlink":"Building Better Go Web Apps with the Gorilla Toolkit",
@@ -576,7 +584,7 @@ var achievements =  [
    },
    {
       "id":28,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"January 29th, 2017",
       "link":"https://www.pluralsight.com/courses/gradle-fundamentals",
       "shortlink":"Gradle Fundamentals",
@@ -584,7 +592,7 @@ var achievements =  [
    },
    {
       "id":27,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"January 20th, 2017",
       "link":"https://www.pluralsight.com/courses/design-patterns-java-behavioral",
       "shortlink":"Design Patterns in Java: Behavioral",
@@ -592,7 +600,7 @@ var achievements =  [
    },
    {
       "id":26,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"January 10th, 2017",
       "link":"https://www.pluralsight.com/courses/java-8-whats-new",
       "shortlink":"What's new in Java 8",
@@ -600,7 +608,7 @@ var achievements =  [
    },
    {
       "id":25,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"December 30th, 2016",
       "link":"https://www.lynda.com/SSL-tutorials/Understanding-Secure-Sockets-Layer/178124-2.html",
       "shortlink":"Understanding Secure Sockets Layer",
@@ -608,7 +616,7 @@ var achievements =  [
    },
    {
       "id":24,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"December 16th, 2016",
       "link":"https://www.pluralsight.com/courses/play-by-play-docker-java-developers-arun-gupta-michael-hoffman",
       "shortlink":"Play by Play: Docker for Java Developers with Arun Gupta and Michael Hoffman",
@@ -616,7 +624,7 @@ var achievements =  [
    },
    {
       "id":23,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"December 9th, 2016",
       "link":"https://www.pluralsight.com/courses/spring-boot-efficient-development-configuration-deployment",
       "shortlink":"Spring Boot: Efficient Development, Configuration, and Deployment",
@@ -704,7 +712,7 @@ var achievements =  [
    },
    {
       "id":12,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"March 5th, 2016",
       "link":"https://mva.microsoft.com/en-US/training-courses/mean-stack-jump-start-8442",
       "shortlink":"MEAN Stack Jump Start",
@@ -712,7 +720,7 @@ var achievements =  [
    },
    {
       "id":11,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"February 27th, 2016",
       "link":"https://egghead.io/",
       "shortlink":"AngularJS course",
@@ -720,7 +728,7 @@ var achievements =  [
    },
    {
       "id":10,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"February 19th, 2016",
       "link":"https://www.codecademy.com/learn/learn-angularjs",
       "shortlink":"Learn AngularJS",
@@ -736,7 +744,7 @@ var achievements =  [
    },
    {
       "id":8,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"February 10th, 2016",
       "link":"https://www.udemy.com/learn-nodejs-by-building-10-projects/",
       "shortlink":"Learn Node.js by building 10 projects",
@@ -784,7 +792,7 @@ var achievements =  [
    },
    {
       "id":2,
-      "title":"Completed A Course",
+      "title":"Completed a Course",
       "date":"January 27th, 2016",
       "link":"https://www.pluralsight.com/courses/accelerated-introduction-cpp",
       "shortlink":"Accelerated Introduction C++",
@@ -928,6 +936,7 @@ var saPodcasts = [
 
 // {"title":"", "link": ""},
 var saArticles = [
+   {"title":"Goodbye, Object Oriented Programming", "link":"https://medium.com/@morpheu5/here-i-knew-this-was-coming-from-the-start-c2af96262b9"},
    {"title":"The Saddest Moment", "link": "https://www.usenix.org/system/files/login-logout_1305_mickens.pdf"},
    {"title":"How League Of Legends Scaled Chat To 70 Million Players", "link": "http://highscalability.com/blog/2014/10/13/how-league-of-legends-scaled-chat-to-70-million-players-it-t.html"},
    {"title":"How to beat the CAP theorem", "link": "http://nathanmarz.com/blog/how-to-beat-the-cap-theorem.html"}
