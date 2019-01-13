@@ -1,17 +1,24 @@
 var progress = [
+  {
+      "name": "Reading <a href='https://people.freebsd.org/~lstewart/articles/cpumemory.pdf' target='_blank'>What Every Programmer Should Know About Memory</a>",
+      "currentValue": 0,
+      "currentText": "",
+      "lastWeeksProgress": 0,
+      "weeklyProgress": ((5-0)/114)*100
+   },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/react-js-getting-started' target='_blank'>React.js: Getting Started</a>",
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 54,
-      "weeklyProgress": 100-54
+      "weeklyProgress": 100 -54
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/security-architecture-design-big-picture' target='_blank'>Security Architecture and Design: The Big Picture</a>",
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 16,
-      "weeklyProgress": 25-16
+      "weeklyProgress": 47-16
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/bigdata-bigpicture' target='_blank'>Big Data: The Big Picture</a>",
@@ -53,7 +60,7 @@ var progress = [
       "currentValue": ((320)/613)*100,
       "currentText": "",
       "lastWeeksProgress": ((343-320)/613)*100,
-      "weeklyProgress": 0
+      "weeklyProgress": ((352-343)/613)*100
    },
 	{
       "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
