@@ -3,64 +3,50 @@ var progress = [
       "name": "Reading <a href='https://people.freebsd.org/~lstewart/articles/cpumemory.pdf' target='_blank'>What Every Programmer Should Know About Memory</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": ((5-0)/114)*100
+      "lastWeeksProgress": ((5-0)/114)*100,
+      "weeklyProgress": 0
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/react-js-getting-started' target='_blank'>React.js: Getting Started</a>",
-      "currentValue": 0,
+      "currentValue": 54,
       "currentText": "",
-      "lastWeeksProgress": 54,
-      "weeklyProgress": 100 -54
+      "lastWeeksProgress": 100 -54,
+      "weeklyProgress": 0
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/security-architecture-design-big-picture' target='_blank'>Security Architecture and Design: The Big Picture</a>",
-      "currentValue": 0,
+      "currentValue": 16,
       "currentText": "",
-      "lastWeeksProgress": 16,
-      "weeklyProgress": 47-16
-   },
-   {
-      "name": "Completing a course: <a href='https://www.pluralsight.com/courses/bigdata-bigpicture' target='_blank'>Big Data: The Big Picture</a>",
-      "currentValue": 0,
-      "currentText": "",
-      "lastWeeksProgress": 100,
+      "lastWeeksProgress": 47-16,
       "weeklyProgress": 0
    },
    {
-      "name": "Completing a course: <a href='https://www.pluralsight.com/courses/cqrs-theory-practice' target='_blank'>Patterns for Building Distributed Systems for The Enterprise</a>",
+      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Pale-Blue-Dot-Audiobook/B06XTJN84L' target='_blank'>Pale Blue Dot</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 100,
-      "weeklyProgress": 0
-   },
-   {
-      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Chaos-Audiobook/B004I7C00O?ref=a_lib_c4_libItem_0_B004I7C00O&pf_rd_p=ae76b2bb-e63d-4a67-b357-dab3dee05ca1&pf_rd_r=Y5FB770H8Q672GTQRA7H&' target='_blank'>Chaos - Making a New Science</a>",
-      "currentValue": (653-605)/653*100,
-      "currentText": "",
-      "lastWeeksProgress": (605-453)/653*100,
-      "weeklyProgress": 0
+      "lastWeeksProgress": ((142-0)/798)*100,
+      "weeklyProgress": ((164-142)/798)*100
    },
    {
       "name": "Reading a book: <a href='https://www.crcpress.com/Essentials-of-Computer-Architecture/Comer/p/book/9781138626591' target='_blank'>Essentials of Computer Architecture</a>",
-      "currentValue": ((36-0)/536)*100,
+      "currentValue": ((78-0)/536)*100,
       "currentText": "",
-      "lastWeeksProgress": ((78-36)/536)*100,
-      "weeklyProgress": ((94-78)/536)*100
+      "lastWeeksProgress": ((103-78)/536)*100,
+      "weeklyProgress": 0
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/rethinking-asynchronous-programming' target='_blank'>Rethinking Asynchronous Programming</a>",
-      "currentValue": 43,
+      "currentValue": 64,
       "currentText": "",
-      "lastWeeksProgress": 64-43,
-      "weeklyProgress": 72-64
+      "lastWeeksProgress": 72-64,
+      "weeklyProgress": 0
    },
 	{
       "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920032175.do' target='_blank'>Designing Data-Intensive Applications</a>",
-      "currentValue": ((320)/613)*100,
+      "currentValue": ((343)/613)*100,
       "currentText": "",
-      "lastWeeksProgress": ((343-320)/613)*100,
-      "weeklyProgress": ((352-343)/613)*100
+      "lastWeeksProgress": ((352-343)/613)*100,
+      "weeklyProgress": 0
    },
 	{
       "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
