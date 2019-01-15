@@ -930,6 +930,7 @@ var saPodcasts = [
 
 // {"title":"", "link": ""},
 var saArticles = [
+   {"title":"Linearizability versus Serializability", "link": "http://www.bailis.org/blog/linearizability-versus-serializability/"},
    {"title":"Goodbye, Object Oriented Programming", "link":"https://medium.com/@morpheu5/here-i-knew-this-was-coming-from-the-start-c2af96262b9"},
    {"title":"The Saddest Moment", "link": "https://www.usenix.org/system/files/login-logout_1305_mickens.pdf"},
    {"title":"How League Of Legends Scaled Chat To 70 Million Players", "link": "http://highscalability.com/blog/2014/10/13/how-league-of-legends-scaled-chat-to-70-million-players-it-t.html"},
