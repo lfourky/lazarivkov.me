@@ -25,7 +25,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": ((142-0)/798)*100,
-      "weeklyProgress": ((185-142)/798)*100
+      "weeklyProgress": ((225-142)/798)*100
    },
    {
       "name": "Reading a book: <a href='https://www.crcpress.com/Essentials-of-Computer-Architecture/Comer/p/book/9781138626591' target='_blank'>Essentials of Computer Architecture</a>",
