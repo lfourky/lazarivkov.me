@@ -18,7 +18,7 @@ var progress = [
       "currentValue": 16,
       "currentText": "",
       "lastWeeksProgress": 47-16,
-      "weeklyProgress": 0
+      "weeklyProgress": 50-47
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Pale-Blue-Dot-Audiobook/B06XTJN84L' target='_blank'>Pale Blue Dot</a>",
