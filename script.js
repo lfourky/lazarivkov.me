@@ -18,7 +18,7 @@ var progress = [
       "currentValue": 16,
       "currentText": "",
       "lastWeeksProgress": 47-16,
-      "weeklyProgress": 87-47
+      "weeklyProgress": 100-47
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Pale-Blue-Dot-Audiobook/B06XTJN84L' target='_blank'>Pale Blue Dot</a>",
@@ -103,6 +103,14 @@ var progress = [
 */
 
 var achievements =  [
+   {
+      "id":88,
+      "title":"Completed a Course",
+      "date":"January 20th, 2019",
+      "link":"https://www.pluralsight.com/courses/security-architecture-design-big-picture",
+      "shortlink":"Security Architecture and Design: The Big Picture",
+      "text":""
+   },
    {
       "id":87,
       "title":"Completed a Course",
@@ -932,6 +940,7 @@ var saPodcasts = [
 
 // {"title":"", "link": ""},
 var saArticles = [
+   {"title":"SSD Storage - Ignorance of Technology is No Excuse", "link": "https://blog.korelogic.com/blog/2015/03/24#ssds-evidence-storage-issues"},
    {"title":"Linearizability versus Serializability", "link": "http://www.bailis.org/blog/linearizability-versus-serializability/"},
    {"title":"Goodbye, Object Oriented Programming", "link":"https://medium.com/@morpheu5/here-i-knew-this-was-coming-from-the-start-c2af96262b9"},
    {"title":"The Saddest Moment", "link": "https://www.usenix.org/system/files/login-logout_1305_mickens.pdf"},
