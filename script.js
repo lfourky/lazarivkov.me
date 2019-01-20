@@ -18,21 +18,21 @@ var progress = [
       "currentValue": 16,
       "currentText": "",
       "lastWeeksProgress": 47-16,
-      "weeklyProgress": 50-47
+      "weeklyProgress": 87-47
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Pale-Blue-Dot-Audiobook/B06XTJN84L' target='_blank'>Pale Blue Dot</a>",
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": ((142-0)/798)*100,
-      "weeklyProgress": ((225-142)/798)*100
+      "weeklyProgress": ((245-142)/798)*100
    },
    {
       "name": "Reading a book: <a href='https://www.crcpress.com/Essentials-of-Computer-Architecture/Comer/p/book/9781138626591' target='_blank'>Essentials of Computer Architecture</a>",
       "currentValue": ((78-0)/536)*100,
       "currentText": "",
       "lastWeeksProgress": ((103-78)/536)*100,
-      "weeklyProgress": ((110-103)/536)*100
+      "weeklyProgress": ((112-103)/536)*100
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/rethinking-asynchronous-programming' target='_blank'>Rethinking Asynchronous Programming</a>",
