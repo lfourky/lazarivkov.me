@@ -62,7 +62,7 @@ var progress = [
       "currentValue": 64,
       "currentText": "",
       "lastWeeksProgress": 72 - 64,
-      "weeklyProgress": 0
+      "weeklyProgress": 81
    },
    {
       "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920032175.do' target='_blank'>Designing Data-Intensive Applications</a>",
