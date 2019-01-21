@@ -12,64 +12,57 @@ var progress = [
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/react-flux-building-applications' target='_blank'>Building Applications with React and Flux</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 1
+      "lastWeeksProgress": 1,
+      "weeklyProgress": 0
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/regular-expressions-fundamentals' target='_blank'>Regular Expression Fundamentals</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 81
-   },
-   {
-      "name": "Reading <a href='https://people.freebsd.org/~lstewart/articles/cpumemory.pdf' target='_blank'>What Every Programmer Should Know About Memory</a>",
-      "currentValue": 0,
-      "currentText": "",
-      "lastWeeksProgress": ((5 - 0) / 114) * 100,
+      "lastWeeksProgress": 81,
       "weeklyProgress": 0
    },
    {
-      "name": "Completing a course: <a href='https://www.pluralsight.com/courses/react-js-getting-started' target='_blank'>React.js: Getting Started</a>",
-      "currentValue": 54,
+      "name": "Reading <a href='https://people.freebsd.org/~lstewart/articles/cpumemory.pdf' target='_blank'>What Every Programmer Should Know About Memory</a>",
+      "currentValue": ((5 - 0) / 114) * 100,
       "currentText": "",
-      "lastWeeksProgress": 100 - 54,
+      "lastWeeksProgress": 0,
       "weeklyProgress": 0
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/security-architecture-design-big-picture' target='_blank'>Security Architecture and Design: The Big Picture</a>",
-      "currentValue": 16,
+      "currentValue": 47,
       "currentText": "",
-      "lastWeeksProgress": 47 - 16,
-      "weeklyProgress": 100 - 47
+      "lastWeeksProgress": 100 - 47,
+      "weeklyProgress": 0
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Pale-Blue-Dot-Audiobook/B06XTJN84L' target='_blank'>Pale Blue Dot</a>",
-      "currentValue": 0,
+      "currentValue": 142,
       "currentText": "",
-      "lastWeeksProgress": ((142 - 0) / 798) * 100,
-      "weeklyProgress": ((245 - 142) / 798) * 100
+      "lastWeeksProgress": ((245 - 142) / 798) * 100,
+      "weeklyProgress": 0
    },
    {
       "name": "Reading a book: <a href='https://www.crcpress.com/Essentials-of-Computer-Architecture/Comer/p/book/9781138626591' target='_blank'>Essentials of Computer Architecture</a>",
-      "currentValue": ((78 - 0) / 536) * 100,
+      "currentValue": ((103 - 0) / 536) * 100,
       "currentText": "",
-      "lastWeeksProgress": ((103 - 78) / 536) * 100,
-      "weeklyProgress": ((112 - 103) / 536) * 100
+      "lastWeeksProgress": ((112 - 103) / 536) * 100,
+      "weeklyProgress": 0
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/rethinking-asynchronous-programming' target='_blank'>Rethinking Asynchronous Programming</a>",
-      "currentValue": 64,
+      "currentValue": 72,
       "currentText": "",
-      "lastWeeksProgress": 72 - 64,
-      "weeklyProgress": 81
+      "lastWeeksProgress": 81 - 72,
+      "weeklyProgress": 0
    },
    {
       "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920032175.do' target='_blank'>Designing Data-Intensive Applications</a>",
-      "currentValue": ((343) / 613) * 100,
+      "currentValue": ((352) / 613) * 100,
       "currentText": "",
-      "lastWeeksProgress": ((352 - 343) / 613) * 100,
-      "weeklyProgress": ((356 - 352) / 613) * 100
+      "lastWeeksProgress": ((356 - 352) / 613) * 100,
+      "weeklyProgress": 0
    },
    {
       "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
