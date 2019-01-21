@@ -20,7 +20,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 81,
-      "weeklyProgress": 0
+      "weeklyProgress": 19
    },
    {
       "name": "Reading <a href='https://people.freebsd.org/~lstewart/articles/cpumemory.pdf' target='_blank'>What Every Programmer Should Know About Memory</a>",
@@ -119,6 +119,14 @@ var progress = [
 */
 
 var achievements =  [
+   {
+      "id":89,
+      "title":"Completed a Course",
+      "date":"January 21st, 2019",
+      "link":"https://www.pluralsight.com/courses/regular-expressions-fundamentals",
+      "shortlink":"Regular Expression Fundamentals",
+      "text":""
+   },
    {
       "id":88,
       "title":"Completed a Course",
