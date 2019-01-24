@@ -9,11 +9,11 @@
 */
 var progress = [
    {
-      "name": "Completing a course: <a href='https://www.pluralsight.com/courses/react-flux-building-applications' target='_blank'>Building Applications with React and Flux</a>",
+      "name": "Completing a course: <a href='https://www.pluralsight.com/courses/react-practical-start' target='_blank'>A Practical Start with React</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 1,
-      "weeklyProgress": 0
+      "lastWeeksProgress": 0,
+      "weeklyProgress": 12
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/regular-expressions-fundamentals' target='_blank'>Regular Expression Fundamentals</a>",
