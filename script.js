@@ -48,7 +48,7 @@ var progress = [
       "currentValue": ((103 - 0) / 536) * 100,
       "currentText": "",
       "lastWeeksProgress": ((112 - 103) / 536) * 100,
-      "weeklyProgress": 0
+      "weeklyProgress":  ((134 - 112) / 536) * 100
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/rethinking-asynchronous-programming' target='_blank'>Rethinking Asynchronous Programming</a>",
