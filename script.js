@@ -13,7 +13,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": 31
+      "weeklyProgress": 100
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/regular-expressions-fundamentals' target='_blank'>Regular Expression Fundamentals</a>",
@@ -119,6 +119,14 @@ var progress = [
 */
 
 var achievements =  [
+   {
+      "id":90,
+      "title":"Completed a Course",
+      "date":"January 26th, 2019",
+      "link":"https://www.pluralsight.com/courses/react-practical-start",
+      "shortlink":"A Practical Start with React",
+      "text":""
+   },
    {
       "id":89,
       "title":"Completed a Course",
