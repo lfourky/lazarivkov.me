@@ -973,6 +973,8 @@ var saPodcasts = [
 
 // {"title":"", "link": ""},
 var saArticles = [
+   {"title":"Event Sourcing - AxonIQ", "link": "https://axoniq.io/resources/event-sourcing"},
+   {"title":"Using Golang to Build Microservices at The Economist: A Retrospective", "link": "https://www.infoq.com/articles/golang-the-economist"},
    {"title":"SSD Storage - Ignorance of Technology is No Excuse", "link": "https://blog.korelogic.com/blog/2015/03/24#ssds-evidence-storage-issues"},
    {"title":"Linearizability versus Serializability", "link": "http://www.bailis.org/blog/linearizability-versus-serializability/"},
    {"title":"Goodbye, Object Oriented Programming", "link":"https://medium.com/@morpheu5/here-i-knew-this-was-coming-from-the-start-c2af96262b9"},
