@@ -12,15 +12,15 @@ var progress = [
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/react-practical-start' target='_blank'>A Practical Start with React</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 100
+      "lastWeeksProgress": 100,
+      "weeklyProgress": 0
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/regular-expressions-fundamentals' target='_blank'>Regular Expression Fundamentals</a>",
-      "currentValue": 0,
+      "currentValue": 81,
       "currentText": "",
-      "lastWeeksProgress": 81,
-      "weeklyProgress": 19
+      "lastWeeksProgress": 19,
+      "weeklyProgress": 0
    },
    {
       "name": "Reading <a href='https://people.freebsd.org/~lstewart/articles/cpumemory.pdf' target='_blank'>What Every Programmer Should Know About Memory</a>",
@@ -30,38 +30,31 @@ var progress = [
       "weeklyProgress": 0
    },
    {
-      "name": "Completing a course: <a href='https://www.pluralsight.com/courses/security-architecture-design-big-picture' target='_blank'>Security Architecture and Design: The Big Picture</a>",
-      "currentValue": 47,
-      "currentText": "",
-      "lastWeeksProgress": 100 - 47,
-      "weeklyProgress": 0
-   },
-   {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Pale-Blue-Dot-Audiobook/B06XTJN84L' target='_blank'>Pale Blue Dot</a>",
       "currentValue": ((245) / 798) * 100,
       "currentText": "",
-      "lastWeeksProgress": ((245 - 142) / 798) * 100,
+      "lastWeeksProgress": 0,
       "weeklyProgress": 0
    },
    {
       "name": "Reading a book: <a href='https://www.crcpress.com/Essentials-of-Computer-Architecture/Comer/p/book/9781138626591' target='_blank'>Essentials of Computer Architecture</a>",
-      "currentValue": ((103 - 0) / 536) * 100,
+      "currentValue": ((112 - 0) / 536) * 100,
       "currentText": "",
-      "lastWeeksProgress": ((112 - 103) / 536) * 100,
-      "weeklyProgress":  ((134 - 112) / 536) * 100
+      "lastWeeksProgress": ((134 - 112) / 536) * 100,
+      "weeklyProgress":  0
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/rethinking-asynchronous-programming' target='_blank'>Rethinking Asynchronous Programming</a>",
-      "currentValue": 72,
+      "currentValue": 81,
       "currentText": "",
-      "lastWeeksProgress": 81 - 72,
-      "weeklyProgress": 92-81
+      "lastWeeksProgress": 92-81,
+      "weeklyProgress": 0
    },
    {
       "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920032175.do' target='_blank'>Designing Data-Intensive Applications</a>",
-      "currentValue": ((352) / 613) * 100,
+      "currentValue": ((356) / 613) * 100,
       "currentText": "",
-      "lastWeeksProgress": ((356 - 352) / 613) * 100,
+      "lastWeeksProgress": 0,
       "weeklyProgress": 0
    },
    {
@@ -973,6 +966,7 @@ var saPodcasts = [
 
 // {"title":"", "link": ""},
 var saArticles = [
+   {"title":"The C4 Model for Software Architecture", "link": "https://www.infoq.com/articles/C4-architecture-model"},
    {"title":"What We Got Wrong: Lessons from the Birth of Microservices", "link": "https://www.infoq.com/presentations/google-microservices"},
    {"title":"Microservices in a Post-Kubernetes Era", "link": "https://www.infoq.com/articles/microservices-post-kubernetes?utm_campaign=rightbar_v2&utm_source=infoq&utm_medium=articles_link&utm_content=link_text"},
    {"title":"Event Sourcing - AxonIQ", "link": "https://axoniq.io/resources/event-sourcing"},
