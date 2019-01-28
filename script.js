@@ -966,6 +966,7 @@ var saPodcasts = [
 
 // {"title":"", "link": ""},
 var saArticles = [
+   {"title":"Designing Events-First Microservices", "link": "https://www.infoq.com/presentations/microservices-events-first-design"},
    {"title":"The C4 Model for Software Architecture", "link": "https://www.infoq.com/articles/C4-architecture-model"},
    {"title":"What We Got Wrong: Lessons from the Birth of Microservices", "link": "https://www.infoq.com/presentations/google-microservices"},
    {"title":"Microservices in a Post-Kubernetes Era", "link": "https://www.infoq.com/articles/microservices-post-kubernetes?utm_campaign=rightbar_v2&utm_source=infoq&utm_medium=articles_link&utm_content=link_text"},
