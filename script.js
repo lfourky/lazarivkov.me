@@ -48,7 +48,7 @@ var progress = [
       "currentValue": 81,
       "currentText": "",
       "lastWeeksProgress": 92-81,
-      "weeklyProgress": 0
+      "weeklyProgress": 8
    },
    {
       "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920032175.do' target='_blank'>Designing Data-Intensive Applications</a>",
@@ -112,6 +112,14 @@ var progress = [
 */
 
 var achievements =  [
+   {
+      "id":91,
+      "title":"Completed a Course",
+      "date":"February 1st, 2019",
+      "link":"https://www.pluralsight.com/courses/rethinking-asynchronous-programming",
+      "shortlink":"Rethinking Asynchronous Programming",
+      "text":""
+   },
    {
       "id":90,
       "title":"Completed a Course",
