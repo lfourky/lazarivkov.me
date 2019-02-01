@@ -26,7 +26,7 @@ var progress = [
       "name": "Reading <a href='https://people.freebsd.org/~lstewart/articles/cpumemory.pdf' target='_blank'>What Every Programmer Should Know About Memory</a>",
       "currentValue": ((5 - 0) / 114) * 100,
       "currentText": "",
-      "lastWeeksProgress": 0,
+      "lastWeeksProgress": ((7 - 5) / 114) * 100,
       "weeklyProgress": 0
    },
    {
@@ -34,7 +34,7 @@ var progress = [
       "currentValue": ((245) / 798) * 100,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": 0
+      "weeklyProgress": ((283-245) / 798) * 100
    },
    {
       "name": "Reading a book: <a href='https://www.crcpress.com/Essentials-of-Computer-Architecture/Comer/p/book/9781138626591' target='_blank'>Essentials of Computer Architecture</a>",
