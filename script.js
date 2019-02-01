@@ -26,7 +26,7 @@ var progress = [
       "name": "Reading <a href='https://people.freebsd.org/~lstewart/articles/cpumemory.pdf' target='_blank'>What Every Programmer Should Know About Memory</a>",
       "currentValue": ((5 - 0) / 114) * 100,
       "currentText": "",
-      "lastWeeksProgress": ((7 - 5) / 114) * 100,
+      "lastWeeksProgress": ((9 - 5) / 114) * 100,
       "weeklyProgress": 0
    },
    {
@@ -41,7 +41,7 @@ var progress = [
       "currentValue": ((112 - 0) / 536) * 100,
       "currentText": "",
       "lastWeeksProgress": ((134 - 112) / 536) * 100,
-      "weeklyProgress":  0
+      "weeklyProgress":  ((137 - 134) / 536) * 100
    },
    {
       "name": "Completing a course: <a href='https://www.pluralsight.com/courses/rethinking-asynchronous-programming' target='_blank'>Rethinking Asynchronous Programming</a>",
