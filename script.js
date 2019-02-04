@@ -9,46 +9,25 @@
 */
 var progress = [
    {
-      "name": "Completing a course: <a href='https://www.pluralsight.com/courses/react-practical-start' target='_blank'>A Practical Start with React</a>",
-      "currentValue": 0,
-      "currentText": "",
-      "lastWeeksProgress": 100,
-      "weeklyProgress": 0
-   },
-   {
-      "name": "Completing a course: <a href='https://www.pluralsight.com/courses/regular-expressions-fundamentals' target='_blank'>Regular Expression Fundamentals</a>",
-      "currentValue": 81,
-      "currentText": "",
-      "lastWeeksProgress": 19,
-      "weeklyProgress": 0
-   },
-   {
       "name": "Reading <a href='https://people.freebsd.org/~lstewart/articles/cpumemory.pdf' target='_blank'>What Every Programmer Should Know About Memory</a>",
-      "currentValue": ((5 - 0) / 114) * 100,
+      "currentValue": (9 / 114) * 100,
       "currentText": "",
-      "lastWeeksProgress": ((9 - 5) / 114) * 100,
+      "lastWeeksProgress": 0,
       "weeklyProgress": 0
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Pale-Blue-Dot-Audiobook/B06XTJN84L' target='_blank'>Pale Blue Dot</a>",
       "currentValue": ((245) / 798) * 100,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": ((283-245) / 798) * 100
+      "lastWeeksProgress": ((283-245) / 798) * 100,
+      "weeklyProgress": 0
    },
    {
       "name": "Reading a book: <a href='https://www.crcpress.com/Essentials-of-Computer-Architecture/Comer/p/book/9781138626591' target='_blank'>Essentials of Computer Architecture</a>",
-      "currentValue": ((112 - 0) / 536) * 100,
+      "currentValue": ((134 - 0) / 536) * 100,
       "currentText": "",
-      "lastWeeksProgress": ((134 - 112) / 536) * 100,
-      "weeklyProgress":  ((137 - 134) / 536) * 100
-   },
-   {
-      "name": "Completing a course: <a href='https://www.pluralsight.com/courses/rethinking-asynchronous-programming' target='_blank'>Rethinking Asynchronous Programming</a>",
-      "currentValue": 81,
-      "currentText": "",
-      "lastWeeksProgress": 92-81,
-      "weeklyProgress": 8
+      "lastWeeksProgress": ((137 - 134) / 536) * 100,
+      "weeklyProgress":  0
    },
    {
       "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920032175.do' target='_blank'>Designing Data-Intensive Applications</a>",
