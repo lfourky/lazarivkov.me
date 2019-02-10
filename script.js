@@ -12,8 +12,8 @@ var progress = [
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Big-Data-Audiobook/B00D35YRPS' target='_blank'>Big Data - A Revolution That Will Transform How We Live, Work, and Think</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": (160 / 676) * 100
+      "lastWeeksProgress": (160 / 676) * 100,
+      "weeklyProgress": 0
    },
    {
       "name": "Reading <a href='https://people.freebsd.org/~lstewart/articles/cpumemory.pdf' target='_blank'>What Every Programmer Should Know About Memory</a>",
@@ -24,24 +24,24 @@ var progress = [
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Pale-Blue-Dot-Audiobook/B06XTJN84L' target='_blank'>Pale Blue Dot</a>",
-      "currentValue": ((245) / 798) * 100,
+      "currentValue": ((283) / 798) * 100,
       "currentText": "",
-      "lastWeeksProgress": ((283-245) / 798) * 100,
-      "weeklyProgress": ((333-283) / 798) * 100
+      "lastWeeksProgress": ((333-283) / 798) * 100,
+      "weeklyProgress": 0
    },
    {
       "name": "Reading a book: <a href='https://www.crcpress.com/Essentials-of-Computer-Architecture/Comer/p/book/9781138626591' target='_blank'>Essentials of Computer Architecture</a>",
-      "currentValue": ((134 - 0) / 536) * 100,
+      "currentValue": ((137 - 0) / 536) * 100,
       "currentText": "",
-      "lastWeeksProgress": ((137 - 134) / 536) * 100,
-      "weeklyProgress":  0
+      "lastWeeksProgress": ((140 - 137) / 536) * 100,
+      "weeklyProgress": 0
    },
    {
       "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920032175.do' target='_blank'>Designing Data-Intensive Applications</a>",
       "currentValue": ((356) / 613) * 100,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": ((373-356) / 613) * 100
+      "lastWeeksProgress": ((373-356) / 613) * 100,
+      "weeklyProgress": 0
    },
    {
       "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
