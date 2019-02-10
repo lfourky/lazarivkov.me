@@ -12,8 +12,8 @@ var progress = [
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Big-Data-Audiobook/B00D35YRPS' target='_blank'>Big Data - A Revolution That Will Transform How We Live, Work, and Think</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": (160 / 676) * 100,
-      "weeklyProgress": 0
+      "lastWeeksProgress": (170 / 676) * 100,
+      "weeklyProgress":  0
    },
    {
       "name": "Reading <a href='https://people.freebsd.org/~lstewart/articles/cpumemory.pdf' target='_blank'>What Every Programmer Should Know About Memory</a>",
