@@ -34,7 +34,7 @@ var progress = [
       "currentValue": ((137 - 0) / 536) * 100,
       "currentText": "",
       "lastWeeksProgress": ((140 - 137) / 536) * 100,
-      "weeklyProgress": 0
+      "weeklyProgress": ((152 - 140) / 536) * 100
    },
    {
       "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920032175.do' target='_blank'>Designing Data-Intensive Applications</a>",
