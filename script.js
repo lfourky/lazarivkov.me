@@ -962,6 +962,7 @@ var saPodcasts = [
 
 // {"title":"", "link": ""},
 var saArticles = [
+   {"title":"Checklist: what has to be done before deploying microservices to production", "link": "https://habr.com/en/post/438186/"},
    {"title":"Designing Events-First Microservices", "link": "https://www.infoq.com/presentations/microservices-events-first-design"},
    {"title":"The C4 Model for Software Architecture", "link": "https://www.infoq.com/articles/C4-architecture-model"},
    {"title":"What We Got Wrong: Lessons from the Birth of Microservices", "link": "https://www.infoq.com/presentations/google-microservices"},
