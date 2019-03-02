@@ -13,7 +13,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress":  1
+      "weeklyProgress": ((34-0) / 573) * 100
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Big-Data-Audiobook/B00D35YRPS' target='_blank'>Big Data - A Revolution That Will Transform How We Live, Work, and Think</a>",
