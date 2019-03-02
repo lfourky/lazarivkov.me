@@ -9,6 +9,13 @@
 */
 var progress = [
    {
+      "name": "Completing a course: <a href='https://www.coursera.org/learn/build-a-computer' target='_blank'>Build a Modern Computer from First Principles: From Nand to Tetris </a>",
+      "currentValue": 0,
+      "currentText": "",
+      "lastWeeksProgress": 0,
+      "weeklyProgress": 5
+   },
+   {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Extreme-Ownership-Audiobook/B015TVHUA2' target='_blank'>Extreme Ownership</a>",
       "currentValue": 0,
       "currentText": "",
