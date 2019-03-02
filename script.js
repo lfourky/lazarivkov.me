@@ -9,11 +9,18 @@
 */
 var progress = [
    {
-      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Big-Data-Audiobook/B00D35YRPS' target='_blank'>Big Data - A Revolution That Will Transform How We Live, Work, and Think</a>",
+      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Extreme-Ownership-Audiobook/B015TVHUA2' target='_blank'>Extreme Ownership</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": (170 / 676) * 100,
-      "weeklyProgress":  ((425-170) / 676) * 100
+      "lastWeeksProgress": 0,
+      "weeklyProgress":  1
+   },
+   {
+      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Big-Data-Audiobook/B00D35YRPS' target='_blank'>Big Data - A Revolution That Will Transform How We Live, Work, and Think</a>",
+      "currentValue": (425 / 676) * 100,
+      "currentText": "",
+      "lastWeeksProgress": 0,
+      "weeklyProgress":  ((676-425) / 676) * 100
    },
    {
       "name": "Reading <a href='https://people.freebsd.org/~lstewart/articles/cpumemory.pdf' target='_blank'>What Every Programmer Should Know About Memory</a>",
@@ -24,23 +31,23 @@ var progress = [
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Pale-Blue-Dot-Audiobook/B06XTJN84L' target='_blank'>Pale Blue Dot</a>",
-      "currentValue": ((283) / 798) * 100,
+      "currentValue": ((333) / 798) * 100,
       "currentText": "",
-      "lastWeeksProgress": ((333-283) / 798) * 100,
+      "lastWeeksProgress": 0,
       "weeklyProgress": 0
    },
    {
       "name": "Reading a book: <a href='https://www.crcpress.com/Essentials-of-Computer-Architecture/Comer/p/book/9781138626591' target='_blank'>Essentials of Computer Architecture</a>",
-      "currentValue": ((137 - 0) / 536) * 100,
+      "currentValue": ((140 - 0) / 536) * 100,
       "currentText": "",
-      "lastWeeksProgress": ((140 - 137) / 536) * 100,
-      "weeklyProgress": ((165 - 140) / 536) * 100
+      "lastWeeksProgress": ((174 - 140) / 536) * 100,
+      "weeklyProgress": 0
    },
    {
       "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920032175.do' target='_blank'>Designing Data-Intensive Applications</a>",
-      "currentValue": ((356) / 613) * 100,
+      "currentValue": ((373) / 613) * 100,
       "currentText": "",
-      "lastWeeksProgress": ((373-356) / 613) * 100,
+      "lastWeeksProgress": 0,
       "weeklyProgress": 0
    },
    {
@@ -52,10 +59,10 @@ var progress = [
    },
    {
       "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
-      "currentValue": 69,
-      "currentText": "Paused",
+      "currentValue": 0,
+      "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": 0
+      "weeklyProgress": 9
    }
 ]
 
