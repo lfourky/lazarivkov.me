@@ -12,22 +12,22 @@ var progress = [
       "name": "Completing a course: <a href='https://www.coursera.org/learn/build-a-computer' target='_blank'>Build a Modern Computer from First Principles: From Nand to Tetris </a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 5
+      "lastWeeksProgress": 5,
+      "weeklyProgress": 3
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Extreme-Ownership-Audiobook/B015TVHUA2' target='_blank'>Extreme Ownership</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": ((34-0) / 573) * 100
+      "lastWeeksProgress": ((34-0) / 573) * 100,
+      "weeklyProgress": ((130-34) / 573) * 100
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Big-Data-Audiobook/B00D35YRPS' target='_blank'>Big Data - A Revolution That Will Transform How We Live, Work, and Think</a>",
       "currentValue": (425 / 676) * 100,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress":  ((676-425) / 676) * 100
+      "lastWeeksProgress": ((676-425) / 676) * 100,
+      "weeklyProgress":  0
    },
    {
       "name": "Reading <a href='https://people.freebsd.org/~lstewart/articles/cpumemory.pdf' target='_blank'>What Every Programmer Should Know About Memory</a>",
@@ -45,9 +45,9 @@ var progress = [
    },
    {
       "name": "Reading a book: <a href='https://www.crcpress.com/Essentials-of-Computer-Architecture/Comer/p/book/9781138626591' target='_blank'>Essentials of Computer Architecture</a>",
-      "currentValue": ((140 - 0) / 536) * 100,
+      "currentValue": ((174 - 0) / 536) * 100,
       "currentText": "",
-      "lastWeeksProgress": ((174 - 140) / 536) * 100,
+      "lastWeeksProgress": 0,
       "weeklyProgress": 0
    },
    {
@@ -68,8 +68,8 @@ var progress = [
       "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 9
+      "lastWeeksProgress": 9,
+      "weeklyProgress": 0
    }
 ]
 
