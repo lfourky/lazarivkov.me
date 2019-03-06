@@ -1030,7 +1030,7 @@ populateResearchPapers();
 
 function alertVisitor() {
         $.ajax({
-            url: "https://l4ky.xyz:35000/alert/visitor",
+            url: "https://l4ky.xyz/sitealert/alert/visitor",
             crossDomain: true, 
             withCredentials:false,
             type: 'GET'
