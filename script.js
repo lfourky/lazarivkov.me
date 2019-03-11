@@ -985,6 +985,7 @@ var saPodcasts = [
 
 // {"title":"", "link": ""},
 var saArticles = [
+   {"title":"Monkey Patching in Go", "link": "https://bou.ke/blog/monkey-patching-in-go/"},
    {"title":"Checklist: what has to be done before deploying microservices to production", "link": "https://habr.com/en/post/438186/"},
    {"title":"Designing Events-First Microservices", "link": "https://www.infoq.com/presentations/microservices-events-first-design"},
    {"title":"The C4 Model for Software Architecture", "link": "https://www.infoq.com/articles/C4-architecture-model"},
