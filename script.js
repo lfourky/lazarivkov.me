@@ -10,31 +10,24 @@
 var progress = [
    {
       "name": "Completing a course: <a href='https://www.coursera.org/learn/build-a-computer' target='_blank'>Build a Modern Computer from First Principles: From Nand to Tetris </a>",
-      "currentValue": 0,
+      "currentValue": 5,
       "currentText": "",
-      "lastWeeksProgress": 5,
-      "weeklyProgress": 3
+      "lastWeeksProgress": 3,
+      "weeklyProgress": 0
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Extreme-Ownership-Audiobook/B015TVHUA2' target='_blank'>Extreme Ownership</a>",
-      "currentValue": 0,
+      "currentValue": ((34-0) / 573) * 100,
       "currentText": "",
-      "lastWeeksProgress": ((34-0) / 573) * 100,
-      "weeklyProgress": ((162-34) / 573) * 100
-   },
-   {
-      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Big-Data-Audiobook/B00D35YRPS' target='_blank'>Big Data - A Revolution That Will Transform How We Live, Work, and Think</a>",
-      "currentValue": (425 / 676) * 100,
-      "currentText": "",
-      "lastWeeksProgress": ((676-425) / 676) * 100,
-      "weeklyProgress":  0
+      "lastWeeksProgress": ((162-34) / 573) * 100,
+      "weeklyProgress": 0
    },
    {
       "name": "Reading <a href='https://people.freebsd.org/~lstewart/articles/cpumemory.pdf' target='_blank'>What Every Programmer Should Know About Memory</a>",
       "currentValue": (9 / 114) * 100,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": ((17-9) / 114) * 100
+      "lastWeeksProgress": ((17-9) / 114) * 100,
+      "weeklyProgress": 0
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Pale-Blue-Dot-Audiobook/B06XTJN84L' target='_blank'>Pale Blue Dot</a>",
@@ -66,9 +59,9 @@ var progress = [
    },
    {
       "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
-      "currentValue": 0,
+      "currentValue": 9,
       "currentText": "",
-      "lastWeeksProgress": 9,
+      "lastWeeksProgress": 0,
       "weeklyProgress": 0
    }
 ]
