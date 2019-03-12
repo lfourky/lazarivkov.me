@@ -20,7 +20,7 @@ var progress = [
       "currentValue": ((34-0) / 573) * 100,
       "currentText": "",
       "lastWeeksProgress": ((162-34) / 573) * 100,
-      "weeklyProgress": 0
+      "weeklyProgress": ((180-162) / 573) * 100
    },
    {
       "name": "Reading <a href='https://people.freebsd.org/~lstewart/articles/cpumemory.pdf' target='_blank'>What Every Programmer Should Know About Memory</a>",
