@@ -13,14 +13,14 @@ var progress = [
       "currentValue": 5,
       "currentText": "",
       "lastWeeksProgress": 3,
-      "weeklyProgress": 0
+      "weeklyProgress": 3
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Extreme-Ownership-Audiobook/B015TVHUA2' target='_blank'>Extreme Ownership</a>",
       "currentValue": ((34-0) / 573) * 100,
       "currentText": "",
       "lastWeeksProgress": ((162-34) / 573) * 100,
-      "weeklyProgress": ((300-162) / 573) * 100
+      "weeklyProgress": ((455-162) / 573) * 100
    },
    {
       "name": "Reading <a href='https://people.freebsd.org/~lstewart/articles/cpumemory.pdf' target='_blank'>What Every Programmer Should Know About Memory</a>",
@@ -41,7 +41,7 @@ var progress = [
       "currentValue": ((174 - 0) / 536) * 100,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": ((181 - 174) / 536) * 100
+      "weeklyProgress": ((200 - 174) / 536) * 100
    },
    {
       "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920032175.do' target='_blank'>Designing Data-Intensive Applications</a>",
