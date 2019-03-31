@@ -13,7 +13,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": ((125) / 1223) * 100
+      "weeklyProgress": ((140) / 1223) * 100
    },
    {
       "name": "Completing a course: <a href='https://www.coursera.org/learn/build-a-computer' target='_blank'>Build a Modern Computer from First Principles: From Nand to Tetris </a>",
@@ -48,7 +48,7 @@ var progress = [
       "currentValue": ((174 - 0) / 536) * 100,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": ((220 - 174) / 536) * 100
+      "weeklyProgress": ((228 - 174) / 536) * 100
    },
    {
       "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920032175.do' target='_blank'>Designing Data-Intensive Applications</a>",
