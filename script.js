@@ -9,6 +9,13 @@
 */
 var progress = [
    {
+      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/If-I-Understood-You-Would-I-Have-This-Look-on-My-Face-Audiobook/B06XNVXN7G' target='_blank'>If I Understood You, Would I Have This Look on My Face?</a>",
+      "currentValue": 0,
+      "currentText": "",
+      "lastWeeksProgress": 0,
+      "weeklyProgress": ((13) / 377) * 100
+   },
+   {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Hackers-Heroes-of-the-Computer-Revolution-Audiobook/B017RUZC4E' target='_blank'>Hackers: Heroes of the Computer Revolution</a>",
       "currentValue": 0,
       "currentText": "",
