@@ -27,7 +27,7 @@ var progress = [
       "currentValue": 11,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": 0
+      "weeklyProgress": 5
    },
    {
       "name": "Reading <a href='https://people.freebsd.org/~lstewart/articles/cpumemory.pdf' target='_blank'>What Every Programmer Should Know About Memory</a>",
