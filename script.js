@@ -933,6 +933,7 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"SE-Radio Episode 357: Adam Barr on Code Quality", "link": "https://www.se-radio.net/2019/02/se-radio-episode-357-adam-barr-on-code-quality/"},
    {"title":"SE-Radio Episode 226: Eric Evans on Domain-Driven Design at 10 Years", "link": "http://www.se-radio.net/2015/05/se-radio-episode-226-eric-evans-on-domain-driven-design-at-10-years/"},
    {"title":"SE-Radio Episode 225: Brendan Gregg on Systems Performance", "link": "http://www.se-radio.net/2015/04/se-radio-episode-225-brendan-gregg-on-systems-performance/"},
    {"title":"SE-Radio Episode 220: Jon Gifford on Logging and Logging Infrastructure", "link": "http://www.se-radio.net/2015/02/episode-220-jon-gifford-on-logging-and-logging-infrastructure/"},
