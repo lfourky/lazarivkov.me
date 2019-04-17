@@ -13,7 +13,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": ((86) / 377) * 100,
-      "weeklyProgress": ((225-86) / 377) * 100
+      "weeklyProgress": ((340-86) / 377) * 100
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Hackers-Heroes-of-the-Computer-Revolution-Audiobook/B017RUZC4E' target='_blank'>Hackers: Heroes of the Computer Revolution</a>",
