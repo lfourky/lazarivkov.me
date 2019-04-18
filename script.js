@@ -13,7 +13,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": ((86) / 377) * 100,
-      "weeklyProgress": ((340-86) / 377) * 100
+      "weeklyProgress": ((377-86) / 377) * 100
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Hackers-Heroes-of-the-Computer-Revolution-Audiobook/B017RUZC4E' target='_blank'>Hackers: Heroes of the Computer Revolution</a>",
@@ -111,7 +111,16 @@ var progress = [
 },
 */
 
+
 var achievements =  [
+   {
+      "id":94,
+      "title":"Finished an Audiobook",
+      "date":"April 18th, 2019",
+      "link":"https://www.audible.com/pd/If-I-Understood-You-Would-I-Have-This-Look-on-My-Face-Audiobook/B06XNVXN7G",
+      "shortlink":"If I Understood You, Would I Have This Look on My Face?",
+      "text":""
+   },
    {
       "id":93,
       "title":"Finished an Audiobook",
