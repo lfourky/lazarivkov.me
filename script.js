@@ -9,24 +9,17 @@
 */
 var progress = [
    {
-      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/If-I-Understood-You-Would-I-Have-This-Look-on-My-Face-Audiobook/B06XNVXN7G' target='_blank'>If I Understood You, Would I Have This Look on My Face?</a>",
-      "currentValue": ((86) / 377) * 100,
-      "currentText": "",
-      "lastWeeksProgress": ((377-86) / 377) * 100,
-      "weeklyProgress": 0
-   },
-   {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Hackers-Heroes-of-the-Computer-Revolution-Audiobook/B017RUZC4E' target='_blank'>Hackers: Heroes of the Computer Revolution</a>",
-      "currentValue": ((225) / 1223) * 100,
+      "currentValue": ((275) / 1223) * 100,
       "currentText": "",
-      "lastWeeksProgress": ((275-225) / 1223) * 100,
+      "lastWeeksProgress": ((328-275) / 1223) * 100,
       "weeklyProgress": 0
    },
    {
       "name": "Completing a course: <a href='https://www.coursera.org/learn/build-a-computer' target='_blank'>Build a Modern Computer from First Principles: From Nand to Tetris </a>",
-      "currentValue": 11,
+      "currentValue": 16,
       "currentText": "",
-      "lastWeeksProgress": 5,
+      "lastWeeksProgress": 0,
       "weeklyProgress": 0
    },
    {
@@ -40,7 +33,7 @@ var progress = [
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Pale-Blue-Dot-Audiobook/B06XTJN84L' target='_blank'>Pale Blue Dot</a>",
       "currentValue": ((333) / 798) * 100,
       "currentText": "",
-      "lastWeeksProgress": 0,
+      "lastWeeksProgress": ((434-333) / 798) * 100,
       "weeklyProgress": 0
    },
    {
@@ -52,10 +45,10 @@ var progress = [
    },
    {
       "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920032175.do' target='_blank'>Designing Data-Intensive Applications</a>",
-      "currentValue": ((373) / 613) * 100,
+      "currentValue": ((394) / 613) * 100,
       "currentText": "",
-      "lastWeeksProgress": ((394-373) / 613) * 100,
-      "weeklyProgress": ((429-394) / 613) * 100
+      "lastWeeksProgress": ((429-394) / 613) * 100,
+      "weeklyProgress": ((444-429) / 613) * 100
    },
    {
       "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
@@ -942,6 +935,10 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"SE-Radio Episode 360: Pete Koomen on A/B Testing", "link": "https://www.se-radio.net/2019/03/se-radio-episode-360-pete-koomen-on-a-b-testing/"},
+   {"title":"SE-Radio Episode 358: Probabilistic Data Structures for Big Data Problems", "link": "https://www.se-radio.net/2019/02/se-radio-episode-358-probabilistic-data-structure-for-big-data-problems/"},
+   {"title":"SE-Radio Episode 355: Randy Shoup Scaling Technology and Organization", "link": "https://www.se-radio.net/2019/02/se-radio-episode-355-randy-shoup-scaling-technology-and-organization/"},
+   {"title":"SE-Radio Episode 346: Stephan Ewen on Streaming Architecture", "link": "https://www.se-radio.net/2018/11/se-radio-episode-346-stephan-ewen-on-streaming-architecture/"},
    {"title":"SE-Radio Episode 359: Engineering Maturity with Jean-Denis Greze", "link": "https://www.se-radio.net/2019/03/se-radio-episode-359-engineering-maturity-with-jean-denis-greze/"},
    {"title":"SE-Radio Episode 357: Adam Barr on Code Quality", "link": "https://www.se-radio.net/2019/02/se-radio-episode-357-adam-barr-on-code-quality/"},
    {"title":"SE-Radio Episode 226: Eric Evans on Domain-Driven Design at 10 Years", "link": "http://www.se-radio.net/2015/05/se-radio-episode-226-eric-evans-on-domain-driven-design-at-10-years/"},
