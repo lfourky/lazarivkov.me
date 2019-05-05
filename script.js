@@ -13,7 +13,7 @@ var progress = [
       "currentValue": ((275) / 1223) * 100,
       "currentText": "",
       "lastWeeksProgress": ((328-275) / 1223) * 100,
-      "weeklyProgress": ((360-328) / 1223) * 100
+      "weeklyProgress": ((450-328) / 1223) * 100
    },
    {
       "name": "Completing a course: <a href='https://www.coursera.org/learn/build-a-computer' target='_blank'>Build a Modern Computer from First Principles: From Nand to Tetris </a>",
