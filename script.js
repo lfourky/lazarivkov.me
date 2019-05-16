@@ -48,7 +48,7 @@ var progress = [
       "currentValue": ((394) / 613) * 100,
       "currentText": "",
       "lastWeeksProgress": ((429-394) / 613) * 100,
-      "weeklyProgress": ((511-429) / 613) * 100
+      "weeklyProgress": ((613-429) / 613) * 100
    },
    {
       "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
@@ -104,8 +104,15 @@ var progress = [
 },
 */
 
-
 var achievements =  [
+   {
+      "id":95,
+      "title":"Finished Reading A Book",
+      "date":"May 16th, 2019",
+      "link":"http://shop.oreilly.com/product/0636920032175.do",
+      "shortlink":"Designing Data-Intensive Applications",
+      "text":"Easily took the first spot in my favorite books' list."
+    },
    {
       "id":94,
       "title":"Finished an Audiobook",
