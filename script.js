@@ -9,6 +9,13 @@
 */ 
 var progress = [
    {
+      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Never-Split-the-Difference-Audiobook/B01CF5O89G' target='_blank'>Never Split the Difference</a>",
+      "currentValue": 0,
+      "currentText": "",
+      "lastWeeksProgress": 0,
+      "weeklyProgress": ((110-0) / 376) * 100
+   },
+   {
       "name": "Reading a book: <a href='https://www.amazon.com/Operating-Systems-Introduction-R-Garg/dp/1942270380' target='_blank'>Operating Systems</a>",
       "currentValue": 0,
       "currentText": "",
@@ -20,7 +27,7 @@ var progress = [
       "currentValue": ((275) / 1223) * 100,
       "currentText": "",
       "lastWeeksProgress": ((328-275) / 1223) * 100,
-      "weeklyProgress": ((480-328) / 1223) * 100
+      "weeklyProgress": ((591-328) / 1223) * 100
    },
    {
       "name": "Completing a course: <a href='https://www.coursera.org/learn/build-a-computer' target='_blank'>Build a Modern Computer from First Principles: From Nand to Tetris </a>",
@@ -69,7 +76,7 @@ var progress = [
       "currentValue": 9,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": 0
+      "weeklyProgress": 13-9
    }
 ]
 
