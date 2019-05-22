@@ -13,7 +13,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": ((110-0) / 376) * 100
+      "weeklyProgress": ((190-0) / 376) * 100
    },
    {
       "name": "Reading a book: <a href='https://www.amazon.com/Operating-Systems-Introduction-R-Garg/dp/1942270380' target='_blank'>Operating Systems</a>",
