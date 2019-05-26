@@ -66,10 +66,10 @@ var progress = [
    },
    {
       "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920032175.do' target='_blank'>Designing Data-Intensive Applications</a>",
-      "currentValue": ((394) / 613) * 100,
+      "currentValue": ((429) / 613) * 100,
       "currentText": "",
-      "lastWeeksProgress": ((429-394) / 613) * 100,
-      "weeklyProgress": ((613-429) / 613) * 100
+      "lastWeeksProgress": ((613-429) / 613) * 100,
+      "weeklyProgress": 0
    },
    {
       "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
