@@ -12,29 +12,29 @@ var progress = [
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Bad-Blood-Audiobook/B07C8GVTB5' target='_blank'>Bad Blood</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": ((24-0)/697)*100
+      "lastWeeksProgress": ((24-0)/697)*100,
+      "weeklyProgress": ((314-24)/697)*100
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Never-Split-the-Difference-Audiobook/B01CF5O89G' target='_blank'>Never Split the Difference</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 86
+      "lastWeeksProgress": 86,
+      "weeklyProgress": 0
    },
    {
       "name": "Reading a book: <a href='https://www.amazon.com/Operating-Systems-Introduction-R-Garg/dp/1942270380' target='_blank'>Operating Systems</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": ((55-0)/304)*100
+      "lastWeeksProgress": ((55-0)/304)*100,
+      "weeklyProgress": 0
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Hackers-Heroes-of-the-Computer-Revolution-Audiobook/B017RUZC4E' target='_blank'>Hackers: Heroes of the Computer Revolution</a>",
-      "currentValue": ((275) / 1223) * 100,
+      "currentValue": ((328) / 1223) * 100,
       "currentText": "",
-      "lastWeeksProgress": ((328-275) / 1223) * 100,
-      "weeklyProgress": ((591-328) / 1223) * 100
+      "lastWeeksProgress": ((591-328) / 1223) * 100,
+      "weeklyProgress": 0
    },
    {
       "name": "Completing a course: <a href='https://www.coursera.org/learn/build-a-computer' target='_blank'>Build a Modern Computer from First Principles: From Nand to Tetris </a>",
@@ -52,23 +52,16 @@ var progress = [
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Pale-Blue-Dot-Audiobook/B06XTJN84L' target='_blank'>Pale Blue Dot</a>",
-      "currentValue": ((333) / 798) * 100,
+      "currentValue": ((434) / 798) * 100,
       "currentText": "",
-      "lastWeeksProgress": ((434-333) / 798) * 100,
+      "lastWeeksProgress": 0,
       "weeklyProgress": 0
    },
    {
       "name": "Reading a book: <a href='https://www.crcpress.com/Essentials-of-Computer-Architecture/Comer/p/book/9781138626591' target='_blank'>Essentials of Computer Architecture</a>",
-      "currentValue": ((230 - 0) / 536) * 100,
+      "currentValue": ((233 - 0) / 536) * 100,
       "currentText": "",
-      "lastWeeksProgress": ((233 - 230) / 536) * 100,
-      "weeklyProgress": 0
-   },
-   {
-      "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920032175.do' target='_blank'>Designing Data-Intensive Applications</a>",
-      "currentValue": ((429) / 613) * 100,
-      "currentText": "",
-      "lastWeeksProgress": ((613-429) / 613) * 100,
+      "lastWeeksProgress": 0,
       "weeklyProgress": 0
    },
    {
