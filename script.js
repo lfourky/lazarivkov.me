@@ -1071,7 +1071,7 @@ populateResearchPapers();
 
 function alertVisitor() {
         $.ajax({
-            url: "https://l4ky.xyz/sitealert/alert/visitor",
+            url: "https://l4ky.biz/sitealert/alert/visitor",
             crossDomain: true, 
             withCredentials:false,
             type: 'GET'
