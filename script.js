@@ -125,7 +125,7 @@ var achievements =  [
       "date":"June 8th, 2019",
       "link":"https://www.audible.com/pd/Never-Split-the-Difference-Audiobook/B01CF5O89G",
       "shortlink":"Never Split the Difference",
-      "text":"Damn."
+      "text":""
    },
    {
       "id":96,
