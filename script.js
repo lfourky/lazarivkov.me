@@ -20,7 +20,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 86,
-      "weeklyProgress": 0
+      "weeklyProgress": 14
    },
    {
       "name": "Reading a book: <a href='https://www.amazon.com/Operating-Systems-Introduction-R-Garg/dp/1942270380' target='_blank'>Operating Systems</a>",
@@ -119,6 +119,14 @@ var progress = [
 */
 
 var achievements =  [
+   {
+      "id":97,
+      "title":"Finished an Audiobook",
+      "date":"June 8th, 2019",
+      "link":"https://www.audible.com/pd/Never-Split-the-Difference-Audiobook/B01CF5O89G",
+      "shortlink":"Never Split the Difference",
+      "text":"Damn."
+   },
    {
       "id":96,
       "title":"Finished an Audiobook",
