@@ -13,7 +13,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": ((24-0)/697)*100,
-      "weeklyProgress": ((314-24)/697)*100
+      "weeklyProgress": ((697-24)/697)*100
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Never-Split-the-Difference-Audiobook/B01CF5O89G' target='_blank'>Never Split the Difference</a>",
@@ -119,6 +119,14 @@ var progress = [
 */
 
 var achievements =  [
+   {
+      "id":96,
+      "title":"Finished an Audiobook",
+      "date":"June 7th, 2019",
+      "link":"https://www.audible.com/pd/Bad-Blood-Audiobook/B07C8GVTB5",
+      "shortlink":"Bad Blood",
+      "text":"Damn."
+   },
    {
       "id":95,
       "title":"Finished Reading A Book",
