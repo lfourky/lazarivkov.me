@@ -10,30 +10,30 @@
 var progress = [
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Bad-Blood-Audiobook/B07C8GVTB5' target='_blank'>Bad Blood</a>",
-      "currentValue": 0,
+      "currentValue": 5,
       "currentText": "",
-      "lastWeeksProgress": ((24-0)/697)*100,
-      "weeklyProgress": ((697-24)/697)*100
+      "lastWeeksProgress": 95,
+      "weeklyProgress": 0
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Never-Split-the-Difference-Audiobook/B01CF5O89G' target='_blank'>Never Split the Difference</a>",
-      "currentValue": 0,
+      "currentValue": 86,
       "currentText": "",
-      "lastWeeksProgress": 86,
-      "weeklyProgress": 14
+      "lastWeeksProgress": 14,
+      "weeklyProgress": 0
    },
    {
       "name": "Reading a book: <a href='https://www.amazon.com/Operating-Systems-Introduction-R-Garg/dp/1942270380' target='_blank'>Operating Systems</a>",
-      "currentValue": 0,
+      "currentValue":  ((55-0)/304)*100,
       "currentText": "",
-      "lastWeeksProgress": ((55-0)/304)*100,
+      "lastWeeksProgress": ((80-55)/304)*100,
       "weeklyProgress": 0
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Hackers-Heroes-of-the-Computer-Revolution-Audiobook/B017RUZC4E' target='_blank'>Hackers: Heroes of the Computer Revolution</a>",
-      "currentValue": ((328) / 1223) * 100,
+      "currentValue": ((591) / 1223) * 100,
       "currentText": "",
-      "lastWeeksProgress": ((591-328) / 1223) * 100,
+      "lastWeeksProgress": 0,
       "weeklyProgress": 0
    },
    {
@@ -75,8 +75,8 @@ var progress = [
       "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
       "currentValue": 9,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 13-9
+      "lastWeeksProgress": 13-19,
+      "weeklyProgress": 0
    }
 ]
 
