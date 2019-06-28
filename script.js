@@ -9,11 +9,11 @@
 */ 
 var progress = [
    {
-      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Bad-Blood-Audiobook/B07C8GVTB5' target='_blank'>Bad Blood</a>",
-      "currentValue": 5,
+      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/What-If-Audiobook/B00LV6V4UW' target='_blank'>What If?</a>",
+      "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 95,
-      "weeklyProgress": 0
+      "lastWeeksProgress": 30,
+      "weeklyProgress": 70
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Never-Split-the-Difference-Audiobook/B01CF5O89G' target='_blank'>Never Split the Difference</a>",
