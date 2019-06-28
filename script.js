@@ -16,13 +16,6 @@ var progress = [
       "weeklyProgress": 70
    },
    {
-      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Never-Split-the-Difference-Audiobook/B01CF5O89G' target='_blank'>Never Split the Difference</a>",
-      "currentValue": 86,
-      "currentText": "",
-      "lastWeeksProgress": 14,
-      "weeklyProgress": 0
-   },
-   {
       "name": "Reading a book: <a href='https://www.amazon.com/Operating-Systems-Introduction-R-Garg/dp/1942270380' target='_blank'>Operating Systems</a>",
       "currentValue":  ((55-0)/304)*100,
       "currentText": "",
@@ -73,7 +66,7 @@ var progress = [
    },
    {
       "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
-      "currentValue": 9,
+      "currentValue": 13,
       "currentText": "",
       "lastWeeksProgress": 13-19,
       "weeklyProgress": 0
