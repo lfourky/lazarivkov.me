@@ -972,6 +972,7 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"SE-Radio Episode 351: Bernd Rücker on Orchestrating Microservices with Workflow Management", "link": "https://www.se-radio.net/2019/01/episode-351-bernd-rucker-on-orchestrating-microservices-with-workflow-management/"},
    {"title":"SE-Radio Episode 360: Pete Koomen on A/B Testing", "link": "https://www.se-radio.net/2019/03/se-radio-episode-360-pete-koomen-on-a-b-testing/"},
    {"title":"SE-Radio Episode 358: Probabilistic Data Structures for Big Data Problems", "link": "https://www.se-radio.net/2019/02/se-radio-episode-358-probabilistic-data-structure-for-big-data-problems/"},
    {"title":"SE-Radio Episode 355: Randy Shoup Scaling Technology and Organization", "link": "https://www.se-radio.net/2019/02/se-radio-episode-355-randy-shoup-scaling-technology-and-organization/"},
