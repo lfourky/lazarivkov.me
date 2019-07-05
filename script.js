@@ -980,6 +980,10 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"Go Time #81: All about APIs!", "link": "https://changelog.com/gotime/81"},
+   {"title":"SE-Radio Episode 218: Udi Dahan on CQRS", "link": "https://www.se-radio.net/2015/01/episode-218-udi-dahan-on-cqrs-command-query-responsibility-segregation/"},
+   {"title":"SE-Radio Episode 350: Vivek Ravisankar on HackerRank", "link": "https://www.se-radio.net/2018/12/se-radio-episode-350-vivek-ravisankar-on-hackerrank/"},
+   {"title":"SE-Radio Episode 348: Riccardo Terrell on Concurrency", "link": "https://www.se-radio.net/2018/12/se-radio-episode-348-riccardo-terrell-on-concurrency/"},
    {"title":"SE-Radio Episode 351: Bernd Rücker on Orchestrating Microservices with Workflow Management", "link": "https://www.se-radio.net/2019/01/episode-351-bernd-rucker-on-orchestrating-microservices-with-workflow-management/"},
    {"title":"SE-Radio Episode 360: Pete Koomen on A/B Testing", "link": "https://www.se-radio.net/2019/03/se-radio-episode-360-pete-koomen-on-a-b-testing/"},
    {"title":"SE-Radio Episode 358: Probabilistic Data Structures for Big Data Problems", "link": "https://www.se-radio.net/2019/02/se-radio-episode-358-probabilistic-data-structure-for-big-data-problems/"},
