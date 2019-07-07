@@ -13,21 +13,14 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": 7
-   },
-   {
-      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/What-If-Audiobook/B00LV6V4UW' target='_blank'>What If?</a>",
-      "currentValue": 0,
-      "currentText": "",
-      "lastWeeksProgress": 30,
-      "weeklyProgress": 70
+      "weeklyProgress": 23
    },
    {
       "name": "Reading a book: <a href='https://www.amazon.com/Operating-Systems-Introduction-R-Garg/dp/1942270380' target='_blank'>Operating Systems</a>",
       "currentValue":  ((55-0)/304)*100,
       "currentText": "",
       "lastWeeksProgress": ((80-55)/304)*100,
-      "weeklyProgress": 0
+      "weeklyProgress": ((107-80)/304)*100
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Hackers-Heroes-of-the-Computer-Revolution-Audiobook/B017RUZC4E' target='_blank'>Hackers: Heroes of the Computer Revolution</a>",
