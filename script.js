@@ -980,6 +980,9 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"Go Time #84: Hardware hacking with TinyGo and Gopherbot", "link": "https://changelog.com/gotime/84"},
+   {"title":"Go Time #83: It's time to talk about testing", "link": "https://changelog.com/gotime/83"},
+   {"title":"Go Time #82: Hiring and job interviews", "link": "https://changelog.com/gotime/82"},
    {"title":"Go Time #81: All about APIs!", "link": "https://changelog.com/gotime/81"},
    {"title":"SE-Radio Episode 218: Udi Dahan on CQRS", "link": "https://www.se-radio.net/2015/01/episode-218-udi-dahan-on-cqrs-command-query-responsibility-segregation/"},
    {"title":"SE-Radio Episode 350: Vivek Ravisankar on HackerRank", "link": "https://www.se-radio.net/2018/12/se-radio-episode-350-vivek-ravisankar-on-hackerrank/"},
