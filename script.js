@@ -1045,8 +1045,13 @@ var saPodcasts = [
    {"title":"SE-Radio Episode 273: Steve McConnell on Software Estimation", "link": "http://www.se-radio.net/2016/11/se-radio-episode-273-steve-mcconnell-on-software-estimation/"}
 ];
 
+ 
+
+
 // {"title":"", "link": ""},
 var saArticles = [
+   {"title":"Service Oriented Agony", "link": "https://blog.cleancoder.com/uncle-bob/2012/02/01/Service-Oriented-Agony.html"},
+   {"title":"Think you understand the Single Responsibility Principle?", "link": "https://hackernoon.com/you-dont-understand-the-single-responsibility-principle-abfdd005b137"},
    {"title":"Online migrations at scale", "link": "https://stripe.com/gb/blog/online-migrations"},
    {"title":"When Writing Unit Tests, Don’t Use Mocks", "link": "https://sendgrid.com/blog/when-writing-unit-tests-dont-use-mocks/"},
    {"title":"Monkey Patching in Go", "link": "https://bou.ke/blog/monkey-patching-in-go/"},
