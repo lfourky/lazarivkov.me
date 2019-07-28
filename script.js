@@ -128,6 +128,14 @@ var progress = [
 
 var achievements =  [
    {
+      "id":99,
+      "title":"Completed a Course",
+      "date":"July 28th, 2019",
+      "link":"https://frontendmasters.com/courses/design-for-developers/",
+      "shortlink":"Design for Developers",
+      "text":""
+   },
+   {
       "id":98,
       "title":"Finished an Audiobook",
       "date":"June 28th, 2019",
