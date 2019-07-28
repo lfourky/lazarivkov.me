@@ -7,8 +7,15 @@
       "weeklyProgress": 0
    },
 */ 
-
+https://frontendmasters.com/courses/css-grids-flexbox/
 var progress = [
+   {
+      "name": "Completing a course: <a href='https://frontendmasters.com/courses/css-grids-flexbox/' target='_blank'>CSS Grids and Flexbox for Responsive Web Design</a>",
+      "currentValue": 0,
+      "currentText": "",
+      "lastWeeksProgress": 0,
+      "weeklyProgress": 5
+   },
    {
       "name": "Reading a book: <a href='https://www.amazon.com/Whole-Rethinking-Nutrition-Colin-Campbell/dp/1939529840' target='_blank'>Whole: Rethinking the Science of Nutrition</a>",
       "currentValue":  0,
