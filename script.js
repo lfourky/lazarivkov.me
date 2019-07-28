@@ -7,20 +7,35 @@
       "weeklyProgress": 0
    },
 */ 
+
 var progress = [
+   {
+      "name": "Reading a book: <a href='https://www.amazon.com/Whole-Rethinking-Nutrition-Colin-Campbell/dp/1939529840' target='_blank'>Whole: Rethinking the Science of Nutrition</a>",
+      "currentValue":  0,
+      "currentText": "",
+      "lastWeeksProgress": 33,
+      "weeklyProgress": 0
+   },
+   {
+      "name": "Completing a course: <a href='https://frontendmasters.com/courses/design-for-developers/' target='_blank'>Design for Developers</a>",
+      "currentValue": 0,
+      "currentText": "",
+      "lastWeeksProgress": 0,
+      "weeklyProgress": 100
+   },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Bad-Science-Audiobook/B006WRE0IS' target='_blank'>Bad Science</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 23
+      "lastWeeksProgress": 23,
+      "weeklyProgress": 42
    },
    {
       "name": "Reading a book: <a href='https://www.amazon.com/Operating-Systems-Introduction-R-Garg/dp/1942270380' target='_blank'>Operating Systems</a>",
-      "currentValue":  ((55-0)/304)*100,
+      "currentValue":  ((80-0)/304)*100,
       "currentText": "",
-      "lastWeeksProgress": ((80-55)/304)*100,
-      "weeklyProgress": ((107-80)/304)*100
+      "lastWeeksProgress": ((107-80)/304)*100,
+      "weeklyProgress": 0
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Hackers-Heroes-of-the-Computer-Revolution-Audiobook/B017RUZC4E' target='_blank'>Hackers: Heroes of the Computer Revolution</a>",
@@ -66,9 +81,9 @@ var progress = [
    },
    {
       "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
-      "currentValue": 13,
+      "currentValue": 19,
       "currentText": "",
-      "lastWeeksProgress": 13-19,
+      "lastWeeksProgress": 0,
       "weeklyProgress": 0
    }
 ]
