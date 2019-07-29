@@ -14,7 +14,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": 5
+      "weeklyProgress": (46/338) * 100
    },
    {
       "name": "Reading a book: <a href='https://www.amazon.com/Whole-Rethinking-Nutrition-Colin-Campbell/dp/1939529840' target='_blank'>Whole: Rethinking the Science of Nutrition</a>",
