@@ -7,7 +7,7 @@
       "weeklyProgress": 0
    },
 */ 
-https://frontendmasters.com/courses/css-grids-flexbox/
+
 var progress = [
    {
       "name": "Completing a course: <a href='https://frontendmasters.com/courses/css-grids-flexbox/' target='_blank'>CSS Grids and Flexbox for Responsive Web Design</a>",
