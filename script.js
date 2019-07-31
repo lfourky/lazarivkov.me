@@ -10,6 +10,13 @@
 
 var progress = [
    {
+      "name": "Completing a course: <a href='https://frontendmasters.com/courses/angularjs-and-code-testability/' target='_blank'>The Psychology of Code Testability</a>",
+      "currentValue": 0,
+      "currentText": "",
+      "lastWeeksProgress": 0,
+      "weeklyProgress": 100
+   },
+   {
       "name": "Completing a course: <a href='https://frontendmasters.com/courses/css-grids-flexbox/' target='_blank'>CSS Grids and Flexbox for Responsive Web Design</a>",
       "currentValue": 0,
       "currentText": "",
@@ -134,6 +141,14 @@ var progress = [
 */
 
 var achievements =  [
+   {
+      "id":100,
+      "title":"Completed a Course",
+      "date":"July 31st, 2019",
+      "link":"https://frontendmasters.com/courses/angularjs-and-code-testability/",
+      "shortlink":"The Psychology of Code Testability",
+      "text":""
+   },
    {
       "id":99,
       "title":"Completed a Course",
