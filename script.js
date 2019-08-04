@@ -10,6 +10,13 @@
 
 var progress = [
    {
+      "name": "Completing a course: <a href='https://www.educative.io/collection/5668639101419520/5649050225344512' target='_blank'>Grokking the System Design Interview</a>",
+      "currentValue": 0,
+      "currentText": "",
+      "lastWeeksProgress": 0,
+      "weeklyProgress": 10
+   },
+   {
       "name": "Completing a course: <a href='https://frontendmasters.com/courses/angularjs-and-code-testability/' target='_blank'>The Psychology of Code Testability</a>",
       "currentValue": 0,
       "currentText": "",
@@ -28,7 +35,7 @@ var progress = [
       "currentValue":  0,
       "currentText": "",
       "lastWeeksProgress": 33,
-      "weeklyProgress": 0
+      "weeklyProgress": 36-33
    },
    {
       "name": "Completing a course: <a href='https://frontendmasters.com/courses/design-for-developers/' target='_blank'>Design for Developers</a>",
@@ -42,7 +49,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 23,
-      "weeklyProgress": 52
+      "weeklyProgress": 55
    },
    {
       "name": "Reading a book: <a href='https://www.amazon.com/Operating-Systems-Introduction-R-Garg/dp/1942270380' target='_blank'>Operating Systems</a>",
