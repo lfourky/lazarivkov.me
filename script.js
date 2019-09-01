@@ -10,60 +10,67 @@
 
 var progress = [
    {
+      "name": "Reading a book: <a href='https://www.amazon.com/China-Study-Comprehensive-Nutrition-Implications/dp/1932100660' target='_blank'>The China Study</a>",
+      "currentValue":  0,
+      "currentText": "",
+      "lastWeeksProgress": 0,
+      "weeklyProgress": 40
+   },
+   {
       "name": "Completing a course: <a href='https://www.educative.io/collection/5668639101419520/5649050225344512' target='_blank'>Grokking the System Design Interview</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 10
+      "lastWeeksProgress": 10,
+      "weeklyProgress": 0
    },
    {
       "name": "Completing a course: <a href='https://frontendmasters.com/courses/angularjs-and-code-testability/' target='_blank'>The Psychology of Code Testability</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 100
+      "lastWeeksProgress": 100,
+      "weeklyProgress": 0
    },
    {
       "name": "Completing a course: <a href='https://frontendmasters.com/courses/css-grids-flexbox/' target='_blank'>CSS Grids and Flexbox for Responsive Web Design</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": (81/338) * 100
+      "lastWeeksProgress": (81/338) * 100,
+      "weeklyProgress": 0
    },
    {
       "name": "Reading a book: <a href='https://www.amazon.com/Whole-Rethinking-Nutrition-Colin-Campbell/dp/1939529840' target='_blank'>Whole: Rethinking the Science of Nutrition</a>",
-      "currentValue":  0,
+      "currentValue":  33,
       "currentText": "",
-      "lastWeeksProgress": 33,
-      "weeklyProgress": 36-33
+      "lastWeeksProgress": 100-33,
+      "weeklyProgress": 0
    },
    {
       "name": "Completing a course: <a href='https://frontendmasters.com/courses/design-for-developers/' target='_blank'>Design for Developers</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 100
+      "lastWeeksProgress": 100,
+      "weeklyProgress": 0
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Bad-Science-Audiobook/B006WRE0IS' target='_blank'>Bad Science</a>",
-      "currentValue": 0,
+      "currentValue": 23,
       "currentText": "",
-      "lastWeeksProgress": 23,
-      "weeklyProgress": 55
+      "lastWeeksProgress": 55,
+      "weeklyProgress": 74
    },
    {
       "name": "Reading a book: <a href='https://www.amazon.com/Operating-Systems-Introduction-R-Garg/dp/1942270380' target='_blank'>Operating Systems</a>",
-      "currentValue":  ((80-0)/304)*100,
+      "currentValue":  ((107-0)/304)*100,
       "currentText": "",
-      "lastWeeksProgress": ((107-80)/304)*100,
+      "lastWeeksProgress": 0,
       "weeklyProgress": 0
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Hackers-Heroes-of-the-Computer-Revolution-Audiobook/B017RUZC4E' target='_blank'>Hackers: Heroes of the Computer Revolution</a>",
-      "currentValue": ((591) / 1223) * 100,
+      "currentValue": ((660) / 1223) * 100,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": ((660-591) / 1223) * 100
+      "weeklyProgress": 0
    },
    {
       "name": "Completing a course: <a href='https://www.coursera.org/learn/build-a-computer' target='_blank'>Build a Modern Computer from First Principles: From Nand to Tetris </a>",
@@ -84,7 +91,7 @@ var progress = [
       "currentValue": ((434) / 798) * 100,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": 0
+      "weeklyProgress": ((571-434) / 798) * 100
    },
    {
       "name": "Reading a book: <a href='https://www.crcpress.com/Essentials-of-Computer-Architecture/Comer/p/book/9781138626591' target='_blank'>Essentials of Computer Architecture</a>",
@@ -93,13 +100,7 @@ var progress = [
       "lastWeeksProgress": 0,
       "weeklyProgress": 0
    },
-   {
-      "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
-      "currentValue": ((133 - 0) / 508) * 100,
-      "currentText": "Paused",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 0
-   },
+
    {
       "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
       "currentValue": 19,
@@ -110,6 +111,15 @@ var progress = [
 ]
 
 /*
+
+   {
+      "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
+      "currentValue": ((133 - 0) / 508) * 100,
+      "currentText": "Paused",
+      "lastWeeksProgress": 0,
+      "weeklyProgress": 0
+   },
+
 {
 	"name": "Reading a book: <a href='https://www.apress.com/us/book/9781484237298' target='_blank'>The Linux Philosophy for SysAdmins</a>",
 	"currentValue": ((39-0)/516)*100,
