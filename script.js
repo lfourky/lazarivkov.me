@@ -1025,6 +1025,28 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"SE-Radio Episode 352: Johnathan Nightingale on Scaling Engineering Management", "link": "https://www.se-radio.net/2019/01/se-radio-episode-352-johnathan-nightingale-on-scaling-engineering-management/"},
+   {"title":"SE-Radio Episode 361: Daniel Berg on Istio Service Mesh", "link": "https://www.se-radio.net/2019/03/se-radio-episode-361-daniel-berg-on-istio-service-mesh/"},
+   {"title":"SE-Radio Episode 369: Derek Collison on Messaging Systems and NATS", "link": "https://www.se-radio.net/2019/06/episode-369-derek-collison-on-messaging-systems-and-nats/"},
+   {"title":"SE-Radio Episode 370: Chris Richardson on Microservice Patterns", "link": "https://www.se-radio.net/2019/06/episode-370-chris-richardson-on-microservice-patterns/"},
+   {"title":"SE-Radio Episode 345: Tyler McMullen on Content Delivery Networks (CDNs)", "link": "https://www.se-radio.net/2018/11/se-radio-episode-345-tyler-mcmullen-on-content-delivery-networks-cdns/"},
+   {"title":"SE-Radio Episode 375: Gabriel Gonzalez on Configuration", "link": "https://www.se-radio.net/2019/08/episode-375-gabriel-gonzalez-on-configuration/"},
+   {"title":"SE-Radio Episode 219: Apache Kafka with Jun Rao", "link": "https://www.se-radio.net/2015/02/episode-219-apache-kafka-with-jun-rao/"},
+   {"title":"SE-Radio Episode 376: Justin Richer On API Security with OAuth 2", "link": "https://www.se-radio.net/2019/08/episode-376-justin-richer-on-api-security-with-oauth-2/"},
+   {"title":"SE-Radio Episode 344: Pat Helland on Web Scale", "link": "https://www.se-radio.net/2018/10/se-radio-episode-344-pat-helland-on-web-scale/"},
+   {"title":"SE-Radio Episode 347: Daniel Corbett on Load Balancing and HAProxy", "link": "https://www.se-radio.net/2018/11/se-radio-episode-347-daniel-corbett-on-load-balancing-and-haproxy/"},
+   {"title":"Go Time #95: The importance of representation", "link": "https://changelog.com/gotime/95"},
+   {"title":"Go Time #94: Structuring your Go apps", "link": "https://changelog.com/gotime/94"},
+   {"title":"Go Time #93: If you've never been to GopherCon...", "link": "https://changelog.com/gotime/93"},
+   {"title":"Go Time #92: Web development in Go", "link": "https://changelog.com/gotime/92"},
+   {"title":"Go Time #91: if err != nil", "link": "https://changelog.com/gotime/91"},
+   {"title":"Go Time #90: Go tooling", "link": "https://changelog.com/gotime/90"},
+   {"title":"Go Time #89: The art of execution", "link": "https://changelog.com/gotime/89"},
+   {"title":"Go Time #88: Go 💚 open source", "link": "https://changelog.com/gotime/88"},
+   {"title":"Go Time #87: Functional programming?", "link": "https://changelog.com/gotime/87"},
+   {"title":"Go Time #86: Go modules and the Athens project", "link": "https://changelog.com/gotime/86"},
+   {"title":"Go Time #85: Go for beginners", "link": "https://changelog.com/gotime/85"},
+   {"title":"SE-Radio Episode 374: Marcus Blankenship on Motivating Programmers", "link": "https://www.se-radio.net/2019/07/episode-374-marcus-blankenship-on-motivating-programmers/"},
    {"title":"Go Time #84: Hardware hacking with TinyGo and Gopherbot", "link": "https://changelog.com/gotime/84"},
    {"title":"Go Time #83: It's time to talk about testing", "link": "https://changelog.com/gotime/83"},
    {"title":"Go Time #82: Hiring and job interviews", "link": "https://changelog.com/gotime/82"},
@@ -1124,7 +1146,7 @@ var saArticles = [
 
 // {"title":"", "link": ""}
 var saResearchPapers = [
-  
+  // https://jivp-eurasipjournals.springeropen.com/articles/10.1186/s13640-017-0213-2
 ];
 
 function populatePodcasts() {
