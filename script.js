@@ -13,8 +13,8 @@ var progress = [
       "name": "Reading a book: <a href='https://www.amazon.com/China-Study-Comprehensive-Nutrition-Implications/dp/1932100660' target='_blank'>The China Study</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 40
+      "lastWeeksProgress": 40,
+      "weeklyProgress": 53-40
    },
    {
       "name": "Completing a course: <a href='https://www.educative.io/collection/5668639101419520/5649050225344512' target='_blank'>Grokking the System Design Interview</a>",
