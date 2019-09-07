@@ -91,7 +91,7 @@ var progress = [
       "currentValue": ((434) / 798) * 100,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": ((571 - 434) / 798) * 100
+      "weeklyProgress": ((639 - 434) / 798) * 100
    },
    {
       "name": "Reading a book: <a href='https://www.crcpress.com/Essentials-of-Computer-Architecture/Comer/p/book/9781138626591' target='_blank'>Essentials of Computer Architecture</a>",
@@ -1043,6 +1043,10 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"Command Line Heroes: Open Curiosity: NASA, Mars, and Beyond", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=MGVhZWI0YjYtMDIxZi00Y2ZlLTk3Y2QtNGUyYWM0M2FlMjM2"},
+   {"title":"Command Line Heroes:The Data Explosion: Processing, Storage, and the Cloud", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=ZTgwZmQ4MDEtZjg1YS00M2NhLTlhNjYtNDc3NDU2MGEwNDJi"},
+   {"title":"Command Line Heroes: The Infrastructure Effect: COBOL and Go", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=MGQ1NzdiZDAtNmNiOC00MDNmLTg1ZGEtMDYxYTY5MmMyZjc2"},
+   {"title":"Go Time #96: Serverless And Go", "link": "https://changelog.com/gotime/96"},
    {"title":"SE-Radio Episode 352: Johnathan Nightingale on Scaling Engineering Management", "link": "https://www.se-radio.net/2019/01/se-radio-episode-352-johnathan-nightingale-on-scaling-engineering-management/"},
    {"title":"SE-Radio Episode 361: Daniel Berg on Istio Service Mesh", "link": "https://www.se-radio.net/2019/03/se-radio-episode-361-daniel-berg-on-istio-service-mesh/"},
    {"title":"SE-Radio Episode 369: Derek Collison on Messaging Systems and NATS", "link": "https://www.se-radio.net/2019/06/episode-369-derek-collison-on-messaging-systems-and-nats/"},
@@ -1142,6 +1146,8 @@ var saPodcasts = [
 
 // {"title":"", "link": ""},
 var saArticles = [
+   {"title":"Algebraic Effects for the Rest of Us", "link": "https://overreacted.io/algebraic-effects-for-the-rest-of-us/"},
+   {"title":"Files Are Fraught With Peril", "link": "https://danluu.com/deconstruct-files/"},
    {"title":"Service Oriented Agony", "link": "https://blog.cleancoder.com/uncle-bob/2012/02/01/Service-Oriented-Agony.html"},
    {"title":"Think you understand the Single Responsibility Principle?", "link": "https://hackernoon.com/you-dont-understand-the-single-responsibility-principle-abfdd005b137"},
    {"title":"Online migrations at scale", "link": "https://stripe.com/gb/blog/online-migrations"},
