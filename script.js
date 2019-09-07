@@ -6,7 +6,8 @@
       "lastWeeksProgress": 0,
       "weeklyProgress": 0
    },
-*/ 
+*/
+ 
 
 var progress = [
    {
@@ -1032,8 +1033,17 @@ function populateAchievements() {
 }
 populateAchievements();
 
+function shuffleArray(array) {
+   for (let i = array.length - 1; i > 0; i--) {
+       const j = Math.floor(Math.random() * (i + 1));
+       [array[i], array[j]] = [array[j], array[i]];
+   }
+}
+
 function populateProgress() {
-	var progressList = $("#progress-list");
+   var progressList = $("#progress-list");
+   // Shuffle, so it doesn't get boring :)
+   shuffleArray(progress);
 	for (var i = 0; i < progress.length; i++) {
 			progressList.append(getProgressTemplate(progress[i]));
 	}
