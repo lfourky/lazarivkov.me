@@ -1043,6 +1043,9 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"Command Line Heroes: The Agile Revolution", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=NTA4NTUzODgtNzI2ZS00YjQ5LThlZTMtODExYTg3MTc3MTMz"},
+   {"title":"Command Line Heroes: Open Source Wars Part 2: Rise of Linux", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=MGU1MmIwYmUtNGM5MS00OGZlLWI4YTItY2ZhZDMyZGYyOGI4"},
+   {"title":"Command Line Heroes: Open Source Wars Part 1", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=MzZmZGEwMzAtMWUxNy00ZjBjLThjNzQtOGRhZTM1ZTk1ZGFh"},
    {"title":"Command Line Heroes: Open Curiosity: NASA, Mars, and Beyond", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=MGVhZWI0YjYtMDIxZi00Y2ZlLTk3Y2QtNGUyYWM0M2FlMjM2"},
    {"title":"Command Line Heroes:The Data Explosion: Processing, Storage, and the Cloud", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=ZTgwZmQ4MDEtZjg1YS00M2NhLTlhNjYtNDc3NDU2MGEwNDJi"},
    {"title":"Command Line Heroes: The Infrastructure Effect: COBOL and Go", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=MGQ1NzdiZDAtNmNiOC00MDNmLTg1ZGEtMDYxYTY5MmMyZjc2"},
