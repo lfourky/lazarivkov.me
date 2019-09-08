@@ -1050,9 +1050,12 @@ function populateProgress() {
 }
 populateProgress();
 
-
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"Command Line Heroes: Days of Future", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=NzQzOGE0NjgtN2JiZC00ZjJkLTkyOGQtOWUyNmQ2MjVhYWZk"},
+   {"title":"Command Line Heroes: Crack the Cloud Open", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=ZWM0YmY2YWItOTZhZC00Zjk1LTgyYjQtN2RmMDA5ZGIwOTEw"},
+   {"title":"Command Line Heroes: The Containers Derby", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=NjMyM2ZkMjItODVlOC00OTI4LTljYzEtMzRlZGJmMzU2OGY4"},
+   {"title":"Command Line Heroes: DevOps Tear Down That Wall", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=ZWIzNjFhNDctZDU3ZC00YWJiLWFkZjQtMTIyNTJlZjhhYTlj"},
    {"title":"Command Line Heroes: The Agile Revolution", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=NTA4NTUzODgtNzI2ZS00YjQ5LThlZTMtODExYTg3MTc3MTMz"},
    {"title":"Command Line Heroes: Open Source Wars Part 2: Rise of Linux", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=MGU1MmIwYmUtNGM5MS00OGZlLWI4YTItY2ZhZDMyZGYyOGI4"},
    {"title":"Command Line Heroes: Open Source Wars Part 1", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=MzZmZGEwMzAtMWUxNy00ZjBjLThjNzQtOGRhZTM1ZTk1ZGFh"},
