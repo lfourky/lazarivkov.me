@@ -15,7 +15,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 40,
-      "weeklyProgress": 53-40
+      "weeklyProgress": 100-40
    },
    {
       "name": "Completing a course: <a href='https://www.educative.io/collection/5668639101419520/5649050225344512' target='_blank'>Grokking the System Design Interview</a>",
@@ -159,6 +159,14 @@ var progress = [
 */
 
 var achievements = [
+   {
+      "id": 102,
+      "title": "Finished Reading A Book",
+      "date": "September 8th, 2019",
+      "link": "https://www.amazon.com/China-Study-Comprehensive-Nutrition-Implications/dp/1932100660",
+      "shortlink": "The China Study",
+      "text": "A paradigm shifting book."
+   },
    {
       "id": 101,
       "title": "Finished Reading A Book",
@@ -1162,6 +1170,7 @@ var saPodcasts = [
 
 // {"title":"", "link": ""},
 var saArticles = [
+   {"title":"Diving deep into net/http : A look at http.RoundTripper", "link": "https://lanre.wtf/blog/2017/07/24/roundtripper-go/"},
    {"title":"Algebraic Effects for the Rest of Us", "link": "https://overreacted.io/algebraic-effects-for-the-rest-of-us/"},
    {"title":"Files Are Fraught With Peril", "link": "https://danluu.com/deconstruct-files/"},
    {"title":"Service Oriented Agony", "link": "https://blog.cleancoder.com/uncle-bob/2012/02/01/Service-Oriented-Agony.html"},
