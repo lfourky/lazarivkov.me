@@ -11,6 +11,13 @@
 
 var progress = [
    {
+      "name": "Reading a book: <a href='https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/' target='_blank'>Distributed Systems</a>",
+      "currentValue": 0,
+      "currentText": "",
+      "lastWeeksProgress": 0,
+      "weeklyProgress": ((18-0)/596) * 100
+   },
+   {
       "name": "Reading a book: <a href='https://www.amazon.com/China-Study-Comprehensive-Nutrition-Implications/dp/1932100660' target='_blank'>The China Study</a>",
       "currentValue": 0,
       "currentText": "",
