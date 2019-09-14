@@ -40,9 +40,9 @@ var progress = [
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Bad-Science-Audiobook/B006WRE0IS' target='_blank'>Bad Science</a>",
-      "currentValue": 55,
+      "currentValue": 74,
       "currentText": "",
-      "lastWeeksProgress": 74,
+      "lastWeeksProgress": 0,
       "weeklyProgress": 0
    },
    {
