@@ -14,57 +14,36 @@ var progress = [
       "name": "Reading a book: <a href='https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/' target='_blank'>Distributed Systems</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": ((18-0)/596) * 100
+      "lastWeeksProgress": ((18-0)/596) * 100,
+      "weeklyProgress": ((20-18)/596) * 100
    },
    {
       "name": "Reading a book: <a href='https://www.amazon.com/China-Study-Comprehensive-Nutrition-Implications/dp/1932100660' target='_blank'>The China Study</a>",
-      "currentValue": 0,
+      "currentValue": 40,
       "currentText": "",
-      "lastWeeksProgress": 40,
-      "weeklyProgress": 100-40
-   },
-   {
-      "name": "Completing a course: <a href='https://www.educative.io/collection/5668639101419520/5649050225344512' target='_blank'>Grokking the System Design Interview</a>",
-      "currentValue": 0,
-      "currentText": "",
-      "lastWeeksProgress": 10,
+      "lastWeeksProgress": 100-40,
       "weeklyProgress": 0
    },
    {
-      "name": "Completing a course: <a href='https://frontendmasters.com/courses/angularjs-and-code-testability/' target='_blank'>The Psychology of Code Testability</a>",
-      "currentValue": 0,
+      "name": "Completing a course: <a href='https://www.educative.io/collection/5668639101419520/5649050225344512' target='_blank'>Grokking the System Design Interview</a>",
+      "currentValue": 10,
       "currentText": "",
-      "lastWeeksProgress": 100,
+      "lastWeeksProgress": 15-10,
       "weeklyProgress": 0
    },
    {
       "name": "Completing a course: <a href='https://frontendmasters.com/courses/css-grids-flexbox/' target='_blank'>CSS Grids and Flexbox for Responsive Web Design</a>",
-      "currentValue": 0,
+      "currentValue": (81 / 338) * 100,
       "currentText": "",
-      "lastWeeksProgress": (81 / 338) * 100,
-      "weeklyProgress": 0
-   },
-   {
-      "name": "Reading a book: <a href='https://www.amazon.com/Whole-Rethinking-Nutrition-Colin-Campbell/dp/1939529840' target='_blank'>Whole: Rethinking the Science of Nutrition</a>",
-      "currentValue": 33,
-      "currentText": "",
-      "lastWeeksProgress": 100 - 33,
-      "weeklyProgress": 0
-   },
-   {
-      "name": "Completing a course: <a href='https://frontendmasters.com/courses/design-for-developers/' target='_blank'>Design for Developers</a>",
-      "currentValue": 0,
-      "currentText": "",
-      "lastWeeksProgress": 100,
+      "lastWeeksProgress": 0,
       "weeklyProgress": 0
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Bad-Science-Audiobook/B006WRE0IS' target='_blank'>Bad Science</a>",
-      "currentValue": 23,
+      "currentValue": 55,
       "currentText": "",
-      "lastWeeksProgress": 55,
-      "weeklyProgress": 74
+      "lastWeeksProgress": 74,
+      "weeklyProgress": 0
    },
    {
       "name": "Reading a book: <a href='https://www.amazon.com/Operating-Systems-Introduction-R-Garg/dp/1942270380' target='_blank'>Operating Systems</a>",
