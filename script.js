@@ -26,10 +26,10 @@ var progress = [
    },
    {
       "name": "Completing a course: <a href='https://www.educative.io/collection/5668639101419520/5649050225344512' target='_blank'>Grokking the System Design Interview</a>",
-      "currentValue": 10,
+      "currentValue": (3/28)*100,
       "currentText": "",
-      "lastWeeksProgress": 15-10,
-      "weeklyProgress": 0
+      "lastWeeksProgress": ((4-3)/28)*100,
+      "weeklyProgress": ((5-4)/28)*100
    },
    {
       "name": "Completing a course: <a href='https://frontendmasters.com/courses/css-grids-flexbox/' target='_blank'>CSS Grids and Flexbox for Responsive Web Design</a>",
