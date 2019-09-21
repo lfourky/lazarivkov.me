@@ -7,9 +7,16 @@
       "weeklyProgress": 0
    },
 */
- 
+
 
 var progress = [
+   {
+      "name": "Reading a book: <a href='https://www.distributed-systems.net/index.php/books/computer-and-network-organization/' target='_blank'>Computer and Network Organization</a>",
+      "currentValue": 0,
+      "currentText": "",
+      "lastWeeksProgress": 0,
+      "weeklyProgress": ((26-0)/560) * 100
+   },
    {
       "name": "Reading a book: <a href='https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/' target='_blank'>Distributed Systems</a>",
       "currentValue": 0,
@@ -29,7 +36,7 @@ var progress = [
       "currentValue": (3/28)*100,
       "currentText": "",
       "lastWeeksProgress": ((4-3)/28)*100,
-      "weeklyProgress": ((5-4)/28)*100
+      "weeklyProgress": ((6-4)/28)*100
    },
    {
       "name": "Completing a course: <a href='https://frontendmasters.com/courses/css-grids-flexbox/' target='_blank'>CSS Grids and Flexbox for Responsive Web Design</a>",
@@ -1054,6 +1061,9 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"Go Time #99: Hiring and nurturing junior developers", "link": "https://changelog.com/gotime/99"},
+   {"title":"Go Time #98: Generics in Go", "link": "https://changelog.com/gotime/98"},
+   {"title":"Go Time #97: LIVE from Gophercon UK", "link": "https://changelog.com/gotime/97"},
    {"title":"Command Line Heroes: Days of Future", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=NzQzOGE0NjgtN2JiZC00ZjJkLTkyOGQtOWUyNmQ2MjVhYWZk"},
    {"title":"Command Line Heroes: Crack the Cloud Open", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=ZWM0YmY2YWItOTZhZC00Zjk1LTgyYjQtN2RmMDA5ZGIwOTEw"},
    {"title":"Command Line Heroes: The Containers Derby", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=NjMyM2ZkMjItODVlOC00OTI4LTljYzEtMzRlZGJmMzU2OGY4"},
