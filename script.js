@@ -1061,6 +1061,9 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"Command Line Heroes: Ready to Commit: Contributing to Open Source", "link": "Hello, World: Programming Languages for the Polyglot Developer"},
+   {"title":"Command Line Heroes: Hello, World: Programming Languages for the Polyglot Developer", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=NmU4YTkxM2MtYWUyYS00ZDJhLTllZjgtOTk0NTlmMTU3OGM2"},
+   {"title":"Command Line Heroes: Press Start: How Gaming Shapes Development", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=ZDEwNWZjOGUtMjg1Ny00MTQ0LTk1ZmMtZWQwNTBmNGY5MjI1"},
    {"title":"Go Time #99: Hiring and nurturing junior developers", "link": "https://changelog.com/gotime/99"},
    {"title":"Go Time #98: Generics in Go", "link": "https://changelog.com/gotime/98"},
    {"title":"Go Time #97: LIVE from Gophercon UK", "link": "https://changelog.com/gotime/97"},
