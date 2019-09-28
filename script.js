@@ -15,7 +15,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": ((26-0)/560) * 100
+      "weeklyProgress": ((50-0)/560) * 100
    },
    {
       "name": "Reading a book: <a href='https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/' target='_blank'>Distributed Systems</a>",
@@ -23,13 +23,6 @@ var progress = [
       "currentText": "",
       "lastWeeksProgress": ((18-0)/596) * 100,
       "weeklyProgress": ((20-18)/596) * 100
-   },
-   {
-      "name": "Reading a book: <a href='https://www.amazon.com/China-Study-Comprehensive-Nutrition-Implications/dp/1932100660' target='_blank'>The China Study</a>",
-      "currentValue": 40,
-      "currentText": "",
-      "lastWeeksProgress": 100-40,
-      "weeklyProgress": 0
    },
    {
       "name": "Completing a course: <a href='https://www.educative.io/collection/5668639101419520/5649050225344512' target='_blank'>Grokking the System Design Interview</a>",
@@ -50,7 +43,7 @@ var progress = [
       "currentValue": 74,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": 90-74
+      "weeklyProgress": 100-74
    },
    {
       "name": "Reading a book: <a href='https://www.amazon.com/Operating-Systems-Introduction-R-Garg/dp/1942270380' target='_blank'>Operating Systems</a>",
@@ -84,8 +77,8 @@ var progress = [
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Pale-Blue-Dot-Audiobook/B06XTJN84L' target='_blank'>Pale Blue Dot</a>",
       "currentValue": ((434) / 798) * 100,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": ((798 - 434) / 798) * 100
+      "lastWeeksProgress": ((798 - 434) / 798) * 100,
+      "weeklyProgress": 0
    },
    {
       "name": "Reading a book: <a href='https://www.crcpress.com/Essentials-of-Computer-Architecture/Comer/p/book/9781138626591' target='_blank'>Essentials of Computer Architecture</a>",
@@ -152,6 +145,14 @@ var progress = [
 */
 
 var achievements = [
+   {
+      "id": 104,
+      "title": "Finished an Audiobook",
+      "date": "September 27th, 2019",
+      "link": "https://www.audible.com/pd/Bad-Science-Audiobook/B006WRE0IS",
+      "shortlink": "Bad Science",
+      "text": ""
+   },
    {
       "id": 103,
       "title": "Finished an Audiobook",
@@ -1061,6 +1062,7 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"Command Line Heroes: Fail Better: Embracing Failure", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=Y2QwNmM5MmUtODk1MC00MjVhLWI2MGItMWIzNjVkNGQwMzky"},
    {"title":"Command Line Heroes: Ready to Commit: Contributing to Open Source", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=YjIyNjllNmYtMjNiMC00ZmY1LThiOGYtMzFkYTdiNzY3ODRk"},
    {"title":"Command Line Heroes: Hello, World: Programming Languages for the Polyglot Developer", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=NmU4YTkxM2MtYWUyYS00ZDJhLTllZjgtOTk0NTlmMTU3OGM2"},
    {"title":"Command Line Heroes: Press Start: How Gaming Shapes Development", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=ZDEwNWZjOGUtMjg1Ny00MTQ0LTk1ZmMtZWQwNTBmNGY5MjI1"},
