@@ -1062,6 +1062,9 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"Go Time #100: Creating the Go programming language", "link": "https://changelog.com/gotime/100"},
+   {"title":"Command Line Heroes: Developer Advocacy Roundtable", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=NjI3OTg0YzAtNWY1My00YTViLTg5NWYtODY5NTcxMGYyMzA5"},
+   {"title":"Command Line Heroes: The One About DevSecOps: Evolving Security and Reliability", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=NGNlZTE1OTAtNzEzZC00OWQ5LTkxOTgtN2UyYTY2MGJlMjY1"},
    {"title":"Command Line Heroes: Fail Better: Embracing Failure", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=Y2QwNmM5MmUtODk1MC00MjVhLWI2MGItMWIzNjVkNGQwMzky"},
    {"title":"Command Line Heroes: Ready to Commit: Contributing to Open Source", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=YjIyNjllNmYtMjNiMC00ZmY1LThiOGYtMzFkYTdiNzY3ODRk"},
    {"title":"Command Line Heroes: Hello, World: Programming Languages for the Polyglot Developer", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=NmU4YTkxM2MtYWUyYS00ZDJhLTllZjgtOTk0NTlmMTU3OGM2"},
