@@ -11,6 +11,13 @@
 
 var progress = [
    {
+      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Homo-Deus-Audiobook/B01N4DCBK6' target='_blank'>Homo Deus: A Brief History of Tomorrow</a>",
+      "currentValue": 0,
+      "currentText": "",
+      "lastWeeksProgress": 0,
+      "weeklyProgress": 10
+   },
+   {
       "name": "Reading a book: <a href='https://www.distributed-systems.net/index.php/books/computer-and-network-organization/' target='_blank'>Computer and Network Organization</a>",
       "currentValue": 0,
       "currentText": "",
