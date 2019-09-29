@@ -15,21 +15,21 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": 10
+      "weeklyProgress": 17
    },
    {
       "name": "Reading a book: <a href='https://www.distributed-systems.net/index.php/books/computer-and-network-organization/' target='_blank'>Computer and Network Organization</a>",
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": ((50-0)/560) * 100
+      "weeklyProgress": ((67-0)/560) * 100
    },
    {
       "name": "Reading a book: <a href='https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/' target='_blank'>Distributed Systems</a>",
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": ((18-0)/596) * 100,
-      "weeklyProgress": ((20-18)/596) * 100
+      "weeklyProgress": ((95-18)/596) * 100
    },
    {
       "name": "Completing a course: <a href='https://www.educative.io/collection/5668639101419520/5649050225344512' target='_blank'>Grokking the System Design Interview</a>",
