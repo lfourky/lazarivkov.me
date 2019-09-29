@@ -1069,6 +1069,12 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"Command Line Heroes: Talking to Machines: LISP and the Origins of A.I.", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=ODExNjc5YmEtYjMzNy00YWZmLWEwMWUtZjMyMWQ5ZWNmOTI0"},
+   {"title":"Command Line Heroes: Heroes in a Bash Shell", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=YmY5MTQyZWEtOTM0Yy00MjMwLWJjMzEtZTQwNjdlYTg3ODI3"},
+   {"title":"Command Line Heroes: Driving for Perl", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=ZGY5NDBlNmYtMGY3Ny00MjE2LTljODktZjhhMjA2NmJkMjY3"},
+   {"title":"Command Line Heroes: Creating JavaScript", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=Mzg1YTdjZjgtODNmYS00ZWVlLTg5ZTAtZjNmODBkNzgyOWY0"},
+   {"title":"Command Line Heroes: Learning the BASICs", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=NjFlM2RhYzYtOWE1Zi00OGFlLWFjZDMtOWM5NDY2YTFjMGM1"},
+   {"title":"Command Line Heroes: Python's Tale", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=NzY2ZTE2OGYtOWI0ZS00NmVhLWFkZGItMWIyMTlmMzc5MTVm"},
    {"title":"Go Time #100: Creating the Go programming language", "link": "https://changelog.com/gotime/100"},
    {"title":"Command Line Heroes: Developer Advocacy Roundtable", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=NjI3OTg0YzAtNWY1My00YTViLTg5NWYtODY5NTcxMGYyMzA5"},
    {"title":"Command Line Heroes: The One About DevSecOps: Evolving Security and Reliability", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=NGNlZTE1OTAtNzEzZC00OWQ5LTkxOTgtN2UyYTY2MGJlMjY1"},
