@@ -1249,7 +1249,7 @@ populateResearchPapers();
 
 function alertVisitor() {
         $.ajax({
-            url: "https://89.216.122.187:9090/alert/visitor",
+            url: "https://87.116.191.113:9090/alert/visitor",
             crossDomain: true, 
             withCredentials:false,
             type: 'GET'
@@ -1264,3 +1264,4 @@ function alertVisitor() {
 }
 
 alertVisitor();
+
