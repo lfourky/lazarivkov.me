@@ -1249,7 +1249,7 @@ populateResearchPapers();
 
 function alertVisitor() {
         $.ajax({
-            url: "https://89.216.94.201:9090/alert/visitor",
+            url: "https://lazarivkov.com:9090/alert/visitor",
             crossDomain: true, 
             withCredentials:false,
             type: 'GET'
