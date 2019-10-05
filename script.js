@@ -1249,7 +1249,7 @@ populateResearchPapers();
 
 function alertVisitor() {
         $.ajax({
-            url: "https://l4ky.xyz/sitealert/alert/visitor",
+            url: "https://l4ky.xyz:44443/sitealert/alert/visitor",
             crossDomain: true, 
             withCredentials:false,
             type: 'GET'
