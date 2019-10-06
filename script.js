@@ -11,6 +11,13 @@
 
 var progress = [
    {
+      "name": "Completing a course: <a href='https://www.oreilly.com/library/view/understanding-regular-expressions/9781491996300/' target='_blank'>Understanding Regular Expressions</a>",
+      "currentValue": 0,
+      "currentText": "",
+      "lastWeeksProgress": 0,
+      "weeklyProgress": 3
+   },
+   {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Homo-Deus-Audiobook/B01N4DCBK6' target='_blank'>Homo Deus: A Brief History of Tomorrow</a>",
       "currentValue": 0,
       "currentText": "",
