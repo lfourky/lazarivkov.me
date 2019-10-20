@@ -14,36 +14,36 @@ var progress = [
       "name": "Completing a course: <a href='https://www.oreilly.com/library/view/understanding-regular-expressions/9781491996300/' target='_blank'>Understanding Regular Expressions</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 3
+      "lastWeeksProgress": (3/27)*100,
+      "weeklyProgress": ((10-3)/27)*100
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Homo-Deus-Audiobook/B01N4DCBK6' target='_blank'>Homo Deus: A Brief History of Tomorrow</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 17
+      "lastWeeksProgress": 17,
+      "weeklyProgress": 55-17
    },
    {
       "name": "Reading a book: <a href='https://www.distributed-systems.net/index.php/books/computer-and-network-organization/' target='_blank'>Computer and Network Organization</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": ((67-0)/560) * 100
+      "lastWeeksProgress": ((67-0)/560) * 100,
+      "weeklyProgress": 0
    },
    {
       "name": "Reading a book: <a href='https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/' target='_blank'>Distributed Systems</a>",
-      "currentValue": 0,
+      "currentValue": ((18-0)/596) * 100,
       "currentText": "",
-      "lastWeeksProgress": ((18-0)/596) * 100,
-      "weeklyProgress": ((95-18)/596) * 100
+      "lastWeeksProgress": ((95-18)/596) * 100,
+      "weeklyProgress": ((197-95)/596) * 100
    },
    {
       "name": "Completing a course: <a href='https://www.educative.io/collection/5668639101419520/5649050225344512' target='_blank'>Grokking the System Design Interview</a>",
-      "currentValue": (3/28)*100,
+      "currentValue": (4/28)*100,
       "currentText": "",
-      "lastWeeksProgress": ((4-3)/28)*100,
-      "weeklyProgress": ((6-4)/28)*100
+      "lastWeeksProgress": ((6-4)/28)*100,
+      "weeklyProgress": 0
    },
    {
       "name": "Completing a course: <a href='https://frontendmasters.com/courses/css-grids-flexbox/' target='_blank'>CSS Grids and Flexbox for Responsive Web Design</a>",
@@ -51,13 +51,6 @@ var progress = [
       "currentText": "",
       "lastWeeksProgress": 0,
       "weeklyProgress": 0
-   },
-   {
-      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Bad-Science-Audiobook/B006WRE0IS' target='_blank'>Bad Science</a>",
-      "currentValue": 74,
-      "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 100-74
    },
    {
       "name": "Reading a book: <a href='https://www.amazon.com/Operating-Systems-Introduction-R-Garg/dp/1942270380' target='_blank'>Operating Systems</a>",
@@ -74,24 +67,10 @@ var progress = [
       "weeklyProgress": 0
    },
    {
-      "name": "Completing a course: <a href='https://www.coursera.org/learn/build-a-computer' target='_blank'>Build a Modern Computer from First Principles: From Nand to Tetris </a>",
-      "currentValue": 16,
-      "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 0
-   },
-   {
       "name": "Reading <a href='https://people.freebsd.org/~lstewart/articles/cpumemory.pdf' target='_blank'>What Every Programmer Should Know About Memory</a>",
       "currentValue": (23 / 114) * 100,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": 0
-   },
-   {
-      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Pale-Blue-Dot-Audiobook/B06XTJN84L' target='_blank'>Pale Blue Dot</a>",
-      "currentValue": ((434) / 798) * 100,
-      "currentText": "",
-      "lastWeeksProgress": ((798 - 434) / 798) * 100,
       "weeklyProgress": 0
    },
    {
@@ -101,7 +80,6 @@ var progress = [
       "lastWeeksProgress": 0,
       "weeklyProgress": 0
    },
-
    {
       "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
       "currentValue": 19,
@@ -112,7 +90,13 @@ var progress = [
 ]
 
 /*
-
+   {
+      "name": "Completing a course: <a href='https://www.coursera.org/learn/build-a-computer' target='_blank'>Build a Modern Computer from First Principles: From Nand to Tetris </a>",
+      "currentValue": 16,
+      "currentText": "",
+      "lastWeeksProgress": 0,
+      "weeklyProgress": 0
+   },
    {
       "name": "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
       "currentValue": ((133 - 0) / 508) * 100,
@@ -1076,6 +1060,10 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"Command Line Heroes: The C Change", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=ZWFkMzc1YmItMWNjMS00NjY1LTg0MjEtNmVhMmU2YmE0YTA1"},
+   {"title":"Go Time #103: All about caching", "link": "https://changelog.com/gotime/103"},
+   {"title":"Go Time #102: On application design", "link": "https://changelog.com/gotime/102"},
+   {"title":"Go Time #101: Security for Gophers", "link": "https://changelog.com/gotime/101"},
    {"title":"Command Line Heroes: Talking to Machines: LISP and the Origins of A.I.", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=ODExNjc5YmEtYjMzNy00YWZmLWEwMWUtZjMyMWQ5ZWNmOTI0"},
    {"title":"Command Line Heroes: Heroes in a Bash Shell", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=YmY5MTQyZWEtOTM0Yy00MjMwLWJjMzEtZTQwNjdlYTg3ODI3"},
    {"title":"Command Line Heroes: Driving for Perl", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=ZGY5NDBlNmYtMGY3Ny00MjE2LTljODktZjhhMjA2NmJkMjY3"},
