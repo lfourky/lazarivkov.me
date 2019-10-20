@@ -1190,6 +1190,11 @@ var saPodcasts = [
 
 // {"title":"", "link": ""},
 var saArticles = [
+   {"title":"Refactoring -- Not on the backlog!", "link": "https://ronjeffries.com/xprog/articles/refactoring-not-on-the-backlog/"},
+   {"title":"Modern Software Over-Engineering Mistakes", "link": "https://medium.com/@rdsubhas/10-modern-software-engineering-mistakes-bc67fbef4fc8"},
+   {"title":"Latency Numbers Every Programmer Should Know", "link": "https://gist.github.com/jboner/2841832"},
+   {"title":"“FORGET ME” AND TESTS", "link": "https://techblog.bozho.net/forget-me-and-tests/"},
+   {"title":"Write code that is easy to delete, not easy to extend.", "link": "https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to"},
    {"title":"Diving deep into net/http : A look at http.RoundTripper", "link": "https://lanre.wtf/blog/2017/07/24/roundtripper-go/"},
    {"title":"Algebraic Effects for the Rest of Us", "link": "https://overreacted.io/algebraic-effects-for-the-rest-of-us/"},
    {"title":"Files Are Fraught With Peril", "link": "https://danluu.com/deconstruct-files/"},
