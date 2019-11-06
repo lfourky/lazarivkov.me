@@ -12,10 +12,10 @@
 var progress = [
    {
       "name": "Completing a course: <a href='https://www.oreilly.com/library/view/understanding-regular-expressions/9781491996300/' target='_blank'>Understanding Regular Expressions</a>",
-      "currentValue": 0,
+      "currentValue": (3/27)*100,
       "currentText": "",
-      "lastWeeksProgress": (3/27)*100,
-      "weeklyProgress": ((10-3)/27)*100
+      "lastWeeksProgress": ((10-3)/27)*100,
+      "weeklyProgress": 0
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Homo-Deus-Audiobook/B01N4DCBK6' target='_blank'>Homo Deus: A Brief History of Tomorrow</a>",
@@ -26,23 +26,23 @@ var progress = [
    },
    {
       "name": "Reading a book: <a href='https://www.distributed-systems.net/index.php/books/computer-and-network-organization/' target='_blank'>Computer and Network Organization</a>",
-      "currentValue": 0,
+      "currentValue": ((67-0)/560) * 100,
       "currentText": "",
-      "lastWeeksProgress": ((67-0)/560) * 100,
+      "lastWeeksProgress": 0,
       "weeklyProgress": 0
    },
    {
       "name": "Reading a book: <a href='https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/' target='_blank'>Distributed Systems</a>",
-      "currentValue": ((18-0)/596) * 100,
+      "currentValue": ((95-0)/596) * 100,
       "currentText": "",
-      "lastWeeksProgress": ((95-18)/596) * 100,
-      "weeklyProgress": ((197-95)/596) * 100
+      "lastWeeksProgress": ((223-95)/596) * 100,
+      "weeklyProgress": 0
    },
    {
       "name": "Completing a course: <a href='https://www.educative.io/collection/5668639101419520/5649050225344512' target='_blank'>Grokking the System Design Interview</a>",
-      "currentValue": (4/28)*100,
+      "currentValue": (6/28)*100,
       "currentText": "",
-      "lastWeeksProgress": ((6-4)/28)*100,
+      "lastWeeksProgress": 0,
       "weeklyProgress": 0
    },
    {
