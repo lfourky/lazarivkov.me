@@ -19,10 +19,10 @@ var progress = [
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Homo-Deus-Audiobook/B01N4DCBK6' target='_blank'>Homo Deus: A Brief History of Tomorrow</a>",
-      "currentValue": 0,
+      "currentValue": 17,
       "currentText": "",
-      "lastWeeksProgress": 17,
-      "weeklyProgress": 55-17
+      "lastWeeksProgress": 55-17,
+      "weeklyProgress": 100-55
    },
    {
       "name": "Reading a book: <a href='https://www.distributed-systems.net/index.php/books/computer-and-network-organization/' target='_blank'>Computer and Network Organization</a>",
@@ -143,6 +143,14 @@ var progress = [
 */
 
 var achievements = [
+   {
+      "id": 104,
+      "title": "Finished an Audiobook",
+      "date": "September 27th, 2019",
+      "link": "https://www.audible.com/pd/Homo-Deus-Audiobook/B01N4DCBK6",
+      "shortlink": "Homo Deus: A Brief History of Tomorrow",
+      "text": ""
+   },
    {
       "id": 104,
       "title": "Finished an Audiobook",
