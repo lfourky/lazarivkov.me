@@ -11,6 +11,13 @@
 
 var progress = [
    {
+      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Packing-for-Mars-Audiobook/B003VVN1KQ' target='_blank'>Packing for Mars</a>",
+      "currentValue": 0,
+      "currentText": "",
+      "lastWeeksProgress": 0,
+      "weeklyProgress": 1
+   },
+   {
       "name": "Completing a course: <a href='https://www.oreilly.com/library/view/understanding-regular-expressions/9781491996300/' target='_blank'>Understanding Regular Expressions</a>",
       "currentValue": (3/27)*100,
       "currentText": "",
@@ -36,7 +43,7 @@ var progress = [
       "currentValue": ((95-0)/596) * 100,
       "currentText": "",
       "lastWeeksProgress": ((223-95)/596) * 100,
-      "weeklyProgress": 0
+      "weeklyProgress": ((229-223)/596) * 100
    },
    {
       "name": "Completing a course: <a href='https://www.educative.io/collection/5668639101419520/5649050225344512' target='_blank'>Grokking the System Design Interview</a>",
