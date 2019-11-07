@@ -22,7 +22,7 @@ var progress = [
       "currentValue": (3/27)*100,
       "currentText": "",
       "lastWeeksProgress": ((10-3)/27)*100,
-      "weeklyProgress": 0
+      "weeklyProgress": ((11-10)/27)*100
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Homo-Deus-Audiobook/B01N4DCBK6' target='_blank'>Homo Deus: A Brief History of Tomorrow</a>",
