@@ -15,14 +15,14 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": 1
+      "weeklyProgress": 14
    },
    {
       "name": "Completing a course: <a href='https://www.oreilly.com/library/view/understanding-regular-expressions/9781491996300/' target='_blank'>Understanding Regular Expressions</a>",
       "currentValue": (3/27)*100,
       "currentText": "",
       "lastWeeksProgress": ((10-3)/27)*100,
-      "weeklyProgress": ((11-10)/27)*100
+      "weeklyProgress": ((20-10)/27)*100
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Homo-Deus-Audiobook/B01N4DCBK6' target='_blank'>Homo Deus: A Brief History of Tomorrow</a>",
