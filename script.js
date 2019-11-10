@@ -22,7 +22,7 @@ var progress = [
       "currentValue": (3/27)*100,
       "currentText": "",
       "lastWeeksProgress": ((10-3)/27)*100,
-      "weeklyProgress": ((20-10)/27)*100
+      "weeklyProgress": ((90-10)/27)*100
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Homo-Deus-Audiobook/B01N4DCBK6' target='_blank'>Homo Deus: A Brief History of Tomorrow</a>",
@@ -150,6 +150,14 @@ var progress = [
 */
 
 var achievements = [
+   {
+      "id": 106,
+      "title": "Completed a Course",
+      "date": "November 10th, 2019",
+      "link": "https://www.oreilly.com/library/view/understanding-regular-expressions/9781491996300/",
+      "shortlink": "Understanding Regular Expressions",
+      "text": ""
+   },
    {
       "id": 105,
       "title": "Finished an Audiobook",
