@@ -11,6 +11,13 @@
 
 var progress = [
    {
+      "name": "Completing a course: <a href='http://shop.oreilly.com/product/0636920048244.do' target='_blank'>Building Microservice Systems with Docker and Kubernetes</a>",
+      "currentValue": 0,
+      "currentText": "",
+      "lastWeeksProgress": 0,
+      "weeklyProgress": 1
+   },
+   {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Packing-for-Mars-Audiobook/B003VVN1KQ' target='_blank'>Packing for Mars</a>",
       "currentValue": 0,
       "currentText": "",
