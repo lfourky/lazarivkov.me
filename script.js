@@ -15,7 +15,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": (16/31)*100
+      "weeklyProgress": (31/31)*100
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Packing-for-Mars-Audiobook/B003VVN1KQ' target='_blank'>Packing for Mars</a>",
@@ -157,6 +157,14 @@ var progress = [
 */
 
 var achievements = [
+   {
+      "id": 107,
+      "title": "Completed a Course",
+      "date": "November 12th, 2019",
+      "link": "https://shop.oreilly.com/product/0636920048244.do",
+      "shortlink": "Building Microservice Systems with Docker and Kubernetes",
+      "text": ""
+   },
    {
       "id": 106,
       "title": "Completed a Course",
