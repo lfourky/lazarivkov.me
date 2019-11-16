@@ -1102,6 +1102,9 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"Go Time #106: Code editors and language servers", "link": "https://changelog.com/gotime/106"},
+   {"title":"Go Time #105: Kubernetes and Cloud Native", "link": "https://changelog.com/gotime/105"},
+   {"title":"Go Time #104: Building search tools in Go", "link": "https://changelog.com/gotime/104"},
    {"title":"Command Line Heroes: The C Change", "link": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wYWNpZmljLWNvbnRlbnQuY29tL2NvbW1hbmRsaW5laGVyb2Vz&episode=ZWFkMzc1YmItMWNjMS00NjY1LTg0MjEtNmVhMmU2YmE0YTA1"},
    {"title":"Go Time #103: All about caching", "link": "https://changelog.com/gotime/103"},
    {"title":"Go Time #102: On application design", "link": "https://changelog.com/gotime/102"},
