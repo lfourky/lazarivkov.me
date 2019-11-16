@@ -21,8 +21,8 @@ var progress = [
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Packing-for-Mars-Audiobook/B003VVN1KQ' target='_blank'>Packing for Mars</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 14
+      "lastWeeksProgress": 14,
+      "weeklyProgress": 33-14
    },
    {
       "name": "Completing a course: <a href='https://www.oreilly.com/library/view/understanding-regular-expressions/9781491996300/' target='_blank'>Understanding Regular Expressions</a>",
@@ -33,16 +33,9 @@ var progress = [
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Homo-Deus-Audiobook/B01N4DCBK6' target='_blank'>Homo Deus: A Brief History of Tomorrow</a>",
-      "currentValue": 17,
+      "currentValue": 55,
       "currentText": "",
-      "lastWeeksProgress": 55-17,
-      "weeklyProgress": 100-55
-   },
-   {
-      "name": "Reading a book: <a href='https://www.distributed-systems.net/index.php/books/computer-and-network-organization/' target='_blank'>Computer and Network Organization</a>",
-      "currentValue": ((67-0)/560) * 100,
-      "currentText": "",
-      "lastWeeksProgress": 0,
+      "lastWeeksProgress": 100-55,
       "weeklyProgress": 0
    },
    {
@@ -50,7 +43,7 @@ var progress = [
       "currentValue": ((95-0)/596) * 100,
       "currentText": "",
       "lastWeeksProgress": ((223-95)/596) * 100,
-      "weeklyProgress": ((229-223)/596) * 100
+      "weeklyProgress": ((236-223)/596) * 100
    },
    {
       "name": "Completing a course: <a href='https://www.educative.io/collection/5668639101419520/5649050225344512' target='_blank'>Grokking the System Design Interview</a>",
@@ -59,23 +52,29 @@ var progress = [
       "lastWeeksProgress": 0,
       "weeklyProgress": 0
    },
-   {
-      "name": "Completing a course: <a href='https://frontendmasters.com/courses/css-grids-flexbox/' target='_blank'>CSS Grids and Flexbox for Responsive Web Design</a>",
-      "currentValue": (81 / 338) * 100,
-      "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 0
-   },
-   {
-      "name": "Reading a book: <a href='https://www.amazon.com/Operating-Systems-Introduction-R-Garg/dp/1942270380' target='_blank'>Operating Systems</a>",
-      "currentValue": ((107 - 0) / 304) * 100,
-      "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 0
-   },
+
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Hackers-Heroes-of-the-Computer-Revolution-Audiobook/B017RUZC4E' target='_blank'>Hackers: Heroes of the Computer Revolution</a>",
       "currentValue": ((660) / 1223) * 100,
+      "currentText": "",
+      "lastWeeksProgress": 0,
+      "weeklyProgress": 0
+   },
+   {
+      "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
+      "currentValue": 19,
+      "currentText": "",
+      "lastWeeksProgress": 0,
+      "weeklyProgress": 0
+   }
+]
+
+/*
+
+
+   {
+      "name": "Reading a book: <a href='https://www.amazon.com/Operating-Systems-Introduction-R-Garg/dp/1942270380' target='_blank'>Operating Systems</a>",
+      "currentValue": ((107 - 0) / 304) * 100,
       "currentText": "",
       "lastWeeksProgress": 0,
       "weeklyProgress": 0
@@ -94,16 +93,21 @@ var progress = [
       "lastWeeksProgress": 0,
       "weeklyProgress": 0
    },
-   {
-      "name": "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
-      "currentValue": 19,
+      {
+      "name": "Completing a course: <a href='https://frontendmasters.com/courses/css-grids-flexbox/' target='_blank'>CSS Grids and Flexbox for Responsive Web Design</a>",
+      "currentValue": (81 / 338) * 100,
       "currentText": "",
       "lastWeeksProgress": 0,
       "weeklyProgress": 0
-   }
-]
+   },
+   {
+      "name": "Reading a book: <a href='https://www.distributed-systems.net/index.php/books/computer-and-network-organization/' target='_blank'>Computer and Network Organization</a>",
+      "currentValue": ((67-0)/560) * 100,
+      "currentText": "",
+      "lastWeeksProgress": 0,
+      "weeklyProgress": 0
+   },
 
-/*
    {
       "name": "Completing a course: <a href='https://www.coursera.org/learn/build-a-computer' target='_blank'>Build a Modern Computer from First Principles: From Nand to Tetris </a>",
       "currentValue": 16,
