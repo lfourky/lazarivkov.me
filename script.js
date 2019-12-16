@@ -11,39 +11,25 @@
 
 var progress = [
    {
-      "name": "Completing a course: <a href='http://shop.oreilly.com/product/0636920048244.do' target='_blank'>Building Microservice Systems with Docker and Kubernetes</a>",
+      "name": "Reading a book: <a href='https://www.oreilly.com/library/view/dependency-injection-principles/9781617294730/' target='_blank'>Dependency Injection</a>",
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": (31/31)*100
+      "weeklyProgress": 14
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Packing-for-Mars-Audiobook/B003VVN1KQ' target='_blank'>Packing for Mars</a>",
-      "currentValue": 0,
+      "currentValue": 33,
       "currentText": "",
-      "lastWeeksProgress": 14,
-      "weeklyProgress": 33-14
-   },
-   {
-      "name": "Completing a course: <a href='https://www.oreilly.com/library/view/understanding-regular-expressions/9781491996300/' target='_blank'>Understanding Regular Expressions</a>",
-      "currentValue": (3/27)*100,
-      "currentText": "",
-      "lastWeeksProgress": ((10-3)/27)*100,
-      "weeklyProgress": ((27-10)/27)*100
-   },
-   {
-      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Homo-Deus-Audiobook/B01N4DCBK6' target='_blank'>Homo Deus: A Brief History of Tomorrow</a>",
-      "currentValue": 55,
-      "currentText": "",
-      "lastWeeksProgress": 100-55,
+      "lastWeeksProgress": 73-33,
       "weeklyProgress": 0
    },
    {
       "name": "Reading a book: <a href='https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/' target='_blank'>Distributed Systems</a>",
-      "currentValue": ((95-0)/596) * 100,
+      "currentValue": 35,
       "currentText": "",
-      "lastWeeksProgress": ((223-95)/596) * 100,
-      "weeklyProgress": ((236-223)/596) * 100
+      "lastWeeksProgress": 42,
+      "weeklyProgress": 0
    },
    {
       "name": "Completing a course: <a href='https://www.educative.io/collection/5668639101419520/5649050225344512' target='_blank'>Grokking the System Design Interview</a>",
@@ -1102,6 +1088,9 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"SE-Radio Episode 387: Abhinav Asthana on Designing and Testing APIs", "link": "https://www.se-radio.net/2019/11/episode-387-abhinav-asthana-on-designing-and-testing-apis/"},
+   {"title":"SE-Radio Episode 385: Evan Gilman and Doug Barth on Zero-Trust Networks", "link": "https://www.se-radio.net/2019/10/episode-385-evan-gilman-and-doug-barth-on-zero-trust-networks/"},
+   {"title":"SE-Radio Episode 386: Spencer Dixon on Building Low Latency Applications with WebRTC", "link": "https://www.se-radio.net/2019/10/episode-386-building-low-latency-applications-with-webrtc/"},
    {"title":"Go Time #106: Code editors and language servers", "link": "https://changelog.com/gotime/106"},
    {"title":"Go Time #105: Kubernetes and Cloud Native", "link": "https://changelog.com/gotime/105"},
    {"title":"Go Time #104: Building search tools in Go", "link": "https://changelog.com/gotime/104"},
@@ -1235,6 +1224,7 @@ var saPodcasts = [
 
 // {"title":"", "link": ""},
 var saArticles = [
+   {"title":"Windows Subsystem for Linux (WSL): The Ultimate Guide", "link": "https://adamtheautomator.com/windows-subsystem-for-linux/"},
    {"title":"Refactoring -- Not on the backlog!", "link": "https://ronjeffries.com/xprog/articles/refactoring-not-on-the-backlog/"},
    {"title":"Modern Software Over-Engineering Mistakes", "link": "https://medium.com/@rdsubhas/10-modern-software-engineering-mistakes-bc67fbef4fc8"},
    {"title":"Latency Numbers Every Programmer Should Know", "link": "https://gist.github.com/jboner/2841832"},
