@@ -11,6 +11,13 @@
 
 var progress = [
    {
+      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Algorithms-to-Live-By-Audiobook/B01D24NLWO' target='_blank'>Algorithms to Live By</a>",
+      "currentValue": 0,
+      "currentText": "",
+      "lastWeeksProgress": 7,
+      "weeklyProgress": 0
+   },
+   {
       "name": "Reading a book: <a href='https://www.oreilly.com/library/view/dependency-injection-principles/9781617294730/' target='_blank'>Dependency Injection</a>",
       "currentValue": 0,
       "currentText": "",
