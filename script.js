@@ -35,7 +35,7 @@ var progress = [
       "name": "Reading a book: <a href='https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/' target='_blank'>Distributed Systems</a>",
       "currentValue": 35,
       "currentText": "",
-      "lastWeeksProgress": 42,
+      "lastWeeksProgress": 42-35,
       "weeklyProgress": 0
    },
    {
