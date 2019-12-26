@@ -1231,6 +1231,9 @@ var saPodcasts = [
 
 // {"title":"", "link": ""},
 var saArticles = [
+   {"title":"Introducing Badger: A fast key-value store written purely in Go", "link": "https://blog.dgraph.io/post/badger/"},  
+   {"title":"MySQL locking for the busy web developer", "link": "https://www.brightbox.com/blog/2013/10/31/on-mysql-locks/"},
+   {"title":"Writing MySQL schema migrations: best practices", "link": "https://compwright.com/2011-10-08/mysql-schema-migrations-best-practices/"},
    {"title":"Windows Subsystem for Linux (WSL): The Ultimate Guide", "link": "https://adamtheautomator.com/windows-subsystem-for-linux/"},
    {"title":"Refactoring -- Not on the backlog!", "link": "https://ronjeffries.com/xprog/articles/refactoring-not-on-the-backlog/"},
    {"title":"Modern Software Over-Engineering Mistakes", "link": "https://medium.com/@rdsubhas/10-modern-software-engineering-mistakes-bc67fbef4fc8"},
