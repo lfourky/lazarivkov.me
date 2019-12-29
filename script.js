@@ -11,6 +11,13 @@
 
 var progress = [
    {
+      "name": "Completing a course: <a href='https://www.educative.io/courses/grokking-computer-networking' target='_blank'>Grokking Computer Networking for Software Engineers</a>",
+      "currentValue": 0,
+      "currentText": "",
+      "lastWeeksProgress": 0,
+      "weeklyProgress": 21
+   },
+   {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Algorithms-to-Live-By-Audiobook/B01D24NLWO' target='_blank'>Algorithms to Live By</a>",
       "currentValue": 0,
       "currentText": "",
@@ -29,7 +36,7 @@ var progress = [
       "currentValue": 33,
       "currentText": "",
       "lastWeeksProgress": 73-33,
-      "weeklyProgress": 0
+      "weeklyProgress": 100-73
    },
    {
       "name": "Reading a book: <a href='https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/' target='_blank'>Distributed Systems</a>",
@@ -154,6 +161,14 @@ var progress = [
 */
 
 var achievements = [
+   {
+      "id": 108,
+      "title": "Finished an Audiobook",
+      "date": "December 29th, 2019",
+      "link": "https://www.audible.com/pd/Packing-for-Mars-Audiobook/B003VVN1KQ",
+      "shortlink": "Packing for Mars",
+      "text": ""
+   },
    {
       "id": 107,
       "title": "Completed a Course",
