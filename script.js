@@ -1095,6 +1095,12 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"SE-Radio Episode 98: Stefan Tilkov on REST", "link": "https://www.se-radio.net/2008/05/episode-98-stefan-tilkov-on-rest/"},
+   {"title":"Go Time #111: Bugs are in the air", "link": "https://changelog.com/gotime/111"},
+   {"title":"Go Time #110: The fireside edition 🔥", "link": "https://changelog.com/gotime/110"},
+   {"title":"Go Time #109: Concurrency, parallelism, and async design", "link": "https://changelog.com/gotime/109"},
+   {"title":"Go Time #108: Graph databases", "link": "https://changelog.com/gotime/108"},
+   {"title":"Go Time #107: Compilers and interpreters", "link": "https://changelog.com/gotime/107"},
    {"title":"SE-Radio Episode 387: Abhinav Asthana on Designing and Testing APIs", "link": "https://www.se-radio.net/2019/11/episode-387-abhinav-asthana-on-designing-and-testing-apis/"},
    {"title":"SE-Radio Episode 385: Evan Gilman and Doug Barth on Zero-Trust Networks", "link": "https://www.se-radio.net/2019/10/episode-385-evan-gilman-and-doug-barth-on-zero-trust-networks/"},
    {"title":"SE-Radio Episode 386: Spencer Dixon on Building Low Latency Applications with WebRTC", "link": "https://www.se-radio.net/2019/10/episode-386-building-low-latency-applications-with-webrtc/"},
