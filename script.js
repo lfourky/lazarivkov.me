@@ -1111,7 +1111,7 @@ populateProgress();
 // {"title":"", "link": ""},
 var saPodcasts = [
    {"title":"AI Podcast: Elon Musk: Tesla Autopilot", "link": "https://www.youtube.com/watch?v=dEv99vxKjVI"},
-   {"title":"AI Podcast: ", "link": "https://youtu.be/uTxRF5ag27A"},
+   {"title":"AI Podcast: Bjarne Stroustrup: C++", "link": "https://youtu.be/uTxRF5ag27A"},
    {"title":"AI Podcast: Donald Knuth: Algorithms, Complexity, Life, and The Art of Computer Programming", "link": "https://www.youtube.com/watch?v=2BdBfsXbST8"},
    {"title":"SE-Radio Episode 98: Stefan Tilkov on REST", "link": "https://www.se-radio.net/2008/05/episode-98-stefan-tilkov-on-rest/"},
    {"title":"Go Time #111: Bugs are in the air", "link": "https://changelog.com/gotime/111"},
