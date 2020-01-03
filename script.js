@@ -1110,6 +1110,7 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"AI Podcast: George Hotz: Comma.ai, OpenPilot, and Autonomous Vehicles", "link": "https://www.youtube.com/watch?v=iwcYp-XT7UI"},
    {"title":"AI Podcast: Elon Musk: Tesla Autopilot", "link": "https://www.youtube.com/watch?v=dEv99vxKjVI"},
    {"title":"AI Podcast: Bjarne Stroustrup: C++", "link": "https://youtu.be/uTxRF5ag27A"},
    {"title":"AI Podcast: Donald Knuth: Algorithms, Complexity, Life, and The Art of Computer Programming", "link": "https://www.youtube.com/watch?v=2BdBfsXbST8"},
