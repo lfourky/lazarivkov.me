@@ -15,14 +15,14 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": 21
+      "weeklyProgress": 36
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Algorithms-to-Live-By-Audiobook/B01D24NLWO' target='_blank'>Algorithms to Live By</a>",
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 7,
-      "weeklyProgress": 0
+      "weeklyProgress": 15-7
    },
    {
       "name": "Reading a book: <a href='https://www.oreilly.com/library/view/dependency-injection-principles/9781617294730/' target='_blank'>Dependency Injection</a>",
@@ -1110,6 +1110,7 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"AI Podcast: Michael Stevens: Vsauce", "link": "https://www.youtube.com/watch?v=3qMemn__kK8"},
    {"title":"AI Podcast: George Hotz: Comma.ai, OpenPilot, and Autonomous Vehicles", "link": "https://www.youtube.com/watch?v=iwcYp-XT7UI"},
    {"title":"AI Podcast: Elon Musk: Tesla Autopilot", "link": "https://www.youtube.com/watch?v=dEv99vxKjVI"},
    {"title":"AI Podcast: Bjarne Stroustrup: C++", "link": "https://youtu.be/uTxRF5ag27A"},
