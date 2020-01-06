@@ -1110,6 +1110,7 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"AI Podcast: Eric Schmidt: Google", "link": "https://www.youtube.com/watch?v=hIC9FQpxVwQ"},
    {"title":"AI Podcast: Leonard Susskind: Quantum Mechanics, String Theory and Black Holes", "link": "https://www.youtube.com/watch?v=s78hvV3QLUE"},
    {"title":"AI Podcast: Michio Kaku: Future of Humans, Aliens, Space Travel & Physics", "link": "https://www.youtube.com/watch?v=kD5yc1LQrpQ"},
    {"title":"AI Podcast: Michael Stevens: Vsauce", "link": "https://www.youtube.com/watch?v=3qMemn__kK8"},
@@ -1259,6 +1260,7 @@ var saPodcasts = [
 
 // {"title":"", "link": ""},
 var saArticles = [
+   {"title":"Practical Go: Real world advice for writing maintainable Go programs", "link": "https://dave.cheney.net/practical-go/presentations/qcon-china.html#_api_design"},
    {"title":"Introducing Badger: A fast key-value store written purely in Go", "link": "https://blog.dgraph.io/post/badger/"},  
    {"title":"MySQL locking for the busy web developer", "link": "https://www.brightbox.com/blog/2013/10/31/on-mysql-locks/"},
    {"title":"Writing MySQL schema migrations: best practices", "link": "https://compwright.com/2011-10-08/mysql-schema-migrations-best-practices/"},
