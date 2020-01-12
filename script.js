@@ -1110,6 +1110,9 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"AI Podcast: Christof Koch: Consciousness", "link": "https://www.youtube.com/watch?v=piHkfmeU7Wo"},
+   {"title":"AI Podcast: Eric Weinstein: Revolutionary Ideas in Science, Math, and Society", "link": "https://www.youtube.com/watch?v=2wq9x2QcZN0"},
+   {"title":"AI Podcast: Jim Gates: Supersymmetry, String Theory and Proving Einstein Right", "link": "https://www.youtube.com/watch?v=IUHkhB366tE"},
    {"title":"AI Podcast: Eric Schmidt: Google", "link": "https://www.youtube.com/watch?v=hIC9FQpxVwQ"},
    {"title":"AI Podcast: Leonard Susskind: Quantum Mechanics, String Theory and Black Holes", "link": "https://www.youtube.com/watch?v=s78hvV3QLUE"},
    {"title":"AI Podcast: Michio Kaku: Future of Humans, Aliens, Space Travel & Physics", "link": "https://www.youtube.com/watch?v=kD5yc1LQrpQ"},
@@ -1257,9 +1260,11 @@ var saPodcasts = [
 
  
 
-
 // {"title":"", "link": ""},
 var saArticles = [
+   {"title":"Go versus Python 3 fastest programs", "link": "https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/go-python3.html"},
+   {"title":"Why we’re writing machine learning infrastructure in Go, not Python", "link": "https://towardsdatascience.com/why-were-writing-machine-learning-infrastructure-in-go-not-python-38d6a37e2d76"},
+   {"title":"The Value in Go's Simplicity", "link": "https://benjamincongdon.me/blog/2019/11/11/The-Value-in-Gos-Simplicity/"},
    {"title":"Practical Go: Real world advice for writing maintainable Go programs", "link": "https://dave.cheney.net/practical-go/presentations/qcon-china.html#_api_design"},
    {"title":"Introducing Badger: A fast key-value store written purely in Go", "link": "https://blog.dgraph.io/post/badger/"},  
    {"title":"MySQL locking for the busy web developer", "link": "https://www.brightbox.com/blog/2013/10/31/on-mysql-locks/"},
