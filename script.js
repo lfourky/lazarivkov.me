@@ -1110,6 +1110,7 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"Go Time #112: defer GoTime()", "link": "https://changelog.com/gotime/112"},
    {"title":"AI Podcast: Christof Koch: Consciousness", "link": "https://www.youtube.com/watch?v=piHkfmeU7Wo"},
    {"title":"AI Podcast: Eric Weinstein: Revolutionary Ideas in Science, Math, and Society", "link": "https://www.youtube.com/watch?v=2wq9x2QcZN0"},
    {"title":"AI Podcast: Jim Gates: Supersymmetry, String Theory and Proving Einstein Right", "link": "https://www.youtube.com/watch?v=IUHkhB366tE"},
