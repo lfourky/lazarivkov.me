@@ -11,6 +11,13 @@
 
 var progress = [
    {
+      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Humble-Pi-Audiobook/0241375509' target='_blank'>Humble Pi</a>",
+      "currentValue": 0,
+      "currentText": "",
+      "lastWeeksProgress": 0,
+      "weeklyProgress": 5h6m od 9h33m
+   },
+   {
       "name": "Completing a course: <a href='https://www.educative.io/courses/grokking-computer-networking' target='_blank'>Grokking Computer Networking for Software Engineers</a>",
       "currentValue": 0,
       "currentText": "",
@@ -21,8 +28,8 @@ var progress = [
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Algorithms-to-Live-By-Audiobook/B01D24NLWO' target='_blank'>Algorithms to Live By</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 7,
-      "weeklyProgress": 15-7
+      "lastWeeksProgress": 15,
+      "weeklyProgress": 18-15
    },
    {
       "name": "Reading a book: <a href='https://www.oreilly.com/library/view/dependency-injection-principles/9781617294730/' target='_blank'>Dependency Injection</a>",
@@ -30,13 +37,6 @@ var progress = [
       "currentText": "",
       "lastWeeksProgress": 0,
       "weeklyProgress": 14
-   },
-   {
-      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Packing-for-Mars-Audiobook/B003VVN1KQ' target='_blank'>Packing for Mars</a>",
-      "currentValue": 33,
-      "currentText": "",
-      "lastWeeksProgress": 73-33,
-      "weeklyProgress": 100-73
    },
    {
       "name": "Reading a book: <a href='https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/' target='_blank'>Distributed Systems</a>",
