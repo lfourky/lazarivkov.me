@@ -1265,6 +1265,7 @@ var saPodcasts = [
 
 // {"title":"", "link": ""},
 var saArticles = [
+   {"title":"So You Want To Be An Embedded Linux Developer", "link": "https://www.linux.com/news/so-you-want-be-embedded-linux-developer/"},
    {"title":"Go versus Python 3 fastest programs", "link": "https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/go-python3.html"},
    {"title":"Why we’re writing machine learning infrastructure in Go, not Python", "link": "https://towardsdatascience.com/why-were-writing-machine-learning-infrastructure-in-go-not-python-38d6a37e2d76"},
    {"title":"The Value in Go's Simplicity", "link": "https://benjamincongdon.me/blog/2019/11/11/The-Value-in-Gos-Simplicity/"},
