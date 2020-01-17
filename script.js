@@ -1298,7 +1298,7 @@ var saArticles = [
    {"title":"Goodbye, Object Oriented Programming", "link":"https://medium.com/@morpheu5/here-i-knew-this-was-coming-from-the-start-c2af96262b9"},
    {"title":"The Saddest Moment", "link": "https://www.usenix.org/system/files/login-logout_1305_mickens.pdf"},
    {"title":"How League Of Legends Scaled Chat To 70 Million Players", "link": "http://highscalability.com/blog/2014/10/13/how-league-of-legends-scaled-chat-to-70-million-players-it-t.html"},
-   {"title":"How to beat the CAP theorem", "link": "http://nathanmarz.com/blog/how-to-beat-the-cap-theorem.html"}
+   {"title":"How to beat the CAP theorem", "link": "http://nathanmarz.com/blog/how-to-beat-the-cap-theorem.html"},
    {"title":"ACM: Weathering the Unexpected", "link": "https://queue.acm.org/detail.cfm?id=2371516"},
    {"title":"High Scalability: How League Of Legends Scaled Chat To 70 Million Players", "link": "http://highscalability.com/blog/2014/10/13/how-league-of-legends-scaled-chat-to-70-million-players-it-t.html"},
    {"title":"High Scalability: The WhatsApp Architecture", "link": "http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bought-for-19-billion.html"},
