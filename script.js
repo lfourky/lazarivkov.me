@@ -8,14 +8,14 @@
    },
 */
 
-
+// 5h6m od 9h33m
 var progress = [
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Humble-Pi-Audiobook/0241375509' target='_blank'>Humble Pi</a>",
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": 0
+      "weeklyProgress": 50 
    },
    {
       "name": "Completing a course: <a href='https://www.educative.io/courses/grokking-computer-networking' target='_blank'>Grokking Computer Networking for Software Engineers</a>",
