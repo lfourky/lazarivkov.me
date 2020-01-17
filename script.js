@@ -1110,6 +1110,8 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"The Origins Podcast: Neil DeGrasse Tyson", "link": "https://www.youtube.com/watch?v=N2qjse4a6s0"},
+   {"title":"The Origins Podcast: Noam Chomsky", "link": "https://www.youtube.com/watch?v=yuVqfKYbGvE"},
    {"title":"Go Time #112: defer GoTime()", "link": "https://changelog.com/gotime/112"},
    {"title":"AI Podcast: Christof Koch: Consciousness", "link": "https://www.youtube.com/watch?v=piHkfmeU7Wo"},
    {"title":"AI Podcast: Eric Weinstein: Revolutionary Ideas in Science, Math, and Society", "link": "https://www.youtube.com/watch?v=2wq9x2QcZN0"},
@@ -1297,6 +1299,14 @@ var saArticles = [
    {"title":"The Saddest Moment", "link": "https://www.usenix.org/system/files/login-logout_1305_mickens.pdf"},
    {"title":"How League Of Legends Scaled Chat To 70 Million Players", "link": "http://highscalability.com/blog/2014/10/13/how-league-of-legends-scaled-chat-to-70-million-players-it-t.html"},
    {"title":"How to beat the CAP theorem", "link": "http://nathanmarz.com/blog/how-to-beat-the-cap-theorem.html"}
+   {"title":"ACM: Weathering the Unexpected", "link": "https://queue.acm.org/detail.cfm?id=2371516"},
+   {"title":"High Scalability: How League Of Legends Scaled Chat To 70 Million Players", "link": "http://highscalability.com/blog/2014/10/13/how-league-of-legends-scaled-chat-to-70-million-players-it-t.html"},
+   {"title":"High Scalability: The WhatsApp Architecture", "link": "http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bought-for-19-billion.html"},
+   {"title":"Handling 1 Million Requests per Minute with Go", "link": "http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang/"},
+   {"title":"Russ Garrett: Tough and Competent", "link": "https://russ.garrett.co.uk/2011/01/30/tough-and-competent/"},
+   {"title":"High Scalability: Microservices - Not a Free Lunch!", "link": "http://highscalability.com/blog/2014/4/8/microservices-not-a-free-lunch.html"},
+   {"title":"Lucene's FuzzyQuery is 100 times faster in 4.0", "link": "http://blog.mikemccandless.com/2011/03/lucenes-fuzzyquery-is-100-times-faster.html"},
+   {"title":"If You’re Typing the Letters A-E-S Into Your Code You’re Doing It Wrong", "link": "https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2009/july/if-youre-typing-the-letters-a-e-s-into-your-code-youre-doing-it-wrong/"}
 ];
 
 // {"title":"", "link": ""}
