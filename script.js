@@ -1265,6 +1265,9 @@ var saPodcasts = [
 
 // {"title":"", "link": ""},
 var saArticles = [
+   {"title":"Service-Oriented Architecture: Scaling the Uber Engineering Codebase As We Grow", "link": "https://eng.uber.com/service-oriented-architecture/"},
+   {"title":"What happens when you type a URL in the browser and press enter?", "link": "https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a"},
+   {"title":"How We Built Uber Engineering’s Highest Query per Second Service Using Go", "link": "https://eng.uber.com/go-geofence/"},
    {"title":"So You Want To Be An Embedded Linux Developer", "link": "https://www.linux.com/news/so-you-want-be-embedded-linux-developer/"},
    {"title":"Go versus Python 3 fastest programs", "link": "https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/go-python3.html"},
    {"title":"Why we’re writing machine learning infrastructure in Go, not Python", "link": "https://towardsdatascience.com/why-were-writing-machine-learning-infrastructure-in-go-not-python-38d6a37e2d76"},
