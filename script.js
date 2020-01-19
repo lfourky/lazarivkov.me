@@ -26,23 +26,23 @@ var progress = [
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Algorithms-to-Live-By-Audiobook/B01D24NLWO' target='_blank'>Algorithms to Live By</a>",
-      "currentValue": 0,
+      "currentValue": 15,
       "currentText": "",
-      "lastWeeksProgress": 15,
-      "weeklyProgress": 18-15
+      "lastWeeksProgress": 18-15,
+      "weeklyProgress": 0
    },
    {
       "name": "Reading a book: <a href='https://www.oreilly.com/library/view/dependency-injection-principles/9781617294730/' target='_blank'>Dependency Injection</a>",
-      "currentValue": 0,
+      "currentValue": 14,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": 14
+      "weeklyProgress": 0
    },
    {
       "name": "Reading a book: <a href='https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/' target='_blank'>Distributed Systems</a>",
-      "currentValue": 35,
+      "currentValue": 42,
       "currentText": "",
-      "lastWeeksProgress": 42-35,
+      "lastWeeksProgress": 0,
       "weeklyProgress": 0
    },
    {
