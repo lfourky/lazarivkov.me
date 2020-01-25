@@ -14,15 +14,15 @@ var progress = [
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Humble-Pi-Audiobook/0241375509' target='_blank'>Humble Pi</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 50 
+      "lastWeeksProgress": 50,
+      "weeklyProgress": 80
    },
    {
       "name": "Completing a course: <a href='https://www.educative.io/courses/grokking-computer-networking' target='_blank'>Grokking Computer Networking for Software Engineers</a>",
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 36,
-      "weeklyProgress": 73-36
+      "weeklyProgress": 100
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Algorithms-to-Live-By-Audiobook/B01D24NLWO' target='_blank'>Algorithms to Live By</a>",
@@ -161,6 +161,14 @@ var progress = [
 */
 
 var achievements = [
+   {
+      "id": 109,
+      "title": "Completed a Course",
+      "date": "January 25th, 2020",
+      "link": "https://www.educative.io/courses/grokking-computer-networking",
+      "shortlink": "Grokking Computer Networking for Software Engineers",
+      "text": ""
+   },
    {
       "id": 108,
       "title": "Finished an Audiobook",
@@ -1265,6 +1273,7 @@ var saPodcasts = [
 
 // {"title":"", "link": ""},
 var saArticles = [
+   {"title":"Pattern: Database per service", "link": "https://microservices.io/patterns/data/database-per-service.html"},
    {"title":"Service-Oriented Architecture: Scaling the Uber Engineering Codebase As We Grow", "link": "https://eng.uber.com/service-oriented-architecture/"},
    {"title":"What happens when you type a URL in the browser and press enter?", "link": "https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a"},
    {"title":"How We Built Uber Engineering’s Highest Query per Second Service Using Go", "link": "https://eng.uber.com/go-geofence/"},
