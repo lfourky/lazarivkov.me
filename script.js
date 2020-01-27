@@ -15,7 +15,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 50,
-      "weeklyProgress": 80
+      "weeklyProgress": 100-50
    },
    {
       "name": "Completing a course: <a href='https://www.educative.io/courses/grokking-computer-networking' target='_blank'>Grokking Computer Networking for Software Engineers</a>",
@@ -161,6 +161,14 @@ var progress = [
 */
 
 var achievements = [
+   {
+      "id": 110,
+      "title": "Finished an Audiobook",
+      "date": "December 29th, 2019",
+      "link": "https://www.audible.com/pd/Humble-Pi-Audiobook/0241375509",
+      "shortlink": "Humble Pi",
+      "text": ""
+   },
    {
       "id": 109,
       "title": "Completed a Course",
