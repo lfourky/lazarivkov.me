@@ -1281,6 +1281,9 @@ var saPodcasts = [
 
 // {"title":"", "link": ""},
 var saArticles = [
+   {"title":"One in a million is next Tuesday", "link": "https://docs.microsoft.com/en-us/archive/blogs/larryosterman/one-in-a-million-is-next-tuesday"},
+   {"title":"Root Cause: Human Errno", "link": "https://www.netmeister.org/blog/humanerrno.html"},
+   {"title":"(A few) Ops Lessons We All Learn The Hard Way", "link": "https://www.netmeister.org/blog/ops-lessons.html"},
    {"title":"Pattern: Database per service", "link": "https://microservices.io/patterns/data/database-per-service.html"},
    {"title":"Service-Oriented Architecture: Scaling the Uber Engineering Codebase As We Grow", "link": "https://eng.uber.com/service-oriented-architecture/"},
    {"title":"What happens when you type a URL in the browser and press enter?", "link": "https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a"},
