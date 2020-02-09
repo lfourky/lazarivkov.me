@@ -1277,10 +1277,10 @@ var saPodcasts = [
    {"title":"SE-Radio Episode 273: Steve McConnell on Software Estimation", "link": "http://www.se-radio.net/2016/11/se-radio-episode-273-steve-mcconnell-on-software-estimation/"}
 ];
 
- 
 
 // {"title":"", "link": ""},
 var saArticles = [
+   {"title":"Defining 'Operations'", "link": "https://www.netmeister.org/blog/defining-operations.html"},
    {"title":"One in a million is next Tuesday", "link": "https://docs.microsoft.com/en-us/archive/blogs/larryosterman/one-in-a-million-is-next-tuesday"},
    {"title":"Root Cause: Human Errno", "link": "https://www.netmeister.org/blog/humanerrno.html"},
    {"title":"(A few) Ops Lessons We All Learn The Hard Way", "link": "https://www.netmeister.org/blog/ops-lessons.html"},
