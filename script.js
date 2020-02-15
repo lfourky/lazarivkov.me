@@ -21,8 +21,8 @@ var progress = [
       "name": "Reading a book: <a href='https://www.oreilly.com/library/view/dependency-injection-principles/9781617294730/' target='_blank'>Dependency Injection</a>",
       "currentValue": 14,
       "currentText": "",
-      "lastWeeksProgress": 140-14,
-      "weeklyProgress": 209-140
+      "lastWeeksProgress": 25-14,
+      "weeklyProgress": 41-25
    },
    {
       "name": "Reading a book: <a href='https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/' target='_blank'>Distributed Systems</a>",
