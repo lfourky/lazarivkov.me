@@ -1126,6 +1126,9 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"Go Time #114: Cloudy with a chance of Kelsey Hightower", "link": "https://changelog.com/gotime/114"},
+   {"title":"Go Time #113: Go at Cloudflare", "link": "https://changelog.com/gotime/113"},
+   {"title":"AI Podcast: David Chalmers: The Hard Problem of Consciousness", "link": "https://www.youtube.com/watch?v=LW59lMvxmY4"},
    {"title":"The Origins Podcast: Neil DeGrasse Tyson", "link": "https://www.youtube.com/watch?v=N2qjse4a6s0"},
    {"title":"The Origins Podcast: Noam Chomsky", "link": "https://www.youtube.com/watch?v=yuVqfKYbGvE"},
    {"title":"Go Time #112: defer GoTime()", "link": "https://changelog.com/gotime/112"},
