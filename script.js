@@ -11,13 +11,6 @@
 // 5h6m od 9h33m
 var progress = [
    {
-      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Humble-Pi-Audiobook/0241375509' target='_blank'>Humble Pi</a>",
-      "currentValue": 0,
-      "currentText": "",
-      "lastWeeksProgress": 50,
-      "weeklyProgress": 100-50
-   },
-   {
       "name": "Completing a course: <a href='https://www.educative.io/courses/grokking-computer-networking' target='_blank'>Grokking Computer Networking for Software Engineers</a>",
       "currentValue": 0,
       "currentText": "",
@@ -26,17 +19,17 @@ var progress = [
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Algorithms-to-Live-By-Audiobook/B01D24NLWO' target='_blank'>Algorithms to Live By</a>",
-      "currentValue": 15,
+      "currentValue": 18,
       "currentText": "",
-      "lastWeeksProgress": 18-15,
-      "weeklyProgress": 0
+      "lastWeeksProgress": 30-18,
+      "weeklyProgress": 49-30
    },
    {
       "name": "Reading a book: <a href='https://www.oreilly.com/library/view/dependency-injection-principles/9781617294730/' target='_blank'>Dependency Injection</a>",
       "currentValue": 14,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 0
+      "lastWeeksProgress": 140-14,
+      "weeklyProgress": 209-140
    },
    {
       "name": "Reading a book: <a href='https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/' target='_blank'>Distributed Systems</a>",
