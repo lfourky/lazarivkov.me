@@ -15,7 +15,7 @@ var progress = [
       "currentValue": 18,
       "currentText": "",
       "lastWeeksProgress": 30-18,
-      "weeklyProgress": 49-30
+      "weeklyProgress": 60-30
    },
    {
       "name": "Reading a book: <a href='https://www.oreilly.com/library/view/dependency-injection-principles/9781617294730/' target='_blank'>Dependency Injection</a>",
@@ -1112,6 +1112,8 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"Go Time #116: Unusual uses for Go: GUIs", "link": "https://changelog.com/gotime/116"},
+   {"title":"Go Time #115: Grokking Go.dev", "link": "https://changelog.com/gotime/115"},
    {"title":"Go Time #114: Cloudy with a chance of Kelsey Hightower", "link": "https://changelog.com/gotime/114"},
    {"title":"Go Time #113: Go at Cloudflare", "link": "https://changelog.com/gotime/113"},
    {"title":"AI Podcast: David Chalmers: The Hard Problem of Consciousness", "link": "https://www.youtube.com/watch?v=LW59lMvxmY4"},
