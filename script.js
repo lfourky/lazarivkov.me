@@ -1411,5 +1411,5 @@ function alertVisitor() {
       //   });
 }
 
-// alertVisitor();
+alertVisitor();
 
