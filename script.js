@@ -12,10 +12,10 @@
 var progress = [
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Algorithms-to-Live-By-Audiobook/B01D24NLWO' target='_blank'>Algorithms to Live By</a>",
-      "currentValue": 18,
+      "currentValue": 30,
       "currentText": "",
-      "lastWeeksProgress": 30-18,
-      "weeklyProgress": 60-30
+      "lastWeeksProgress": 60-30,
+      "weeklyProgress": 100-60
    },
    {
       "name": "Reading a book: <a href='https://www.oreilly.com/library/view/dependency-injection-principles/9781617294730/' target='_blank'>Dependency Injection</a>",
@@ -37,9 +37,11 @@ var progress = [
       "currentText": "",
       "lastWeeksProgress": 0,
       "weeklyProgress": 0
-   },
+   }
+]
 
-   {
+/*
+      {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Hackers-Heroes-of-the-Computer-Revolution-Audiobook/B017RUZC4E' target='_blank'>Hackers: Heroes of the Computer Revolution</a>",
       "currentValue": ((660) / 1223) * 100,
       "currentText": "",
@@ -53,10 +55,6 @@ var progress = [
       "lastWeeksProgress": 0,
       "weeklyProgress": 0
    }
-]
-
-/*
-
 
    {
       "name": "Reading a book: <a href='https://www.amazon.com/Operating-Systems-Introduction-R-Garg/dp/1942270380' target='_blank'>Operating Systems</a>",
@@ -146,7 +144,16 @@ var progress = [
 },
 */
 
+
 var achievements = [
+   {
+      "id": 111,
+      "title": "Finished an Audiobook",
+      "date": "February 24th, 2020",
+      "link": "https://www.audible.com/pd/Algorithms-to-Live-By-Audiobook/B01D24NLWO",
+      "shortlink": "Algorithms to Live By",
+      "text": ""
+   },
    {
       "id": 110,
       "title": "Finished an Audiobook",
