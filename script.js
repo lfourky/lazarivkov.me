@@ -10,6 +10,13 @@
 
 var progress = [
    {
+      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Zero-to-One-Audiobook/B00M27LBU2' target='_blank'>Zero to One</a>",
+      "currentValue": 0,
+      "currentText": "",
+      "lastWeeksProgress": 0,
+      "weeklyProgress": 30
+   },
+   {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Algorithms-to-Live-By-Audiobook/B01D24NLWO' target='_blank'>Algorithms to Live By</a>",
       "currentValue": 30,
       "currentText": "",
@@ -18,10 +25,10 @@ var progress = [
    },
    {
       "name": "Reading a book: <a href='https://www.oreilly.com/library/view/dependency-injection-principles/9781617294730/' target='_blank'>Dependency Injection</a>",
-      "currentValue": 14,
+      "currentValue": 25,
       "currentText": "",
-      "lastWeeksProgress": 25-14,
-      "weeklyProgress": 41-25
+      "lastWeeksProgress": 41-25,
+      "weeklyProgress": 66-41
    },
    {
       "name": "Reading a book: <a href='https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/' target='_blank'>Distributed Systems</a>",
@@ -1154,6 +1161,8 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"Go Time #119: Stop the presses", "link": "https://changelog.com/gotime/119"},
+   {"title":"Go Time #117: Telemetry and the art of measuring what matters", "link": "https://changelog.com/gotime/117"},
    {"title":"Go Time #116: Unusual uses for Go: GUIs", "link": "https://changelog.com/gotime/116"},
    {"title":"Go Time #115: Grokking Go.dev", "link": "https://changelog.com/gotime/115"},
    {"title":"Go Time #114: Cloudy with a chance of Kelsey Hightower", "link": "https://changelog.com/gotime/114"},
@@ -1412,4 +1421,3 @@ function alertVisitor() {
 }
 
 alertVisitor();
-
