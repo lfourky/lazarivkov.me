@@ -14,7 +14,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": 30
+      "weeklyProgress": 100
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Algorithms-to-Live-By-Audiobook/B01D24NLWO' target='_blank'>Algorithms to Live By</a>",
@@ -164,8 +164,15 @@ var pausedProgress = [
 ];
 
 
-
 var achievements = [
+   {
+      "id": 112,
+      "title": "Finished an Audiobook",
+      "date": "March 1st, 2020",
+      "link": "https://www.audible.com/pd/Zero-to-One-Audiobook/B00M27LBU2",
+      "shortlink": "Zero to One",
+      "text": ""
+   },
    {
       "id": 111,
       "title": "Finished an Audiobook",
