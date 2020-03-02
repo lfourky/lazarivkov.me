@@ -28,7 +28,7 @@ var progress = [
       "currentValue": 25,
       "currentText": "",
       "lastWeeksProgress": 41-25,
-      "weeklyProgress": 66-41
+      "weeklyProgress": 100-41
    },
    {
       "name": "Reading a book: <a href='https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/' target='_blank'>Distributed Systems</a>",
@@ -165,6 +165,14 @@ var pausedProgress = [
 
 
 var achievements = [
+   {
+      "id": 113,
+      "title": "Finished Reading A Book",
+      "date": "March 2nd, 2020",
+      "link": "https://www.oreilly.com/library/view/dependency-injection-principles/9781617294730/",
+      "shortlink": "Dependency Injection",
+      "text": ""
+   },
    {
       "id": 112,
       "title": "Finished an Audiobook",
