@@ -21,7 +21,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": 38/557*100
+      "weeklyProgress": 223/557*100
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Zero-to-One-Audiobook/B00M27LBU2' target='_blank'>Zero to One</a>",
@@ -53,7 +53,7 @@ var progress = [
    },
    {
       "name": "Completing a course: <a href='https://www.educative.io/collection/5668639101419520/5649050225344512' target='_blank'>Grokking the System Design Interview</a>",
-      "currentValue": (6/28)*100,
+      "currentValue": (3/28)*100,
       "currentText": "",
       "lastWeeksProgress": 0,
       "weeklyProgress": 0
