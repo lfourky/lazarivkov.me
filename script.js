@@ -14,7 +14,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": 37/417*100
+      "weeklyProgress": 67/417*100
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/The-Pragmatic-Programmer-20th-Anniversary-Edition-2nd-Edition-Audiobook/B0833FMYH9' target='_blank'>The Pragmatic Programmer</a>",
