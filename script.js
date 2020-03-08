@@ -21,7 +21,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": 223/557*100
+      "weeklyProgress": 376/557*100
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Zero-to-One-Audiobook/B00M27LBU2' target='_blank'>Zero to One</a>",
