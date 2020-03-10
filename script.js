@@ -10,18 +10,25 @@
 
 var progress = [
    {
+      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/The-Tipping-Point-Audiobook/B0032N8PRM' target='_blank'>The Tipping Point</a>",
+      "currentValue": 0,
+      "currentText": "",
+      "lastWeeksProgress": 47,
+      "weeklyProgress": 0
+   },
+   {
       "name": "Reading a book: <a href='https://www.amazon.com/Scalability-Startup-Engineers-Artur-Ejsmont/dp/0071843655' target='_blank'>Web Scalability for Startup Engineers</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 67/417*100
+      "lastWeeksProgress": 67/417*100,
+      "weeklyProgress": 0
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/The-Pragmatic-Programmer-20th-Anniversary-Edition-2nd-Edition-Audiobook/B0833FMYH9' target='_blank'>The Pragmatic Programmer</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 376/557*100
+      "lastWeeksProgress": 402/557*100,
+      "weeklyProgress": 0
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Zero-to-One-Audiobook/B00M27LBU2' target='_blank'>Zero to One</a>",
