@@ -34,8 +34,8 @@ var progress = [
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Zero-to-One-Audiobook/B00M27LBU2' target='_blank'>Zero to One</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 100
+      "lastWeeksProgress": 100,
+      "weeklyProgress": 0
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Algorithms-to-Live-By-Audiobook/B01D24NLWO' target='_blank'>Algorithms to Live By</a>",
