@@ -14,7 +14,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 47,
-      "weeklyProgress": 0
+      "weeklyProgress": 100-47
    },
    {
       "name": "Reading a book: <a href='https://www.amazon.com/Scalability-Startup-Engineers-Artur-Ejsmont/dp/0071843655' target='_blank'>Web Scalability for Startup Engineers</a>",
@@ -186,6 +186,14 @@ var pausedProgress = [
 
 
 var achievements = [
+   {
+      "id": 114,
+      "title": "Finished an Audiobook",
+      "date": "March 14th, 2020",
+      "link": "https://www.audible.com/pd/The-Tipping-Point-Audiobook/B0032N8PRM",
+      "shortlink": "The Tipping Point",
+      "text": ""
+   },
    {
       "id": 113,
       "title": "Finished Reading A Book",
