@@ -14,7 +14,7 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 0,
-      "weeklyProgress": 2
+      "weeklyProgress": (84)/666*100
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/The-Tipping-Point-Audiobook/B0032N8PRM' target='_blank'>The Tipping Point</a>",
