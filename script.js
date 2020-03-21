@@ -10,11 +10,18 @@
 
 var progress = [
    {
+      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Deadliest-Enemy-Audiobook/B06XKLQ6S9' target='_blank'>Deadliest Enemy</a>",
+      "currentValue": 0,
+      "currentText": "",
+      "lastWeeksProgress": 0,
+      "weeklyProgress": 2
+   },
+   {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/The-Tipping-Point-Audiobook/B0032N8PRM' target='_blank'>The Tipping Point</a>",
       "currentValue": 0,
       "currentText": "",
-      "lastWeeksProgress": 47,
-      "weeklyProgress": 100-47
+      "lastWeeksProgress": 100,
+      "weeklyProgress": 0
    },
    {
       "name": "Reading a book: <a href='https://www.amazon.com/Scalability-Startup-Engineers-Artur-Ejsmont/dp/0071843655' target='_blank'>Web Scalability for Startup Engineers</a>",
@@ -32,24 +39,24 @@ var progress = [
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Zero-to-One-Audiobook/B00M27LBU2' target='_blank'>Zero to One</a>",
-      "currentValue": 0,
+      "currentValue": 100,
       "currentText": "",
-      "lastWeeksProgress": 100,
+      "lastWeeksProgress": 0,
       "weeklyProgress": 0
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Algorithms-to-Live-By-Audiobook/B01D24NLWO' target='_blank'>Algorithms to Live By</a>",
-      "currentValue": 30,
+      "currentValue": 100,
       "currentText": "",
-      "lastWeeksProgress": 60-30,
-      "weeklyProgress": 100-60
+      "lastWeeksProgress": 0,
+      "weeklyProgress": 0
    },
    {
       "name": "Reading a book: <a href='https://www.oreilly.com/library/view/dependency-injection-principles/9781617294730/' target='_blank'>Dependency Injection</a>",
-      "currentValue": 25,
+      "currentValue": 100,
       "currentText": "",
-      "lastWeeksProgress": 41-25,
-      "weeklyProgress": 100-41
+      "lastWeeksProgress": 0,
+      "weeklyProgress": 0
    },
    {
       "name": "Reading a book: <a href='https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/' target='_blank'>Distributed Systems</a>",
