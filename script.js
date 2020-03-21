@@ -21,14 +21,14 @@ var progress = [
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 67/417*100,
-      "weeklyProgress": 0
+      "weeklyProgress": (189-67)/417*100
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/The-Pragmatic-Programmer-20th-Anniversary-Edition-2nd-Edition-Audiobook/B0833FMYH9' target='_blank'>The Pragmatic Programmer</a>",
       "currentValue": 0,
       "currentText": "",
       "lastWeeksProgress": 402/557*100,
-      "weeklyProgress": 0
+      "weeklyProgress": (557-402)/557*100
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Zero-to-One-Audiobook/B00M27LBU2' target='_blank'>Zero to One</a>",
@@ -185,7 +185,17 @@ var pausedProgress = [
 ];
 
 
+
+
 var achievements = [
+   {
+      "id": 115,
+      "title": "Finished an Audiobook",
+      "date": "March 21st, 2020",
+      "link": "https://www.audible.com/pd/The-Pragmatic-Programmer-20th-Anniversary-Edition-2nd-Edition-Audiobook/B0833FMYH9",
+      "shortlink": "The Pragmatic Programmer",
+      "text": ""
+   },
    {
       "id": 114,
       "title": "Finished an Audiobook",
