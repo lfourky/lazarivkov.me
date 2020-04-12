@@ -1230,6 +1230,7 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"AI Podcast: Richard Dawkins: Evolution, Intelligence, Simulation, and Memes", "link": "https://www.youtube.com/watch?v=5f-JlzBuUUU"},
    {"title":"AI Podcast: David Silver: AlphaGo, AlphaZero, and Deep Reinforcement Learning", "link": "https://www.youtube.com/watch?v=uPUEq8d73JI"},
    {"title":"Go Time #119: Stop the presses", "link": "https://changelog.com/gotime/119"},
    {"title":"Go Time #117: Telemetry and the art of measuring what matters", "link": "https://changelog.com/gotime/117"},
