@@ -11,10 +11,10 @@
 var progress = [
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Deadliest-Enemy-Audiobook/B06XKLQ6S9' target='_blank'>Deadliest Enemy</a>",
-      "currentValue": 0,
+      "currentValue": (84)/666*100,
       "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": (84)/666*100
+      "lastWeeksProgress": (300-84)/666*100,
+      "weeklyProgress": (420-300)/666*100
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/The-Tipping-Point-Audiobook/B0032N8PRM' target='_blank'>The Tipping Point</a>",
@@ -25,10 +25,10 @@ var progress = [
    },
    {
       "name": "Reading a book: <a href='https://www.amazon.com/Scalability-Startup-Engineers-Artur-Ejsmont/dp/0071843655' target='_blank'>Web Scalability for Startup Engineers</a>",
-      "currentValue": 0,
+      "currentValue": 200/417*100,
       "currentText": "",
-      "lastWeeksProgress": 67/417*100,
-      "weeklyProgress": (189-67)/417*100
+      "lastWeeksProgress": (300-200)/417*100,
+      "weeklyProgress": (417-300)/417*100
    },
    {
       "name": "Listening to an audiobook <a href='https://www.audible.com/pd/The-Pragmatic-Programmer-20th-Anniversary-Edition-2nd-Edition-Audiobook/B0833FMYH9' target='_blank'>The Pragmatic Programmer</a>",
@@ -193,8 +193,15 @@ var pausedProgress = [
 
 
 
-
 var achievements = [
+   {
+      "id": 116,
+      "title": "Finished Reading A Book",
+      "date": "April 12th, 2020",
+      "link": "https://www.amazon.com/Scalability-Startup-Engineers-Artur-Ejsmont/dp/0071843655",
+      "shortlink": "Web Scalability for Startup Engineers",
+      "text": ""
+   },
    {
       "id": 115,
       "title": "Finished an Audiobook",
@@ -1219,9 +1226,11 @@ function populateProgress() {
 }
 populateProgress();
 
+//  
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"AI Podcast: David Silver: AlphaGo, AlphaZero, and Deep Reinforcement Learning", "link": "https://www.youtube.com/watch?v=uPUEq8d73JI"},
    {"title":"Go Time #119: Stop the presses", "link": "https://changelog.com/gotime/119"},
    {"title":"Go Time #117: Telemetry and the art of measuring what matters", "link": "https://changelog.com/gotime/117"},
    {"title":"Go Time #116: Unusual uses for Go: GUIs", "link": "https://changelog.com/gotime/116"},
@@ -1381,8 +1390,11 @@ var saPodcasts = [
 ];
 
 
+
 // {"title":"", "link": ""},
 var saArticles = [
+   {"title":"Why MySQL Is Not a Queue", "link": "https://www.eschrade.com/page/why-mysql-is-not-a-queue/"},
+   {"title":"5 Subtle Ways You’re Using MySQL as a Queue, and Why It’ll Bite You", "link": "https://www.xaprb.com/blog/2011/09/15/5-subtle-ways-youre-using-mysql-as-a-queue-and-why-itll-bite-you/"},
    {"title":"Defining 'Operations'", "link": "https://www.netmeister.org/blog/defining-operations.html"},
    {"title":"One in a million is next Tuesday", "link": "https://docs.microsoft.com/en-us/archive/blogs/larryosterman/one-in-a-million-is-next-tuesday"},
    {"title":"Root Cause: Human Errno", "link": "https://www.netmeister.org/blog/humanerrno.html"},
