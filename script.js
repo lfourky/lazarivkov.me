@@ -1,78 +1,38 @@
-/* 
-   {
-      "name": "Completing a course: <a href='___' target='_blank'>___</a>",
-      "currentValue": 0,
-      "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 0
-   },
-*/
+const COURSE = "course";
+const AUDIOBOOK = "audiobook";
+const BOOK = "book";
 
 var progress = [
-   {
-      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Deadliest-Enemy-Audiobook/B06XKLQ6S9' target='_blank'>Deadliest Enemy</a>",
-      "currentValue": (84)/666*100,
-      "currentText": "",
-      "lastWeeksProgress": (300-84)/666*100,
-      "weeklyProgress": (420-300)/666*100
-   },
-   {
-      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/The-Tipping-Point-Audiobook/B0032N8PRM' target='_blank'>The Tipping Point</a>",
-      "currentValue": 100,
-      "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 0
-   },
-   {
-      "name": "Reading a book: <a href='https://www.amazon.com/Scalability-Startup-Engineers-Artur-Ejsmont/dp/0071843655' target='_blank'>Web Scalability for Startup Engineers</a>",
-      "currentValue": 200/417*100,
-      "currentText": "",
-      "lastWeeksProgress": (300-200)/417*100,
-      "weeklyProgress": (417-300)/417*100
-   },
-   {
-      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/The-Pragmatic-Programmer-20th-Anniversary-Edition-2nd-Edition-Audiobook/B0833FMYH9' target='_blank'>The Pragmatic Programmer</a>",
-      "currentValue": 100,
-      "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 0
-   },
-   {
-      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Zero-to-One-Audiobook/B00M27LBU2' target='_blank'>Zero to One</a>",
-      "currentValue": 100,
-      "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 0
-   },
-   {
-      "name": "Listening to an audiobook <a href='https://www.audible.com/pd/Algorithms-to-Live-By-Audiobook/B01D24NLWO' target='_blank'>Algorithms to Live By</a>",
-      "currentValue": 100,
-      "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 0
-   },
-   {
-      "name": "Reading a book: <a href='https://www.oreilly.com/library/view/dependency-injection-principles/9781617294730/' target='_blank'>Dependency Injection</a>",
-      "currentValue": 100,
-      "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 0
-   },
-   {
-      "name": "Reading a book: <a href='https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/' target='_blank'>Distributed Systems</a>",
-      "currentValue": 42,
-      "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 0
-   },
-   {
-      "name": "Completing a course: <a href='https://www.educative.io/collection/5668639101419520/5649050225344512' target='_blank'>Grokking the System Design Interview</a>",
-      "currentValue": (3/28)*100,
-      "currentText": "",
-      "lastWeeksProgress": 0,
-      "weeklyProgress": 0
-   }
+   progress(COURSE, "https://frontendmasters.com/courses/complete-react-v5/", "Complete Intro to React", 0, 35, 25),
+   progress(COURSE, "https://frontendmasters.com/courses/git-in-depth/", "Git In-depth", 0, 40, 15),
+   progress(AUDIOBOOK, "https://www.audible.com/pd/Deadliest-Enemy-Audiobook/B06XKLQ6S9", "Deadliest Enemy", (84)/666*100, (300-84)/666*100, (420-300)/666*100),
+   progress(AUDIOBOOK, "https://www.audible.com/pd/The-Tipping-Point-Audiobook/B0032N8PRM","The Tipping Point", 100,0,0),
+   progress(BOOK, "https://www.amazon.com/Scalability-Startup-Engineers-Artur-Ejsmont/dp/0071843655", "Web Scalability for Startup Engineers", 100,0,0),
+   progress(BOOK, "https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/", "Distributed Systems", 42,0,0),
+   progress(COURSE, "https://www.educative.io/collection/5668639101419520/5649050225344512", "Grokking the System Design Interview", (3/28)*100,0,0)
 ]
+
+function progress(courseType, url, title, currentValue, lastWeekProgress, weeklyProgress) {
+   var progressName = "";
+   switch (courseType) {
+      case "book":
+         progressName = "Reading a book";
+         break;
+      case "course":
+         progressName = "Completing a course";
+         break;
+      case "audiobook":
+         progressName = "Listening to an audiobook";
+         break;
+   }
+   return {
+      "name": progressName + ": <a href='"+url+"' target='_blank'>"+title+"</a>",
+      "currentValue": currentValue,
+      "currentText": "",
+      "lastWeeksProgress": lastWeekProgress,
+      "weeklyProgress": weeklyProgress
+   }
+}
 
 var pausedProgress = [
   {
@@ -1218,8 +1178,8 @@ $(document).ready(function() {
 
 function populateProgress() {
    var progressList = $("#progress-list");
-   // Shuffle, so it doesn't get boring :)
-   shuffleArray(progress);
+   // `Shuffle`, so it doesn't get boring :)
+   // shuffleArray(progress);
 	for (var i = 0; i < progress.length; i++) {
 			progressList.append(getProgressTemplate(progress[i]));
 	}
@@ -1230,6 +1190,7 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"AI Podcast: Roger Penrose: Physics of Consciousness and the Infinite Universe", "link": "https://www.youtube.com/watch?v=orMtwOz6Db0"},
    {"title":"AI Podcast: Richard Dawkins: Evolution, Intelligence, Simulation, and Memes", "link": "https://www.youtube.com/watch?v=5f-JlzBuUUU"},
    {"title":"AI Podcast: David Silver: AlphaGo, AlphaZero, and Deep Reinforcement Learning", "link": "https://www.youtube.com/watch?v=uPUEq8d73JI"},
    {"title":"Go Time #119: Stop the presses", "link": "https://changelog.com/gotime/119"},
@@ -1391,9 +1352,11 @@ var saPodcasts = [
 ];
 
 
-
+//https://commandcenter.blogspot.com/2017/12/error-handling-in-upspin.html
 // {"title":"", "link": ""},
 var saArticles = [
+   {"title":"Go's Connection Pool, Retries, and Timeouts", "link": "https://www.vividcortex.com/blog/2015/01/19/gos-connection-pool-retries-and-timeouts/"},
+   {"title":"Go Quirks", "link": "https://blog.sbstp.ca/go-quirks/"},
    {"title":"Why MySQL Is Not a Queue", "link": "https://www.eschrade.com/page/why-mysql-is-not-a-queue/"},
    {"title":"5 Subtle Ways You’re Using MySQL as a Queue, and Why It’ll Bite You", "link": "https://www.xaprb.com/blog/2011/09/15/5-subtle-ways-youre-using-mysql-as-a-queue-and-why-itll-bite-you/"},
    {"title":"Defining 'Operations'", "link": "https://www.netmeister.org/blog/defining-operations.html"},
