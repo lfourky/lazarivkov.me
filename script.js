@@ -3,6 +3,7 @@ const AUDIOBOOK = "audiobook";
 const BOOK = "book";
 
 var progress = [
+   progress(BOOK, "https://www.manning.com/books/event-processing-in-action", "Event Processing in Action", 0,0,20),
    progress(COURSE, "https://frontendmasters.com/courses/complete-react-v5/", "Complete Intro to React", 0, 35, 25),
    progress(COURSE, "https://frontendmasters.com/courses/git-in-depth/", "Git In-depth", 0, 40, 15),
    progress(AUDIOBOOK, "https://www.audible.com/pd/Deadliest-Enemy-Audiobook/B06XKLQ6S9", "Deadliest Enemy", (84)/666*100, (300-84)/666*100, (420-300)/666*100),
@@ -1351,10 +1352,10 @@ var saPodcasts = [
    {"title":"SE-Radio Episode 273: Steve McConnell on Software Estimation", "link": "http://www.se-radio.net/2016/11/se-radio-episode-273-steve-mcconnell-on-software-estimation/"}
 ];
 
-
-//https://commandcenter.blogspot.com/2017/12/error-handling-in-upspin.html
 // {"title":"", "link": ""},
 var saArticles = [
+   {"title":"Things I Wished More Developers Knew About Databases", "link": "https://medium.com/@rakyll/things-i-wished-more-developers-knew-about-databases-2d0178464f78"},
+   {"title":"Error handling in Upspin", "link": "https://commandcenter.blogspot.com/2017/12/error-handling-in-upspin.html"},
    {"title":"Go's Connection Pool, Retries, and Timeouts", "link": "https://www.vividcortex.com/blog/2015/01/19/gos-connection-pool-retries-and-timeouts/"},
    {"title":"Go Quirks", "link": "https://blog.sbstp.ca/go-quirks/"},
    {"title":"Why MySQL Is Not a Queue", "link": "https://www.eschrade.com/page/why-mysql-is-not-a-queue/"},
