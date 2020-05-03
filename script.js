@@ -3,6 +3,7 @@ const AUDIOBOOK = "audiobook";
 const BOOK = "book";
 
 var progress = [
+   progress(BOOK, "http://shop.oreilly.com/product/0636920021575.do", "REST API Design Rulebook", 100,0,0),
    progress(AUDIOBOOK, "https://www.audible.com/pd/Proving-Einstein-Right-Audiobook/1549175726", "Proving Einstein Right", 5, 0, 0),
    progress(BOOK, "https://www.manning.com/books/event-processing-in-action", "Event Processing in Action", 0,0,20),
    progress(COURSE, "https://frontendmasters.com/courses/git-in-depth/", "Git In-depth", 0, 0, 55),
@@ -153,6 +154,14 @@ var pausedProgress = [
 
 
 var achievements = [
+   {
+      "id": 119,
+      "title": "Finished Reading A Book",
+      "date": "May 3rd, 2020",
+      "link": "http://shop.oreilly.com/product/0636920021575.do",
+      "shortlink": "REST API Design Rulebook",
+      "text": ""
+   },
    {
       "id": 118,
       "title": "Completed a Course",
