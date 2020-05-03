@@ -3,12 +3,11 @@ const AUDIOBOOK = "audiobook";
 const BOOK = "book";
 
 var progress = [
+   progress(AUDIOBOOK, "https://www.audible.com/pd/Proving-Einstein-Right-Audiobook/1549175726?ref=a_library_t_c5_libItem_&pf_rd_p=91ba6faf-5e4f-494c-abef-d663c65bee07&pf_rd_r=FW0W9SEQ95V2TR6XNHD7", "Proving Einstein Right", 5, 0, 0,
    progress(BOOK, "https://www.manning.com/books/event-processing-in-action", "Event Processing in Action", 0,0,20),
-   progress(COURSE, "https://frontendmasters.com/courses/complete-react-v5/", "Complete Intro to React", 0, 35, 25),
-   progress(COURSE, "https://frontendmasters.com/courses/git-in-depth/", "Git In-depth", 0, 40, 15),
-   progress(AUDIOBOOK, "https://www.audible.com/pd/Deadliest-Enemy-Audiobook/B06XKLQ6S9", "Deadliest Enemy", (84)/666*100, (300-84)/666*100, (420-300)/666*100),
-   progress(AUDIOBOOK, "https://www.audible.com/pd/The-Tipping-Point-Audiobook/B0032N8PRM","The Tipping Point", 100,0,0),
-   progress(BOOK, "https://www.amazon.com/Scalability-Startup-Engineers-Artur-Ejsmont/dp/0071843655", "Web Scalability for Startup Engineers", 100,0,0),
+   progress(COURSE, "https://frontendmasters.com/courses/git-in-depth/", "Git In-depth", 0, 0, 55),
+   progress(COURSE, "https://frontendmasters.com/courses/complete-react-v5/", "Complete Intro to React", 40, 35, 25),
+   progress(AUDIOBOOK, "https://www.audible.com/pd/Deadliest-Enemy-Audiobook/B06XKLQ6S9", "Deadliest Enemy", 20, 50, 30,
    progress(BOOK, "https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/", "Distributed Systems", 42,0,0),
    progress(COURSE, "https://www.educative.io/collection/5668639101419520/5649050225344512", "Grokking the System Design Interview", (3/28)*100,0,0)
 ]
@@ -153,8 +152,23 @@ var pausedProgress = [
 ];
 
 
-
 var achievements = [
+   {
+      "id": 118,
+      "title": "Completed a Course",
+      "date": "January 25th, 2020",
+      "link": "https://frontendmasters.com/courses/complete-react-v5",
+      "shortlink": "Complete Intro to React",
+      "text": ""
+   },
+   {
+      "id": 117,
+      "title": "Finished an Audiobook",
+      "date": "May 1st, 2020",
+      "link": "https://www.audible.com/pd/Deadliest-Enemy-Audiobook/B06XKLQ6S9",
+      "shortlink": "Deadliest Enemy",
+      "text": ""
+   },
    {
       "id": 116,
       "title": "Finished Reading A Book",
