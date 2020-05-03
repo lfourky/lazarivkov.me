@@ -3,7 +3,7 @@ const AUDIOBOOK = "audiobook";
 const BOOK = "book";
 
 var progress = [
-   progress(AUDIOBOOK, "https://www.audible.com/pd/Proving-Einstein-Right-Audiobook/1549175726?ref=a_library_t_c5_libItem_&pf_rd_p=91ba6faf-5e4f-494c-abef-d663c65bee07&pf_rd_r=FW0W9SEQ95V2TR6XNHD7", "Proving Einstein Right", 5, 0, 0),
+   progress(AUDIOBOOK, "https://www.audible.com/pd/Proving-Einstein-Right-Audiobook/1549175726", "Proving Einstein Right", 5, 0, 0),
    progress(BOOK, "https://www.manning.com/books/event-processing-in-action", "Event Processing in Action", 0,0,20),
    progress(COURSE, "https://frontendmasters.com/courses/git-in-depth/", "Git In-depth", 0, 0, 55),
    progress(COURSE, "https://frontendmasters.com/courses/complete-react-v5/", "Complete Intro to React", 40, 35, 25),
@@ -156,7 +156,7 @@ var achievements = [
    {
       "id": 118,
       "title": "Completed a Course",
-      "date": "January 25th, 2020",
+      "date": "May 3rd, 2020",
       "link": "https://frontendmasters.com/courses/complete-react-v5",
       "shortlink": "Complete Intro to React",
       "text": ""
