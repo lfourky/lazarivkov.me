@@ -1384,6 +1384,9 @@ var saPodcasts = [
 
 // {"title":"", "link": ""},
 var saArticles = [
+   {"title":"Why we at $FAMOUS_COMPANY Switched to $HYPED_TECHNOLOGY", "link": "https://saagarjha.com/blog/2020/05/10/why-we-at-famous-company-switched-to-hyped-technology/"},
+   {"title":"What about Durability?", "link": "https://www.mongodb.com/blog/post/what-about-durability"},
+   {"title":"Want to Debug Latency?", "link": "https://medium.com/@rakyll/want-to-debug-latency-7aa48ecbe8f7"},
    {"title":"Things I Wished More Developers Knew About Databases", "link": "https://medium.com/@rakyll/things-i-wished-more-developers-knew-about-databases-2d0178464f78"},
    {"title":"Error handling in Upspin", "link": "https://commandcenter.blogspot.com/2017/12/error-handling-in-upspin.html"},
    {"title":"Go's Connection Pool, Retries, and Timeouts", "link": "https://www.vividcortex.com/blog/2015/01/19/gos-connection-pool-retries-and-timeouts/"},
