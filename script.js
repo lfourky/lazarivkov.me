@@ -1221,6 +1221,10 @@ populateProgress();
 
 // {"title":"", "link": ""},
 var saPodcasts = [
+   {"title":"Go Time #123: WFH", "link": "https://changelog.com/gotime/123"},
+   {"title":"Go Time #122: The Zen of Go", "link": "https://changelog.com/gotime/122"},
+   {"title":"Go Time #121: Pow! Pow! Power tools!", "link": "https://changelog.com/gotime/121"},
+   {"title":"Go Time #120: On the verge of new AI possibilities", "link": "https://changelog.com/gotime/120"},
    {"title":"AI Podcast: Roger Penrose: Physics of Consciousness and the Infinite Universe", "link": "https://www.youtube.com/watch?v=orMtwOz6Db0"},
    {"title":"AI Podcast: Richard Dawkins: Evolution, Intelligence, Simulation, and Memes", "link": "https://www.youtube.com/watch?v=5f-JlzBuUUU"},
    {"title":"AI Podcast: David Silver: AlphaGo, AlphaZero, and Deep Reinforcement Learning", "link": "https://www.youtube.com/watch?v=uPUEq8d73JI"},
