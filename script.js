@@ -6,9 +6,6 @@ var progress = [
    progress(BOOK, "http://shop.oreilly.com/product/0636920021575.do", "REST API Design Rulebook", 100,0,0),
    progress(AUDIOBOOK, "https://www.audible.com/pd/From-Bacteria-to-Bach-and-Back-Audiobook/B01MYBBU13", "From Bacteria to Bach and Back", 5, 0, 0),
    progress(BOOK, "https://www.manning.com/books/event-processing-in-action", "Event Processing in Action", 0,0,20),
-   progress(COURSE, "https://frontendmasters.com/courses/git-in-depth/", "Git In-depth", 0, 45, 55),
-   progress(COURSE, "https://frontendmasters.com/courses/complete-react-v5/", "Complete Intro to React", 40, 35, 25),
-   progress(AUDIOBOOK, "https://www.audible.com/pd/Deadliest-Enemy-Audiobook/B06XKLQ6S9", "Deadliest Enemy", 20, 50, 30),
    progress(BOOK, "https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/", "Distributed Systems", 42,0,0),
    progress(COURSE, "https://www.educative.io/collection/5668639101419520/5649050225344512", "Grokking the System Design Interview", (3/28)*100,0,0)
 ]
