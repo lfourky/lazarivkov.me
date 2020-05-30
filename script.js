@@ -3,7 +3,7 @@ const AUDIOBOOK = "audiobook";
 const BOOK = "book";
 
 var progress = [
-   progress(COURSE, "https://frontendmasters.com/courses/intermediate-react-v2/", "Intermediate React, v2", 40,60,0),
+   progress(COURSE, "https://frontendmasters.com/courses/intermediate-react-v2/", "Intermediate React, v2", 0,60,40),
    progress(COURSE, "https://frontendmasters.com/courses/web-security", "Web Security", 25,0,0),
    progress(BOOK, "http://shop.oreilly.com/product/0636920021575.do", "REST API Design Rulebook", 0,100,0),
    progress(AUDIOBOOK, "https://www.audible.com/pd/From-Bacteria-to-Bach-and-Back-Audiobook/B01MYBBU13", "From Bacteria to Bach and Back", 5, 0, 0),
