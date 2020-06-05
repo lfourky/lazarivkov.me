@@ -2,7 +2,7 @@ const COURSE = "course";
 const AUDIOBOOK = "audiobook";
 const BOOK = "book";
 
-var progress = [
+var currentProgress = [
    progress(BOOK, "https://www.oreilly.com/library/view/understanding-the-linux/0596005652/", "Understanding the Linux Kernel, 3rd Edition", 8,0,0),
    progress(COURSE, "https://frontendmasters.com/courses/intermediate-react-v2/", "Intermediate React, v2", 0,60,40),
    progress(COURSE, "https://frontendmasters.com/courses/web-security", "Web Security", 25,75,0),
@@ -1218,8 +1218,8 @@ function populateProgress() {
    var progressList = $("#progress-list");
    // `Shuffle`, so it doesn't get boring :)
    // shuffleArray(progress);
-	for (var i = 0; i < progress.length; i++) {
-			progressList.append(getProgressTemplate(progress[i]));
+	for (var i = 0; i < currentProgress.length; i++) {
+			progressList.append(getProgressTemplate(currentProgress[i]));
 	}
 }
 populateProgress();
