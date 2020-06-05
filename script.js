@@ -5,7 +5,7 @@ const BOOK = "book";
 var currentProgress = [
    progress(BOOK, "https://www.oreilly.com/library/view/understanding-the-linux/0596005652/", "Understanding the Linux Kernel, 3rd Edition", 0,0,8),
    progress(COURSE, "https://frontendmasters.com/courses/intermediate-react-v2/", "Intermediate React, v2", 0,60,40),
-   progress(COURSE, "https://frontendmasters.com/courses/web-security", "Web Security", 25,75,0),
+   progress(COURSE, "https://frontendmasters.com/courses/web-security", "Web Security", 0,75,25),
    progress(AUDIOBOOK, "https://www.audible.com/pd/From-Bacteria-to-Bach-and-Back-Audiobook/B01MYBBU13", "From Bacteria to Bach and Back", 5, 0, 15),
    progress(BOOK, "https://www.manning.com/books/event-processing-in-action", "Event Processing in Action", 0,20,3),
    progress(COURSE, "https://www.educative.io/collection/5668639101419520/5649050225344512", "Grokking the System Design Interview", (3/28)*100,0,0)
