@@ -3,12 +3,11 @@ const AUDIOBOOK = "audiobook";
 const BOOK = "book";
 
 var currentProgress = [
-   progress(BOOK, "https://www.oreilly.com/library/view/understanding-the-linux/0596005652/", "Understanding the Linux Kernel, 3rd Edition", 0,0,8),
-   progress(COURSE, "https://frontendmasters.com/courses/intermediate-react-v2/", "Intermediate React, v2", 0,60,40),
-   progress(COURSE, "https://frontendmasters.com/courses/web-security", "Web Security", 0,75,25),
-   progress(AUDIOBOOK, "https://www.audible.com/pd/From-Bacteria-to-Bach-and-Back-Audiobook/B01MYBBU13", "From Bacteria to Bach and Back", 5, 0, 15),
-   progress(BOOK, "https://www.manning.com/books/event-processing-in-action", "Event Processing in Action", 0,20,3),
-   progress(COURSE, "https://www.educative.io/collection/5668639101419520/5649050225344512", "Grokking the System Design Interview", (3/28)*100,0,(4/28)*100-(3/28)*100)
+   progress(BOOK, "https://www.manning.com/books/unit-testing", "Unit Testing Principles, Practices, and Patterns", 20,60,20),
+   progress(BOOK, "https://www.oreilly.com/library/view/understanding-the-linux/0596005652/", "Understanding the Linux Kernel, 3rd Edition", 8,0,),
+   progress(AUDIOBOOK, "https://www.audible.com/pd/From-Bacteria-to-Bach-and-Back-Audiobook/B01MYBBU13", "From Bacteria to Bach and Back", 20, 2, 8),
+   progress(BOOK, "https://www.manning.com/books/event-processing-in-action", "Event Processing in Action", 32,0,0),
+   progress(COURSE, "https://www.educative.io/collection/5668639101419520/5649050225344512", "Grokking the System Design Interview", (4/28)*100,0,(4/28)*100-(4/28)*100)
 ]
 
 function progress(courseType, url, title, currentValue, lastWeekProgress, weeklyProgress) {
@@ -151,7 +150,17 @@ var pausedProgress = [
   }
 ];
 
+
+
 var achievements = [
+   {
+      "id": 122,
+      "title": "Finished Reading A Book",
+      "date": "Jun 26th, 2020",
+      "link": "https://www.manning.com/books/unit-testing",
+      "shortlink": "Unit Testing Principles, Practices, and Patterns",
+      "text": ""
+   },
    {
       "id": 121,
       "title": "Completed a course",
@@ -1224,7 +1233,11 @@ function populateProgress() {
 }
 populateProgress();
 
-//  
+var blinks = [
+   {title: "Ikigai", url: "https://www.blinkist.com/books/ikigai-en?r=1&st=ikgai"},
+   {title: "How to Win Friends & Influence People", url: "https://www.blinkist.com/books/how-to-win-friends-and-influence-people-en?r=1&st=how%20to%20win%20friends"},
+   {title: "See You at the Top", url: "https://www.blinkist.com/books/see-you-at-the-top-en?r=1&st=see%20you%20at%20the%20"}
+];
 
 // {"title":"", "link": ""},
 var saPodcasts = [
