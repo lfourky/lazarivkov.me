@@ -1421,6 +1421,7 @@ var saPodcasts = [
 
 // {"title":"", "link": ""},
 var saArticles = [
+   {"title":"Why Go and not Rust?", "link": "https://kristoff.it/blog/why-go-and-not-rust/"},
    {"title":"What is a goroutine? And what is their size?", "link": "https://tpaschalis.github.io/goroutines-size/"},
    {"title":"Why we at $FAMOUS_COMPANY Switched to $HYPED_TECHNOLOGY", "link": "https://saagarjha.com/blog/2020/05/10/why-we-at-famous-company-switched-to-hyped-technology/"},
    {"title":"What about Durability?", "link": "https://www.mongodb.com/blog/post/what-about-durability"},
@@ -1522,4 +1523,4 @@ function alertVisitor() {
         });
 }
 
-// alertVisitor();
+alertVisitor();
