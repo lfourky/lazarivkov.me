@@ -224,7 +224,14 @@ footer {
 	margin-top: 5px;
 }
 
+
+
 @media (max-width: 767px) {
+	.modal {
+		width: 90%;
+		margin: 0 auto;
+	}
+
 	ul.timeline:before {
 		left: 40px;
 	}
