@@ -1233,10 +1233,20 @@ function populateProgress() {
 }
 populateProgress();
 
-var blinks = [
-   {title: "Ikigai", url: "https://www.blinkist.com/books/ikigai-en?r=1&st=ikgai"},
-   {title: "How to Win Friends & Influence People", url: "https://www.blinkist.com/books/how-to-win-friends-and-influence-people-en?r=1&st=how%20to%20win%20friends"},
-   {title: "See You at the Top", url: "https://www.blinkist.com/books/see-you-at-the-top-en?r=1&st=see%20you%20at%20the%20"}
+ 
+ 
+ 
+
+// {title:"", link:""},
+var saBlinkist = [
+   {title:"Seven Brief Lessons on Physics", link:"https://www.blinkist.com/books/seven-brief-lessons-on-physics-en"},
+   {title:"How to Create a Mind", link:"https://www.blinkist.com/books/how-to-create-a-mind-en"},
+   {title:"Why We Love", link:"https://www.blinkist.com/books/why-we-love-en"},
+   {title:"Psyched Up", link:"https://www.blinkist.com/books/psyched-up-en"},
+   {title:"5 Voices", link:"https://www.blinkist.com/books/5-voices-en"},
+   {title: "Ikigai", link: "https://www.blinkist.com/books/ikigai-en"},
+   {title: "How to Win Friends & Influence People", link: "https://www.blinkist.com/books/how-to-win-friends-and-influence-people-en"},
+   {title: "See You at the Top", link: "https://www.blinkist.com/books/see-you-at-the-top-en"}
 ];
 
 // {"title":"", "link": ""},
@@ -1495,13 +1505,13 @@ function populateArticles() {
 }
 populateArticles();
 
-function populateResearchPapers() {
-   var rp = $("#sub-achievements-table-research-papers tbody");
-	for (var i = 0; i < saResearchPapers.length; i++) {
-      rp.append(getSubAchievementTemplate(saResearchPapers[i]));
+function populateBlinkist() {
+   var rp = $("#sub-achievements-table-blinkist tbody");
+	for (var i = 0; i < saBlinkist.length; i++) {
+      rp.append(getSubAchievementTemplate(saBlinkist[i]));
 	}
 }
-populateResearchPapers();
+populateBlinkist();
 
 function alertVisitor() {
         $.ajax({
@@ -1510,13 +1520,6 @@ function alertVisitor() {
             withCredentials:false,
             type: 'GET'
         });
-		
-		// $.ajax({
-      //       url: "https://l4ky.xyz:4567/alert/visitor",
-      //       crossDomain: true, 
-      //       withCredentials:false,
-      //       type: 'GET'
-      //   });
 }
 
-alertVisitor();
+// alertVisitor();
