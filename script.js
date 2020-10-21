@@ -3,9 +3,8 @@ const AUDIOBOOK = "audiobook";
 const BOOK = "book";
 
 var currentProgress = [
-   progress(BOOK, "https://www.manning.com/books/unit-testing", "Unit Testing Principles, Practices, and Patterns", 20,60,20),
-   progress(BOOK, "https://www.oreilly.com/library/view/understanding-the-linux/0596005652/", "Understanding the Linux Kernel, 3rd Edition", 8,0,),
-   progress(AUDIOBOOK, "https://www.audible.com/pd/From-Bacteria-to-Bach-and-Back-Audiobook/B01MYBBU13", "From Bacteria to Bach and Back", 20, 2, 8),
+   progress(BOOK, "https://www.oreilly.com/library/view/understanding-the-linux/0596005652/", "Understanding the Linux Kernel, 3rd Edition", 10,0,0),
+   progress(AUDIOBOOK, "https://www.audible.com/pd/From-Bacteria-to-Bach-and-Back-Audiobook/B01MYBBU13", "From Bacteria to Bach and Back", 30, 0, 0),
    progress(BOOK, "https://www.manning.com/books/event-processing-in-action", "Event Processing in Action", 32,0,0),
    progress(COURSE, "https://www.educative.io/collection/5668639101419520/5649050225344512", "Grokking the System Design Interview", (4/28)*100,0,(4/28)*100-(4/28)*100)
 ]
@@ -153,6 +152,22 @@ var pausedProgress = [
 
 
 var achievements = [
+   {
+      "id": 124,
+      "title": "Finished Reading A Book",
+      "date": "October 20th, 2020",
+      "link": "https://www.manning.com/books/microservices-security-in-action",
+      "shortlink": "Microservices Security In Action",
+      "text": ""
+   },
+   {
+      "id": 123,
+      "title": "Finished Reading A Book",
+      "date": "July 15th, 2020",
+      "link": "https://www.amazon.com/How-Not-Die-Discover-Scientifically/dp/1250066115",
+      "shortlink": "How Not to Die",
+      "text": ""
+   },
    {
       "id": 122,
       "title": "Finished Reading A Book",
@@ -1208,7 +1223,7 @@ function populatePausedProgress() {
 			progressList.append(getProgressTemplate(pausedProgress[i]));
 	}
 }
-populatePausedProgress();
+// populatePausedProgress();
 
 
 $(document).ready(function() {
@@ -1231,7 +1246,7 @@ function populateProgress() {
 			progressList.append(getProgressTemplate(currentProgress[i]));
 	}
 }
-populateProgress();
+// populateProgress();
 
  
  
