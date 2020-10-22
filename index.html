@@ -3,13 +3,12 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
-    <title>l4ky</title>
-    <meta name="description" content="">
+    <title>Lazar Ivkov</title>
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
@@ -17,192 +16,57 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119880509-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'UA-119880509-1');
     </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 </head>
 
 <body class="container">
     <div class="row">
         <div class="col-md-12">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="about">
-                            <img src="images/ppp.jpg" class="img-responsive" />
-                            <p>Hi! You've
-                                <b>made it.</b>
-                                <br> I believed in you, I truly did.
-                                <br>Now that you're here, feel free to snoop around the website. The only price you'll be paying
-                                is the price of the
-                                <b> things you're not doing </b> because you decided to come here .
-                                <br>
-                                <br> Anyways, no need to write anything special about me here. You'll perhaps be able to come
-                                to a conclusion that I'm a programmer, or that I'm learning French in my spare time. Perhaps
-                                you might also realize that I'm in a pursuit of knowledge, and that I'm into psychology,
-                                STEM, and even economics. I threw some econ at you at the beginning of this text.
-                                <br> There's some more about me, but since you're so smart - figure it out on your own. Smartass.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-                <!--https://www.linkedin.com/in/lfourky/-->
-                <div style="display: none"><a href="https://www.linkedin.com/in/lfourky/">LinkedIn</a></div>
-                <!--Progress-->
-                <div class="row" style="display: none;">
-                    <div class="col-md-12 text-center">
-                        <small class="text-muted styled-date">
-                            <i class="glyphicon glyphicon-time"></i>&nbsp;&nbsp;January 10th, 2018.
-                        </small>
-                        <p class="goals">It's so easy to quit, sometimes. Especially if you cannot see or track your progress.</p>
-                        <p class="goals">
-                            My childhood was pretty much filled with online gaming. I guess
-                            <b>addiction</b> is the right word here. I thought a lot about why that's so. I remember seeing
-                            flashy achievement messages coming up in World of Warcraft day after day, telling me how I
-                            <i>killed all those rare monsters, had all the fancy gear, owned other people in PvP engagements</i>
-                            -
-                            <u>and I was hooked</u>. I think nothing changed from the time I started playing, probably more
-                            than 10 years ago. I'm still chasing achievements.
-                            <br>
-                            <br> It's just that, this time, I'm aiming for different kind of achievements. And now I realize
-                            that progress can
-                            <b> and should </b> be tracked IRL, too.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-12 text-center" style="display:none;">
-                    <i>Brief explanation:</i>
-                    <div class="progress">
-                        <div class="progress-bar" style="width: 40%">Progress before last week</div>
-                        <div class="progress-bar progress-bar-info" style="width: 22%"> Last week's & </div>
-                        <div class="progress-bar progress-bar-warning" style="width: 33%"> This week's progress </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <table class="table table-bordered">
-                            <tbody id="progress-list">
-
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12" style="text-align:center; display: none;">
-                        <a id="display-paused-activities" href="">[Display Paused Activities]</a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <table class="table table-bordered">
-                            <tbody id="progress-list-paused" style="display: none">
-
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <div class="row sub-achievements">
-					<div class="col-md-6 sub-achievements-podcasts" style="text-align:center">
-                        <a href="#" role="button" data-toggle="modal" data-target="#modal-podcasts" class="sub-achievements-link">
-                             <i class="fas fa-headphones-alt"></i> 
-                             <span>Podcasts</span>
-                        </a>
-                        <div class="modal fade" id="modal-podcasts" tabindex="-1" role="dialog" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <!-- <h4>Recording since <b>December 1st, 2018</b></h4> -->
-                                        <table id="sub-achievements-table-podcasts" class="table">
-                                            <tbody>
-                                                <!--Dynamic Content-->
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 sub-achievements-articles" style="text-align:center">
-                        <a href="#" role="button" data-toggle="modal" data-target="#modal-articles" class="sub-achievements-link">
-                            <i class="fas fa-globe"></i> 
-                            <span>Articles / Blogs / Presentations</span> 
-                        </a>
-                        <div class="modal fade" id="modal-articles" tabindex="-1" role="dialog" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <!-- <h4>Recording since <b>December 20th, 2018</b></h4> -->
-                                        <table id="sub-achievements-table-articles" class="table">
-                                            <tbody>
-                                                <!--Dynamic Content-->
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="col-md-4 sub-achievements-blinkist" style="text-align:center">
-                        <a href="#" role="button" data-toggle="modal" data-target="#modal-blinkist" class="sub-achievements-link">   
-                            <i class="fas fa-graduation-cap"></i> 
-                            <span> Blinkist </span> 
-                        </a>
-                        <div class="modal fade" id="modal-blinkist" tabindex="-1" role="dialog" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <h4>Recording since <b>June 25th, 2020</b></h4>
-                                        <table id="sub-achievements-table-blinkist" class="table">
-                                            <tbody>
-                                                <!-- Dynamic Content -->
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                </div>
-                <br>
-                <br>
-				<div class="row" style="display: none;">
-					<div class="col-md-6 col-md-offset-3" style="text-align:center">
-                        <i class="far fa-edit"></i> Progress last updated at <b><i>Saturday, 27th June 2020</i></b>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-md-12">
-                        <!--Quote-->
-                        <div class="row">
-                            <div class="col-md-12 text-center">
-                                <h3>
-                                    <i>
-                                        <b>"The journey of a thousand miles begins with a single step."</b>
-                                    </i>
-                                </h3>
-                            </div>
-                        </div>
-                        <!--Achievements-->
-                        <div class="row">
-                            <div class="col-md-12">
-                                <ul class="timeline" id="achievements-timeline">
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <hr>
-                </div>
+            <div class="about">
+                <img src="images/ppp.jpg" class="img-responsive" />
+                <p>Hi! You've
+                    <b>made it.</b>
+                    <br> I believed in you, I truly did.
+                    <br>Now that you're here, feel free to snoop around the website. The only price you'll
+                    be paying
+                    is the price of the
+                    <b> things you're not doing </b> because you decided to come here .
+                    <br>
+                    <br> Anyways, no need to write anything special about me here. You'll perhaps be able to
+                    come
+                    to a conclusion that I'm a programmer, or that I'm learning French in my spare time.
+                    Perhaps
+                    you might also realize that I'm in a pursuit of knowledge, and that I'm into psychology,
+                    STEM, and even economics. I threw some econ at you at the beginning of this text.
+                    <br> There's some more about me, but since you're so smart - figure it out on your own.
+                    Smartass.
+                </p>
             </div>
         </div>
-        <!-- Libraries -->
-        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src="script.js"></script>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h3> <i> <b>"The journey of a thousand miles begins with a single step."</b> </i> </h3>
+        </div>
+    </div>
+    <!--Achievements-->
+    <div class="row">
+        <div class="col-md-12">
+            <ul class="timeline" id="achievements-timeline">
+
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
