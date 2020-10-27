@@ -125,6 +125,14 @@ var pausedProgress = [
 
 var achievements = [
    {
+      "id": 125,
+      "title": "Finished an Audiobook",
+      "date": "October 25th, 2020",
+      "link": "https://www.audible.com/pd/Alchemy-Audiobook/0062801503",
+      "shortlink": "Alchemy",
+      "text": ""
+   },
+   {
       "id": 124,
       "title": "Finished Reading A Book",
       "date": "October 20th, 2020",
