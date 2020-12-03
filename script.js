@@ -125,6 +125,14 @@ var pausedProgress = [
 
 var achievements = [
    {
+      "id": 126,
+      "title": "Completed a course",
+      "date": "December 3rd, 2020",
+      "link": "https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb",
+      "shortlink": "C++",
+      "text": "Over 20 hours of C++ learning material"
+   },
+   {
       "id": 125,
       "title": "Finished an Audiobook",
       "date": "October 25th, 2020",
