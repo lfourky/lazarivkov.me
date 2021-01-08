@@ -125,6 +125,14 @@ var pausedProgress = [
 
 var achievements = [
    {
+      "id": 127,
+      "title": "Completed a course",
+      "date": "January 8th, 2021",
+      "link": "https://www.amazon.com/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230",
+      "shortlink": "Grokking Algorithms: An Illustrated Guide for Programmers and Other Curious People",
+      "text": ""
+   },
+   {
       "id": 126,
       "title": "Completed a course",
       "date": "December 3rd, 2020",
