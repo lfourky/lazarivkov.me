@@ -125,8 +125,16 @@ var pausedProgress = [
 
 var achievements = [
    {
+      "id": 128,
+      "title": "Finished Reading A Book",
+      "date": "January 16th, 2021",
+      "link": "https://www.manning.com/books/operations-anti-patterns-devops-solutions",
+      "shortlink": "Operations Anti-Patterns, DevOps Solutions",
+      "text": ""
+   },
+   {
       "id": 127,
-      "title": "Completed a course",
+      "title": "Finished Reading A Book",
       "date": "January 8th, 2021",
       "link": "https://www.amazon.com/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230",
       "shortlink": "Grokking Algorithms: An Illustrated Guide for Programmers and Other Curious People",
