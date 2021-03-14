@@ -125,6 +125,22 @@ var pausedProgress = [
 
 var achievements = [
    {
+      "id": 130,
+      "title": "Completed a course",
+      "date": "March 14th, 2021",
+      "link": "https://www.oreilly.com/library/view/rust-in-motion/10000MNLV201742/",
+      "shortlink": "Rust in Motion",
+      "text": ""
+   },
+   {
+      "id": 129,
+      "title": "Finished Reading A Book",
+      "date": "February 20th, 2021",
+      "link": "https://www.oreilly.com/library/view/introducing-regular-expressions/9781449338879/",
+      "shortlink": "Introducing Regular Expressions",
+      "text": ""
+   },
+   {
       "id": 128,
       "title": "Finished Reading A Book",
       "date": "January 16th, 2021",
