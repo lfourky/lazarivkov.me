@@ -125,6 +125,14 @@ var pausedProgress = [
 
 var achievements = [
    {
+      "id": 131,
+      "title": "Finished Reading A Book",
+      "date": "March 20th, 2021",
+      "link": "https://pragprog.com/titles/prj/ship-it/",
+      "shortlink": "Ship It!",
+      "text": ""
+   },
+   {
       "id": 130,
       "title": "Completed a course",
       "date": "March 14th, 2021",
