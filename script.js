@@ -125,11 +125,19 @@ var pausedProgress = [
 
 var achievements = [
    {
+      "id": 132,
+      "title": "Finished an Audiobook",
+      "date": "May 8th, 2021",
+      "link": "https://www.audible.com/pd/Redefining-Reality-Audiobook/B00ZB7QIIU",
+      "shortlink": "Redefining Reality - The Intellectual Implications of Modern Science",
+      "text": ""
+   },
+   {
       "id": 131,
       "title": "Finished Reading A Book",
       "date": "March 20th, 2021",
       "link": "https://pragprog.com/titles/prj/ship-it/",
-      "shortlink": "Ship It!",
+      "shortlink": "Ship It! - A Practical Guide to Successful Software Projects",
       "text": ""
    },
    {
@@ -177,7 +185,7 @@ var achievements = [
       "title": "Finished an Audiobook",
       "date": "October 25th, 2020",
       "link": "https://www.audible.com/pd/Alchemy-Audiobook/0062801503",
-      "shortlink": "Alchemy",
+      "shortlink": "Alchemy - The Dark Art and Curious Science of Creating Magic in Brands, Business, and Life",
       "text": ""
    },
    {
@@ -241,7 +249,7 @@ var achievements = [
       "title": "Finished an Audiobook",
       "date": "May 1st, 2020",
       "link": "https://www.audible.com/pd/Deadliest-Enemy-Audiobook/B06XKLQ6S9",
-      "shortlink": "Deadliest Enemy",
+      "shortlink": "Deadliest Enemy - Our War Against Killer Germs",
       "text": ""
    },
    {
@@ -265,7 +273,7 @@ var achievements = [
       "title": "Finished an Audiobook",
       "date": "March 14th, 2020",
       "link": "https://www.audible.com/pd/The-Tipping-Point-Audiobook/B0032N8PRM",
-      "shortlink": "The Tipping Point",
+      "shortlink": "The Tipping Point - How Little Things Can Make a Big Difference",
       "text": ""
    },
    {
@@ -281,7 +289,7 @@ var achievements = [
       "title": "Finished an Audiobook",
       "date": "March 1st, 2020",
       "link": "https://www.audible.com/pd/Zero-to-One-Audiobook/B00M27LBU2",
-      "shortlink": "Zero to One",
+      "shortlink": "Zero to One - Notes on Startups, or How to Build the Future",
       "text": ""
    },
    {
@@ -297,7 +305,7 @@ var achievements = [
       "title": "Finished an Audiobook",
       "date": "January 28th, 2020",
       "link": "https://www.audible.com/pd/Humble-Pi-Audiobook/0241375509",
-      "shortlink": "Humble Pi",
+      "shortlink": "Humble Pi - A Comedy of Maths Errors",
       "text": ""
    },
    {
@@ -313,7 +321,7 @@ var achievements = [
       "title": "Finished an Audiobook",
       "date": "December 29th, 2019",
       "link": "https://www.audible.com/pd/Packing-for-Mars-Audiobook/B003VVN1KQ",
-      "shortlink": "Packing for Mars",
+      "shortlink": "Packing for Mars - The Curious Science of Life in the Void",
       "text": ""
    },
    {
@@ -345,7 +353,7 @@ var achievements = [
       "title": "Finished an Audiobook",
       "date": "September 27th, 2019",
       "link": "https://www.audible.com/pd/Bad-Science-Audiobook/B006WRE0IS",
-      "shortlink": "Bad Science",
+      "shortlink": "Bad Science - Quacks, Hacks, and Big Pharma Flacks",
       "text": ""
    },
    {
@@ -353,7 +361,7 @@ var achievements = [
       "title": "Finished an Audiobook",
       "date": "September 14th, 2019",
       "link": "https://www.audible.com/pd/Pale-Blue-Dot-Audiobook/B06XTJN84L",
-      "shortlink": "Pale Blue Dot",
+      "shortlink": "Pale Blue Dot - A Vision of the Human Future in Space",
       "text": ""
    },
    {
