@@ -125,6 +125,14 @@ var pausedProgress = [
 
 var achievements = [
    {
+      "id": 133,
+      "title": "Finished an Audiobook",
+      "date": "July 3rd, 2021",
+      "link": "https://www.audible.com/pd/The-Complete-Software-Developers-Career-Guide-Audiobook/B078JDMDNV",
+      "shortlink": "The Complete Software Developer's Career Guide",
+      "text": ""
+   },
+   {
       "id": 132,
       "title": "Finished an Audiobook",
       "date": "May 8th, 2021",
