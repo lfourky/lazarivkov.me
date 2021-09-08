@@ -127,6 +127,14 @@ var pausedProgress = [
 
 var achievements = [
    {
+      "id": 135,
+      "title": "Finished Reading A Book",
+      "date": "September 8th, 2021",
+      "link": "https://www.amazon.com/Psych-101-Psychology-Basics-Statistics/dp/1440543909",
+      "shortlink": "Psych 101",
+      "text": ""
+   },
+   {
       "id": 134,
       "title": "Finished an Audiobook",
       "date": "August 28th, 2021",
