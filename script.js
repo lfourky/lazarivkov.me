@@ -125,8 +125,15 @@ var pausedProgress = [
 
 
 
-
 var achievements = [
+   {
+      "id": 137,
+      "title": "Finished an Audiobook",
+      "date": "November 22nd, 2021",
+      "link": "https://www.audible.com/pd/Everything-All-at-Once-Audiobook/B06Y6GTN8D",
+      "shortlink": "Everything All at Once",
+      "text": ""
+   },
    {
       "id": 137,
       "title": "Finished an Audiobook",
