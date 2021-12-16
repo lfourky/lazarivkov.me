@@ -1,131 +1,12 @@
-var currentProgress = [
-   // progress(BOOK, "https://www.oreilly.com/library/view/understanding-the-linux/0596005652/", "Understanding the Linux Kernel, 3rd Edition", 10, 0, 0),
-   // progress(AUDIOBOOK, "https://www.audible.com/pd/From-Bacteria-to-Bach-and-Back-Audiobook/B01MYBBU13", "From Bacteria to Bach and Back", 30, 0, 0),
-   // progress(BOOK, "https://www.manning.com/books/event-processing-in-action", "Event Processing in Action", 32, 0, 0),
-   // progress(COURSE, "https://www.educative.io/collection/5668639101419520/5649050225344512", "Grokking the System Design Interview", (4 / 28) * 100, 0, (4 / 28) * 100 - (4 / 28) * 100)
-]
-
-var pausedProgress = [
-   // progress(BOOK, "https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/", "Distributed Systems", 42, 0, 0),
-   {
-      name:
-         "Listening to an audiobook <a href='https://www.audible.com/pd/Hackers-Heroes-of-the-Computer-Revolution-Audiobook/B017RUZC4E' target='_blank'>Hackers: Heroes of the Computer Revolution</a>",
-      currentValue: (660 / 1223) * 100,
-      currentText: "",
-      lastWeeksProgress: 0,
-      weeklyProgress: 0
-   },
-   {
-      name:
-         "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
-      currentValue: 19,
-      currentText: "",
-      lastWeeksProgress: 0,
-      weeklyProgress: 0
-   },
-   {
-      name:
-         "Reading a book: <a href='https://www.amazon.com/Operating-Systems-Introduction-R-Garg/dp/1942270380' target='_blank'>Operating Systems</a>",
-      currentValue: ((107 - 0) / 304) * 100,
-      currentText: "",
-      lastWeeksProgress: 0,
-      weeklyProgress: 0
-   },
-   {
-      name:
-         "Reading <a href='https://people.freebsd.org/~lstewart/articles/cpumemory.pdf' target='_blank'>What Every Programmer Should Know About Memory</a>",
-      currentValue: (23 / 114) * 100,
-      currentText: "",
-      lastWeeksProgress: 0,
-      weeklyProgress: 0
-   },
-   {
-      name:
-         "Reading a book: <a href='https://www.crcpress.com/Essentials-of-Computer-Architecture/Comer/p/book/9781138626591' target='_blank'>Essentials of Computer Architecture</a>",
-      currentValue: ((233 - 0) / 536) * 100,
-      currentText: "",
-      lastWeeksProgress: 0,
-      weeklyProgress: 0
-   },
-   {
-      name:
-         "Completing a course: <a href='https://frontendmasters.com/courses/css-grids-flexbox/' target='_blank'>CSS Grids and Flexbox for Responsive Web Design</a>",
-      currentValue: (81 / 338) * 100,
-      currentText: "",
-      lastWeeksProgress: 0,
-      weeklyProgress: 0
-   },
-   {
-      name:
-         "Reading a book: <a href='https://www.distributed-systems.net/index.php/books/computer-and-network-organization/' target='_blank'>Computer and Network Organization</a>",
-      currentValue: ((67 - 0) / 560) * 100,
-      currentText: "",
-      lastWeeksProgress: 0,
-      weeklyProgress: 0
-   },
-
-   {
-      name:
-         "Completing a course: <a href='https://www.coursera.org/learn/build-a-computer' target='_blank'>Build a Modern Computer from First Principles: From Nand to Tetris </a>",
-      currentValue: 16,
-      currentText: "",
-      lastWeeksProgress: 0,
-      weeklyProgress: 0
-   },
-   {
-      name:
-         "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
-      currentValue: ((133 - 0) / 508) * 100,
-      currentText: "",
-      lastWeeksProgress: 0,
-      weeklyProgress: 0
-   },
-
-   {
-      name:
-         "Reading a book: <a href='https://www.apress.com/us/book/9781484237298' target='_blank'>The Linux Philosophy for SysAdmins</a>",
-      currentValue: ((39 - 0) / 516) * 100,
-      currentText: "",
-      lastWeeksProgress: 0,
-      weeklyProgress: 0
-   },
-   {
-      name:
-         "Reading a book: <a href='http://www.stroustrup.com/4th.html' target='_blank'>The C++ Programming Language (4th Edition)</a>",
-      currentValue: (114 / 1366) * 100,
-      currentText: "",
-      lastWeeksProgress: 0,
-      weeklyProgress: 0
-   },
-   {
-      name:
-         "Reading a book: <a href='https://www.apress.com/gp/book/9781484224021' target='_blank'>Low-Level Programming</a>",
-      currentValue: (100 / 446) * 100,
-      currentText: "",
-      lastWeeksProgress: 0,
-      weeklyProgress: 0
-   },
-   {
-      name:
-         "Reading a book: <a href='https://www.amazon.com/Data-Structures-Abstraction-Design-Using-ebook/dp/B01AKSZA2E' target='_blank'>Data Structures: Abstraction and Design Using Java, 3rd Edition</a>",
-      currentValue: (217 / 686) * 100,
-      currentText: "",
-      lastWeeksProgress: 0,
-      weeklyProgress: 0
-   },
-   {
-      name:
-         "Completing a course: <a href='https://www.udacity.com/course/advanced-operating-systems--ud189' target='_blank'>Advanced Operating Systems</a>",
-      currentValue: 75,
-      currentText: "",
-      lastWeeksProgress: 0,
-      weeklyProgress: 0
-   }
-];
-
-
-
 var achievements = [
+   {
+      "id": 139,
+      "title": "Finished an Audiobook",
+      "date": "December 16th, 2021",
+      "link": "https://www.audible.com/pd/Atomic-Habits-Audiobook/1524779261",
+      "shortlink": "Atomic Habits",
+      "text": ""
+   },
    {
       "id": 138,
       "title": "Finished an Audiobook",
@@ -1534,3 +1415,128 @@ function alertVisitor() {
    });
 }
 // alertVisitor();
+
+var currentProgress = [
+   // progress(BOOK, "https://www.oreilly.com/library/view/understanding-the-linux/0596005652/", "Understanding the Linux Kernel, 3rd Edition", 10, 0, 0),
+   // progress(AUDIOBOOK, "https://www.audible.com/pd/From-Bacteria-to-Bach-and-Back-Audiobook/B01MYBBU13", "From Bacteria to Bach and Back", 30, 0, 0),
+   // progress(BOOK, "https://www.manning.com/books/event-processing-in-action", "Event Processing in Action", 32, 0, 0),
+   // progress(COURSE, "https://www.educative.io/collection/5668639101419520/5649050225344512", "Grokking the System Design Interview", (4 / 28) * 100, 0, (4 / 28) * 100 - (4 / 28) * 100)
+]
+
+var pausedProgress = [
+   // progress(BOOK, "https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/", "Distributed Systems", 42, 0, 0),
+   {
+      name:
+         "Listening to an audiobook <a href='https://www.audible.com/pd/Hackers-Heroes-of-the-Computer-Revolution-Audiobook/B017RUZC4E' target='_blank'>Hackers: Heroes of the Computer Revolution</a>",
+      currentValue: (660 / 1223) * 100,
+      currentText: "",
+      lastWeeksProgress: 0,
+      weeklyProgress: 0
+   },
+   {
+      name:
+         "Completing a language course: <a href='http://www.pimsleur.com/learn-french' target='_blank'>Pimsleur French (part 2)</a>",
+      currentValue: 19,
+      currentText: "",
+      lastWeeksProgress: 0,
+      weeklyProgress: 0
+   },
+   {
+      name:
+         "Reading a book: <a href='https://www.amazon.com/Operating-Systems-Introduction-R-Garg/dp/1942270380' target='_blank'>Operating Systems</a>",
+      currentValue: ((107 - 0) / 304) * 100,
+      currentText: "",
+      lastWeeksProgress: 0,
+      weeklyProgress: 0
+   },
+   {
+      name:
+         "Reading <a href='https://people.freebsd.org/~lstewart/articles/cpumemory.pdf' target='_blank'>What Every Programmer Should Know About Memory</a>",
+      currentValue: (23 / 114) * 100,
+      currentText: "",
+      lastWeeksProgress: 0,
+      weeklyProgress: 0
+   },
+   {
+      name:
+         "Reading a book: <a href='https://www.crcpress.com/Essentials-of-Computer-Architecture/Comer/p/book/9781138626591' target='_blank'>Essentials of Computer Architecture</a>",
+      currentValue: ((233 - 0) / 536) * 100,
+      currentText: "",
+      lastWeeksProgress: 0,
+      weeklyProgress: 0
+   },
+   {
+      name:
+         "Completing a course: <a href='https://frontendmasters.com/courses/css-grids-flexbox/' target='_blank'>CSS Grids and Flexbox for Responsive Web Design</a>",
+      currentValue: (81 / 338) * 100,
+      currentText: "",
+      lastWeeksProgress: 0,
+      weeklyProgress: 0
+   },
+   {
+      name:
+         "Reading a book: <a href='https://www.distributed-systems.net/index.php/books/computer-and-network-organization/' target='_blank'>Computer and Network Organization</a>",
+      currentValue: ((67 - 0) / 560) * 100,
+      currentText: "",
+      lastWeeksProgress: 0,
+      weeklyProgress: 0
+   },
+
+   {
+      name:
+         "Completing a course: <a href='https://www.coursera.org/learn/build-a-computer' target='_blank'>Build a Modern Computer from First Principles: From Nand to Tetris </a>",
+      currentValue: 16,
+      currentText: "",
+      lastWeeksProgress: 0,
+      weeklyProgress: 0
+   },
+   {
+      name:
+         "Reading a book: <a href='http://shop.oreilly.com/product/0636920132448.do' target='_blank'>The Site Reliability Workbook</a>",
+      currentValue: ((133 - 0) / 508) * 100,
+      currentText: "",
+      lastWeeksProgress: 0,
+      weeklyProgress: 0
+   },
+
+   {
+      name:
+         "Reading a book: <a href='https://www.apress.com/us/book/9781484237298' target='_blank'>The Linux Philosophy for SysAdmins</a>",
+      currentValue: ((39 - 0) / 516) * 100,
+      currentText: "",
+      lastWeeksProgress: 0,
+      weeklyProgress: 0
+   },
+   {
+      name:
+         "Reading a book: <a href='http://www.stroustrup.com/4th.html' target='_blank'>The C++ Programming Language (4th Edition)</a>",
+      currentValue: (114 / 1366) * 100,
+      currentText: "",
+      lastWeeksProgress: 0,
+      weeklyProgress: 0
+   },
+   {
+      name:
+         "Reading a book: <a href='https://www.apress.com/gp/book/9781484224021' target='_blank'>Low-Level Programming</a>",
+      currentValue: (100 / 446) * 100,
+      currentText: "",
+      lastWeeksProgress: 0,
+      weeklyProgress: 0
+   },
+   {
+      name:
+         "Reading a book: <a href='https://www.amazon.com/Data-Structures-Abstraction-Design-Using-ebook/dp/B01AKSZA2E' target='_blank'>Data Structures: Abstraction and Design Using Java, 3rd Edition</a>",
+      currentValue: (217 / 686) * 100,
+      currentText: "",
+      lastWeeksProgress: 0,
+      weeklyProgress: 0
+   },
+   {
+      name:
+         "Completing a course: <a href='https://www.udacity.com/course/advanced-operating-systems--ud189' target='_blank'>Advanced Operating Systems</a>",
+      currentValue: 75,
+      currentText: "",
+      lastWeeksProgress: 0,
+      weeklyProgress: 0
+   }
+];
