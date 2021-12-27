@@ -1,5 +1,13 @@
 var achievements = [
    {
+      "id": 141,
+      "title": "Finished an Audiobook",
+      "date": "December 27th, 2021",
+      "link": "https://www.audible.com/pd/Weapons-of-Math-Destruction-Audiobook/B01JPA41ZU",
+      "shortlink": "Weapons of Math Destruction - How Big Data Increases Inequality and Threatens Democracy",
+      "text": ""
+   },
+   {
       "id": 140,
       "title": "Finished an Audiobook",
       "date": "December 18th, 2021",
