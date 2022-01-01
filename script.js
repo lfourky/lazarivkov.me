@@ -1,5 +1,21 @@
 var achievements = [
    {
+      "id": 143,
+      "title": "Completed a course",
+      "date": "December 31st, 2021",
+      "link": "https://www.educative.io/courses/grokking-adv-system-design-intvw",
+      "shortlink": "Grokking the Advanced System Design Interview",
+      "text": ""
+   },
+   {
+      "id": 142,
+      "title": "Completed a course",
+      "date": "December 27th, 2021",
+      "link": "https://www.educative.io/courses/grokking-the-system-design-interview",
+      "shortlink": "Grokking the System Design Interview",
+      "text": ""
+   },
+   {
       "id": 141,
       "title": "Finished an Audiobook",
       "date": "December 27th, 2021",
