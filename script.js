@@ -1,8 +1,16 @@
 var achievements = [
    {
+      "id": 144,
+      "title": "Completed a course",
+      "date": "January 11th, 2022",
+      "link": "https://frontendmasters.com/courses/developer-productivity/",
+      "shortlink": "Developer Productivity",
+      "text": ""
+   },
+   {
       "id": 143,
       "title": "Completed a course",
-      "date": "December 31st, 2021",
+      "date": "January 6th, 2022",
       "link": "https://www.educative.io/courses/grokking-adv-system-design-intvw",
       "shortlink": "Grokking the Advanced System Design Interview",
       "text": ""
