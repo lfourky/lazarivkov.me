@@ -1,5 +1,13 @@
 var achievements = [
    {
+      "id": 148,
+      "title": "Finished Reading A Book",
+      "date": "March 17th, 2022",
+      "link": "https://www.oreilly.com/library/view/mastering-bitcoin-2nd/9781491954379/",
+      "shortlink": "Mastering Bitcoin",
+      "text": ""
+   },
+   {
       "id": 147,
       "title": "Finished an Audiobook",
       "date": "March 12th, 2022",
