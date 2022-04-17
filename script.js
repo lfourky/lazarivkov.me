@@ -1,5 +1,13 @@
 var achievements = [
    {
+      "id": 149,
+      "title": "Completed a course",
+      "date": "April 18th, 2022",
+      "link": "https://www.thegreatcourses.com/courses/economics-3rd-edition",
+      "shortlink": "TGC - Economics, 3rd Edition",
+      "text": ""
+   },
+   {
       "id": 148,
       "title": "Finished Reading A Book",
       "date": "March 17th, 2022",
