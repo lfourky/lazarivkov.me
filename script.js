@@ -1,5 +1,13 @@
 var achievements = [
    {
+      "id": 150,
+      "title": "Finished Reading A Book",
+      "date": "June 16th, 2022",
+      "link": "https://www.oreilly.com/library/view/mastering-blockchain/9781492054696/",
+      "shortlink": "Mastering Blockchain",
+      "text": ""
+   },
+   {
       "id": 149,
       "title": "Completed a course",
       "date": "April 18th, 2022",
