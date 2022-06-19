@@ -1,5 +1,13 @@
 var achievements = [
    {
+      "id": 151,
+      "title": "Completed a course",
+      "date": "June 19th, 2022",
+      "link": "https://www.thegreatcourses.com/courses/unexpected-economics",
+      "shortlink": "TGC - Unexpected Economics",
+      "text": ""
+   },
+   {
       "id": 150,
       "title": "Finished Reading A Book",
       "date": "June 16th, 2022",
