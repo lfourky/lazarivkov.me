@@ -1,5 +1,13 @@
 var achievements = [
    {
+      "id": 153,
+      "title": "Completed a course",
+      "date": "August 7th, 2022",
+      "link": "https://www.thegreatcourses.com/courses/the-intelligent-brain",
+      "shortlink": "TGC - The Intelligent Brain",
+      "text": ""
+   },
+   {
       "id": 152,
       "title": "Finished an Audiobook",
       "date": "July 22nd, 2022",
