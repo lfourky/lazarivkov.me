@@ -1,5 +1,13 @@
 var achievements = [
    {
+      "id": 156,
+      "title": "Finished Reading A Book",
+      "date": "November 26th, 2022",
+      "link": "https://www.amazon.com/Software-Architecture-Parts-Neal-Ford-ebook-dp-B09H2H5QKC/dp/B09H2H5QKC",
+      "shortlink": "Software Architecture: The Hard Parts",
+      "text": ""
+   },
+   {
       "id": 155,
       "title": "Finished an Audiobook",
       "date": "November 5th, 2022",
