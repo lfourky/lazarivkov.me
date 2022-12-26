@@ -1,5 +1,13 @@
 var achievements = [
    {
+      "id": 157,
+      "title": "Completed a course",
+      "date": "December 25th, 2022",
+      "link": "https://www.thegreatcourses.com/courses/optimizing-brain-fitness",
+      "shortlink": "TGC - Optimizing Brain Fitness",
+      "text": ""
+   },
+   {
       "id": 156,
       "title": "Finished Reading A Book",
       "date": "November 26th, 2022",
