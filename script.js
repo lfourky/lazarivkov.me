@@ -1,5 +1,21 @@
 var achievements = [
    {
+      "id": 160,
+      "title": "Finished Reading A Book",
+      "date": "July 25th, 2023",
+      "link": "https://www.oreilly.com/library/view/building-event-driven-microservices/9781492057888/",
+      "shortlink": "Building Event-Driven Microservices",
+      "text": ""
+   },
+   {
+      "id": 159,
+      "title": "Finished an Audiobook",
+      "date": "July 23rd, 2023",
+      "link": "https://www.audible.com/pd/101-Essays-That-Will-Change-the-Way-You-Think-Audiobook/1977386865?action_code=ASSGB149080119000H&share_location=pdp",
+      "shortlink": "101 Essays That Will Change the Way You Think",
+      "text": ""
+   },
+   {
       "id": 158,
       "title": "Finished an Audiobook",
       "date": "February 10th, 2023",
