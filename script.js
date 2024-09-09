@@ -1,5 +1,13 @@
 var achievements = [
    {
+      "id": 166,
+      "title": "Finished Reading a Book",
+      "date": "September 9th, 2024",
+      "link": "https://www.amazon.com/Chemistry-Essentials-Dummies-John-Moore/dp/1119591147",
+      "shortlink": "Chemistry Essentials",
+      "text": ""
+   },
+   {
       "id": 165,
       "title": "Finished an Audiobook",
       "date": "August 15th, 2024",
