@@ -1,5 +1,13 @@
 var achievements = [
    {
+      "id": 168,
+      "title": "Finished Reading a Book",
+      "date": "October 12th, 2024",
+      "link": "https://www.amazon.com/Biology-Essentials-Dummies-Fester-Kratz/dp/1119589584",
+      "shortlink": "Biology Essentials",
+      "text": ""
+   },
+   {
       "id": 167,
       "title": "Finished an Audiobook",
       "date": "September 24th, 2024",
