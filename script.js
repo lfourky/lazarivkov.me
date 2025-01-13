@@ -1,5 +1,13 @@
 var achievements = [
    {
+      "id": 169,
+      "title": "Finished Reading a Book",
+      "date": "December 25th, 2024",
+      "link": "https://www.amazon.com/Chemistry-Dummies-Math-Science/dp/B003156A1Y",
+      "shortlink": "Chemistry",
+      "text": ""
+   },
+   {
       "id": 168,
       "title": "Finished Reading a Book",
       "date": "October 12th, 2024",
