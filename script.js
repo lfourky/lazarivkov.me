@@ -1386,41 +1386,125 @@ var achievements = [
 ];
 
 function getAchievementTemplate(achievement) {
-   var clazz = "timeline";
-
-   if (achievement.id % 2 == 0) {
-      clazz = "timeline-inverted";
-   }
-
-   var template = '    	<li class="' + clazz + '">' +
-      '			<div class="timeline-badge">' +
-      '				<i class="glyphicon glyphicon-check"></i>' +
-      '			</div>' +
-      '			<div class="timeline-panel">' +
-      '				<div class="timeline-heading">' +
-      '					<h4 class="timeline-title">' + achievement.title + '</h4>' +
-      '					<p>' +
-      '						<small class="text-muted styled-date">' +
-      '						  <i class="glyphicon glyphicon-time"></i>' +
-      '						  &nbsp;&nbsp;' +
-      '						  ' + achievement.date +
-      '						</small>' +
-      '					</p>' +
-      '				</div>' +
-      '				<div class="timeline-body">' +
-      '				  <b> <a href=" ' + achievement.link + '" target="_blank">' + achievement.shortlink + '</a> </b>' +
-      '					<p style="overflow:auto">' + achievement.text + '</p>' +
-      '				</div>' +
-      '			</div>' +
-      '		</li>'
-   return template;
+    // Determine the type of achievement based on the title
+    let type = 'other';
+    let typeLabel = 'Other';
+    
+    if (achievement.title.toLowerCase().includes('reading a book') || 
+        achievement.title.toLowerCase().includes('finished reading a book')) {
+        type = 'book';
+        typeLabel = 'Book';
+    } else if (achievement.title.toLowerCase().includes('audiobook') || 
+               achievement.title.toLowerCase().includes('finished an audiobook')) {
+        type = 'audiobook';
+        typeLabel = 'Audiobook';
+    } else if (achievement.title.toLowerCase().includes('course') || 
+               achievement.title.toLowerCase().includes('completing a course')) {
+        type = 'course';
+        typeLabel = 'Course';
+    } else if (achievement.title.toLowerCase().includes('project') || 
+               achievement.title.toLowerCase().includes('finished project')) {
+        type = 'project';
+        typeLabel = 'Project';
+    }
+    
+    // Format the date
+    const date = new Date(achievement.date);
+    const formattedDate = date.toLocaleDateString('en-US', { 
+        year: 'numeric', 
+        month: 'long', 
+        day: 'numeric' 
+    });
+    
+    return `
+        <div class="achievement-card" data-type="${type}" data-id="${achievement.id}">
+            <div class="card-header">
+                <span class="card-type ${type}">${typeLabel}</span>
+                <span class="card-date">${formattedDate}</span>
+            </div>
+            <h3 class="card-title">${achievement.shortlink || achievement.title}</h3>
+            <p class="card-text">${achievement.text || 'Knowledge milestone completed'}</p>
+            <a href="${achievement.link}" class="card-link" target="_blank">
+                <i class="fas fa-external-link-alt"></i>
+                View Details
+            </a>
+        </div>
+    `;
 }
 
 function populateAchievements() {
-   var achievementList = $("#achievements-timeline");
-   for (var i = 0; i < achievements.length; i++) {
-      achievementList.append(getAchievementTemplate(achievements[i]));
-   }
+    const grid = document.getElementById('achievements-grid');
+    if (!grid) {
+        console.log('Achievements grid not found!');
+        return;
+    }
+    
+    console.log('Found achievements grid, populating...');
+    
+    // Clear existing content
+    grid.innerHTML = '';
+    
+    // Render all achievements
+    for (var i = 0; i < achievements.length; i++) {
+        const cardHTML = getAchievementTemplate(achievements[i]);
+        grid.insertAdjacentHTML('beforeend', cardHTML);
+    }
+    
+    console.log('Populated', achievements.length, 'achievements');
+    
+    // Update counts
+    updateCounts();
+    
+    // Add click event listeners to cards
+    addCardEventListeners();
+}
+
+// Update achievement counts
+function updateCounts() {
+    const booksCount = achievements.filter(a => {
+        const title = a.title.toLowerCase();
+        return title.includes('reading a book') || title.includes('finished reading a book');
+    }).length;
+    
+    const coursesCount = achievements.filter(a => {
+        const title = a.title.toLowerCase();
+        return title.includes('course') || title.includes('completing a course');
+    }).length;
+    
+    const booksElement = document.getElementById('books-count');
+    const coursesElement = document.getElementById('courses-count');
+    
+    if (booksElement) {
+        booksElement.textContent = booksCount;
+    }
+    if (coursesElement) {
+        coursesElement.textContent = coursesCount;
+    }
+    
+    console.log('Updated counts - Books:', booksCount, 'Courses:', coursesCount);
+}
+
+// Add event listeners to achievement cards
+function addCardEventListeners() {
+    const cards = document.querySelectorAll('.achievement-card');
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            const achievementId = card.dataset.id;
+            const achievement = achievements.find(a => a.id == achievementId);
+            if (achievement) {
+                showModal(achievement);
+            }
+        });
+        
+        // Add hover effects
+        card.addEventListener('mouseenter', () => {
+            card.style.transform = 'translateY(-8px)';
+        });
+        
+        card.addEventListener('mouseleave', () => {
+            card.style.transform = 'translateY(0)';
+        });
+    });
 }
 populateAchievements();
 
@@ -1812,3 +1896,90 @@ var pausedProgress = [
       weeklyProgress: 0
    }
 ];
+
+// Initialize the page
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOM loaded, initializing...');
+    console.log('Achievements array length:', achievements.length);
+    
+    // Populate achievements
+    populateAchievements();
+    
+    // Add filter tab event listeners
+    const filterTabs = document.querySelectorAll('.filter-tab');
+    console.log('Found filter tabs:', filterTabs.length);
+    
+    filterTabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            console.log('Filter tab clicked:', tab.dataset.filter);
+            // Remove active class from all tabs
+            filterTabs.forEach(t => t.classList.remove('active'));
+            // Add active class to clicked tab
+            tab.classList.add('active');
+            // Repopulate achievements with new filter
+            populateAchievements();
+        });
+    });
+    
+    // Add search functionality
+    const searchInput = document.getElementById('search-input');
+    if (searchInput) {
+        console.log('Search input found');
+        searchInput.addEventListener('input', () => {
+            populateAchievements();
+        });
+    } else {
+        console.log('Search input NOT found');
+    }
+    
+    // Add modal close functionality
+    const closeModal = document.getElementById('close-modal');
+    if (closeModal) {
+        closeModal.addEventListener('click', hideModal);
+    }
+    
+    // Close modal when clicking backdrop
+    const modal = document.getElementById('achievement-modal');
+    if (modal) {
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                hideModal();
+            }
+        });
+    }
+    
+    // Close modal with Escape key
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            hideModal();
+        }
+    });
+});
+
+// Modal functions
+function showModal(achievement) {
+    const modal = document.getElementById('achievement-modal');
+    const modalTitle = document.getElementById('modal-title');
+    const modalDescription = document.getElementById('modal-description');
+    const modalLink = document.getElementById('modal-link');
+    
+    if (modal && modalTitle && modalDescription && modalLink) {
+        modalTitle.textContent = achievement.shortlink || achievement.title;
+        modalDescription.innerHTML = `
+            <p><strong>Date:</strong> ${achievement.date}</p>
+            ${achievement.text ? `<p>${achievement.text}</p>` : ''}
+        `;
+        modalLink.href = achievement.link;
+        
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+}
+
+function hideModal() {
+    const modal = document.getElementById('achievement-modal');
+    if (modal) {
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+}

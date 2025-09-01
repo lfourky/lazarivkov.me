@@ -1,72 +1,155 @@
-<!doctype html>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="0" />
-    <title>Lazar Ivkov</title>
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazar Ivkov - Modern Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119880509-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-119880509-1');
-    </script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
 </head>
+<body>
+    <!-- Modern Header with Gradient -->
+    <header class="header">
+        <div class="header-background">
+            <div class="gradient-overlay"></div>
+            <div class="geometric-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header-content">
+                <div class="profile-section">
+                    <div class="profile-avatar">
+                        <div class="avatar-ring"></div>
+                        <img src="images/ppp.jpg" alt="Lazar Ivkov" class="profile-image">
+                        <div class="avatar-overlay">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    <div class="profile-info">
+                        <h1 class="name">Lazar Ivkov</h1>
+                        <p class="title">Software Engineer & Knowledge Seeker</p>
+                        <div class="bio-section">
+                            <p class="bio-text">
+                                Passionate software engineer with a relentless pursuit of knowledge. 
+                                I believe in continuous learning through books, courses, and hands-on projects. 
+                                Every milestone represents a step forward in my journey of growth and discovery.
+                            </p>
+                            <div class="bio-highlights">
+                                <span class="highlight-item">
+                                    <i class="fas fa-rocket"></i>
+                                    Software Development
+                                </span>
+                                <span class="highlight-item">
+                                    <i class="fas fa-brain"></i>
+                                    Continuous Learning
+                                </span>
+                                <span class="highlight-item">
+                                    <i class="fas fa-globe"></i>
+                                    Problem Solving
+                                </span>
+                            </div>
+                        </div>
+                        <div class="stats">
+                            <div class="stat">
+                                <div class="stat-icon">
+                                    <i class="fas fa-book"></i>
+                                </div>
+                                <span class="stat-number" id="books-count">0</span>
+                                <span class="stat-label">Books Read</span>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <span class="stat-number" id="courses-count">0</span>
+                                <span class="stat-label">Courses Completed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-<body class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="about">
-                <img src="images/ppp.jpg" class="img-responsive" />
-                <p>Hi! You've
-                    <b>made it.</b>
-                    <br> I believed in you, I truly did.
-                    <br>Now that you're here, feel free to snoop around the website. The only price you'll
-                    be paying
-                    is the price of the
-                    <b> things you're not doing </b> because you decided to come here .
-                    <br>
-                    <br> Anyways, no need to write anything special about me here. You'll perhaps be able to
-                    come
-                    to a conclusion that I'm a programmer, or that I'm learning French in my spare time.
-                    Perhaps
-                    you might also realize that I'm in a pursuit of knowledge, and that I'm into psychology,
-                    STEM, and even economics. I threw some econ at you at the beginning of this text.
-                    <br> There's some more about me, but since you're so smart - figure it out on your own.
-                    Smartass.
-                </p>
+    <!-- Enhanced Navigation -->
+    <nav class="navigation">
+        <div class="container">
+            <div class="nav-content">
+                <div class="filter-tabs">
+                    <button class="filter-tab active" data-filter="all">
+                        <div class="tab-icon">
+                            <i class="fas fa-th-large"></i>
+                        </div>
+                        <span>All</span>
+                    </button>
+                    <button class="filter-tab" data-filter="book">
+                        <div class="tab-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <span>Books</span>
+                    </button>
+                    <button class="filter-tab" data-filter="course">
+                        <div class="tab-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <span>Courses</span>
+                    </button>
+                    <button class="filter-tab" data-filter="project">
+                        <div class="tab-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <span>Projects</span>
+                    </button>
+                </div>
+                <div class="search-box">
+                    <div class="search-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <input type="text" id="search-input" placeholder="Search knowledge items...">
+                    <div class="search-highlight"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content with Enhanced Grid -->
+    <main class="main-content">
+        <div class="container">
+            <div class="achievements-grid" id="achievements-grid">
+                <!-- Knowledge items will be populated here -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Enhanced Modal -->
+    <div class="modal" id="achievement-modal">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title-section">
+                    <h3 id="modal-title">Knowledge Item Details</h3>
+                    <div class="modal-subtitle">Learning milestone reached</div>
+                </div>
+                <button class="close-modal" id="close-modal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="modal-description"></div>
+                <div class="modal-actions">
+                    <a href="#" id="modal-link" target="_blank" class="modal-link">
+                        <i class="fas fa-external-link-alt"></i>
+                        View Details
+                    </a>
+                </div>
             </div>
         </div>
     </div>
-    <hr>
-    <div class="row">
-        <div class="col-md-12 text-center">
-            <h3> <i> <b>"The journey of a thousand miles begins with a single step."</b> </i> </h3>
-        </div>
-    </div>
-    <!--Achievements-->
-    <div class="row">
-        <div class="col-md-12">
-            <ul class="timeline" id="achievements-timeline">
 
-            </ul>
-        </div>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
 </body>
-
 </html>
