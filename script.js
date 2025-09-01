@@ -5,7 +5,7 @@ var achievements = [
       "date": "September 1st, 2025",
       "link": "https://www.amazon.com/Everything-Tuberculosis-Persistence-Deadliest-Infection/dp/0525556575",
       "shortlink": "Everything Is Tuberculosis: The History and Persistence of Our Deadliest Infection",
-      "text": ""
+      "text": "A fascinating exploration of tuberculosis throughout history, examining how this disease has shaped human civilization and continues to challenge modern medicine."
    },
    {
       "id": 172,
@@ -13,7 +13,7 @@ var achievements = [
       "date": "August 2nd, 2025",
       "link": "https://www.amazon.com/Contain-Multitudes-Microbes-Within-Grander/dp/0062368591",
       "shortlink": "I Contain Multitudes: The Microbes Within Us and a Grander View of Life",
-      "text": ""
+      "text": "An eye-opening journey into the microbial world that lives within us, revealing how these tiny organisms shape our health, behavior, and evolution."
    },
    {
       "id": 171,
@@ -21,7 +21,7 @@ var achievements = [
       "date": "May 6th, 2025",
       "link": "https://www.amazon.com/Stuff-Matters-Exploring-Marvelous-Materials/dp/0544236041",
       "shortlink": "Stuff Matters: Exploring the Marvelous Materials That Shape Our Man-Made World",
-      "text": ""
+      "text": "A captivating exploration of the materials that surround us, from concrete to chocolate, revealing the science and stories behind everyday objects."
    },
    {
       "id": 170,
@@ -53,7 +53,7 @@ var achievements = [
       "date": "September 24th, 2024",
       "link": "https://www.audible.com/pd/How-to-Know-a-Person-Audiobook/B0BXFPF388",
       "shortlink": "How to Know a Person - The Art of Seeing Others Deeply and Being Deeply Seen",
-      "text": ""
+      "text": "A profound guide to understanding human connection, teaching us how to truly see and be seen by others in meaningful relationships."
    },
    {
       "id": 166,
@@ -69,7 +69,7 @@ var achievements = [
       "date": "August 15th, 2024",
       "link": "https://www.audible.com/pd/The-Mountain-Is-You-Audiobook/B09WY6Z8KD",
       "shortlink": "The Mountain Is You - Transforming Self-Sabotage into Self-Mastery",
-      "text": ""
+      "text": "A powerful exploration of self-sabotage patterns and how to overcome them, leading to true self-mastery and personal transformation."
    },
    {
       "id": 164,
@@ -133,7 +133,7 @@ var achievements = [
       "date": "December 25th, 2022",
       "link": "https://www.thegreatcourses.com/courses/optimizing-brain-fitness",
       "shortlink": "TGC - Optimizing Brain Fitness",
-      "text": ""
+      "text": "A comprehensive course on cognitive enhancement techniques, memory improvement strategies, and brain health optimization for peak mental performance."
    },
    {
       "id": 156,
@@ -165,7 +165,7 @@ var achievements = [
       "date": "August 7th, 2022",
       "link": "https://www.thegreatcourses.com/courses/the-intelligent-brain",
       "shortlink": "TGC - The Intelligent Brain",
-      "text": ""
+      "text": "An exploration of intelligence from multiple perspectives, covering cognitive psychology, neuroscience, and the factors that contribute to intellectual development."
    },
    {
       "id": 152,
@@ -181,7 +181,7 @@ var achievements = [
       "date": "June 19th, 2022",
       "link": "https://www.thegreatcourses.com/courses/unexpected-economics",
       "shortlink": "TGC - Unexpected Economics",
-      "text": ""
+      "text": "A fascinating look at how economic principles apply to everyday life, from dating and marriage to crime and sports, revealing the hidden economics all around us."
    },
    {
       "id": 150,
@@ -189,7 +189,7 @@ var achievements = [
       "date": "June 16th, 2022",
       "link": "https://www.oreilly.com/library/view/mastering-blockchain/9781492054696/",
       "shortlink": "Mastering Blockchain",
-      "text": ""
+      "text": "A comprehensive guide to blockchain technology, covering distributed systems, cryptography, smart contracts, and real-world blockchain applications."
    },
    {
       "id": 149,
@@ -205,7 +205,7 @@ var achievements = [
       "date": "March 17th, 2022",
       "link": "https://www.oreilly.com/library/view/mastering-bitcoin-2nd/9781491954379/",
       "shortlink": "Mastering Bitcoin",
-      "text": ""
+      "text": "An in-depth technical exploration of Bitcoin's architecture, covering cryptography, peer-to-peer networks, and the underlying blockchain technology."
    },
    {
       "id": 147,
@@ -237,7 +237,7 @@ var achievements = [
       "date": "January 11th, 2022",
       "link": "https://frontendmasters.com/courses/developer-productivity/",
       "shortlink": "Developer Productivity",
-      "text": ""
+      "text": "A practical course focused on improving coding efficiency, workflow optimization, and tools that enhance developer productivity in modern web development."
    },
    {
       "id": 143,
@@ -245,7 +245,7 @@ var achievements = [
       "date": "January 6th, 2022",
       "link": "https://www.educative.io/courses/grokking-adv-system-design-intvw",
       "shortlink": "Grokking the Advanced System Design Interview",
-      "text": ""
+      "text": "Advanced system design concepts for technical interviews, covering distributed systems, scalability patterns, and architectural decision-making."
    },
    {
       "id": 142,
@@ -253,7 +253,7 @@ var achievements = [
       "date": "December 27th, 2021",
       "link": "https://www.educative.io/courses/grokking-the-system-design-interview",
       "shortlink": "Grokking the System Design Interview",
-      "text": ""
+      "text": "Comprehensive system design interview preparation covering fundamental concepts, design patterns, and real-world system architecture examples."
    },
    {
       "id": 141,
@@ -277,7 +277,7 @@ var achievements = [
       "date": "December 16th, 2021",
       "link": "https://www.audible.com/pd/Atomic-Habits-Audiobook/1524779261",
       "shortlink": "Atomic Habits",
-      "text": ""
+      "text": "A transformative guide to building good habits and breaking bad ones through tiny changes that lead to remarkable results over time."
    },
    {
       "id": 138,
@@ -325,7 +325,7 @@ var achievements = [
       "date": "July 3rd, 2021",
       "link": "https://www.audible.com/pd/The-Complete-Software-Developers-Career-Guide-Audiobook/B078JDMDNV",
       "shortlink": "The Complete Software Developer's Career Guide",
-      "text": ""
+      "text": "A comprehensive career guide for software developers covering technical skills, soft skills, career advancement, and industry insights."
    },
    {
       "id": 132,
@@ -1408,13 +1408,11 @@ function getAchievementTemplate(achievement) {
         typeLabel = 'Project';
     }
     
-    // Format the date
-    const date = new Date(achievement.date);
-    const formattedDate = date.toLocaleDateString('en-US', { 
-        year: 'numeric', 
-        month: 'long', 
-        day: 'numeric' 
-    });
+    // Use the date string as-is
+    const formattedDate = achievement.date;
+    
+    const hasLongText = achievement.text && achievement.text.length > 150;
+    const shortText = hasLongText ? achievement.text.substring(0, 150) + '...' : achievement.text;
     
     return `
         <div class="achievement-card" data-type="${type}" data-id="${achievement.id}">
@@ -1422,12 +1420,16 @@ function getAchievementTemplate(achievement) {
                 <span class="card-type ${type}">${typeLabel}</span>
                 <span class="card-date">${formattedDate}</span>
             </div>
-            <h3 class="card-title">${achievement.shortlink || achievement.title}</h3>
-            <p class="card-text">${achievement.text || 'Knowledge milestone completed'}</p>
-            <a href="${achievement.link}" class="card-link" target="_blank">
-                <i class="fas fa-external-link-alt"></i>
-                View Details
-            </a>
+            <h3 class="card-title">
+                <a href="${achievement.link}" target="_blank" class="title-link">
+                    ${achievement.shortlink || achievement.title}
+                </a>
+            </h3>
+            <div class="card-text-container">
+                <p class="card-text">${shortText || 'Knowledge milestone completed'}</p>
+                ${hasLongText ? `<p class="card-text-full" style="display: none;">${achievement.text}</p>` : ''}
+                ${hasLongText ? `<button class="view-more-btn" onclick="toggleText(${achievement.id})">View More</button>` : ''}
+            </div>
         </div>
     `;
 }
@@ -1488,14 +1490,6 @@ function updateCounts() {
 function addCardEventListeners() {
     const cards = document.querySelectorAll('.achievement-card');
     cards.forEach(card => {
-        card.addEventListener('click', () => {
-            const achievementId = card.dataset.id;
-            const achievement = achievements.find(a => a.id == achievementId);
-            if (achievement) {
-                showModal(achievement);
-            }
-        });
-        
         // Add hover effects
         card.addEventListener('mouseenter', () => {
             card.style.transform = 'translateY(-8px)';
@@ -1637,7 +1631,7 @@ var saPodcasts = [
    { "title": "SE-Radio Episode 220: Jon Gifford on Logging and Logging Infrastructure", "link": "http://www.se-radio.net/2015/02/episode-220-jon-gifford-on-logging-and-logging-infrastructure/" },
    { "title": "SE-Radio Episode 342: István Lam on Privacy by Design with GDPR", "link": "http://www.se-radio.net/2018/10/episode-342-istvan-lam-on-privacy-by-design-with-gdpr/" },
    { "title": "SE-Radio Episode 217: James Turnbull on Docker", "link": "http://www.se-radio.net/2015/01/episode-217-james-turnbull-on-docker/" },
-   { "title": "SE-Radio Episode 285: James Cowling on Dropbox’s Distributed Storage System", "link": "http://www.se-radio.net/2017/03/se-radio-episode-285-james-cowling-on-dropboxs-distributed-storage-system/" },
+   { "title": "SE-Radio Episode 285: James Cowling on Dropbox's Distributed Storage System", "link": "http://www.se-radio.net/2017/03/se-radio-episode-285-james-cowling-on-dropboxs-distributed-storage-system/" },
    { "title": "SE-Radio Episode 221: Jez Humble on Continuous Delivery", "link": "http://www.se-radio.net/2015/02/episode-221-jez-humble-on-continuous-delivery/" },
    { "title": "SE-Radio Episode 297: Kieren James-Lubin on Blockchain", "link": "http://www.se-radio.net/2017/07/se-radio-episode-297-kieren-james-lubin-on-blockchain/" },
    { "title": "SE-Radio Episode 263: Camille Fournier on Real-World Distributed Systems", "link": "http://www.se-radio.net/2016/07/se-radio-episode-263-camille-fournier-on-real-world-distributed-systems/" },
@@ -1897,6 +1891,52 @@ var pausedProgress = [
    }
 ];
 
+// Global variable to track which achievement is currently expanded
+let expandedAchievementId = null;
+
+// Function to toggle text expansion
+function toggleText(achievementId) {
+    const card = document.querySelector(`[data-id="${achievementId}"]`);
+    if (!card) return;
+    
+    const shortText = card.querySelector('.card-text');
+    const fullText = card.querySelector('.card-text-full');
+    const viewMoreBtn = card.querySelector('.view-more-btn');
+    
+    if (!shortText || !fullText || !viewMoreBtn) return;
+    
+    // If this achievement is already expanded, collapse it
+    if (expandedAchievementId === achievementId) {
+        shortText.style.display = 'block';
+        fullText.style.display = 'none';
+        viewMoreBtn.textContent = 'View More';
+        expandedAchievementId = null;
+        return;
+    }
+    
+    // Collapse any previously expanded achievement
+    if (expandedAchievementId !== null) {
+        const prevCard = document.querySelector(`[data-id="${expandedAchievementId}"]`);
+        if (prevCard) {
+            const prevShortText = prevCard.querySelector('.card-text');
+            const prevFullText = prevCard.querySelector('.card-text-full');
+            const prevViewMoreBtn = prevCard.querySelector('.view-more-btn');
+            
+            if (prevShortText && prevFullText && prevViewMoreBtn) {
+                prevShortText.style.display = 'block';
+                prevFullText.style.display = 'none';
+                prevViewMoreBtn.textContent = 'View More';
+            }
+        }
+    }
+    
+    // Expand current achievement
+    shortText.style.display = 'none';
+    fullText.style.display = 'block';
+    viewMoreBtn.textContent = 'View Less';
+    expandedAchievementId = achievementId;
+}
+
 // Initialize the page
 document.addEventListener('DOMContentLoaded', function() {
     console.log('DOM loaded, initializing...');
@@ -1932,54 +1972,6 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('Search input NOT found');
     }
     
-    // Add modal close functionality
-    const closeModal = document.getElementById('close-modal');
-    if (closeModal) {
-        closeModal.addEventListener('click', hideModal);
-    }
-    
-    // Close modal when clicking backdrop
-    const modal = document.getElementById('achievement-modal');
-    if (modal) {
-        modal.addEventListener('click', (e) => {
-            if (e.target === modal) {
-                hideModal();
-            }
-        });
-    }
-    
-    // Close modal with Escape key
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape') {
-            hideModal();
-        }
-    });
 });
 
-// Modal functions
-function showModal(achievement) {
-    const modal = document.getElementById('achievement-modal');
-    const modalTitle = document.getElementById('modal-title');
-    const modalDescription = document.getElementById('modal-description');
-    const modalLink = document.getElementById('modal-link');
-    
-    if (modal && modalTitle && modalDescription && modalLink) {
-        modalTitle.textContent = achievement.shortlink || achievement.title;
-        modalDescription.innerHTML = `
-            <p><strong>Date:</strong> ${achievement.date}</p>
-            ${achievement.text ? `<p>${achievement.text}</p>` : ''}
-        `;
-        modalLink.href = achievement.link;
-        
-        modal.classList.add('active');
-        document.body.style.overflow = 'hidden';
-    }
-}
 
-function hideModal() {
-    const modal = document.getElementById('achievement-modal');
-    if (modal) {
-        modal.classList.remove('active');
-        document.body.style.overflow = '';
-    }
-}
