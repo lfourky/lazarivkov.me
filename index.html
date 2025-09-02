@@ -1,81 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lazar Ivkov - Modern Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <!-- Modern Header with Gradient -->
+    <!-- Modern Header with Gradient and Floating Shapes -->
     <header class="header">
         <div class="header-background">
             <div class="gradient-overlay"></div>
-            <div class="geometric-shapes">
+            <div class="floating-shapes">
                 <div class="shape shape-1"></div>
                 <div class="shape shape-2"></div>
                 <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
             </div>
         </div>
         <div class="container">
-            <div class="header-content">
-                <div class="profile-section">
+            <div class="profile-section">
+                <div class="profile-left">
                     <div class="profile-avatar">
                         <div class="avatar-ring"></div>
-                        <img src="images/ppp.jpg" alt="Lazar Ivkov" class="profile-image">
-                        <div class="avatar-overlay">
-                            <i class="fas fa-user"></i>
+                        <img src="images/photo.jpg" alt="Lazar Ivkov" class="profile-image">
+                    </div>
+
+                    <!-- Social Media Links -->
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/lfourky" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/lfourky" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://github.com/lfourky" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="profile-info">
+                    <h1 class="hero-name">Lazar Ivkov</h1>
+                    <div class="bio-section">
+                        <p class="bio-text">
+                            Software architect, entrepreneur, and lifelong learner. I build scalable systems, explore
+                            science, and apply an analytical mindset to both technology and life.
+                        </p>
+                        <div class="bio-highlights">
+                            <span class="highlight-item">
+                                <i class="fas fa-rocket"></i>
+                                Software Engineering
+                            </span>
+                            <span class="highlight-item">
+                                <i class="fas fa-globe"></i>
+                                Problem Solving
+                            </span>
+                            <span class="highlight-item">
+                                <i class="fas fa-brain"></i>
+                                Psychology
+                            </span>
+                            <span class="highlight-item">
+                                <i class="fas fa-flask"></i>
+                                Biochemistry
+                            </span>
+                            <span class="highlight-item">
+                                <i class="fas fa-microscope"></i>
+                                Microbiology
+                            </span>
+                            <span class="highlight-item">
+                                <i class="fas fa-language"></i>
+                                French
+                            </span>
+                            <span class="highlight-item">
+                                <i class="fas fa-heartbeat"></i>
+                                Health
+                            </span>
+                            <span class="highlight-item">
+                                <i class="fas fa-dumbbell"></i>
+                                Fitness
+                            </span>
+                            <span class="highlight-item">
+                                <i class="fas fa-lightbulb"></i>
+                                Entrepreneurship
+                            </span>
                         </div>
                     </div>
-                    <div class="profile-info">
-                        <h1 class="name">Lazar Ivkov</h1>
-                        <p class="title">Software Engineer & Knowledge Seeker</p>
-                        <div class="bio-section">
-                            <p class="bio-text">
-                                Passionate software engineer with a relentless pursuit of knowledge. 
-                                I believe in continuous learning through books, courses, and hands-on projects. 
-                                Every milestone represents a step forward in my journey of growth and discovery.
-                            </p>
-                            <div class="bio-highlights">
-                                <span class="highlight-item">
-                                    <i class="fas fa-rocket"></i>
-                                    Software Development
-                                </span>
-                                <span class="highlight-item">
-                                    <i class="fas fa-brain"></i>
-                                    Continuous Learning
-                                </span>
-                                <span class="highlight-item">
-                                    <i class="fas fa-globe"></i>
-                                    Problem Solving
-                                </span>
-                            </div>
-                        </div>
-                        <div class="stats">
-                            <div class="stat">
-                                <div class="stat-icon">
-                                    <i class="fas fa-book"></i>
-                                </div>
-                                <span class="stat-number" id="books-count">0</span>
-                                <span class="stat-label">Books Read</span>
-                            </div>
-                            <div class="stat">
-                                <div class="stat-icon">
-                                    <i class="fas fa-graduation-cap"></i>
-                                </div>
-                                <span class="stat-number" id="courses-count">0</span>
-                                <span class="stat-label">Courses Completed</span>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Enhanced Navigation -->
+    <!-- Sticky Navigation with Glassmorphism -->
     <nav class="navigation">
         <div class="container">
             <div class="nav-content">
@@ -84,41 +107,43 @@
                         <div class="tab-icon">
                             <i class="fas fa-th-large"></i>
                         </div>
-                        <span>All</span>
+                        <span>All (<span class="filter-count" id="all-count">0</span>)</span>
                     </button>
                     <button class="filter-tab" data-filter="book">
                         <div class="tab-icon">
                             <i class="fas fa-book"></i>
                         </div>
-                        <span>Books</span>
+                        <span>Books (<span class="filter-count" id="books-count">0</span>)</span>
                     </button>
                     <button class="filter-tab" data-filter="course">
                         <div class="tab-icon">
                             <i class="fas fa-graduation-cap"></i>
                         </div>
-                        <span>Courses</span>
+                        <span>Courses (<span class="filter-count" id="courses-count">0</span>)</span>
                     </button>
-                    <button class="filter-tab" data-filter="project">
+
+                    <button class="filter-tab" data-filter="audiobook">
                         <div class="tab-icon">
-                            <i class="fas fa-code"></i>
+                            <i class="fas fa-headphones"></i>
                         </div>
-                        <span>Projects</span>
+                        <span>Audiobooks (<span class="filter-count" id="audiobooks-count">0</span>)</span>
                     </button>
                 </div>
+
                 <div class="search-box">
                     <div class="search-icon">
                         <i class="fas fa-search"></i>
                     </div>
-                    <input type="text" id="search-input" placeholder="Search knowledge items...">
+                    <input type="text" id="search-input" placeholder="Search...">
                     <div class="search-highlight"></div>
                 </div>
             </div>
         </div>
     </nav>
 
-    <!-- Main Content with Enhanced Grid -->
+    <!-- Main Content with Achievements Grid -->
     <main class="main-content">
-        <div class="container">
+        <div class="container full-width">
             <div class="achievements-grid" id="achievements-grid">
                 <!-- Knowledge items will be populated here -->
             </div>
@@ -127,4 +152,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>

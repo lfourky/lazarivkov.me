@@ -1,7 +1,7 @@
 var achievements = [
    {
       "id": 173,
-      "title": "Finished Reading a Book",
+      "type": "book",
       "date": "September 1st, 2025",
       "link": "https://www.amazon.com/Everything-Tuberculosis-Persistence-Deadliest-Infection/dp/0525556575",
       "shortlink": "Everything Is Tuberculosis: The History and Persistence of Our Deadliest Infection",
@@ -9,7 +9,7 @@ var achievements = [
    },
    {
       "id": 172,
-      "title": "Finished Reading a Book",
+      "type": "book",
       "date": "August 2nd, 2025",
       "link": "https://www.amazon.com/Contain-Multitudes-Microbes-Within-Grander/dp/0062368591",
       "shortlink": "I Contain Multitudes: The Microbes Within Us and a Grander View of Life",
@@ -17,7 +17,7 @@ var achievements = [
    },
    {
       "id": 171,
-      "title": "Finished Reading a Book",
+      "type": "book",
       "date": "May 6th, 2025",
       "link": "https://www.amazon.com/Stuff-Matters-Exploring-Marvelous-Materials/dp/0544236041",
       "shortlink": "Stuff Matters: Exploring the Marvelous Materials That Shape Our Man-Made World",
@@ -25,7 +25,7 @@ var achievements = [
    },
    {
       "id": 170,
-      "title": "Finished Reading a Book",
+      "type": "book",
       "date": "February 23rd, 2025",
       "link": "https://www.amazon.com/Disappearing-Spoon-Madness-Periodic-Elements/dp/0316051632",
       "shortlink": "The Disappearing Spoon: And Other True Tales of Madness, Love, and the History of the World from the Periodic Table of the Elements",
@@ -33,7 +33,7 @@ var achievements = [
    },
    {
       "id": 169,
-      "title": "Finished Reading a Book",
+      "type": "book",
       "date": "December 25th, 2024",
       "link": "https://www.amazon.com/Chemistry-Dummies-Math-Science/dp/B003156A1Y",
       "shortlink": "Chemistry",
@@ -41,7 +41,7 @@ var achievements = [
    },
    {
       "id": 168,
-      "title": "Finished Reading a Book",
+      "type": "book",
       "date": "October 12th, 2024",
       "link": "https://www.amazon.com/Biology-Essentials-Dummies-Fester-Kratz/dp/1119589584",
       "shortlink": "Biology Essentials",
@@ -49,7 +49,7 @@ var achievements = [
    },
    {
       "id": 167,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "September 24th, 2024",
       "link": "https://www.audible.com/pd/How-to-Know-a-Person-Audiobook/B0BXFPF388",
       "shortlink": "How to Know a Person - The Art of Seeing Others Deeply and Being Deeply Seen",
@@ -57,7 +57,7 @@ var achievements = [
    },
    {
       "id": 166,
-      "title": "Finished Reading a Book",
+      "type": "book",
       "date": "September 9th, 2024",
       "link": "https://www.amazon.com/Chemistry-Essentials-Dummies-John-Moore/dp/1119591147",
       "shortlink": "Chemistry Essentials",
@@ -65,7 +65,7 @@ var achievements = [
    },
    {
       "id": 165,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "August 15th, 2024",
       "link": "https://www.audible.com/pd/The-Mountain-Is-You-Audiobook/B09WY6Z8KD",
       "shortlink": "The Mountain Is You - Transforming Self-Sabotage into Self-Mastery",
@@ -73,7 +73,7 @@ var achievements = [
    },
    {
       "id": 164,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "February 10th, 2024",
       "link": "https://www.amazon.com/Existential-Physics-Scientists-Biggest-Questions/dp/1984879456",
       "shortlink": "Existential Physics: A Scientist's Guide to Life's Biggest Questions",
@@ -81,7 +81,7 @@ var achievements = [
    },
    {
       "id": 163,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "November 25th, 2023",
       "link": "https://www.audible.com/pd/Difficult-Conversations-Audiobook/B002V59YHM",
       "shortlink": "Difficult Conversations - How to Discuss What Matters Most",
@@ -89,7 +89,7 @@ var achievements = [
    },
    {
       "id": 162,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "November 5th, 2023",
       "link": "https://www.audible.com/pd/Think-Like-a-Rocket-Scientist-Audiobook/1549144936",
       "shortlink": "Think Like a Rocket Scientist - Simple Strategies You Can Use to Make Giant Leaps in Work and Life",
@@ -97,7 +97,7 @@ var achievements = [
    },
    {
       "id": 161,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "September 1st, 2023",
       "link": "https://www.amazon.com/Dopamine-Nation-Finding-Balance-Indulgence/dp/152474672X",
       "shortlink": "Dopamine Nation: Finding Balance in the Age of Indulgence",
@@ -105,7 +105,7 @@ var achievements = [
    },
    {
       "id": 160,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "July 25th, 2023",
       "link": "https://www.oreilly.com/library/view/building-event-driven-microservices/9781492057888/",
       "shortlink": "Building Event-Driven Microservices",
@@ -113,7 +113,7 @@ var achievements = [
    },
    {
       "id": 159,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "July 23rd, 2023",
       "link": "https://www.audible.com/pd/101-Essays-That-Will-Change-the-Way-You-Think-Audiobook/1977386865?action_code=ASSGB149080119000H&share_location=pdp",
       "shortlink": "101 Essays That Will Change the Way You Think",
@@ -121,7 +121,7 @@ var achievements = [
    },
    {
       "id": 158,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "February 10th, 2023",
       "link": "https://www.audible.com/pd/Starry-Messenger-Audiobook/B09Q7SMLX8",
       "shortlink": "Starry Messenger - Cosmic Perspectives on Civilization",
@@ -129,7 +129,7 @@ var achievements = [
    },
    {
       "id": 157,
-      "title": "Completed a course",
+      "type": "course",
       "date": "December 25th, 2022",
       "link": "https://www.thegreatcourses.com/courses/optimizing-brain-fitness",
       "shortlink": "TGC - Optimizing Brain Fitness",
@@ -137,7 +137,7 @@ var achievements = [
    },
    {
       "id": 156,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "November 26th, 2022",
       "link": "https://www.amazon.com/Software-Architecture-Parts-Neal-Ford-ebook-dp-B09H2H5QKC/dp/B09H2H5QKC",
       "shortlink": "Software Architecture: The Hard Parts",
@@ -145,7 +145,7 @@ var achievements = [
    },
    {
       "id": 155,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "November 5th, 2022",
       "link": "https://www.audible.com/pd/Indistractable-Audiobook/B07SXBB3FS",
       "shortlink": "Indistractable",
@@ -153,7 +153,7 @@ var achievements = [
    },
    {
       "id": 154,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "October 12th, 2022",
       "link": "https://www.audible.co.uk/pd/How-the-Internet-Happened-Audiobook/B07FXQ4BJM",
       "shortlink": "How the Internet Happened",
@@ -161,7 +161,7 @@ var achievements = [
    },
    {
       "id": 153,
-      "title": "Completed a course",
+      "type": "course",
       "date": "August 7th, 2022",
       "link": "https://www.thegreatcourses.com/courses/the-intelligent-brain",
       "shortlink": "TGC - The Intelligent Brain",
@@ -169,7 +169,7 @@ var achievements = [
    },
    {
       "id": 152,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "July 22nd, 2022",
       "link":"https://www.audible.com/pd/Pryor-Convictions-Audiobook/B079DW264M",
       "shortlink": "Pryor Convictions ... and Other Life Sentences",
@@ -177,7 +177,7 @@ var achievements = [
    },
    {
       "id": 151,
-      "title": "Completed a course",
+      "type": "course",
       "date": "June 19th, 2022",
       "link": "https://www.thegreatcourses.com/courses/unexpected-economics",
       "shortlink": "TGC - Unexpected Economics",
@@ -185,7 +185,7 @@ var achievements = [
    },
    {
       "id": 150,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "June 16th, 2022",
       "link": "https://www.oreilly.com/library/view/mastering-blockchain/9781492054696/",
       "shortlink": "Mastering Blockchain",
@@ -193,7 +193,7 @@ var achievements = [
    },
    {
       "id": 149,
-      "title": "Completed a course",
+      "type": "course",
       "date": "April 18th, 2022",
       "link": "https://www.thegreatcourses.com/courses/economics-3rd-edition",
       "shortlink": "TGC - Economics, 3rd Edition",
@@ -201,7 +201,7 @@ var achievements = [
    },
    {
       "id": 148,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "March 17th, 2022",
       "link": "https://www.oreilly.com/library/view/mastering-bitcoin-2nd/9781491954379/",
       "shortlink": "Mastering Bitcoin",
@@ -209,7 +209,7 @@ var achievements = [
    },
    {
       "id": 147,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "March 12th, 2022",
       "link":"https://www.audible.com/pd/Project-Hail-Mary-Audiobook/B08G9PRS1K",
       "shortlink": "Project Hail Mary",
@@ -217,7 +217,7 @@ var achievements = [
    },
    {
       "id": 146,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "February 4th, 2022",
       "link":"https://www.audible.com/pd/The-Subtle-Art-of-Not-Giving-a-F-ck-Audiobook/B01I28NFEE",
       "shortlink": "The Subtle Art of Not Giving a :)",
@@ -225,7 +225,7 @@ var achievements = [
    },
    {
       "id": 145,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "January 26th, 2022",
       "link": "https://www.audible.com/pd/Black-Hole-Blues-and-Other-Songs-from-Outer-Space-Audiobook/B01D0MP9QE",
       "shortlink": "Black Hole Blues and Other Songs from Outer Space",
@@ -233,7 +233,7 @@ var achievements = [
    },
    {
       "id": 144,
-      "title": "Completed a course",
+      "type": "course",
       "date": "January 11th, 2022",
       "link": "https://frontendmasters.com/courses/developer-productivity/",
       "shortlink": "Developer Productivity",
@@ -241,7 +241,7 @@ var achievements = [
    },
    {
       "id": 143,
-      "title": "Completed a course",
+      "type": "course",
       "date": "January 6th, 2022",
       "link": "https://www.educative.io/courses/grokking-adv-system-design-intvw",
       "shortlink": "Grokking the Advanced System Design Interview",
@@ -249,7 +249,7 @@ var achievements = [
    },
    {
       "id": 142,
-      "title": "Completed a course",
+      "type": "course",
       "date": "December 27th, 2021",
       "link": "https://www.educative.io/courses/grokking-the-system-design-interview",
       "shortlink": "Grokking the System Design Interview",
@@ -257,7 +257,7 @@ var achievements = [
    },
    {
       "id": 141,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "December 27th, 2021",
       "link": "https://www.audible.com/pd/Weapons-of-Math-Destruction-Audiobook/B01JPA41ZU",
       "shortlink": "Weapons of Math Destruction - How Big Data Increases Inequality and Threatens Democracy",
@@ -265,7 +265,7 @@ var achievements = [
    },
    {
       "id": 140,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "December 18th, 2021",
       "link": "https://www.audible.com/pd/Greenlights-Audiobook/0593294181",
       "shortlink": "Greenlights",
@@ -273,7 +273,7 @@ var achievements = [
    },
    {
       "id": 139,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "December 16th, 2021",
       "link": "https://www.audible.com/pd/Atomic-Habits-Audiobook/1524779261",
       "shortlink": "Atomic Habits",
@@ -281,7 +281,7 @@ var achievements = [
    },
    {
       "id": 138,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "November 22nd, 2021",
       "link": "https://www.audible.com/pd/Everything-All-at-Once-Audiobook/B06Y6GTN8D",
       "shortlink": "Everything All at Once",
@@ -289,7 +289,7 @@ var achievements = [
    },
    {
       "id": 137,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "October 20th, 2021",
       "link": "https://www.audible.com/pd/Limitless-Mind-Audiobook/006296013X",
       "shortlink": "Limitless mind",
@@ -297,7 +297,7 @@ var achievements = [
    },
    {
       "id": 136,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "September 13th, 2021",
       "link": "https://www.audible.com/pd/The-Molecule-of-More-Audiobook/B07HRYH8QZ",
       "shortlink": "The Molecule of More",
@@ -305,7 +305,7 @@ var achievements = [
    },
    {
       "id": 135,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "September 8th, 2021",
       "link": "https://www.amazon.com/Psych-101-Psychology-Basics-Statistics/dp/1440543909",
       "shortlink": "Psych 101",
@@ -313,7 +313,7 @@ var achievements = [
    },
    {
       "id": 134,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "August 28th, 2021",
       "link": "https://www.audible.com/pd/The-Story-of-the-Human-Body-Audiobook/B00EZ4FJCG",
       "shortlink": "The Story of the Human Body - Evolution, Health, and Disease",
@@ -321,7 +321,7 @@ var achievements = [
    },
    {
       "id": 133,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "July 3rd, 2021",
       "link": "https://www.audible.com/pd/The-Complete-Software-Developers-Career-Guide-Audiobook/B078JDMDNV",
       "shortlink": "The Complete Software Developer's Career Guide",
@@ -329,7 +329,7 @@ var achievements = [
    },
    {
       "id": 132,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "May 8th, 2021",
       "link": "https://www.audible.com/pd/Redefining-Reality-Audiobook/B00ZB7QIIU",
       "shortlink": "Redefining Reality - The Intellectual Implications of Modern Science",
@@ -337,7 +337,7 @@ var achievements = [
    },
    {
       "id": 131,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "March 20th, 2021",
       "link": "https://pragprog.com/titles/prj/ship-it/",
       "shortlink": "Ship It! - A Practical Guide to Successful Software Projects",
@@ -345,7 +345,7 @@ var achievements = [
    },
    {
       "id": 130,
-      "title": "Completed a course",
+      "type": "course",
       "date": "March 14th, 2021",
       "link": "https://www.oreilly.com/library/view/rust-in-motion/10000MNLV201742/",
       "shortlink": "Rust in Motion",
@@ -353,7 +353,7 @@ var achievements = [
    },
    {
       "id": 129,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "February 20th, 2021",
       "link": "https://www.oreilly.com/library/view/introducing-regular-expressions/9781449338879/",
       "shortlink": "Introducing Regular Expressions",
@@ -361,7 +361,7 @@ var achievements = [
    },
    {
       "id": 128,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "January 16th, 2021",
       "link": "https://www.manning.com/books/operations-anti-patterns-devops-solutions",
       "shortlink": "Operations Anti-Patterns, DevOps Solutions",
@@ -369,7 +369,7 @@ var achievements = [
    },
    {
       "id": 127,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "January 8th, 2021",
       "link": "https://www.amazon.com/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230",
       "shortlink": "Grokking Algorithms: An Illustrated Guide for Programmers and Other Curious People",
@@ -377,7 +377,7 @@ var achievements = [
    },
    {
       "id": 126,
-      "title": "Completed a course",
+      "type": "course",
       "date": "December 3rd, 2020",
       "link": "https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb",
       "shortlink": "C++",
@@ -385,7 +385,7 @@ var achievements = [
    },
    {
       "id": 125,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "October 25th, 2020",
       "link": "https://www.audible.com/pd/Alchemy-Audiobook/0062801503",
       "shortlink": "Alchemy - The Dark Art and Curious Science of Creating Magic in Brands, Business, and Life",
@@ -393,7 +393,7 @@ var achievements = [
    },
    {
       "id": 124,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "October 20th, 2020",
       "link": "https://www.manning.com/books/microservices-security-in-action",
       "shortlink": "Microservices Security In Action",
@@ -401,7 +401,7 @@ var achievements = [
    },
    {
       "id": 123,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "July 15th, 2020",
       "link": "https://www.amazon.com/How-Not-Die-Discover-Scientifically/dp/1250066115",
       "shortlink": "How Not to Die",
@@ -409,7 +409,7 @@ var achievements = [
    },
    {
       "id": 122,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "Jun 26th, 2020",
       "link": "https://www.manning.com/books/unit-testing",
       "shortlink": "Unit Testing Principles, Practices, and Patterns",
@@ -417,7 +417,7 @@ var achievements = [
    },
    {
       "id": 121,
-      "title": "Completed a course",
+      "type": "course",
       "date": "May 30th, 2020",
       "link": "https://frontendmasters.com/courses/intermediate-react-v2/",
       "shortlink": "Intermediate React, v2",
@@ -425,7 +425,7 @@ var achievements = [
    },
    {
       "id": 120,
-      "title": "Completed a course",
+      "type": "course",
       "date": "May 6th, 2020",
       "link": "https://frontendmasters.com/courses/git-in-depth/",
       "shortlink": "Git In-depth",
@@ -433,7 +433,7 @@ var achievements = [
    },
    {
       "id": 119,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "May 3rd, 2020",
       "link": "http://shop.oreilly.com/product/0636920021575.do",
       "shortlink": "REST API Design Rulebook",
@@ -441,7 +441,7 @@ var achievements = [
    },
    {
       "id": 118,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "May 3rd, 2020",
       "link": "https://frontendmasters.com/courses/complete-react-v5",
       "shortlink": "Complete Intro to React",
@@ -449,7 +449,7 @@ var achievements = [
    },
    {
       "id": 117,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "May 1st, 2020",
       "link": "https://www.audible.com/pd/Deadliest-Enemy-Audiobook/B06XKLQ6S9",
       "shortlink": "Deadliest Enemy - Our War Against Killer Germs",
@@ -457,7 +457,7 @@ var achievements = [
    },
    {
       "id": 116,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "April 12th, 2020",
       "link": "https://www.amazon.com/Scalability-Startup-Engineers-Artur-Ejsmont/dp/0071843655",
       "shortlink": "Web Scalability for Startup Engineers",
@@ -465,7 +465,7 @@ var achievements = [
    },
    {
       "id": 115,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "March 21st, 2020",
       "link": "https://www.audible.com/pd/The-Pragmatic-Programmer-20th-Anniversary-Edition-2nd-Edition-Audiobook/B0833FMYH9",
       "shortlink": "The Pragmatic Programmer",
@@ -473,7 +473,7 @@ var achievements = [
    },
    {
       "id": 114,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "March 14th, 2020",
       "link": "https://www.audible.com/pd/The-Tipping-Point-Audiobook/B0032N8PRM",
       "shortlink": "The Tipping Point - How Little Things Can Make a Big Difference",
@@ -481,7 +481,7 @@ var achievements = [
    },
    {
       "id": 113,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "March 2nd, 2020",
       "link": "https://www.oreilly.com/library/view/dependency-injection-principles/9781617294730/",
       "shortlink": "Dependency Injection",
@@ -489,7 +489,7 @@ var achievements = [
    },
    {
       "id": 112,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "March 1st, 2020",
       "link": "https://www.audible.com/pd/Zero-to-One-Audiobook/B00M27LBU2",
       "shortlink": "Zero to One - Notes on Startups, or How to Build the Future",
@@ -497,7 +497,7 @@ var achievements = [
    },
    {
       "id": 111,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "February 24th, 2020",
       "link": "https://www.audible.com/pd/Algorithms-to-Live-By-Audiobook/B01D24NLWO",
       "shortlink": "Algorithms to Live By",
@@ -505,7 +505,7 @@ var achievements = [
    },
    {
       "id": 110,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "January 28th, 2020",
       "link": "https://www.audible.com/pd/Humble-Pi-Audiobook/0241375509",
       "shortlink": "Humble Pi - A Comedy of Maths Errors",
@@ -513,7 +513,7 @@ var achievements = [
    },
    {
       "id": 109,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "January 25th, 2020",
       "link": "https://www.educative.io/courses/grokking-computer-networking",
       "shortlink": "Grokking Computer Networking for Software Engineers",
@@ -521,7 +521,7 @@ var achievements = [
    },
    {
       "id": 108,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "December 29th, 2019",
       "link": "https://www.audible.com/pd/Packing-for-Mars-Audiobook/B003VVN1KQ",
       "shortlink": "Packing for Mars - The Curious Science of Life in the Void",
@@ -529,7 +529,7 @@ var achievements = [
    },
    {
       "id": 107,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "November 12th, 2019",
       "link": "https://shop.oreilly.com/product/0636920048244.do",
       "shortlink": "Building Microservice Systems with Docker and Kubernetes",
@@ -537,7 +537,7 @@ var achievements = [
    },
    {
       "id": 106,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "November 10th, 2019",
       "link": "https://www.oreilly.com/library/view/understanding-regular-expressions/9781491996300/",
       "shortlink": "Understanding Regular Expressions",
@@ -545,7 +545,7 @@ var achievements = [
    },
    {
       "id": 105,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "November 5th, 2019",
       "link": "https://www.audible.com/pd/Homo-Deus-Audiobook/B01N4DCBK6",
       "shortlink": "Homo Deus: A Brief History of Tomorrow",
@@ -553,7 +553,7 @@ var achievements = [
    },
    {
       "id": 104,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "September 27th, 2019",
       "link": "https://www.audible.com/pd/Bad-Science-Audiobook/B006WRE0IS",
       "shortlink": "Bad Science - Quacks, Hacks, and Big Pharma Flacks",
@@ -561,7 +561,7 @@ var achievements = [
    },
    {
       "id": 103,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "September 14th, 2019",
       "link": "https://www.audible.com/pd/Pale-Blue-Dot-Audiobook/B06XTJN84L",
       "shortlink": "Pale Blue Dot - A Vision of the Human Future in Space",
@@ -569,7 +569,7 @@ var achievements = [
    },
    {
       "id": 102,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "September 8th, 2019",
       "link": "https://www.amazon.com/China-Study-Comprehensive-Nutrition-Implications/dp/1932100660",
       "shortlink": "The China Study",
@@ -577,7 +577,7 @@ var achievements = [
    },
    {
       "id": 101,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "August 20th, 2019",
       "link": "https://www.amazon.com/Whole-Rethinking-Nutrition-Colin-Campbell/dp/1939529840",
       "shortlink": "Whole: Rethinking the Science of Nutrition",
@@ -585,7 +585,7 @@ var achievements = [
    },
    {
       "id": 100,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "July 31st, 2019",
       "link": "https://frontendmasters.com/courses/angularjs-and-code-testability/",
       "shortlink": "The Psychology of Code Testability",
@@ -593,7 +593,7 @@ var achievements = [
    },
    {
       "id": 99,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "July 28th, 2019",
       "link": "https://frontendmasters.com/courses/design-for-developers/",
       "shortlink": "Design for Developers",
@@ -601,7 +601,7 @@ var achievements = [
    },
    {
       "id": 98,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "June 28th, 2019",
       "link": "https://www.audible.com/pd/What-If-Audiobook/B00LV6V4UW",
       "shortlink": "What If?",
@@ -609,7 +609,7 @@ var achievements = [
    },
    {
       "id": 97,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "June 8th, 2019",
       "link": "https://www.audible.com/pd/Never-Split-the-Difference-Audiobook/B01CF5O89G",
       "shortlink": "Never Split the Difference",
@@ -617,7 +617,7 @@ var achievements = [
    },
    {
       "id": 96,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "June 7th, 2019",
       "link": "https://www.audible.com/pd/Bad-Blood-Audiobook/B07C8GVTB5",
       "shortlink": "Bad Blood",
@@ -625,7 +625,7 @@ var achievements = [
    },
    {
       "id": 95,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "May 16th, 2019",
       "link": "http://shop.oreilly.com/product/0636920032175.do",
       "shortlink": "Designing Data-Intensive Applications",
@@ -633,7 +633,7 @@ var achievements = [
    },
    {
       "id": 94,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "April 18th, 2019",
       "link": "https://www.audible.com/pd/If-I-Understood-You-Would-I-Have-This-Look-on-My-Face-Audiobook/B06XNVXN7G",
       "shortlink": "If I Understood You, Would I Have This Look on My Face?",
@@ -641,7 +641,7 @@ var achievements = [
    },
    {
       "id": 93,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "March 27th, 2019",
       "link": "https://www.audible.com/pd/Extreme-Ownership-Audiobook/B015TVHUA2",
       "shortlink": "Extreme Ownership",
@@ -649,7 +649,7 @@ var achievements = [
    },
    {
       "id": 92,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "March 2nd, 2019",
       "link": "https://www.audible.com/pd/Big-Data-Audiobook/B00D35YRPS",
       "shortlink": "Big Data - A Revolution That Will Transform How We Live, Work, and Think",
@@ -657,7 +657,7 @@ var achievements = [
    },
    {
       "id": 91,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "February 1st, 2019",
       "link": "https://www.pluralsight.com/courses/rethinking-asynchronous-programming",
       "shortlink": "Rethinking Asynchronous Programming",
@@ -665,7 +665,7 @@ var achievements = [
    },
    {
       "id": 90,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "January 26th, 2019",
       "link": "https://www.pluralsight.com/courses/react-practical-start",
       "shortlink": "A Practical Start with React",
@@ -673,7 +673,7 @@ var achievements = [
    },
    {
       "id": 89,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "January 21st, 2019",
       "link": "https://www.pluralsight.com/courses/regular-expressions-fundamentals",
       "shortlink": "Regular Expression Fundamentals",
@@ -681,7 +681,7 @@ var achievements = [
    },
    {
       "id": 88,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "January 20th, 2019",
       "link": "https://www.pluralsight.com/courses/security-architecture-design-big-picture",
       "shortlink": "Security Architecture and Design: The Big Picture",
@@ -689,7 +689,7 @@ var achievements = [
    },
    {
       "id": 87,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "January 9th, 2019",
       "link": "https://www.pluralsight.com/courses/react-js-getting-started",
       "shortlink": "React.js: Getting Started",
@@ -697,7 +697,7 @@ var achievements = [
    },
    {
       "id": 86,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "January 5th, 2019",
       "link": "https://www.pluralsight.com/courses/bigdata-bigpicture",
       "shortlink": "Big Data: The Big Picture",
@@ -705,7 +705,7 @@ var achievements = [
    },
    {
       "id": 85,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "January 5th, 2019",
       "link": "https://www.pluralsight.com/courses/cqrs-theory-practice",
       "shortlink": "Patterns for Building Distributed Systems for The Enterprise",
@@ -713,7 +713,7 @@ var achievements = [
    },
    {
       "id": 84,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "December 14th, 2018",
       "link": "https://www.pluralsight.com/courses/eda",
       "shortlink": "The Elements of Distributed Architecture",
@@ -721,7 +721,7 @@ var achievements = [
    },
    {
       "id": 83,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "December 26th, 2018",
       "link": "https://www.audible.com/pd/How-to-Win-Friends-Influence-People-Audiobook/B002V5BV96",
       "shortlink": "How to Win Friends & Influence People",
@@ -729,7 +729,7 @@ var achievements = [
    },
    {
       "id": 82,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "December 24th, 2018",
       "link": "https://www.pluralsight.com/courses/react-big-picture",
       "shortlink": "React: The Big Picture",
@@ -737,7 +737,7 @@ var achievements = [
    },
    {
       "id": 81,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "December 23rd, 2018",
       "link": "https://www.amazon.com/Architecting-Scale-Availability-Growing-Applications/dp/1491943394",
       "shortlink": "Architecting for Scale",
@@ -745,23 +745,23 @@ var achievements = [
    },
    {
       "id": 80,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "December 14th, 2018",
       "link": "https://www.pluralsight.com/courses/git-advanced-tips-tricks",
       "shortlink": "Advanced Git Tips and Tricks",
       "text": ""
    },
-   {
-      "id": 79,
-      "title": "Completed a personal GitHub project",
-      "date": "November 29th, 2018",
-      "link": "https://github.com/lfourky/last-docker-tag",
-      "shortlink": "github.com/lfourky/last-docker-tag",
-      "text": ""
-   },
+   // {
+   //    "id": 79,
+   //    "title": "Completed a personal GitHub project",
+   //    "date": "November 29th, 2018",
+   //    "link": "https://github.com/lfourky/last-docker-tag",
+   //    "shortlink": "github.com/lfourky/last-docker-tag",
+   //    "text": ""
+   // },
    {
       "id": 78,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "November 5th, 2018",
       "link": "https://www.amazon.com/AUDIO-BOOK-Influence-Science-Practice/dp/0615513182",
       "shortlink": "Influence: Science and Practice",
@@ -769,7 +769,7 @@ var achievements = [
    },
    {
       "id": 77,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "October 20th, 2018",
       "link": "https://www.udacity.com/course/human-computer-interaction--ud400",
       "shortlink": "Human-Computer Interaction",
@@ -777,7 +777,7 @@ var achievements = [
    },
    {
       "id": 76,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "October 20th, 2018",
       "link": "https://mitpress.mit.edu/books/algorithms-unlocked",
       "shortlink": "Algorithms Unlocked",
@@ -785,7 +785,7 @@ var achievements = [
    },
    {
       "id": 75,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "October 15th, 2018",
       "link": "https://www.apress.com/us/book/9781484210741",
       "shortlink": "Scalability Patterns",
@@ -793,7 +793,7 @@ var achievements = [
    },
    {
       "id": 74,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "October 13th, 2018",
       "link": "https://www.pluralsight.com/courses/mysql-query-optimization-performance-tuning",
       "shortlink": "MySQL Query Optimization and Performance Tuning",
@@ -801,7 +801,7 @@ var achievements = [
    },
    {
       "id": 73,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "October 12th, 2018",
       "link": "https://www.apress.com/us/book/9781484228869",
       "shortlink": "Advanced Microservices",
@@ -809,7 +809,7 @@ var achievements = [
    },
    {
       "id": 72,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "October 2nd, 2018",
       "link": "http://shop.oreilly.com/product/0636920039297.do",
       "shortlink": "Infrastructure as Code",
@@ -817,7 +817,7 @@ var achievements = [
    },
    {
       "id": 71,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "October 1st, 2018",
       "link": "https://www.pluralsight.com/courses/pragmatic-unit-testing",
       "shortlink": "Building a Pragmatic Unit Test Suite",
@@ -825,7 +825,7 @@ var achievements = [
    },
    {
       "id": 70,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "September 24th, 2018",
       "link": "https://www.pluralsight.com/courses/continuous-integration-delivery-big-picture",
       "shortlink": "Continuous Integration and Continuous Delivery: The Big Picture",
@@ -833,7 +833,7 @@ var achievements = [
    },
    {
       "id": 69,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "September 24th, 2018",
       "link": "https://www.pluralsight.com/courses/understanding-machine-learning",
       "shortlink": "Understanding Machine Learning",
@@ -841,7 +841,7 @@ var achievements = [
    },
    {
       "id": 68,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "August 10th, 2018",
       "link": "http://shop.oreilly.com/product/0636920052036.do",
       "shortlink": "Understanding Compression",
@@ -849,31 +849,31 @@ var achievements = [
    },
    {
       "id": 67,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "July 15th, 2018",
       "link": "http://shop.oreilly.com/product/0636920039334.do",
       "shortlink": "Decentralized Applications",
       "text": "As I see it, it's a good introduction book for showing what kind of apps can be built using blockchain technology."
    },
-   {
-      "id": 66,
-      "title": "Completed a personal GitHub project",
-      "date": "July 14th, 2018",
-      "link": "https://github.com/lfourky/definitely-not-an-illegal-book-downloader",
-      "shortlink": "github.com/lfourky/definitely-not-an-illegal-book-downloader",
-      "text": "Basically, not everyone can pay for books. And everyone should be able to access them. Just my two cents on the topic."
-   },
-   {
-      "id": 65,
-      "title": "Completed a personal GitHub project",
-      "date": "June 29th, 2018",
-      "link": " https://github.com/lfourky/go-quicksort",
-      "shortlink": "github.com/lfourky/go-quicksort",
-      "text": ""
-   },
+   // {
+   //    "id": 66,
+   //    "title": "Completed a personal GitHub project",
+   //    "date": "July 14th, 2018",
+   //    "link": "https://github.com/lfourky/definitely-not-an-illegal-book-downloader",
+   //    "shortlink": "github.com/lfourky/definitely-not-an-illegal-book-downloader",
+   //    "text": "Basically, not everyone can pay for books. And everyone should be able to access them. Just my two cents on the topic."
+   // },
+   // {
+   //    "id": 65,
+   //    "title": "Completed a personal GitHub project",
+   //    "date": "June 29th, 2018",
+   //    "link": " https://github.com/lfourky/go-quicksort",
+   //    "shortlink": "github.com/lfourky/go-quicksort",
+   //    "text": ""
+   // },
    {
       "id": 64,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "June 21st, 2018",
       "link": "https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592",
       "shortlink": "The Phoenix Project",
@@ -881,7 +881,7 @@ var achievements = [
    },
    {
       "id": 63,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "June 19th, 2018",
       "link": "http://shop.oreilly.com/product/0636920072768.do",
       "shortlink": "Designing Distributed Systems",
@@ -889,7 +889,7 @@ var achievements = [
    },
    {
       "id": 62,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "June 18th, 2018",
       "link": "https://www.udacity.com/course/computer-networking--ud436",
       "shortlink": "Computer Networking",
@@ -897,7 +897,7 @@ var achievements = [
    },
    {
       "id": 61,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "June 16th, 2018",
       "link": "https://www.pluralsight.com/courses/practical-networking",
       "shortlink": "Practical Networking",
@@ -905,7 +905,7 @@ var achievements = [
    },
    {
       "id": 60,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "June 3rd, 2018",
       "link": "https://www.udacity.com/course/networking-for-web-developers--ud256",
       "shortlink": "Networking for Web Developers",
@@ -913,7 +913,7 @@ var achievements = [
    },
    {
       "id": 59,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "June 2nd, 2018",
       "link": "https://www.audible.com/pd/Science-Technology/The-Elegant-Universe-Audiobook/B002V0TEUO",
       "shortlink": "The Elegant Universe",
@@ -921,7 +921,7 @@ var achievements = [
    },
    {
       "id": 58,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "May 28th, 2018",
       "link": "http://shop.oreilly.com/product/0636920043874.do",
       "shortlink": "Kubernetes: Up and Running",
@@ -929,7 +929,7 @@ var achievements = [
    },
    {
       "id": 57,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "May 19th, 2018",
       "link": "https://www.pluralsight.com/courses/getting-started-kubernetes",
       "shortlink": "Getting Started with Kubernetes",
@@ -937,7 +937,7 @@ var achievements = [
    },
    {
       "id": 56,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "May 18th, 2018",
       "link": "https://www.pluralsight.com/courses/implementing-devops-real-world",
       "shortlink": "Implementing DevOps in the Real World",
@@ -945,7 +945,7 @@ var achievements = [
    },
    {
       "id": 55,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "May 13th, 2018",
       "link": " https://www.udacity.com/course/intro-to-devops--ud611",
       "shortlink": "Intro to DevOps",
@@ -953,7 +953,7 @@ var achievements = [
    },
    {
       "id": 54,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "May 12th, 2018",
       "link": " https://www.pluralsight.com/courses/protocol-buffers-beyond-json-xml",
       "shortlink": "Moving Beyond JSON and XML with Protocol Buffers",
@@ -961,7 +961,7 @@ var achievements = [
    },
    {
       "id": 53,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "May 10th, 2018",
       "link": " https://www.pluralsight.com/courses/grpc-enhancing-application-communication",
       "shortlink": "Enhancing Application Communication with gRPC",
@@ -969,23 +969,23 @@ var achievements = [
    },
    {
       "id": 52,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "April 20th, 2018",
       "link": "https://www.audible.com/pd/Science-Technology/Astrophysics-for-People-in-a-Hurry-Audiobook/B06X9MXN32",
       "shortlink": "Astrophysics for People in a Hurry",
       "text": ""
    },
-   {
-      "id": 51,
-      "title": "Completed a personal GitHub project",
-      "date": "April 17th, 2018",
-      "link": " https://github.com/lfourky/file-splitter",
-      "shortlink": "github.com/lfourky/file-splitter",
-      "text": "I've made this program quite a while ago, but never had any description or an example of how to use it in the repo. Now I've added an example and modified the code a bit to be a bit friendlier to read."
-   },
+   // {
+   //    "id": 51,
+   //    "title": "Completed a personal GitHub project",
+   //    "date": "April 17th, 2018",
+   //    "link": " https://github.com/lfourky/file-splitter",
+   //    "shortlink": "github.com/lfourky/file-splitter",
+   //    "text": "I've made this program quite a while ago, but never had any description or an example of how to use it in the repo. Now I've added an example and modified the code a bit to be a bit friendlier to read."
+   // },
    {
       "id": 50,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "April 17th, 2018",
       "link": " http://shop.oreilly.com/product/0636920039518.do",
       "shortlink": "Distributed Systems",
@@ -993,7 +993,7 @@ var achievements = [
    },
    {
       "id": 49,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "April 6th, 2018",
       "link": " http://shop.oreilly.com/product/0636920047513.do",
       "shortlink": "Intermediate Go Programming",
@@ -1001,7 +1001,7 @@ var achievements = [
    },
    {
       "id": 48,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "April 3rd, 2018",
       "link": " https://www.udacity.com/course/gt-refresher-advanced-os--ud098",
       "shortlink": "Intro to Advanced Operating Systems",
@@ -1009,7 +1009,7 @@ var achievements = [
    },
    {
       "id": 47,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "March 25th, 2018",
       "link": " https://www.udacity.com/course/intro-to-theoretical-computer-science--cs313",
       "shortlink": "Intro to Theoretical Computer Science",
@@ -1017,7 +1017,7 @@ var achievements = [
    },
    {
       "id": 46,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "March 24th, 2018",
       "link": " http://shop.oreilly.com/product/0636920024774.do",
       "shortlink": "Mastering Advanced Git (O'Reilly)",
@@ -1025,7 +1025,7 @@ var achievements = [
    },
    {
       "id": 45,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "March 13th, 2018",
       "link": " http://shop.oreilly.com/product/0636920017462.do",
       "shortlink": "Mastering Git (O'Reilly)",
@@ -1033,23 +1033,23 @@ var achievements = [
    },
    {
       "id": 44,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "March 12th, 2018",
       "link": "https://www.amazon.com/Rich-Dad-Poor-Teach-Middle/dp/1543626610",
       "shortlink": "Rich Dad Poor Dad",
       "text": "Quite an interesting book. Perhaps not life changing, but certainly valuable and worth reading / listening to."
    },
-   {
-      "id": 43,
-      "title": "Introduced Home Surveillance",
-      "date": "February 23th, 2018",
-      "link": "",
-      "shortlink": "",
-      "text": "Created a system that monitors the room (Raspberry Pi 3, USB WebCam) for motion (OpenCV in C++) and, if motion is detected, it starts taking pictures. Then, the following happens: an app (written in Golang) sends out a notification (Firebase FCM, REST API) to a custom android application (Java), and it uploads the pictures to my Google Drive (Golang, GoogleDrive API)."
-   },
+   // {
+   //    "id": 43,
+   //    "title": "Introduced Home Surveillance",
+   //    "date": "February 23th, 2018",
+   //    "link": "",
+   //    "shortlink": "",
+   //    "text": "Created a system that monitors the room (Raspberry Pi 3, USB WebCam) for motion (OpenCV in C++) and, if motion is detected, it starts taking pictures. Then, the following happens: an app (written in Golang) sends out a notification (Firebase FCM, REST API) to a custom android application (Java), and it uploads the pictures to my Google Drive (Golang, GoogleDrive API)."
+   // },
    {
       "id": 42,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "February 19th, 2018",
       "link": " https://www.udacity.com/course/c-for-programmers--ud210",
       "shortlink": "C++ For Programmers",
@@ -1065,7 +1065,7 @@ var achievements = [
    },
    {
       "id": 40,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "January 7th, 2018",
       "link": "https://www.udacity.com/course/firebase-in-a-weekend-by-google-android--ud0352",
       "shortlink": "Firebase in a Weekend: Android course by Google",
@@ -1073,7 +1073,7 @@ var achievements = [
    },
    {
       "id": 39,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "November 4th, 2017",
       "link": "https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems/dp/1491950358",
       "shortlink": "Building Microservices: Designing Fine-Grained Systems",
@@ -1081,7 +1081,7 @@ var achievements = [
    },
    {
       "id": 38,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "August 15th, 2017",
       "link": "https://www.manning.com/books/docker-in-action",
       "shortlink": "Docker In Action",
@@ -1089,7 +1089,7 @@ var achievements = [
    },
    {
       "id": 37,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "August 12th, 2017",
       "link": "https://www.pluralsight.com/courses/integrating-docker-with-devops-automated-workflows",
       "shortlink": "Integrating Docker with DevOps Automated Workflows",
@@ -1097,7 +1097,7 @@ var achievements = [
    },
    {
       "id": 36,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "June 8th, 2017",
       "link": "https://www.manning.com/books/go-in-practice",
       "shortlink": "Go in Practice",
@@ -1105,7 +1105,7 @@ var achievements = [
    },
    {
       "id": 35,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "June 7th, 2017",
       "link": "https://www.pluralsight.com/courses/docker-deep-dive",
       "shortlink": "Docker Deep Dive",
@@ -1113,7 +1113,7 @@ var achievements = [
    },
    {
       "id": 34,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "May 20th, 2017",
       "link": "https://www.pluralsight.com/courses/go-horizontal-scaling-apps",
       "shortlink": "Scaling Go Applications Horizontally",
@@ -1121,7 +1121,7 @@ var achievements = [
    },
    {
       "id": 33,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "May 8th, 2017",
       "link": "https://www.pluralsight.com/courses/oauth2-json-web-tokens-openid-connect-introduction",
       "shortlink": "Introduction to OAuth2, OpenID Connect and JSON Web Tokens (JWT)",
@@ -1129,7 +1129,7 @@ var achievements = [
    },
    {
       "id": 32,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "May 7th, 2017",
       "link": "https://www.pluralsight.com/courses/microservices-architecture",
       "shortlink": "Microservices Architecture",
@@ -1137,7 +1137,7 @@ var achievements = [
    },
    {
       "id": 31,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "March 19th, 2017",
       "link": "https://www.udacity.com/course/website-performance-optimization--ud884",
       "shortlink": "Website Performance Optimization by Google",
@@ -1145,7 +1145,7 @@ var achievements = [
    },
    {
       "id": 30,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "March 10th, 2017",
       "link": "https://www.pluralsight.com/courses/build-go-apps-gorilla-toolkit",
       "shortlink": "Building Better Go Web Apps with the Gorilla Toolkit",
@@ -1153,7 +1153,7 @@ var achievements = [
    },
    {
       "id": 29,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "February 19th, 2017",
       "link": "http://www.audible.com.au/pd/Non-fiction/Moonwalking-with-Einstein-Audiobook/B00FEZGM12",
       "shortlink": "Moonwalking with Einstein",
@@ -1161,7 +1161,7 @@ var achievements = [
    },
    {
       "id": 28,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "January 29th, 2017",
       "link": "https://www.pluralsight.com/courses/gradle-fundamentals",
       "shortlink": "Gradle Fundamentals",
@@ -1169,7 +1169,7 @@ var achievements = [
    },
    {
       "id": 27,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "January 20th, 2017",
       "link": "https://www.pluralsight.com/courses/design-patterns-java-behavioral",
       "shortlink": "Design Patterns in Java: Behavioral",
@@ -1177,7 +1177,7 @@ var achievements = [
    },
    {
       "id": 26,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "January 10th, 2017",
       "link": "https://www.pluralsight.com/courses/java-8-whats-new",
       "shortlink": "What's new in Java 8",
@@ -1185,7 +1185,7 @@ var achievements = [
    },
    {
       "id": 25,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "December 30th, 2016",
       "link": "https://www.lynda.com/SSL-tutorials/Understanding-Secure-Sockets-Layer/178124-2.html",
       "shortlink": "Understanding Secure Sockets Layer",
@@ -1193,7 +1193,7 @@ var achievements = [
    },
    {
       "id": 24,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "December 16th, 2016",
       "link": "https://www.pluralsight.com/courses/play-by-play-docker-java-developers-arun-gupta-michael-hoffman",
       "shortlink": "Play by Play: Docker for Java Developers with Arun Gupta and Michael Hoffman",
@@ -1201,39 +1201,39 @@ var achievements = [
    },
    {
       "id": 23,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "December 9th, 2016",
       "link": "https://www.pluralsight.com/courses/spring-boot-efficient-development-configuration-deployment",
       "shortlink": "Spring Boot: Efficient Development, Configuration, and Deployment",
       "text": "A little something to help me out on the project I'm currently working on."
    },
-   {
-      "id": 22,
-      "title": "Introduced AngularJS, Facebook & Google OAauth to the website",
-      "date": "October 17th, 2016",
-      "link": "",
-      "shortlink": "",
-      "text": ""
-   },
+   // {
+   //    "id": 22,
+   //    "title": "Introduced AngularJS, Facebook & Google OAauth to the website",
+   //    "date": "October 17th, 2016",
+   //    "link": "",
+   //    "shortlink": "",
+   //    "text": ""
+   // },
    {
       "id": 21,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "October 16th, 2016",
       "link": "http://www.audible.com/pd/Science-Technology/Superintelligence-Audiobook/B00LPMD72K",
       "shortlink": "Superintelligence: Paths, Dangers, Strategies",
       "text": "Wanted to listen to something about AI. Wouldn't say that I was disappointed, but Nick talks way too much about the dangers of AI that he thinks are possible, and he repeats himself a lot. Nevertheless, was a nice time killer."
    },
-   {
-      "id": 20,
-      "title": "Work&Travel",
-      "date": "October 2nd, 2016",
-      "link": "https://en.wikipedia.org/wiki/Jackson,_Wyoming",
-      "shortlink": "Came back",
-      "text": "It was a wonderful journey, and I will surely write some more about it (once I find some free time to do so)."
-   },
+   // {
+   //    "id": 20,
+   //    "title": "Work&Travel",
+   //    "date": "October 2nd, 2016",
+   //    "link": "https://en.wikipedia.org/wiki/Jackson,_Wyoming",
+   //    "shortlink": "Came back",
+   //    "text": "It was a wonderful journey, and I will surely write some more about it (once I find some free time to do so)."
+   // },
    {
       "id": 19,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "June 10th, 2016",
       "link": "http://www.audible.com/pd/Science-Technology/Sapiens-Audiobook/B00SXJF7J4",
       "shortlink": "Sapiens: A Brief History of Humankind",
@@ -1241,55 +1241,55 @@ var achievements = [
    },
    {
       "id": 18,
-      "title": "Finished an Audiobook",
+      "type": "audiobook",
       "date": "May 29th, 2016",
       "link": "http://www.audible.com/pd/Bios-Memoirs/Elon-Musk-Audiobook/B00UX8ODPM",
       "shortlink": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
       "text": "Enjoyed every hour. Elon is kind of an idol of mine."
    },
-   {
-      "id": 17,
-      "title": "Work&Travel",
-      "date": "May 24th, 2016",
-      "link": "http://lazarivkov.com/usa",
-      "shortlink": "USA",
-      "text": "Started my 4-months journey to America."
-   },
-   {
-      "id": 16,
-      "title": "Internship",
-      "date": "April 4th, 2016",
-      "link": "http://www.execom.eu/",
-      "shortlink": "Accepted as an intern @ Execom",
-      "text": ":)"
-   },
+   // {
+   //    "id": 17,
+   //    "title": "Work&Travel",
+   //    "date": "May 24th, 2016",
+   //    "link": "http://lazarivkov.com/usa",
+   //    "shortlink": "USA",
+   //    "text": "Started my 4-months journey to America."
+   // },
+   // {
+   //    "id": 16,
+   //    "title": "Internship",
+   //    "date": "April 4th, 2016",
+   //    "link": "http://www.execom.eu/",
+   //    "shortlink": "Accepted as an intern @ Execom",
+   //    "text": ":)"
+   // },
    {
       "id": 15,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "April 2nd, 2016",
       "link": "http://www.amazon.com/The-4-Hour-Workweek-Escape-Anywhere/dp/0307465357",
       "shortlink": "The 4-Hour Workweek",
       "text": "Well - not sure. I'd recommend just reading the summary of the book."
    },
-   {
-      "id": 14,
-      "title": "MIT Lecture",
-      "date": "March 21st, 2016",
-      "link": "https://www.youtube.com/watch?v=TjZBTDzGeGg",
-      "shortlink": " Introduction and Scope",
-      "text": "This lecture actually got me really interested, but I was always interested in AI - and I also wrote about 7 a4 pages about it."
-   },
-   {
-      "id": 13,
-      "title": "MIT Lecture",
-      "date": "March 20th, 2016",
-      "link": "https://www.youtube.com/watch?v=g1ka1MXpo3s&feature=youtu.be",
-      "shortlink": "Introduction to the visual system",
-      "text": "Sometimes, I enjoy watching lectures on different topics that I find interesting. And I do not regret watching this one. It was quite awesome, but I will continue switching topics for now, to see what I enjoy the most."
-   },
+   // {
+   //    "id": 14,
+   //    "title": "MIT Lecture",
+   //    "date": "March 21st, 2016",
+   //    "link": "https://www.youtube.com/watch?v=TjZBTDzGeGg",
+   //    "shortlink": " Introduction and Scope",
+   //    "text": "This lecture actually got me really interested, but I was always interested in AI - and I also wrote about 7 a4 pages about it."
+   // },
+   // {
+   //    "id": 13,
+   //    "title": "MIT Lecture",
+   //    "date": "March 20th, 2016",
+   //    "link": "https://www.youtube.com/watch?v=g1ka1MXpo3s&feature=youtu.be",
+   //    "shortlink": "Introduction to the visual system",
+   //    "text": "Sometimes, I enjoy watching lectures on different topics that I find interesting. And I do not regret watching this one. It was quite awesome, but I will continue switching topics for now, to see what I enjoy the most."
+   // },
    {
       "id": 12,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "March 5th, 2016",
       "link": "https://mva.microsoft.com/en-US/training-courses/mean-stack-jump-start-8442",
       "shortlink": "MEAN Stack Jump Start",
@@ -1297,7 +1297,7 @@ var achievements = [
    },
    {
       "id": 11,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "February 27th, 2016",
       "link": "https://egghead.io/",
       "shortlink": "AngularJS course",
@@ -1305,23 +1305,23 @@ var achievements = [
    },
    {
       "id": 10,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "February 19th, 2016",
       "link": "https://www.codecademy.com/learn/learn-angularjs",
       "shortlink": "Learn AngularJS",
       "text": "Enjoying the MEAN stack."
    },
-   {
-      "id": 9,
-      "title": "50 days streak on Duolingo (French)",
-      "date": "February 17th, 2016",
-      "link": "https://www.duolingo.com/l4ky",
-      "shortlink": "",
-      "text": "^_^"
-   },
+   // {
+   //    "id": 9,
+   //    "title": "50 days streak on Duolingo (French)",
+   //    "date": "February 17th, 2016",
+   //    "link": "https://www.duolingo.com/l4ky",
+   //    "shortlink": "",
+   //    "text": "^_^"
+   // },
    {
       "id": 8,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "February 10th, 2016",
       "link": "https://www.udemy.com/learn-nodejs-by-building-10-projects/",
       "shortlink": "Learn Node.js by building 10 projects",
@@ -1329,7 +1329,7 @@ var achievements = [
    },
    {
       "id": 7,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "February 10th, 2016",
       "link": "http://www.amazon.com/Outliers-Story-Success-Malcolm-Gladwell/dp/0316017930",
       "shortlink": "Outliers: The Story of Success",
@@ -1337,31 +1337,31 @@ var achievements = [
    },
    {
       "id": 6,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "February 7th, 2016",
       "link": "http://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319",
       "shortlink": "Code: The Hidden Language of Computer Hardware and Software",
       "text": "One of the most enlightening books that I've ever read - it introduced me to the inner workings of a computer like no one / nothing ever did. I was in awe most of the time while reading it."
    },
-   {
-      "id": 5,
-      "title": "40 days streak on Duolingo (French)",
-      "date": "February 6th, 2016",
-      "link": "https://www.duolingo.com/l4ky",
-      "shortlink": "",
-      "text": "The largest streak before this one was ~15 days long, but sadly it was broken. And I'm quite proud of pushing myself to exercise French everyday. :)"
-   },
+   // {
+   //    "id": 5,
+   //    "title": "40 days streak on Duolingo (French)",
+   //    "date": "February 6th, 2016",
+   //    "link": "https://www.duolingo.com/l4ky",
+   //    "shortlink": "",
+   //    "text": "The largest streak before this one was ~15 days long, but sadly it was broken. And I'm quite proud of pushing myself to exercise French everyday. :)"
+   // },
    {
       "id": 4,
-      "title": "Read A Book In One Day",
+      "type": "book",
       "date": "February 4th, 2016",
       "link": "http://www.amazon.com/RESTful-Web-API-Design-Node-js/dp/1783985860",
       "shortlink": "RESTful Web API Design with Node.js",
-      "text": "After starting exploring Node.js, I've decided to read a short book about it. This was the one I chose - and it turned out to be a good decision. Again, it was done as a part of the 'Book A Day' challenge that I've put myself up against."
+      "text": "I read this book in one day -- After starting exploring Node.js, I've decided to read a short book about it. This was the one I chose - and it turned out to be a good decision. Again, it was done as a part of the 'Book A Day' challenge that I've put myself up against."
    },
    {
       "id": 3,
-      "title": "Finished Reading A Book",
+      "type": "book",
       "date": "February 2nd, 2016",
       "link": "http://www.amazon.com/For-Dummies-Stephen-R-Davis/dp/0470317264",
       "shortlink": "C++ For Dummies",
@@ -1369,7 +1369,7 @@ var achievements = [
    },
    {
       "id": 2,
-      "title": "Completed a Course",
+      "type": "course",
       "date": "January 27th, 2016",
       "link": "https://www.pluralsight.com/courses/accelerated-introduction-cpp",
       "shortlink": "Accelerated Introduction C++",
@@ -1377,36 +1377,17 @@ var achievements = [
    },
    {
       "id": 1,
-      "title": "Read A Book In One Day",
+      "type": "book",
       "date": "January 16th, 2016",
       "link": "http://www.amazon.com/Mind-Numbers-Science-Flunked-Algebra/dp/039916524X",
       "shortlink": "A Mind for Numbers: How to Excel at Math and Science (Even If You Flunked Algebra)",
-      "text": "Basically, the idea behind this was to push my limits. I've never focused on reading a single book in one day, so this marks the first time I did such a thing."
+      "text": "I read this book in one day -- Basically, the idea behind this was to push my limits. I've never focused on reading a single book in one day, so this marks the first time I did such a thing."
    }
 ];
 
 function getAchievementTemplate(achievement) {
-    // Determine the type of achievement based on the title
-    let type = 'other';
-    let typeLabel = 'Other';
-    
-    if (achievement.title.toLowerCase().includes('reading a book') || 
-        achievement.title.toLowerCase().includes('finished reading a book')) {
-        type = 'book';
-        typeLabel = 'Book';
-    } else if (achievement.title.toLowerCase().includes('audiobook') || 
-               achievement.title.toLowerCase().includes('finished an audiobook')) {
-        type = 'audiobook';
-        typeLabel = 'Audiobook';
-    } else if (achievement.title.toLowerCase().includes('course') || 
-               achievement.title.toLowerCase().includes('completing a course')) {
-        type = 'course';
-        typeLabel = 'Course';
-    } else if (achievement.title.toLowerCase().includes('project') || 
-               achievement.title.toLowerCase().includes('finished project')) {
-        type = 'project';
-        typeLabel = 'Project';
-    }
+    // Use the type field directly from the achievement object
+    const type = achievement.type || 'other';
     
     // Use the date string as-is
     const formattedDate = achievement.date;
@@ -1416,17 +1397,19 @@ function getAchievementTemplate(achievement) {
     
     return `
         <div class="achievement-card" data-type="${type}" data-id="${achievement.id}">
+            <div class="card-type-icon ${type}">
+                <i class="fas ${type === 'book' ? 'fa-book' : type === 'audiobook' ? 'fa-headphones' : type === 'course' ? 'fa-graduation-cap' : 'fa-star'}"></i>
+            </div>
             <div class="card-header">
-                <span class="card-type ${type}">${typeLabel}</span>
                 <span class="card-date">${formattedDate}</span>
             </div>
             <h3 class="card-title">
                 <a href="${achievement.link}" target="_blank" class="title-link">
-                    ${achievement.shortlink || achievement.title}
+                    ${achievement.shortlink || 'Knowledge Achievement'}
                 </a>
             </h3>
             <div class="card-text-container">
-                <p class="card-text">${shortText || 'Knowledge milestone completed'}</p>
+                <p class="card-text">${shortText}</p>
                 ${hasLongText ? `<p class="card-text-full" style="display: none;">${achievement.text}</p>` : ''}
                 ${hasLongText ? `<button class="view-more-btn" onclick="toggleText(${achievement.id})">View More</button>` : ''}
             </div>
@@ -1442,17 +1425,38 @@ function populateAchievements() {
     }
     
     console.log('Found achievements grid, populating...');
+    console.log('Current filter:', currentFilter);
+    console.log('Current search:', currentSearchQuery);
     
     // Clear existing content
     grid.innerHTML = '';
     
-    // Render all achievements
-    for (var i = 0; i < achievements.length; i++) {
-        const cardHTML = getAchievementTemplate(achievements[i]);
+    // Filter achievements based on current filter and search
+    const filteredAchievements = achievements.filter(achievement => {
+        // Check if achievement matches the current filter using the type field
+        const matchesFilter = currentFilter === 'all' || 
+            (currentFilter === 'book' && achievement.type === 'book') ||
+            (currentFilter === 'audiobook' && achievement.type === 'audiobook') ||
+            (currentFilter === 'course' && achievement.type === 'course') ||
+            (currentFilter === 'other' && achievement.type === 'other');
+        
+        // Check if achievement matches the search query
+        const matchesSearch = currentSearchQuery === '' || 
+            (achievement.shortlink && achievement.shortlink.toLowerCase().includes(currentSearchQuery)) ||
+            (achievement.text && achievement.text.toLowerCase().includes(currentSearchQuery));
+        
+        return matchesFilter && matchesSearch;
+    });
+    
+    console.log('Filtered achievements:', filteredAchievements.length);
+    
+    // Render filtered achievements
+    for (var i = 0; i < filteredAchievements.length; i++) {
+        const cardHTML = getAchievementTemplate(filteredAchievements[i]);
         grid.insertAdjacentHTML('beforeend', cardHTML);
     }
     
-    console.log('Populated', achievements.length, 'achievements');
+    console.log('Populated', filteredAchievements.length, 'achievements');
     
     // Update counts
     updateCounts();
@@ -1461,29 +1465,32 @@ function populateAchievements() {
     addCardEventListeners();
 }
 
-// Update achievement counts
+// Update achievement counts (always counts from all achievements, not filtered ones)
 function updateCounts() {
-    const booksCount = achievements.filter(a => {
-        const title = a.title.toLowerCase();
-        return title.includes('reading a book') || title.includes('finished reading a book');
-    }).length;
+    const booksCount = achievements.filter(a => a.type === 'book').length;
+    const coursesCount = achievements.filter(a => a.type === 'course').length;
+    const audiobooksCount = achievements.filter(a => a.type === 'audiobook').length;
+    const allCount = achievements.length;
     
-    const coursesCount = achievements.filter(a => {
-        const title = a.title.toLowerCase();
-        return title.includes('course') || title.includes('completing a course');
-    }).length;
-    
+    const allElement = document.getElementById('all-count');
     const booksElement = document.getElementById('books-count');
     const coursesElement = document.getElementById('courses-count');
+    const audiobooksElement = document.getElementById('audiobooks-count');
     
+    if (allElement) {
+        allElement.textContent = allCount;
+    }
     if (booksElement) {
         booksElement.textContent = booksCount;
     }
     if (coursesElement) {
         coursesElement.textContent = coursesCount;
     }
+    if (audiobooksElement) {
+        audiobooksElement.textContent = audiobooksCount;
+    }
     
-    console.log('Updated counts - Books:', booksCount, 'Courses:', coursesCount);
+    console.log('Updated counts - All:', allCount, 'Books:', booksCount, 'Courses:', coursesCount, 'Audiobooks:', audiobooksCount);
 }
 
 // Add event listeners to achievement cards
@@ -1500,7 +1507,6 @@ function addCardEventListeners() {
         });
     });
 }
-populateAchievements();
 
 // {title:"", link:""},
 var saBlinkist = [
@@ -1937,6 +1943,10 @@ function toggleText(achievementId) {
     expandedAchievementId = achievementId;
 }
 
+// Global variables for filtering
+let currentFilter = 'all';
+let currentSearchQuery = '';
+
 // Initialize the page
 document.addEventListener('DOMContentLoaded', function() {
     console.log('DOM loaded, initializing...');
@@ -1956,7 +1966,8 @@ document.addEventListener('DOMContentLoaded', function() {
             filterTabs.forEach(t => t.classList.remove('active'));
             // Add active class to clicked tab
             tab.classList.add('active');
-            // Repopulate achievements with new filter
+            // Update current filter and repopulate
+            currentFilter = tab.dataset.filter;
             populateAchievements();
         });
     });
@@ -1965,7 +1976,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const searchInput = document.getElementById('search-input');
     if (searchInput) {
         console.log('Search input found');
-        searchInput.addEventListener('input', () => {
+        searchInput.addEventListener('input', (e) => {
+            currentSearchQuery = e.target.value.toLowerCase();
             populateAchievements();
         });
     } else {
