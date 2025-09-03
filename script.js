@@ -5,7 +5,7 @@ var achievements = [
       "date": "September 1st, 2025",
       "link": "https://www.amazon.com/Everything-Tuberculosis-Persistence-Deadliest-Infection/dp/0525556575",
       "shortlink": "Everything Is Tuberculosis: The History and Persistence of Our Deadliest Infection",
-      "text": "A fascinating exploration of tuberculosis throughout history, examining how this disease has shaped human civilization and continues to challenge modern medicine."
+      "text": "Tuberculosis has followed humanity for centuries, shaping societies and influencing medicine. The book examines how the disease spread across time and why it remains one of the most persistent health challenges today."
    },
    {
       "id": 172,
@@ -13,7 +13,7 @@ var achievements = [
       "date": "August 2nd, 2025",
       "link": "https://www.amazon.com/Contain-Multitudes-Microbes-Within-Grander/dp/0062368591",
       "shortlink": "I Contain Multitudes: The Microbes Within Us and a Grander View of Life",
-      "text": "An eye-opening journey into the microbial world that lives within us, revealing how these tiny organisms shape our health, behavior, and evolution."
+      "text": "Microbial communities live in and around us, forming an unseen world that affects daily life. This book explores how microbes influence health, behavior, and evolution, offering a wider view of our dependence on them."
    },
    {
       "id": 171,
@@ -21,7 +21,7 @@ var achievements = [
       "date": "May 6th, 2025",
       "link": "https://www.amazon.com/Stuff-Matters-Exploring-Marvelous-Materials/dp/0544236041",
       "shortlink": "Stuff Matters: Exploring the Marvelous Materials That Shape Our Man-Made World",
-      "text": "A captivating exploration of the materials that surround us, from concrete to chocolate, revealing the science and stories behind everyday objects."
+      "text": "Everyday materials such as concrete, steel, glass, and chocolate are part of the framework of modern life. The book explains how these substances are created, their properties, and the role they play in shaping human culture and technology."
    },
    {
       "id": 170,
@@ -29,23 +29,23 @@ var achievements = [
       "date": "February 23rd, 2025",
       "link": "https://www.amazon.com/Disappearing-Spoon-Madness-Periodic-Elements/dp/0316051632",
       "shortlink": "The Disappearing Spoon: And Other True Tales of Madness, Love, and the History of the World from the Periodic Table of the Elements",
-      "text": ""
+      "text": "Stories from the periodic table reveal how elements have influenced science, history, and human behavior. The book presents unusual facts and anecdotes that connect chemistry with culture, politics, and everyday life."
    },
    {
       "id": 169,
       "type": "book",
       "date": "December 25th, 2024",
       "link": "https://www.amazon.com/Chemistry-Dummies-Math-Science/dp/B003156A1Y",
-      "shortlink": "Chemistry",
-      "text": ""
+      "shortlink": "Chemistry 4D",
+      "text": "An introduction to the basic principles of chemistry, including atoms, molecules, reactions, and the periodic table. The book is designed to simplify complex ideas and provide a foundation for further study."
    },
    {
       "id": 168,
       "type": "book",
       "date": "October 12th, 2024",
       "link": "https://www.amazon.com/Biology-Essentials-Dummies-Fester-Kratz/dp/1119589584",
-      "shortlink": "Biology Essentials",
-      "text": ""
+      "shortlink": "Biology Essentials 4D",
+      "text": "Key concepts of biology are presented in a concise form, covering topics such as cell structure, genetics, evolution, and ecosystems. The book offers a clear overview for readers who need a quick but structured understanding of the subject."
    },
    {
       "id": 167,
@@ -53,15 +53,15 @@ var achievements = [
       "date": "September 24th, 2024",
       "link": "https://www.audible.com/pd/How-to-Know-a-Person-Audiobook/B0BXFPF388",
       "shortlink": "How to Know a Person - The Art of Seeing Others Deeply and Being Deeply Seen",
-      "text": "A profound guide to understanding human connection, teaching us how to truly see and be seen by others in meaningful relationships."
+      "text": "This audiobook focuses on the art of human connection, showing ways to understand others more deeply and to communicate in ways that allow both sides to feel truly seen."
    },
    {
       "id": 166,
       "type": "book",
       "date": "September 9th, 2024",
       "link": "https://www.amazon.com/Chemistry-Essentials-Dummies-John-Moore/dp/1119591147",
-      "shortlink": "Chemistry Essentials",
-      "text": ""
+      "shortlink": "Chemistry Essentials 4D",
+      "text": "This book introduces the essential principles of chemistry in a concise format. It covers atomic structure, bonding, reactions, and key problem-solving methods, making it a compact reference for learning or review."
    },
    {
       "id": 165,
@@ -69,7 +69,7 @@ var achievements = [
       "date": "August 15th, 2024",
       "link": "https://www.audible.com/pd/The-Mountain-Is-You-Audiobook/B09WY6Z8KD",
       "shortlink": "The Mountain Is You - Transforming Self-Sabotage into Self-Mastery",
-      "text": "A powerful exploration of self-sabotage patterns and how to overcome them, leading to true self-mastery and personal transformation."
+      "text": "This audiobook examines patterns of self-sabotage and how they interfere with personal growth. It provides strategies for recognizing these behaviors and transforming them into constructive habits that support self-mastery."
    },
    {
       "id": 164,
@@ -77,7 +77,7 @@ var achievements = [
       "date": "February 10th, 2024",
       "link": "https://www.amazon.com/Existential-Physics-Scientists-Biggest-Questions/dp/1984879456",
       "shortlink": "Existential Physics: A Scientist's Guide to Life's Biggest Questions",
-      "text": ""
+      "text": "A physicist explores fundamental questions about reality, time, and the universe, connecting scientific insights with philosophical issues. The book addresses how modern physics can inform perspectives on meaning and existence."
    },
    {
       "id": 163,
@@ -85,7 +85,7 @@ var achievements = [
       "date": "November 25th, 2023",
       "link": "https://www.audible.com/pd/Difficult-Conversations-Audiobook/B002V59YHM",
       "shortlink": "Difficult Conversations - How to Discuss What Matters Most",
-      "text": ""
+      "text": "This audiobook explains how to approach sensitive or high-stakes conversations. It provides tools for listening, expressing views clearly, and handling disagreements without escalating conflict."
    },
    {
       "id": 162,
@@ -93,7 +93,7 @@ var achievements = [
       "date": "November 5th, 2023",
       "link": "https://www.audible.com/pd/Think-Like-a-Rocket-Scientist-Audiobook/1549144936",
       "shortlink": "Think Like a Rocket Scientist - Simple Strategies You Can Use to Make Giant Leaps in Work and Life",
-      "text": ""
+      "text": "The audiobook introduces strategies from rocket science that can be applied to everyday challenges. It emphasizes problem-solving, critical thinking, and expanding perspective to make bold decisions in work and life."
    },
    {
       "id": 161,
@@ -101,7 +101,7 @@ var achievements = [
       "date": "September 1st, 2023",
       "link": "https://www.amazon.com/Dopamine-Nation-Finding-Balance-Indulgence/dp/152474672X",
       "shortlink": "Dopamine Nation: Finding Balance in the Age of Indulgence",
-      "text": ""
+      "text": "This audiobook examines the role of dopamine in the brain and its impact on pleasure, addiction, and self-control. It explores how modern lifestyles amplify reward-seeking behaviors and how balance can be restored."
    },
    {
       "id": 160,
