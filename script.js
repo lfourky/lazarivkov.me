@@ -1398,10 +1398,13 @@ function getAchievementTemplate(achievement) {
     return `
         <div class="achievement-card" data-type="${type}" data-id="${achievement.id}">
             <div class="card-type-icon ${type}">
-                <i class="fas ${type === 'book' ? 'fa-book' : type === 'audiobook' ? 'fa-headphones' : type === 'course' ? 'fa-graduation-cap' : 'fa-star'}"></i>
+                <i class="fas ${type === 'book' ? 'fa-book-open' : type === 'audiobook' ? 'fa-headphones' : type === 'course' ? 'fa-graduation-cap' : 'fa-star'}"></i>
             </div>
             <div class="card-header">
-                <span class="card-date">${formattedDate}</span>
+                <span class="card-date">
+                    <i class="fas fa-calendar-alt"></i>
+                    ${formattedDate}
+                </span>
             </div>
             <h3 class="card-title">
                 <a href="${achievement.link}" target="_blank" class="title-link">
