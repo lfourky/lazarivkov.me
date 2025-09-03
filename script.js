@@ -4,7 +4,7 @@ var achievements = [
       "type": "book",
       "date": "September 1st, 2025",
       "link": "https://www.amazon.com/Everything-Tuberculosis-Persistence-Deadliest-Infection/dp/0525556575",
-      "shortlink": "Everything Is Tuberculosis: The History and Persistence of Our Deadliest Infection",
+      "shortlink": "Everything Is Tuberculosis",
       "text": "Tuberculosis has followed humanity for centuries, shaping societies and influencing medicine. The book examines how the disease spread across time and why it remains one of the most persistent health challenges today."
    },
    {
@@ -12,7 +12,7 @@ var achievements = [
       "type": "book",
       "date": "August 2nd, 2025",
       "link": "https://www.amazon.com/Contain-Multitudes-Microbes-Within-Grander/dp/0062368591",
-      "shortlink": "I Contain Multitudes: The Microbes Within Us and a Grander View of Life",
+      "shortlink": "I Contain Multitudes",
       "text": "Microbial communities live in and around us, forming an unseen world that affects daily life. This book explores how microbes influence health, behavior, and evolution, offering a wider view of our dependence on them."
    },
    {
@@ -20,7 +20,7 @@ var achievements = [
       "type": "book",
       "date": "May 6th, 2025",
       "link": "https://www.amazon.com/Stuff-Matters-Exploring-Marvelous-Materials/dp/0544236041",
-      "shortlink": "Stuff Matters: Exploring the Marvelous Materials That Shape Our Man-Made World",
+      "shortlink": "Stuff Matters",
       "text": "Everyday materials such as concrete, steel, glass, and chocolate are part of the framework of modern life. The book explains how these substances are created, their properties, and the role they play in shaping human culture and technology."
    },
    {
@@ -28,7 +28,7 @@ var achievements = [
       "type": "book",
       "date": "February 23rd, 2025",
       "link": "https://www.amazon.com/Disappearing-Spoon-Madness-Periodic-Elements/dp/0316051632",
-      "shortlink": "The Disappearing Spoon: And Other True Tales of Madness, Love, and the History of the World from the Periodic Table of the Elements",
+      "shortlink": "The Disappearing Spoon",
       "text": "Stories from the periodic table reveal how elements have influenced science, history, and human behavior. The book presents unusual facts and anecdotes that connect chemistry with culture, politics, and everyday life."
    },
    {
@@ -52,7 +52,7 @@ var achievements = [
       "type": "audiobook",
       "date": "September 24th, 2024",
       "link": "https://www.audible.com/pd/How-to-Know-a-Person-Audiobook/B0BXFPF388",
-      "shortlink": "How to Know a Person - The Art of Seeing Others Deeply and Being Deeply Seen",
+      "shortlink": "How to Know a Person",
       "text": "A guide to building deeper human connections. The book explores how to understand others more fully and how to communicate in ways that allow people to feel truly seen."
    },
    {
@@ -68,7 +68,7 @@ var achievements = [
       "type": "audiobook",
       "date": "August 15th, 2024",
       "link": "https://www.audible.com/pd/The-Mountain-Is-You-Audiobook/B09WY6Z8KD",
-      "shortlink": "The Mountain Is You - Transforming Self-Sabotage into Self-Mastery",
+      "shortlink": "The Mountain Is You",
       "text": "An examination of self-sabotage and how it blocks personal growth. The book offers methods to recognize destructive patterns and transform them into practices that lead to self-mastery."
    },
    {
@@ -76,7 +76,7 @@ var achievements = [
       "type": "book",
       "date": "February 10th, 2024",
       "link": "https://www.amazon.com/Existential-Physics-Scientists-Biggest-Questions/dp/1984879456",
-      "shortlink": "Existential Physics: A Scientist's Guide to Life's Biggest Questions",
+      "shortlink": "Existential Physics",
       "text": "A physicist explores fundamental questions about reality, time, and the universe, connecting scientific insights with philosophical issues. The book addresses how modern physics can inform perspectives on meaning and existence."
    },
    {
@@ -84,7 +84,7 @@ var achievements = [
       "type": "audiobook",
       "date": "November 25th, 2023",
       "link": "https://www.audible.com/pd/Difficult-Conversations-Audiobook/B002V59YHM",
-      "shortlink": "Difficult Conversations - How to Discuss What Matters Most",
+      "shortlink": "Difficult Conversations",
       "text": "Guidance on how to handle important and sensitive discussions. The book outlines methods for listening carefully, expressing yourself clearly, and resolving disagreements without unnecessary conflict."
    },
    {
@@ -92,7 +92,7 @@ var achievements = [
       "type": "audiobook",
       "date": "November 5th, 2023",
       "link": "https://www.audible.com/pd/Think-Like-a-Rocket-Scientist-Audiobook/1549144936",
-      "shortlink": "Think Like a Rocket Scientist - Simple Strategies You Can Use to Make Giant Leaps in Work and Life",
+      "shortlink": "Think Like a Rocket Scientist",
       "text": "Strategies from rocket science are applied to everyday life and work. The book shows how to think more creatively, solve complex problems, and make bold decisions with confidence."
    },
    {
@@ -100,7 +100,7 @@ var achievements = [
       "type": "audiobook",
       "date": "September 1st, 2023",
       "link": "https://www.amazon.com/Dopamine-Nation-Finding-Balance-Indulgence/dp/152474672X",
-      "shortlink": "Dopamine Nation: Finding Balance in the Age of Indulgence",
+      "shortlink": "Dopamine Nation",
       "text": "An exploration of how dopamine shapes pleasure, motivation, and addiction. The book discusses how modern habits amplify cravings and offers approaches for finding balance and self-control."
    },
    {
@@ -124,7 +124,7 @@ var achievements = [
       "type": "audiobook",
       "date": "February 10th, 2023",
       "link": "https://www.audible.com/pd/Starry-Messenger-Audiobook/B09Q7SMLX8",
-      "shortlink": "Starry Messenger - Cosmic Perspectives on Civilization",
+      "shortlink": "Starry Messenger",
       "text": "An exploration of how insights from modern astrophysics connect to everyday human life. The book examines themes such as science, society, and culture, offering a cosmic perspective on the challenges of civilization."
    },
    {

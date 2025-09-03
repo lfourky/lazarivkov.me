@@ -701,7 +701,7 @@ p {
 }
 
 .card-type-icon.audiobook {
-    background: linear-gradient(135deg, #ec4899, #be185d);
+    background: #cccf00d9;
 }
 
 .card-type-icon.course {
