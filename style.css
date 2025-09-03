@@ -647,6 +647,33 @@ p {
     border-color: var(--primary-blue);
 }
 
+/* Expanded achievement card - highlighted state */
+.achievement-card.expanded {
+    border: 3px solid var(--primary-blue);
+    box-shadow: var(--shadow-glow);
+    transform: translateY(-4px);
+    background: linear-gradient(135deg, #ffffff, #f8fafc);
+    position: relative;
+}
+
+.achievement-card.expanded::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(135deg, var(--primary-blue), var(--accent-teal));
+    border-radius: var(--radius-sm);
+    z-index: -1;
+    opacity: 0.1;
+}
+
+.achievement-card.expanded .card-type-icon {
+    transform: scale(1.15);
+    box-shadow: 0 6px 20px rgba(59, 130, 246, 0.3);
+}
+
 .card-header {
     display: flex;
     justify-content: flex-end;

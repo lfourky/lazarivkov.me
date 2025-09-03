@@ -53,7 +53,7 @@ var achievements = [
       "date": "September 24th, 2024",
       "link": "https://www.audible.com/pd/How-to-Know-a-Person-Audiobook/B0BXFPF388",
       "shortlink": "How to Know a Person - The Art of Seeing Others Deeply and Being Deeply Seen",
-      "text": "This audiobook focuses on the art of human connection, showing ways to understand others more deeply and to communicate in ways that allow both sides to feel truly seen."
+      "text": "A guide to building deeper human connections. The book explores how to understand others more fully and how to communicate in ways that allow people to feel truly seen."
    },
    {
       "id": 166,
@@ -69,7 +69,7 @@ var achievements = [
       "date": "August 15th, 2024",
       "link": "https://www.audible.com/pd/The-Mountain-Is-You-Audiobook/B09WY6Z8KD",
       "shortlink": "The Mountain Is You - Transforming Self-Sabotage into Self-Mastery",
-      "text": "This audiobook examines patterns of self-sabotage and how they interfere with personal growth. It provides strategies for recognizing these behaviors and transforming them into constructive habits that support self-mastery."
+      "text": "An examination of self-sabotage and how it blocks personal growth. The book offers methods to recognize destructive patterns and transform them into practices that lead to self-mastery."
    },
    {
       "id": 164,
@@ -85,7 +85,7 @@ var achievements = [
       "date": "November 25th, 2023",
       "link": "https://www.audible.com/pd/Difficult-Conversations-Audiobook/B002V59YHM",
       "shortlink": "Difficult Conversations - How to Discuss What Matters Most",
-      "text": "This audiobook explains how to approach sensitive or high-stakes conversations. It provides tools for listening, expressing views clearly, and handling disagreements without escalating conflict."
+      "text": "Guidance on how to handle important and sensitive discussions. The book outlines methods for listening carefully, expressing yourself clearly, and resolving disagreements without unnecessary conflict."
    },
    {
       "id": 162,
@@ -93,7 +93,7 @@ var achievements = [
       "date": "November 5th, 2023",
       "link": "https://www.audible.com/pd/Think-Like-a-Rocket-Scientist-Audiobook/1549144936",
       "shortlink": "Think Like a Rocket Scientist - Simple Strategies You Can Use to Make Giant Leaps in Work and Life",
-      "text": "The audiobook introduces strategies from rocket science that can be applied to everyday challenges. It emphasizes problem-solving, critical thinking, and expanding perspective to make bold decisions in work and life."
+      "text": "Strategies from rocket science are applied to everyday life and work. The book shows how to think more creatively, solve complex problems, and make bold decisions with confidence."
    },
    {
       "id": 161,
@@ -101,7 +101,7 @@ var achievements = [
       "date": "September 1st, 2023",
       "link": "https://www.amazon.com/Dopamine-Nation-Finding-Balance-Indulgence/dp/152474672X",
       "shortlink": "Dopamine Nation: Finding Balance in the Age of Indulgence",
-      "text": "This audiobook examines the role of dopamine in the brain and its impact on pleasure, addiction, and self-control. It explores how modern lifestyles amplify reward-seeking behaviors and how balance can be restored."
+      "text": "An exploration of how dopamine shapes pleasure, motivation, and addiction. The book discusses how modern habits amplify cravings and offers approaches for finding balance and self-control."
    },
    {
       "id": 160,
@@ -109,7 +109,7 @@ var achievements = [
       "date": "July 25th, 2023",
       "link": "https://www.oreilly.com/library/view/building-event-driven-microservices/9781492057888/",
       "shortlink": "Building Event-Driven Microservices",
-      "text": ""
+      "text": "A practical guide to designing and implementing microservices that communicate through events. The book covers architectural principles, data flow, scalability, and best practices for building reliable distributed systems."
    },
    {
       "id": 159,
@@ -117,7 +117,7 @@ var achievements = [
       "date": "July 23rd, 2023",
       "link": "https://www.audible.com/pd/101-Essays-That-Will-Change-the-Way-You-Think-Audiobook/1977386865?action_code=ASSGB149080119000H&share_location=pdp",
       "shortlink": "101 Essays That Will Change the Way You Think",
-      "text": ""
+      "text": "A collection of essays that explore perspectives on self-awareness, relationships, habits, and personal growth. The book encourages reflection on how thoughts shape behavior and decision-making."
    },
    {
       "id": 158,
@@ -125,7 +125,7 @@ var achievements = [
       "date": "February 10th, 2023",
       "link": "https://www.audible.com/pd/Starry-Messenger-Audiobook/B09Q7SMLX8",
       "shortlink": "Starry Messenger - Cosmic Perspectives on Civilization",
-      "text": ""
+      "text": "An exploration of how insights from modern astrophysics connect to everyday human life. The book examines themes such as science, society, and culture, offering a cosmic perspective on the challenges of civilization."
    },
    {
       "id": 157,
@@ -1414,7 +1414,7 @@ function getAchievementTemplate(achievement) {
             <div class="card-text-container">
                 <p class="card-text">${shortText}</p>
                 ${hasLongText ? `<p class="card-text-full" style="display: none;">${achievement.text}</p>` : ''}
-                ${hasLongText ? `<button class="view-more-btn" onclick="toggleText(${achievement.id})">View More</button>` : ''}
+                ${hasLongText ? `<button class="view-more-btn">View More</button>` : ''}
             </div>
         </div>
     `;
@@ -1464,8 +1464,10 @@ function populateAchievements() {
     // Update counts
     updateCounts();
     
-    // Add click event listeners to cards
-    addCardEventListeners();
+    // Add click event listeners to cards with a small delay to ensure DOM is ready
+    setTimeout(() => {
+        addCardEventListeners();
+    }, 100);
 }
 
 // Update achievement counts (always counts from all achievements, not filtered ones)
@@ -1499,7 +1501,11 @@ function updateCounts() {
 // Add event listeners to achievement cards
 function addCardEventListeners() {
     const cards = document.querySelectorAll('.achievement-card');
-    cards.forEach(card => {
+    console.log('Found cards to add event listeners:', cards.length);
+    
+    cards.forEach((card, index) => {
+        console.log(`Adding event listeners to card ${index + 1}, ID:`, card.dataset.id);
+        
         // Add hover effects
         card.addEventListener('mouseenter', () => {
             card.style.transform = 'translateY(-8px)';
@@ -1517,8 +1523,23 @@ function addCardEventListeners() {
             }
             
             const achievementId = parseInt(card.dataset.id);
+            console.log('Card clicked, toggling text for ID:', achievementId);
             toggleText(achievementId);
         });
+        
+        // Add event listener directly to View More button
+        const viewMoreBtn = card.querySelector('.view-more-btn');
+        if (viewMoreBtn) {
+            console.log(`Found View More button for card ${index + 1}, adding click listener`);
+            viewMoreBtn.addEventListener('click', (event) => {
+                event.stopPropagation(); // Prevent card click event
+                const achievementId = parseInt(card.dataset.id);
+                console.log('View More button clicked, toggling text for ID:', achievementId);
+                toggleText(achievementId);
+            });
+        } else {
+            console.log(`No View More button found for card ${index + 1}`);
+        }
     });
 }
 
@@ -1932,6 +1953,9 @@ function toggleText(achievementId) {
         viewMoreBtn.textContent = 'View More';
         card.classList.remove('expanded');
         expandedAchievementId = null;
+        
+        // Remove achievement ID from URL when collapsing
+        updateURL(null);
         return;
     }
     
@@ -1939,13 +1963,11 @@ function toggleText(achievementId) {
     if (expandedAchievementId !== null) {
         const prevCard = document.querySelector(`[data-id="${expandedAchievementId}"]`);
         if (prevCard) {
-            const prevShortText = prevCard.querySelector('.card-text');
-            const prevFullText = prevCard.querySelector('.card-text-full');
+            const prevShortText = prevCard.querySelector('.card-text-full');
             const prevViewMoreBtn = prevCard.querySelector('.view-more-btn');
             
-            if (prevShortText && prevFullText && prevViewMoreBtn) {
-                prevShortText.style.display = 'block';
-                prevFullText.style.display = 'none';
+            if (prevShortText && prevViewMoreBtn) {
+                prevShortText.style.display = 'none';
                 prevViewMoreBtn.textContent = 'View More';
                 prevCard.classList.remove('expanded');
             }
@@ -1958,6 +1980,42 @@ function toggleText(achievementId) {
     viewMoreBtn.textContent = 'View Less';
     card.classList.add('expanded');
     expandedAchievementId = achievementId;
+    
+    // Update URL with achievement ID
+    updateURL(achievementId);
+}
+
+// Function to update URL with achievement ID
+function updateURL(achievementId) {
+    if (achievementId) {
+        // Add achievement ID to URL with shorter format
+        const newURL = `${window.location.pathname}#a${achievementId}`;
+        window.history.pushState({ achievementId }, '', newURL);
+    } else {
+        // Remove achievement ID from URL
+        const newURL = window.location.pathname;
+        window.history.pushState({}, '', newURL);
+    }
+}
+
+// Function to check URL and expand achievement if ID is present
+function checkURLForAchievement() {
+    const hash = window.location.hash;
+    if (hash && hash.startsWith('#a')) {
+        const achievementId = parseInt(hash.replace('#a', ''));
+        if (achievementId && !isNaN(achievementId)) {
+            // Wait a bit for cards to be populated, then expand
+            setTimeout(() => {
+                const card = document.querySelector(`[data-id="${achievementId}"]`);
+                if (card) {
+                    // Scroll to the card
+                    card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    // Expand the card
+                    toggleText(achievementId);
+                }
+            }, 500);
+        }
+    }
 }
 
 // Global variables for filtering
@@ -1971,6 +2029,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Populate achievements
     populateAchievements();
+    
+    // Check if URL contains achievement ID and expand it
+    checkURLForAchievement();
     
     // Add filter tab event listeners
     const filterTabs = document.querySelectorAll('.filter-tab');
@@ -1986,6 +2047,11 @@ document.addEventListener('DOMContentLoaded', function() {
             // Update current filter and repopulate
             currentFilter = tab.dataset.filter;
             populateAchievements();
+            
+            // Check URL again after repopulating (in case filter changed)
+            setTimeout(() => {
+                checkURLForAchievement();
+            }, 600);
         });
     });
     
@@ -1996,6 +2062,11 @@ document.addEventListener('DOMContentLoaded', function() {
         searchInput.addEventListener('input', (e) => {
             currentSearchQuery = e.target.value.toLowerCase();
             populateAchievements();
+            
+            // Check URL again after repopulating (in case search changed)
+            setTimeout(() => {
+                checkURLForAchievement();
+            }, 600);
         });
     } else {
         console.log('Search input NOT found');
