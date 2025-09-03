@@ -769,10 +769,13 @@ p {
     font-weight: 400;
     cursor: pointer;
     padding: var(--spacing-xs) 0;
-    text-decoration: underline;
+    text-decoration: none;
     transition: var(--transition);
     font-style: normal;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .view-more-btn:hover {

@@ -1508,6 +1508,17 @@ function addCardEventListeners() {
         card.addEventListener('mouseleave', () => {
             card.style.transform = 'translateY(0)';
         });
+        
+        // Add click event listener to expand/collapse text
+        card.addEventListener('click', (event) => {
+            // Don't trigger if clicking on title link
+            if (event.target.closest('.title-link')) {
+                return;
+            }
+            
+            const achievementId = parseInt(card.dataset.id);
+            toggleText(achievementId);
+        });
     });
 }
 
@@ -1919,6 +1930,7 @@ function toggleText(achievementId) {
         shortText.style.display = 'block';
         fullText.style.display = 'none';
         viewMoreBtn.textContent = 'View More';
+        card.classList.remove('expanded');
         expandedAchievementId = null;
         return;
     }
@@ -1935,6 +1947,7 @@ function toggleText(achievementId) {
                 prevShortText.style.display = 'block';
                 prevFullText.style.display = 'none';
                 prevViewMoreBtn.textContent = 'View More';
+                prevCard.classList.remove('expanded');
             }
         }
     }
@@ -1943,6 +1956,7 @@ function toggleText(achievementId) {
     shortText.style.display = 'none';
     fullText.style.display = 'block';
     viewMoreBtn.textContent = 'View Less';
+    card.classList.add('expanded');
     expandedAchievementId = achievementId;
 }
 
