@@ -133,7 +133,7 @@ var achievements = [
       "date": "December 25th, 2022",
       "link": "https://www.thegreatcourses.com/courses/optimizing-brain-fitness",
       "shortlink": "TGC - Optimizing Brain Fitness",
-      "text": "A comprehensive course on cognitive enhancement techniques, memory improvement strategies, and brain health optimization for peak mental performance."
+      "text": "A course on how to strengthen memory, focus, and problem-solving through mental exercises. It explains the science of brain plasticity and presents techniques for improving cognitive performance."
    },
    {
       "id": 156,
@@ -141,7 +141,7 @@ var achievements = [
       "date": "November 26th, 2022",
       "link": "https://www.amazon.com/Software-Architecture-Parts-Neal-Ford-ebook-dp-B09H2H5QKC/dp/B09H2H5QKC",
       "shortlink": "Software Architecture: The Hard Parts",
-      "text": ""
+      "text": "A guide to making architectural decisions in complex software systems. The book addresses trade-offs, modular design, communication patterns, and strategies for managing uncertainty in large-scale development."
    },
    {
       "id": 155,
@@ -149,7 +149,7 @@ var achievements = [
       "date": "November 5th, 2022",
       "link": "https://www.audible.com/pd/Indistractable-Audiobook/B07SXBB3FS",
       "shortlink": "Indistractable",
-      "text": ""
+      "text": "An analysis of why attention is often lost to distractions and how to regain control. The book provides methods for building focus, managing triggers, and creating habits that support sustained productivity."
    },
    {
       "id": 154,
