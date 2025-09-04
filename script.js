@@ -597,7 +597,7 @@ var achievements = [
       "date": "July 28th, 2019",
       "link": "https://frontendmasters.com/courses/design-for-developers/",
       "shortlink": "Design for Developers",
-      "text": ""
+      "text": "Teaches developers the fundamentals of design so they can create user interfaces with clarity and confidence. Topics include layout, typography, color, and visual hierarchy applied directly to coding projects."
    },
    {
       "id": 98,
@@ -605,7 +605,7 @@ var achievements = [
       "date": "June 28th, 2019",
       "link": "https://www.audible.com/pd/What-If-Audiobook/B00LV6V4UW",
       "shortlink": "What If?",
-      "text": ""
+      "text": "Uses science and math to answer imaginative “what if” questions. Explores scenarios that range from bizarre to impossible, showing how the laws of physics would play out in extreme situations."
    },
    {
       "id": 97,
@@ -613,7 +613,7 @@ var achievements = [
       "date": "June 8th, 2019",
       "link": "https://www.audible.com/pd/Never-Split-the-Difference-Audiobook/B01CF5O89G",
       "shortlink": "Never Split the Difference",
-      "text": ""
+      "text": "Explains negotiation techniques drawn from real-world high-stakes situations. Shows how empathy, tactical questioning, and emotional intelligence can shift outcomes in both professional and personal settings."
    },
    {
       "id": 96,
@@ -621,7 +621,7 @@ var achievements = [
       "date": "June 7th, 2019",
       "link": "https://www.audible.com/pd/Bad-Blood-Audiobook/B07C8GVTB5",
       "shortlink": "Bad Blood",
-      "text": "Damn."
+      "text": "Tells the story of Theranos, the biotech startup that promised revolutionary blood testing. Reveals how ambition, secrecy, and deception led to one of Silicon Valley’s biggest scandals."
    },
    {
       "id": 95,
@@ -629,7 +629,7 @@ var achievements = [
       "date": "May 16th, 2019",
       "link": "http://shop.oreilly.com/product/0636920032175.do",
       "shortlink": "Designing Data-Intensive Applications",
-      "text": "Easily took the first spot in my favorite books' list."
+      "text": "Explores how to build modern systems that handle large-scale data reliably. Covers storage, distributed systems, scalability, and the trade-offs engineers face when designing applications at scale."
    },
    {
       "id": 94,
@@ -637,7 +637,7 @@ var achievements = [
       "date": "April 18th, 2019",
       "link": "https://www.audible.com/pd/If-I-Understood-You-Would-I-Have-This-Look-on-My-Face-Audiobook/B06XNVXN7G",
       "shortlink": "If I Understood You, Would I Have This Look on My Face?",
-      "text": ""
+      "text": "Explores the art of communication and how to connect more effectively with others. Focuses on listening, empathy, and storytelling as tools for building clearer understanding."
    },
    {
       "id": 93,
@@ -645,15 +645,15 @@ var achievements = [
       "date": "March 27th, 2019",
       "link": "https://www.audible.com/pd/Extreme-Ownership-Audiobook/B015TVHUA2",
       "shortlink": "Extreme Ownership",
-      "text": ""
+      "text": "Presents leadership lessons based on experiences in the Navy SEALs. Emphasizes responsibility, discipline, and teamwork as principles that apply in both military and business settings."
    },
    {
       "id": 92,
       "type": "audiobook",
       "date": "March 2nd, 2019",
       "link": "https://www.audible.com/pd/Big-Data-Audiobook/B00D35YRPS",
-      "shortlink": "Big Data - A Revolution That Will Transform How We Live, Work, and Think",
-      "text": ""
+      "shortlink": "Big Data",
+      "text": "Examines how vast amounts of data are reshaping business, science, and daily life. Describes the opportunities and risks of data-driven decision-making in a connected world."
    },
    {
       "id": 91,
@@ -661,7 +661,7 @@ var achievements = [
       "date": "February 1st, 2019",
       "link": "https://www.pluralsight.com/courses/rethinking-asynchronous-programming",
       "shortlink": "Rethinking Asynchronous Programming",
-      "text": ""
+      "text": "A course that revisits asynchronous programming models with modern practices. Explains how concurrency, promises, and reactive patterns can be used to write more efficient and maintainable software."
    },
    {
       "id": 90,
@@ -669,7 +669,7 @@ var achievements = [
       "date": "January 26th, 2019",
       "link": "https://www.pluralsight.com/courses/react-practical-start",
       "shortlink": "A Practical Start with React",
-      "text": ""
+      "text": "Introduces the essentials of building applications with React. Step by step, it explains components, state, and props, leading to a foundation for creating interactive interfaces."
    },
    {
       "id": 89,
@@ -677,7 +677,7 @@ var achievements = [
       "date": "January 21st, 2019",
       "link": "https://www.pluralsight.com/courses/regular-expressions-fundamentals",
       "shortlink": "Regular Expression Fundamentals",
-      "text": ""
+      "text": "Explains the basics of working with regular expressions. Shows how to write and apply patterns for searching, validating, and transforming text."
    },
    {
       "id": 88,
@@ -685,7 +685,7 @@ var achievements = [
       "date": "January 20th, 2019",
       "link": "https://www.pluralsight.com/courses/security-architecture-design-big-picture",
       "shortlink": "Security Architecture and Design: The Big Picture",
-      "text": ""
+      "text": "Provides an overview of security principles in software architecture. Highlights core concepts, common threats, and the strategies used to design secure systems."
    },
    {
       "id": 87,
@@ -693,7 +693,7 @@ var achievements = [
       "date": "January 9th, 2019",
       "link": "https://www.pluralsight.com/courses/react-js-getting-started",
       "shortlink": "React.js: Getting Started",
-      "text": ""
+      "text": "Covers the fundamentals of React for new developers. Walks through building simple components, managing state, and creating responsive user interfaces."
    },
    {
       "id": 86,
@@ -701,7 +701,7 @@ var achievements = [
       "date": "January 5th, 2019",
       "link": "https://www.pluralsight.com/courses/bigdata-bigpicture",
       "shortlink": "Big Data: The Big Picture",
-      "text": ""
+      "text": "Explains what big data is and why it matters in modern computing. Outlines its applications, challenges, and the role it plays in shaping business and technology."
    },
    {
       "id": 85,
@@ -709,7 +709,7 @@ var achievements = [
       "date": "January 5th, 2019",
       "link": "https://www.pluralsight.com/courses/cqrs-theory-practice",
       "shortlink": "Patterns for Building Distributed Systems for The Enterprise",
-      "text": ""
+      "text": "Explores architectural patterns for building large-scale distributed systems. Discusses CQRS, event sourcing, and other approaches to designing reliable and maintainable enterprise applications."
    },
    {
       "id": 84,
@@ -717,7 +717,7 @@ var achievements = [
       "date": "December 14th, 2018",
       "link": "https://www.pluralsight.com/courses/eda",
       "shortlink": "The Elements of Distributed Architecture",
-      "text": ""
+      "text": "Introduces the principles behind building distributed systems. Covers scalability, resilience, communication patterns, and the trade-offs engineers face when designing large-scale applications."
    },
    {
       "id": 83,
@@ -725,7 +725,7 @@ var achievements = [
       "date": "December 26th, 2018",
       "link": "https://www.audible.com/pd/How-to-Win-Friends-Influence-People-Audiobook/B002V5BV96",
       "shortlink": "How to Win Friends & Influence People",
-      "text": ""
+      "text": "Explains practical techniques for improving communication and relationships. Focuses on building trust, persuading effectively, and creating positive connections in personal and professional settings."
    },
    {
       "id": 82,
@@ -733,7 +733,7 @@ var achievements = [
       "date": "December 24th, 2018",
       "link": "https://www.pluralsight.com/courses/react-big-picture",
       "shortlink": "React: The Big Picture",
-      "text": ""
+      "text": "Provides an overview of React and why it is widely used for modern web development. Explains its core concepts, ecosystem, and how it fits into building scalable applications."
    },
    {
       "id": 81,
@@ -741,7 +741,7 @@ var achievements = [
       "date": "December 23rd, 2018",
       "link": "https://www.amazon.com/Architecting-Scale-Availability-Growing-Applications/dp/1491943394",
       "shortlink": "Architecting for Scale",
-      "text": ""
+      "text": "Focuses on strategies for keeping large applications reliable as they grow. Addresses availability, monitoring, risk management, and how to prepare systems for unexpected failures."
    },
    {
       "id": 80,
@@ -749,23 +749,15 @@ var achievements = [
       "date": "December 14th, 2018",
       "link": "https://www.pluralsight.com/courses/git-advanced-tips-tricks",
       "shortlink": "Advanced Git Tips and Tricks",
-      "text": ""
+      "text": "Explores advanced features of Git that go beyond basic version control. Topics include branching strategies, rebasing, conflict resolution, and tools for managing complex workflows."
    },
-   // {
-   //    "id": 79,
-   //    "title": "Completed a personal GitHub project",
-   //    "date": "November 29th, 2018",
-   //    "link": "https://github.com/lfourky/last-docker-tag",
-   //    "shortlink": "github.com/lfourky/last-docker-tag",
-   //    "text": ""
-   // },
    {
       "id": 78,
       "type": "audiobook",
       "date": "November 5th, 2018",
       "link": "https://www.amazon.com/AUDIO-BOOK-Influence-Science-Practice/dp/0615513182",
       "shortlink": "Influence: Science and Practice",
-      "text": ""
+      "text": "Explores the psychology of persuasion and why people say “yes.” Identifies key principles such as reciprocity, authority, and social proof, and explains how they shape decision-making."
    },
    {
       "id": 77,
@@ -773,7 +765,7 @@ var achievements = [
       "date": "October 20th, 2018",
       "link": "https://www.udacity.com/course/human-computer-interaction--ud400",
       "shortlink": "Human-Computer Interaction",
-      "text": ""
+      "text": "A course on the design of effective interfaces between people and technology. Covers usability, design principles, prototyping, and how users interact with digital systems."
    },
    {
       "id": 76,
@@ -781,7 +773,7 @@ var achievements = [
       "date": "October 20th, 2018",
       "link": "https://mitpress.mit.edu/books/algorithms-unlocked",
       "shortlink": "Algorithms Unlocked",
-      "text": ""
+      "text": "Provides an accessible introduction to algorithms and how they solve problems. Explains core ideas like sorting, searching, and graph traversal without requiring advanced math."
    },
    {
       "id": 75,
@@ -789,7 +781,7 @@ var achievements = [
       "date": "October 15th, 2018",
       "link": "https://www.apress.com/us/book/9781484210741",
       "shortlink": "Scalability Patterns",
-      "text": ""
+      "text": "Presents patterns for building software systems that can handle growth. Discusses techniques for performance optimization, resource management, and distributed design."
    },
    {
       "id": 74,
@@ -797,7 +789,7 @@ var achievements = [
       "date": "October 13th, 2018",
       "link": "https://www.pluralsight.com/courses/mysql-query-optimization-performance-tuning",
       "shortlink": "MySQL Query Optimization and Performance Tuning",
-      "text": ""
+      "text": "Teaches how to improve the performance of MySQL databases through query optimization. Covers indexing, execution plans, and tuning strategies for handling large-scale data."
    },
    {
       "id": 73,
@@ -805,7 +797,7 @@ var achievements = [
       "date": "October 12th, 2018",
       "link": "https://www.apress.com/us/book/9781484228869",
       "shortlink": "Advanced Microservices",
-      "text": ""
+      "text": "Focuses on techniques for building, deploying, and scaling microservice-based systems. Includes patterns for service communication, resilience, and system monitoring."
    },
    {
       "id": 72,
@@ -813,7 +805,7 @@ var achievements = [
       "date": "October 2nd, 2018",
       "link": "http://shop.oreilly.com/product/0636920039297.do",
       "shortlink": "Infrastructure as Code",
-      "text": "Awesome."
+      "text": "Explains how to manage infrastructure using the same practices as software development. Covers automation, version control, and tools that make systems more reliable and repeatable."
    },
    {
       "id": 71,
@@ -821,15 +813,15 @@ var achievements = [
       "date": "October 1st, 2018",
       "link": "https://www.pluralsight.com/courses/pragmatic-unit-testing",
       "shortlink": "Building a Pragmatic Unit Test Suite",
-      "text": ""
+      "text": "A course on designing unit tests that add real value to projects. Demonstrates how to write maintainable tests, avoid redundancy, and improve code quality through effective testing strategies."
    },
    {
       "id": 70,
       "type": "course",
       "date": "September 24th, 2018",
       "link": "https://www.pluralsight.com/courses/continuous-integration-delivery-big-picture",
-      "shortlink": "Continuous Integration and Continuous Delivery: The Big Picture",
-      "text": "Another shorter course to fill up time required to prepare some meals and exercise."
+      "shortlink": "Continuous Integration and Continuous Delivery",
+      "text": "Introduces the principles of continuous integration and delivery. Explains how automated builds, testing, and deployment pipelines accelerate software delivery and improve reliability."
    },
    {
       "id": 69,
@@ -837,7 +829,7 @@ var achievements = [
       "date": "September 24th, 2018",
       "link": "https://www.pluralsight.com/courses/understanding-machine-learning",
       "shortlink": "Understanding Machine Learning",
-      "text": "Just something to kill time with. :)"
+      "text": "Covers the foundations of machine learning and how algorithms learn from data. Provides an overview of common models and their applications in real-world problems."
    },
    {
       "id": 68,
@@ -845,7 +837,7 @@ var achievements = [
       "date": "August 10th, 2018",
       "link": "http://shop.oreilly.com/product/0636920052036.do",
       "shortlink": "Understanding Compression",
-      "text": "What a fantastic book!"
+      "text": "Explains how data compression works and why it matters in modern computing. Covers algorithms, formats, and practical techniques for reducing storage and transmission costs."
    },
    {
       "id": 67,
@@ -853,31 +845,15 @@ var achievements = [
       "date": "July 15th, 2018",
       "link": "http://shop.oreilly.com/product/0636920039334.do",
       "shortlink": "Decentralized Applications",
-      "text": "As I see it, it's a good introduction book for showing what kind of apps can be built using blockchain technology."
+      "text": "An introduction to applications built on blockchain technology. Describes how decentralized systems work, what can be built with them, and the challenges of adoption."
    },
-   // {
-   //    "id": 66,
-   //    "title": "Completed a personal GitHub project",
-   //    "date": "July 14th, 2018",
-   //    "link": "https://github.com/lfourky/definitely-not-an-illegal-book-downloader",
-   //    "shortlink": "github.com/lfourky/definitely-not-an-illegal-book-downloader",
-   //    "text": "Basically, not everyone can pay for books. And everyone should be able to access them. Just my two cents on the topic."
-   // },
-   // {
-   //    "id": 65,
-   //    "title": "Completed a personal GitHub project",
-   //    "date": "June 29th, 2018",
-   //    "link": " https://github.com/lfourky/go-quicksort",
-   //    "shortlink": "github.com/lfourky/go-quicksort",
-   //    "text": ""
-   // },
    {
       "id": 64,
       "type": "audiobook",
       "date": "June 21st, 2018",
       "link": "https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592",
       "shortlink": "The Phoenix Project",
-      "text": "Enjoyed this one quite a lot."
+      "text": "A novel about an IT manager tasked with rescuing a failing project. Through the story, it illustrates DevOps principles, collaboration, and how technology can better support business goals."
    },
    {
       "id": 63,
@@ -885,7 +861,7 @@ var achievements = [
       "date": "June 19th, 2018",
       "link": "http://shop.oreilly.com/product/0636920072768.do",
       "shortlink": "Designing Distributed Systems",
-      "text": "A surprising amount of Kubernetes examples can be found in this book, but, I'm just fine with it. Overall a pretty good book."
+      "text": "Explains patterns and practices for building scalable and resilient distributed applications. Includes practical examples, with a focus on Kubernetes as a platform for implementation."
    },
    {
       "id": 62,
@@ -893,7 +869,7 @@ var achievements = [
       "date": "June 18th, 2018",
       "link": "https://www.udacity.com/course/computer-networking--ud436",
       "shortlink": "Computer Networking",
-      "text": "A bit more advanced course on networking this time. Still not there, yet."
+      "text": "A course on the fundamentals of how computer networks operate. Covers layers of communication, protocols, and the architecture that connects systems across the internet."
    },
    {
       "id": 61,
@@ -901,7 +877,7 @@ var achievements = [
       "date": "June 16th, 2018",
       "link": "https://www.pluralsight.com/courses/practical-networking",
       "shortlink": "Practical Networking",
-      "text": ""
+      "text": "Introduces networking concepts in a hands-on way. Explains how data flows between devices, how protocols interact, and how to reason about networks in real-world scenarios."
    },
    {
       "id": 60,
@@ -909,7 +885,7 @@ var achievements = [
       "date": "June 3rd, 2018",
       "link": "https://www.udacity.com/course/networking-for-web-developers--ud256",
       "shortlink": "Networking for Web Developers",
-      "text": "Served as a nice intro to a more in-depth course that I'm planning to take after this one."
+      "text": "Focuses on networking topics most relevant to web development. Explains DNS, HTTP, sockets, and other concepts that underpin communication between browsers, servers, and APIs."
    },
    {
       "id": 59,
@@ -917,7 +893,7 @@ var achievements = [
       "date": "June 2nd, 2018",
       "link": "https://www.audible.com/pd/Science-Technology/The-Elegant-Universe-Audiobook/B002V0TEUO",
       "shortlink": "The Elegant Universe",
-      "text": ""
+      "text": "Explores modern physics, from relativity to string theory. Describes the quest to unify the fundamental forces of nature and what this means for understanding the universe."
    },
    {
       "id": 58,
@@ -925,7 +901,7 @@ var achievements = [
       "date": "May 28th, 2018",
       "link": "http://shop.oreilly.com/product/0636920043874.do",
       "shortlink": "Kubernetes: Up and Running",
-      "text": "Yeah, definitely cool."
+      "text": "Introduces Kubernetes as a system for managing containerized applications. Explains how to deploy, scale, and operate workloads using clusters."
    },
    {
       "id": 57,
@@ -933,7 +909,7 @@ var achievements = [
       "date": "May 19th, 2018",
       "link": "https://www.pluralsight.com/courses/getting-started-kubernetes",
       "shortlink": "Getting Started with Kubernetes",
-      "text": "Well, it seems that Kubernetes is really cool."
+      "text": "A beginner-friendly course on Kubernetes fundamentals. Covers core concepts like pods, deployments, services, and how they work together to orchestrate applications."
    },
    {
       "id": 56,
@@ -941,7 +917,7 @@ var achievements = [
       "date": "May 18th, 2018",
       "link": "https://www.pluralsight.com/courses/implementing-devops-real-world",
       "shortlink": "Implementing DevOps in the Real World",
-      "text": "This course kind of took another route instead of the one I thought it'd take. Still, it was interesting to see the perspective of a senior director of product from Pivotal on this subject."
+      "text": "Looks at DevOps from a practical perspective. Discusses culture, workflows, and tools, with insights into how large organizations adopt DevOps practices."
    },
    {
       "id": 55,
@@ -949,7 +925,7 @@ var achievements = [
       "date": "May 13th, 2018",
       "link": " https://www.udacity.com/course/intro-to-devops--ud611",
       "shortlink": "Intro to DevOps",
-      "text": "Quite an interesting topic."
+      "text": "Covers the foundations of DevOps and why it matters in modern software development. Explains how collaboration, automation, and continuous delivery improve software delivery cycles."
    },
    {
       "id": 54,
@@ -957,7 +933,7 @@ var achievements = [
       "date": "May 12th, 2018",
       "link": " https://www.pluralsight.com/courses/protocol-buffers-beyond-json-xml",
       "shortlink": "Moving Beyond JSON and XML with Protocol Buffers",
-      "text": ""
+      "text": "Explains Protocol Buffers as a compact and efficient data serialization format. Shows how they compare to JSON and XML, and how they can be applied in distributed systems."
    },
    {
       "id": 53,
@@ -965,7 +941,7 @@ var achievements = [
       "date": "May 10th, 2018",
       "link": " https://www.pluralsight.com/courses/grpc-enhancing-application-communication",
       "shortlink": "Enhancing Application Communication with gRPC",
-      "text": ""
+      "text": "Explains how gRPC enables fast, type-safe communication between services. Covers defining APIs with Protocol Buffers and building efficient distributed applications."
    },
    {
       "id": 52,
@@ -973,23 +949,15 @@ var achievements = [
       "date": "April 20th, 2018",
       "link": "https://www.audible.com/pd/Science-Technology/Astrophysics-for-People-in-a-Hurry-Audiobook/B06X9MXN32",
       "shortlink": "Astrophysics for People in a Hurry",
-      "text": ""
+      "text": "Summarizes key concepts in modern astrophysics in a concise way. Touches on black holes, dark matter, quantum theory, and the origins of the universe."
    },
-   // {
-   //    "id": 51,
-   //    "title": "Completed a personal GitHub project",
-   //    "date": "April 17th, 2018",
-   //    "link": " https://github.com/lfourky/file-splitter",
-   //    "shortlink": "github.com/lfourky/file-splitter",
-   //    "text": "I've made this program quite a while ago, but never had any description or an example of how to use it in the repo. Now I've added an example and modified the code a bit to be a bit friendlier to read."
-   // },
    {
       "id": 50,
       "type": "course",
       "date": "April 17th, 2018",
       "link": " http://shop.oreilly.com/product/0636920039518.do",
       "shortlink": "Distributed Systems",
-      "text": ""
+      "text": "Introduces the fundamental principles of distributed computing. Explains concepts like replication, consensus, fault tolerance, and the trade-offs of scaling systems."
    },
    {
       "id": 49,
@@ -997,7 +965,7 @@ var achievements = [
       "date": "April 6th, 2018",
       "link": " http://shop.oreilly.com/product/0636920047513.do",
       "shortlink": "Intermediate Go Programming",
-      "text": "Refreshing my Go skeelz."
+      "text": "Builds on Go basics to cover more advanced topics. Includes concurrency patterns, interfaces, error handling, and techniques for writing more idiomatic Go code."
    },
    {
       "id": 48,
@@ -1005,7 +973,7 @@ var achievements = [
       "date": "April 3rd, 2018",
       "link": " https://www.udacity.com/course/gt-refresher-advanced-os--ud098",
       "shortlink": "Intro to Advanced Operating Systems",
-      "text": "A very nice introduction to memory & file systems, multithreaded programming and networking."
+      "text": "Focuses on core ideas behind advanced operating systems. Topics include memory and file management, multithreading, scheduling, and networking."
    },
    {
       "id": 47,
@@ -1013,23 +981,23 @@ var achievements = [
       "date": "March 25th, 2018",
       "link": " https://www.udacity.com/course/intro-to-theoretical-computer-science--cs313",
       "shortlink": "Intro to Theoretical Computer Science",
-      "text": "Quite a lot of challenging and thought-provoking problems. I liked it."
+      "text": "Explores the mathematical foundations of computer science. Covers complexity, algorithms, computation limits, and problem-solving through formal models."
    },
    {
       "id": 46,
       "type": "course",
       "date": "March 24th, 2018",
       "link": " http://shop.oreilly.com/product/0636920024774.do",
-      "shortlink": "Mastering Advanced Git (O'Reilly)",
-      "text": "Time well spent, I'd say."
+      "shortlink": "Mastering Advanced Git",
+      "text": "Dives into advanced Git workflows and techniques. Explains rebasing, branching models, history rewriting, and strategies for collaboration in large projects."
    },
    {
       "id": 45,
       "type": "course",
       "date": "March 13th, 2018",
       "link": " http://shop.oreilly.com/product/0636920017462.do",
-      "shortlink": "Mastering Git (O'Reilly)",
-      "text": "It's time to git serious. (ughhh that didn't sound as good as I thought it might...) Anyways, a nice course."
+      "shortlink": "Mastering Git",
+      "text": "Covers Git in depth, from branching and merging to advanced workflows. Explains how to manage history, collaborate effectively, and use Git’s more powerful features with confidence."
    },
    {
       "id": 44,
@@ -1037,23 +1005,15 @@ var achievements = [
       "date": "March 12th, 2018",
       "link": "https://www.amazon.com/Rich-Dad-Poor-Teach-Middle/dp/1543626610",
       "shortlink": "Rich Dad Poor Dad",
-      "text": "Quite an interesting book. Perhaps not life changing, but certainly valuable and worth reading / listening to."
+      "text": "Shares lessons about money and financial independence through contrasting perspectives of two father figures. Highlights ideas about assets, liabilities, and developing a mindset for building wealth."
    },
-   // {
-   //    "id": 43,
-   //    "title": "Introduced Home Surveillance",
-   //    "date": "February 23th, 2018",
-   //    "link": "",
-   //    "shortlink": "",
-   //    "text": "Created a system that monitors the room (Raspberry Pi 3, USB WebCam) for motion (OpenCV in C++) and, if motion is detected, it starts taking pictures. Then, the following happens: an app (written in Golang) sends out a notification (Firebase FCM, REST API) to a custom android application (Java), and it uploads the pictures to my Google Drive (Golang, GoogleDrive API)."
-   // },
    {
       "id": 42,
       "type": "course",
       "date": "February 19th, 2018",
       "link": " https://www.udacity.com/course/c-for-programmers--ud210",
       "shortlink": "C++ For Programmers",
-      "text": "~ meh"
+      "text": "A course that introduces C++ to those with prior programming experience. Covers language syntax, object-oriented design, memory management, and standard library features."
    },
    {
       "id": 41,
@@ -1061,7 +1021,7 @@ var achievements = [
       "date": "January 16th, 2018",
       "link": " http://www.pimsleur.com/learn-french",
       "shortlink": "Learn French (Pimsleur)",
-      "text": "Around 13 and a half hours of conversations in French. This course earns my highest recommendations, although it comes with a 'but'. Previously, before I even knew that this course existed, I finished all the French lessons on Duolingo, and I've played with some other similar apps (MosaLingua, Memrise...). I have no idea if I would be able to comprehend and absorb as much as I did, while listening to this course, if I didn't previously have at least basic knowledge of French. Still, I strongly recommend this course."
+      "text": "An audio-based language course focused on practical conversation. Uses repetition and listening exercises to build vocabulary, pronunciation, and comprehension step by step."
    },
    {
       "id": 40,
@@ -1069,15 +1029,15 @@ var achievements = [
       "date": "January 7th, 2018",
       "link": "https://www.udacity.com/course/firebase-in-a-weekend-by-google-android--ud0352",
       "shortlink": "Firebase in a Weekend: Android course by Google",
-      "text": "Firebase seems quite handy."
+      "text": "Introduces Firebase as a backend service for Android development. Walks through authentication, databases, and real-time features to quickly add functionality to apps."
    },
    {
       "id": 39,
       "type": "book",
       "date": "November 4th, 2017",
       "link": "https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems/dp/1491950358",
-      "shortlink": "Building Microservices: Designing Fine-Grained Systems",
-      "text": "Great introduction to microservices. And while I only scratched the surface by reading this book, I feel like I've found a lot of doors to open for further exploration - which makes me quite happy. :)"
+      "shortlink": "Building Microservices",
+      "text": "Explains the principles behind microservice architecture. Discusses service boundaries, communication patterns, and how to design systems that can scale and evolve."
    },
    {
       "id": 38,
@@ -1085,7 +1045,7 @@ var achievements = [
       "date": "August 15th, 2017",
       "link": "https://www.manning.com/books/docker-in-action",
       "shortlink": "Docker In Action",
-      "text": "What a great book! I definitely recommend it."
+      "text": "Covers the fundamentals of working with Docker to containerize applications. Demonstrates building, deploying, and managing containers in development and production environments."
    },
    {
       "id": 37,
@@ -1093,7 +1053,7 @@ var achievements = [
       "date": "August 12th, 2017",
       "link": "https://www.pluralsight.com/courses/integrating-docker-with-devops-automated-workflows",
       "shortlink": "Integrating Docker with DevOps Automated Workflows",
-      "text": "Since I'm almost done reading a book about Docker, I just wanted to 'harden' the knowledge by watching a course while I'm still reading the book. Anyways, this was a nice course."
+      "text": "Explains how Docker fits into DevOps pipelines. Demonstrates automated workflows for building, testing, and deploying containerized applications."
    },
    {
       "id": 36,
@@ -1101,7 +1061,7 @@ var achievements = [
       "date": "June 8th, 2017",
       "link": "https://www.manning.com/books/go-in-practice",
       "shortlink": "Go in Practice",
-      "text": "Woah, it's been a while since I've last read a technical book. This was quite refreshing, and the book was such a good read."
+      "text": "A collection of practical techniques and patterns for programming in Go. Covers concurrency, testing, web development, and strategies for writing robust applications."
    },
    {
       "id": 35,
@@ -1109,7 +1069,7 @@ var achievements = [
       "date": "June 7th, 2017",
       "link": "https://www.pluralsight.com/courses/docker-deep-dive",
       "shortlink": "Docker Deep Dive",
-      "text": ""
+      "text": "Provides an in-depth exploration of Docker. Explains container architecture, image creation, networking, and orchestration for running applications at scale."
    },
    {
       "id": 34,
@@ -1117,15 +1077,15 @@ var achievements = [
       "date": "May 20th, 2017",
       "link": "https://www.pluralsight.com/courses/go-horizontal-scaling-apps",
       "shortlink": "Scaling Go Applications Horizontally",
-      "text": ""
+      "text": "Focuses on strategies for scaling Go applications across multiple servers. Discusses load balancing, concurrency management, and design choices for distributed systems."
    },
    {
       "id": 33,
       "type": "course",
       "date": "May 8th, 2017",
       "link": "https://www.pluralsight.com/courses/oauth2-json-web-tokens-openid-connect-introduction",
-      "shortlink": "Introduction to OAuth2, OpenID Connect and JSON Web Tokens (JWT)",
-      "text": ""
+      "shortlink": "Introduction to OAuth2, OpenID Connect and JSON Web Tokens",
+      "text": "Covers modern authentication and authorization standards. Explains how OAuth2 and OpenID Connect work and how JWTs are used to secure APIs and applications."
    },
    {
       "id": 32,
@@ -1133,7 +1093,7 @@ var achievements = [
       "date": "May 7th, 2017",
       "link": "https://www.pluralsight.com/courses/microservices-architecture",
       "shortlink": "Microservices Architecture",
-      "text": "Quite an interesting topic. :)"
+      "text": "Introduces the concepts behind building applications as a collection of small, independent services. Explains service boundaries, communication, and the benefits and challenges of this approach."
    },
    {
       "id": 31,
@@ -1141,7 +1101,7 @@ var achievements = [
       "date": "March 19th, 2017",
       "link": "https://www.udacity.com/course/website-performance-optimization--ud884",
       "shortlink": "Website Performance Optimization by Google",
-      "text": ""
+      "text": "Focuses on techniques for making websites faster and more efficient. Covers best practices for minimizing load times, optimizing assets, and improving the overall user experience."
    },
    {
       "id": 30,
@@ -1149,7 +1109,7 @@ var achievements = [
       "date": "March 10th, 2017",
       "link": "https://www.pluralsight.com/courses/build-go-apps-gorilla-toolkit",
       "shortlink": "Building Better Go Web Apps with the Gorilla Toolkit",
-      "text": ""
+      "text": "Shows how to use the Gorilla web toolkit to build more robust Go applications. Explains routing, middleware, and patterns for structuring maintainable web projects."
    },
    {
       "id": 29,
@@ -1157,7 +1117,7 @@ var achievements = [
       "date": "February 19th, 2017",
       "link": "http://www.audible.com.au/pd/Non-fiction/Moonwalking-with-Einstein-Audiobook/B00FEZGM12",
       "shortlink": "Moonwalking with Einstein",
-      "text": "A great insight into how memory feats are possible for ordinary people, too."
+      "text": "Explores the world of memory training and competitive memorization. Explains how mnemonic techniques allow ordinary people to achieve extraordinary memory feats."
    },
    {
       "id": 28,
@@ -1165,7 +1125,7 @@ var achievements = [
       "date": "January 29th, 2017",
       "link": "https://www.pluralsight.com/courses/gradle-fundamentals",
       "shortlink": "Gradle Fundamentals",
-      "text": ""
+      "text": "Covers the basics of using Gradle for build automation. Explains tasks, dependencies, and how to manage projects efficiently with this build system."
    },
    {
       "id": 27,
@@ -1173,7 +1133,7 @@ var achievements = [
       "date": "January 20th, 2017",
       "link": "https://www.pluralsight.com/courses/design-patterns-java-behavioral",
       "shortlink": "Design Patterns in Java: Behavioral",
-      "text": ""
+      "text": "Covers behavioral design patterns and their implementation in Java. Explains how patterns like strategy, observer, and command can improve flexibility and maintainability in software."
    },
    {
       "id": 26,
@@ -1181,7 +1141,7 @@ var achievements = [
       "date": "January 10th, 2017",
       "link": "https://www.pluralsight.com/courses/java-8-whats-new",
       "shortlink": "What's new in Java 8",
-      "text": "Also read these great blogs about it: http://winterbe.com/posts/2014/03/16/java-8-tutorial/ , http://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/"
+      "text": "Introduces the key features added in Java 8. Highlights lambda expressions, the streams API, and improvements to date and time handling."
    },
    {
       "id": 25,
@@ -1189,15 +1149,15 @@ var achievements = [
       "date": "December 30th, 2016",
       "link": "https://www.lynda.com/SSL-tutorials/Understanding-Secure-Sockets-Layer/178124-2.html",
       "shortlink": "Understanding Secure Sockets Layer",
-      "text": ""
+      "text": "Explains how SSL provides secure communication over the internet. Covers encryption, certificates, and the process of establishing trusted connections."
    },
    {
       "id": 24,
       "type": "course",
       "date": "December 16th, 2016",
       "link": "https://www.pluralsight.com/courses/play-by-play-docker-java-developers-arun-gupta-michael-hoffman",
-      "shortlink": "Play by Play: Docker for Java Developers with Arun Gupta and Michael Hoffman",
-      "text": ""
+      "shortlink": "Play by Play: Docker for Java Developers",
+      "text": "Demonstrates how Java developers can use Docker in their workflow. Shows how to containerize applications, manage dependencies, and streamline development."
    },
    {
       "id": 23,
@@ -1205,39 +1165,23 @@ var achievements = [
       "date": "December 9th, 2016",
       "link": "https://www.pluralsight.com/courses/spring-boot-efficient-development-configuration-deployment",
       "shortlink": "Spring Boot: Efficient Development, Configuration, and Deployment",
-      "text": "A little something to help me out on the project I'm currently working on."
+      "text": "Explains how Spring Boot simplifies Java application development. Covers setup, configuration, and deployment, with techniques to speed up building production-ready applications."
    },
-   // {
-   //    "id": 22,
-   //    "title": "Introduced AngularJS, Facebook & Google OAauth to the website",
-   //    "date": "October 17th, 2016",
-   //    "link": "",
-   //    "shortlink": "",
-   //    "text": ""
-   // },
    {
       "id": 21,
       "type": "audiobook",
       "date": "October 16th, 2016",
       "link": "http://www.audible.com/pd/Science-Technology/Superintelligence-Audiobook/B00LPMD72K",
       "shortlink": "Superintelligence: Paths, Dangers, Strategies",
-      "text": "Wanted to listen to something about AI. Wouldn't say that I was disappointed, but Nick talks way too much about the dangers of AI that he thinks are possible, and he repeats himself a lot. Nevertheless, was a nice time killer."
+      "text": "Explores possible futures shaped by artificial intelligence. Examines the potential paths AI development could take, the risks of surpassing human intelligence, and strategies for managing those challenges."
    },
-   // {
-   //    "id": 20,
-   //    "title": "Work&Travel",
-   //    "date": "October 2nd, 2016",
-   //    "link": "https://en.wikipedia.org/wiki/Jackson,_Wyoming",
-   //    "shortlink": "Came back",
-   //    "text": "It was a wonderful journey, and I will surely write some more about it (once I find some free time to do so)."
-   // },
    {
       "id": 19,
       "type": "audiobook",
       "date": "June 10th, 2016",
       "link": "http://www.audible.com/pd/Science-Technology/Sapiens-Audiobook/B00SXJF7J4",
       "shortlink": "Sapiens: A Brief History of Humankind",
-      "text": "Recommended by Bill Gates on his blog @ https://www.gatesnotes.com/About-Bill-Gates/Summer-Books-2016"
+      "text": "Traces the history of Homo sapiens from the earliest hunter-gatherers to the modern age. Explores how biology, culture, and technology shaped human societies across time."
    },
    {
       "id": 18,
@@ -1245,55 +1189,23 @@ var achievements = [
       "date": "May 29th, 2016",
       "link": "http://www.audible.com/pd/Bios-Memoirs/Elon-Musk-Audiobook/B00UX8ODPM",
       "shortlink": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
-      "text": "Enjoyed every hour. Elon is kind of an idol of mine."
+      "text": "A biography that follows Elon Musk’s journey through entrepreneurship and innovation. Covers his work at Tesla, SpaceX, and other ventures, showing how he aims to influence the future of technology and space exploration."
    },
-   // {
-   //    "id": 17,
-   //    "title": "Work&Travel",
-   //    "date": "May 24th, 2016",
-   //    "link": "http://lazarivkov.com/usa",
-   //    "shortlink": "USA",
-   //    "text": "Started my 4-months journey to America."
-   // },
-   // {
-   //    "id": 16,
-   //    "title": "Internship",
-   //    "date": "April 4th, 2016",
-   //    "link": "http://www.execom.eu/",
-   //    "shortlink": "Accepted as an intern @ Execom",
-   //    "text": ":)"
-   // },
    {
       "id": 15,
       "type": "book",
       "date": "April 2nd, 2016",
       "link": "http://www.amazon.com/The-4-Hour-Workweek-Escape-Anywhere/dp/0307465357",
       "shortlink": "The 4-Hour Workweek",
-      "text": "Well - not sure. I'd recommend just reading the summary of the book."
+      "text": "Presents strategies for rethinking work, productivity, and lifestyle design. Focuses on automation, outsourcing, and creating freedom by shifting away from the traditional 9-to-5 model."
    },
-   // {
-   //    "id": 14,
-   //    "title": "MIT Lecture",
-   //    "date": "March 21st, 2016",
-   //    "link": "https://www.youtube.com/watch?v=TjZBTDzGeGg",
-   //    "shortlink": " Introduction and Scope",
-   //    "text": "This lecture actually got me really interested, but I was always interested in AI - and I also wrote about 7 a4 pages about it."
-   // },
-   // {
-   //    "id": 13,
-   //    "title": "MIT Lecture",
-   //    "date": "March 20th, 2016",
-   //    "link": "https://www.youtube.com/watch?v=g1ka1MXpo3s&feature=youtu.be",
-   //    "shortlink": "Introduction to the visual system",
-   //    "text": "Sometimes, I enjoy watching lectures on different topics that I find interesting. And I do not regret watching this one. It was quite awesome, but I will continue switching topics for now, to see what I enjoy the most."
-   // },
    {
       "id": 12,
       "type": "course",
       "date": "March 5th, 2016",
       "link": "https://mva.microsoft.com/en-US/training-courses/mean-stack-jump-start-8442",
       "shortlink": "MEAN Stack Jump Start",
-      "text": ""
+      "text": "Introduces the MEAN stack—MongoDB, Express, Angular, and Node.js. Explains how these technologies work together to build modern full-stack applications."
    },
    {
       "id": 11,
@@ -1301,7 +1213,7 @@ var achievements = [
       "date": "February 27th, 2016",
       "link": "https://egghead.io/",
       "shortlink": "AngularJS course",
-      "text": "These 3 hours of content were a nice introduction to AngularJS."
+      "text": "A short course that provides an introduction to AngularJS. Covers the core concepts of the framework and how to start building dynamic web applications."
    },
    {
       "id": 10,
@@ -1309,23 +1221,15 @@ var achievements = [
       "date": "February 19th, 2016",
       "link": "https://www.codecademy.com/learn/learn-angularjs",
       "shortlink": "Learn AngularJS",
-      "text": "Enjoying the MEAN stack."
+      "text": "Focuses on the fundamentals of AngularJS in the context of modern web development. Explains how data binding, controllers, and directives fit into building single-page apps."
    },
-   // {
-   //    "id": 9,
-   //    "title": "50 days streak on Duolingo (French)",
-   //    "date": "February 17th, 2016",
-   //    "link": "https://www.duolingo.com/l4ky",
-   //    "shortlink": "",
-   //    "text": "^_^"
-   // },
    {
       "id": 8,
       "type": "course",
       "date": "February 10th, 2016",
       "link": "https://www.udemy.com/learn-nodejs-by-building-10-projects/",
       "shortlink": "Learn Node.js by building 10 projects",
-      "text": "Phew, This one lasted 19hrs (and more, if you count the hours wasted on fixing stuff), but I'm glad I did it. It was a nice kickstart into Node.js."
+      "text": "Covers Node.js by guiding learners through ten hands-on projects. Emphasizes practical experience with building applications, debugging, and structuring real-world code."
    },
    {
       "id": 7,
@@ -1333,7 +1237,7 @@ var achievements = [
       "date": "February 10th, 2016",
       "link": "http://www.amazon.com/Outliers-Story-Success-Malcolm-Gladwell/dp/0316017930",
       "shortlink": "Outliers: The Story of Success",
-      "text": "A little something to boost my motivation. :)"
+      "text": "Explores the factors that contribute to high levels of success. Highlights the roles of culture, timing, opportunity, and practice in shaping achievement."
    },
    {
       "id": 6,
@@ -1341,23 +1245,15 @@ var achievements = [
       "date": "February 7th, 2016",
       "link": "http://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319",
       "shortlink": "Code: The Hidden Language of Computer Hardware and Software",
-      "text": "One of the most enlightening books that I've ever read - it introduced me to the inner workings of a computer like no one / nothing ever did. I was in awe most of the time while reading it."
+      "text": "Explains how computers work from the ground up. Traces the development from basic communication systems to modern hardware and software, showing how simple ideas build into complex machines."
    },
-   // {
-   //    "id": 5,
-   //    "title": "40 days streak on Duolingo (French)",
-   //    "date": "February 6th, 2016",
-   //    "link": "https://www.duolingo.com/l4ky",
-   //    "shortlink": "",
-   //    "text": "The largest streak before this one was ~15 days long, but sadly it was broken. And I'm quite proud of pushing myself to exercise French everyday. :)"
-   // },
    {
       "id": 4,
       "type": "book",
       "date": "February 4th, 2016",
       "link": "http://www.amazon.com/RESTful-Web-API-Design-Node-js/dp/1783985860",
       "shortlink": "RESTful Web API Design with Node.js",
-      "text": "I read this book in one day -- After starting exploring Node.js, I've decided to read a short book about it. This was the one I chose - and it turned out to be a good decision. Again, it was done as a part of the 'Book A Day' challenge that I've put myself up against."
+      "text": "Introduces the principles of RESTful architecture and how to apply them using Node.js. Explains routing, data handling, and best practices for building maintainable APIs."
    },
    {
       "id": 3,
@@ -1365,7 +1261,7 @@ var achievements = [
       "date": "February 2nd, 2016",
       "link": "http://www.amazon.com/For-Dummies-Stephen-R-Davis/dp/0470317264",
       "shortlink": "C++ For Dummies",
-      "text": "It's been quite a while since I've started reading this, and I've had a bugging feeling that I should just go on through with it. So I did. :)"
+      "text": "A beginner-friendly introduction to C++ programming. Covers language basics, syntax, and foundational concepts for writing and compiling simple programs."
    },
    {
       "id": 2,
@@ -1373,7 +1269,7 @@ var achievements = [
       "date": "January 27th, 2016",
       "link": "https://www.pluralsight.com/courses/accelerated-introduction-cpp",
       "shortlink": "Accelerated Introduction C++",
-      "text": "This was also done in one day. Again, the goal was to do something I've never done before."
+      "text": "A course designed to quickly bring learners up to speed with C++. Focuses on core features of the language, including variables, functions, and object-oriented programming."
    },
    {
       "id": 1,
@@ -1381,7 +1277,7 @@ var achievements = [
       "date": "January 16th, 2016",
       "link": "http://www.amazon.com/Mind-Numbers-Science-Flunked-Algebra/dp/039916524X",
       "shortlink": "A Mind for Numbers: How to Excel at Math and Science (Even If You Flunked Algebra)",
-      "text": "I read this book in one day -- Basically, the idea behind this was to push my limits. I've never focused on reading a single book in one day, so this marks the first time I did such a thing."
+      "text": "Provides strategies for learning math and science more effectively. Focuses on problem-solving, memory techniques, and overcoming common obstacles in technical subjects."
    }
 ];
 
