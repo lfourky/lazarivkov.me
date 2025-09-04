@@ -157,7 +157,7 @@ var achievements = [
       "date": "October 12th, 2022",
       "link": "https://www.audible.co.uk/pd/How-the-Internet-Happened-Audiobook/B07FXQ4BJM",
       "shortlink": "How the Internet Happened",
-      "text": ""
+      "text": "A history of how the internet developed from the early days of personal computing to the rise of social media. The book traces key innovations, companies, and cultural shifts that shaped the digital world."
    },
    {
       "id": 153,
@@ -173,7 +173,7 @@ var achievements = [
       "date": "July 22nd, 2022",
       "link":"https://www.audible.com/pd/Pryor-Convictions-Audiobook/B079DW264M",
       "shortlink": "Pryor Convictions ... and Other Life Sentences",
-      "text": ""
+      "text": "An autobiography of comedian Richard Pryor, covering his career, struggles, and influence on American comedy. The book provides a candid look at his life on and off the stage."
    },
    {
       "id": 151,
@@ -181,7 +181,7 @@ var achievements = [
       "date": "June 19th, 2022",
       "link": "https://www.thegreatcourses.com/courses/unexpected-economics",
       "shortlink": "TGC - Unexpected Economics",
-      "text": "A fascinating look at how economic principles apply to everyday life, from dating and marriage to crime and sports, revealing the hidden economics all around us."
+      "text": "Economic principles are applied to everyday situations such as relationships, crime, and sports. The course reveals how hidden incentives and trade-offs shape decisions and behavior in unexpected ways."
    },
    {
       "id": 150,
@@ -197,7 +197,7 @@ var achievements = [
       "date": "April 18th, 2022",
       "link": "https://www.thegreatcourses.com/courses/economics-3rd-edition",
       "shortlink": "TGC - Economics, 3rd Edition",
-      "text": ""
+      "text": "An introduction to the principles of economics with updated examples and applications. The course covers supply and demand, markets, government policies, and the forces that shape global and local economies."
    },
    {
       "id": 148,
@@ -213,7 +213,7 @@ var achievements = [
       "date": "March 12th, 2022",
       "link":"https://www.audible.com/pd/Project-Hail-Mary-Audiobook/B08G9PRS1K",
       "shortlink": "Project Hail Mary",
-      "text": ""
+      "text": "A science fiction story about a lone astronaut on a desperate mission to save humanity. The book combines survival in space with scientific problem-solving and unexpected discoveries."
    },
    {
       "id": 146,
@@ -221,7 +221,7 @@ var achievements = [
       "date": "February 4th, 2022",
       "link":"https://www.audible.com/pd/The-Subtle-Art-of-Not-Giving-a-F-ck-Audiobook/B01I28NFEE",
       "shortlink": "The Subtle Art of Not Giving a :)",
-      "text": ""
+      "text": "A perspective on focusing energy and attention only on what truly matters. The book challenges conventional ideas about positivity and emphasizes values, responsibility, and acceptance of limitations."
    },
    {
       "id": 145,
@@ -229,7 +229,7 @@ var achievements = [
       "date": "January 26th, 2022",
       "link": "https://www.audible.com/pd/Black-Hole-Blues-and-Other-Songs-from-Outer-Space-Audiobook/B01D0MP9QE",
       "shortlink": "Black Hole Blues and Other Songs from Outer Space",
-      "text": ""
+      "text": "The decades-long quest to detect gravitational waves is told through the work of scientists and their experiments. It captures the challenges, setbacks, and breakthroughs that led to one of modern physics’ greatest achievements."
    },
    {
       "id": 144,
@@ -261,7 +261,7 @@ var achievements = [
       "date": "December 27th, 2021",
       "link": "https://www.audible.com/pd/Weapons-of-Math-Destruction-Audiobook/B01JPA41ZU",
       "shortlink": "Weapons of Math Destruction - How Big Data Increases Inequality and Threatens Democracy",
-      "text": ""
+      "text": "An examination of how algorithms and big data can reinforce inequality and undermine democratic values. It shows the hidden impact of predictive models in areas like finance, policing, education, and employment."
    },
    {
       "id": 140,
@@ -269,7 +269,7 @@ var achievements = [
       "date": "December 18th, 2021",
       "link": "https://www.audible.com/pd/Greenlights-Audiobook/0593294181",
       "shortlink": "Greenlights",
-      "text": ""
+      "text": "Matthew McConaughey shares stories, reflections, and lessons from his life and career. The memoir mixes personal anecdotes with insights about risk, resilience, and finding meaning in unexpected moments."
    },
    {
       "id": 139,
@@ -285,7 +285,7 @@ var achievements = [
       "date": "November 22nd, 2021",
       "link": "https://www.audible.com/pd/Everything-All-at-Once-Audiobook/B06Y6GTN8D",
       "shortlink": "Everything All at Once",
-      "text": ""
+      "text": "Bill Nye reflects on curiosity, learning, and the urgency of addressing global challenges. Personal stories are combined with scientific ideas and a call for active problem-solving."
    },
    {
       "id": 137,
@@ -293,7 +293,7 @@ var achievements = [
       "date": "October 20th, 2021",
       "link": "https://www.audible.com/pd/Limitless-Mind-Audiobook/006296013X",
       "shortlink": "Limitless mind",
-      "text": ""
+      "text": "Examines how beliefs about intelligence shape learning and achievement. Research on brain plasticity is paired with strategies for unlocking potential in education and daily life."
    },
    {
       "id": 136,
@@ -301,7 +301,7 @@ var achievements = [
       "date": "September 13th, 2021",
       "link": "https://www.audible.com/pd/The-Molecule-of-More-Audiobook/B07HRYH8QZ",
       "shortlink": "The Molecule of More",
-      "text": ""
+      "text": "Focuses on dopamine as a driving force behind desire, ambition, and creativity. Also shows how it contributes to addiction and dissatisfaction, revealing both its positive and negative effects."
    },
    {
       "id": 135,
@@ -309,7 +309,7 @@ var achievements = [
       "date": "September 8th, 2021",
       "link": "https://www.amazon.com/Psych-101-Psychology-Basics-Statistics/dp/1440543909",
       "shortlink": "Psych 101",
-      "text": ""
+      "text": "Introduces the fundamental concepts of psychology in a concise format. Covers key topics such as behavior, cognition, development, personality, and mental health."
    },
    {
       "id": 134,
@@ -317,7 +317,7 @@ var achievements = [
       "date": "August 28th, 2021",
       "link": "https://www.audible.com/pd/The-Story-of-the-Human-Body-Audiobook/B00EZ4FJCG",
       "shortlink": "The Story of the Human Body - Evolution, Health, and Disease",
-      "text": ""
+      "text": "Explores human evolution and how changes in lifestyle have influenced health and disease. It connects evolutionary history with modern medical challenges and patterns of well-being."
    },
    {
       "id": 133,
@@ -333,15 +333,15 @@ var achievements = [
       "date": "May 8th, 2021",
       "link": "https://www.audible.com/pd/Redefining-Reality-Audiobook/B00ZB7QIIU",
       "shortlink": "Redefining Reality - The Intellectual Implications of Modern Science",
-      "text": ""
+      "text": "Looks at the ways modern science has changed our understanding of reality. Covers topics from physics, cosmology, and neuroscience, and examines their impact on philosophy and human thought."
    },
    {
       "id": 131,
       "type": "book",
       "date": "March 20th, 2021",
       "link": "https://pragprog.com/titles/prj/ship-it/",
-      "shortlink": "Ship It! - A Practical Guide to Successful Software Projects",
-      "text": ""
+      "shortlink": "Ship It!",
+      "text": "A practical guide to running successful software projects. Focuses on planning, communication, release cycles, and the habits that help teams deliver working software effectively."
    },
    {
       "id": 130,
@@ -349,7 +349,7 @@ var achievements = [
       "date": "March 14th, 2021",
       "link": "https://www.oreilly.com/library/view/rust-in-motion/10000MNLV201742/",
       "shortlink": "Rust in Motion",
-      "text": ""
+      "text": "A course introducing the Rust programming language through practical examples. Explains concepts such as ownership, concurrency, memory safety, and building reliable systems."
    },
    {
       "id": 129,
@@ -357,7 +357,7 @@ var achievements = [
       "date": "February 20th, 2021",
       "link": "https://www.oreilly.com/library/view/introducing-regular-expressions/9781449338879/",
       "shortlink": "Introducing Regular Expressions",
-      "text": ""
+      "text": "Regular expressions are introduced as a tool for finding patterns in text and reshaping data. The explanations move from simple matches to more advanced techniques that show how regex fits into everyday programming."
    },
    {
       "id": 128,
@@ -365,15 +365,15 @@ var achievements = [
       "date": "January 16th, 2021",
       "link": "https://www.manning.com/books/operations-anti-patterns-devops-solutions",
       "shortlink": "Operations Anti-Patterns, DevOps Solutions",
-      "text": ""
+      "text": "Common pitfalls in IT operations are presented through real-world examples of what goes wrong. Each problem is paired with a DevOps-oriented approach that shows how teams can improve reliability and collaboration."
    },
    {
       "id": 127,
       "type": "book",
       "date": "January 8th, 2021",
       "link": "https://www.amazon.com/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230",
-      "shortlink": "Grokking Algorithms: An Illustrated Guide for Programmers and Other Curious People",
-      "text": ""
+      "shortlink": "Grokking Algorithms",
+      "text": "Algorithms are explained through stories and illustrations that make abstract ideas concrete. From sorting and searching to recursion and graphs, concepts are broken down into visuals and step-by-step reasoning."
    },
    {
       "id": 126,
@@ -381,15 +381,15 @@ var achievements = [
       "date": "December 3rd, 2020",
       "link": "https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb",
       "shortlink": "C++",
-      "text": "Over 20 hours of C++ learning material"
+      "text": "A video course that introduces C++ from the basics up to advanced programming concepts. It moves step by step through syntax, memory management, object-oriented design, and modern C++ practices."
    },
    {
       "id": 125,
       "type": "audiobook",
       "date": "October 25th, 2020",
       "link": "https://www.audible.com/pd/Alchemy-Audiobook/0062801503",
-      "shortlink": "Alchemy - The Dark Art and Curious Science of Creating Magic in Brands, Business, and Life",
-      "text": ""
+      "shortlink": "Alchemy",
+      "text": "An exploration of how unconventional thinking can shape business, branding, and decision-making. It shows how psychological insights and creative problem-solving often outperform purely logical approaches."
    },
    {
       "id": 124,
@@ -397,7 +397,7 @@ var achievements = [
       "date": "October 20th, 2020",
       "link": "https://www.manning.com/books/microservices-security-in-action",
       "shortlink": "Microservices Security In Action",
-      "text": ""
+      "text": "A hands-on guide to securing microservice architectures. Real-world patterns and examples demonstrate how to protect communication, manage identity, and build trust across distributed systems."
    },
    {
       "id": 123,
@@ -405,7 +405,7 @@ var achievements = [
       "date": "July 15th, 2020",
       "link": "https://www.amazon.com/How-Not-Die-Discover-Scientifically/dp/1250066115",
       "shortlink": "How Not to Die",
-      "text": ""
+      "text": "Explores the connection between diet and long-term health. Scientific evidence is presented on how plant-based nutrition can help prevent and even reverse chronic diseases."
    },
    {
       "id": 122,
@@ -413,7 +413,7 @@ var achievements = [
       "date": "Jun 26th, 2020",
       "link": "https://www.manning.com/books/unit-testing",
       "shortlink": "Unit Testing Principles, Practices, and Patterns",
-      "text": ""
+      "text": "Shows how to design effective unit tests that improve code quality. Different testing strategies and patterns are explained through practical examples, with guidance on avoiding common pitfalls."
    },
    {
       "id": 121,
@@ -421,7 +421,7 @@ var achievements = [
       "date": "May 30th, 2020",
       "link": "https://frontendmasters.com/courses/intermediate-react-v2/",
       "shortlink": "Intermediate React, v2",
-      "text": ""
+      "text": "A course that builds on the fundamentals of React by introducing advanced concepts. Topics include hooks, context, performance optimization, and patterns for structuring larger applications."
    },
    {
       "id": 120,
@@ -429,7 +429,7 @@ var achievements = [
       "date": "May 6th, 2020",
       "link": "https://frontendmasters.com/courses/git-in-depth/",
       "shortlink": "Git In-depth",
-      "text": ""
+      "text": "Goes beyond the basics of Git to explain how version control works under the hood. Covers branching strategies, rebasing, rewriting history, and advanced workflows for managing complex projects."
    },
    {
       "id": 119,
@@ -437,7 +437,7 @@ var achievements = [
       "date": "May 3rd, 2020",
       "link": "http://shop.oreilly.com/product/0636920021575.do",
       "shortlink": "REST API Design Rulebook",
-      "text": ""
+      "text": "Outlines guidelines for designing consistent and reliable RESTful APIs. Focuses on resource modeling, naming conventions, and patterns that make APIs easier to use and maintain."
    },
    {
       "id": 118,
@@ -445,7 +445,7 @@ var achievements = [
       "date": "May 3rd, 2020",
       "link": "https://frontendmasters.com/courses/complete-react-v5",
       "shortlink": "Complete Intro to React",
-      "text": ""
+      "text": "A course that introduces React step by step, starting from the fundamentals. Topics include components, state, props, hooks, and how to build full applications with modern best practices."
    },
    {
       "id": 117,
@@ -453,7 +453,7 @@ var achievements = [
       "date": "May 1st, 2020",
       "link": "https://www.audible.com/pd/Deadliest-Enemy-Audiobook/B06XKLQ6S9",
       "shortlink": "Deadliest Enemy - Our War Against Killer Germs",
-      "text": ""
+      "text": "Examines the global threat of infectious diseases and the constant battle against pandemics. Real-world case studies highlight how pathogens emerge, spread, and how societies can prepare for future outbreaks."
    },
    {
       "id": 116,
@@ -461,7 +461,7 @@ var achievements = [
       "date": "April 12th, 2020",
       "link": "https://www.amazon.com/Scalability-Startup-Engineers-Artur-Ejsmont/dp/0071843655",
       "shortlink": "Web Scalability for Startup Engineers",
-      "text": ""
+      "text": "Explains the principles of building web applications that can handle rapid growth. Topics include architecture, caching, load balancing, databases, and strategies for scaling systems efficiently."
    },
    {
       "id": 115,
@@ -469,7 +469,7 @@ var achievements = [
       "date": "March 21st, 2020",
       "link": "https://www.audible.com/pd/The-Pragmatic-Programmer-20th-Anniversary-Edition-2nd-Edition-Audiobook/B0833FMYH9",
       "shortlink": "The Pragmatic Programmer",
-      "text": ""
+      "text": "Presents timeless practices for writing better software and growing as a developer. Covers topics like code organization, automation, debugging, and the mindset needed for long-term success in programming."
    },
    {
       "id": 114,
@@ -477,7 +477,7 @@ var achievements = [
       "date": "March 14th, 2020",
       "link": "https://www.audible.com/pd/The-Tipping-Point-Audiobook/B0032N8PRM",
       "shortlink": "The Tipping Point - How Little Things Can Make a Big Difference",
-      "text": ""
+      "text": "Explores how small changes can spark large social trends. Real-world examples illustrate how ideas, behaviors, and products spread like epidemics through society."
    },
    {
       "id": 113,
@@ -485,15 +485,15 @@ var achievements = [
       "date": "March 2nd, 2020",
       "link": "https://www.oreilly.com/library/view/dependency-injection-principles/9781617294730/",
       "shortlink": "Dependency Injection",
-      "text": ""
+      "text": "Introduces the concept of dependency injection and shows how it improves flexibility and maintainability in software design. Practical examples illustrate how to decouple components and manage complexity in real projects."
    },
    {
       "id": 112,
       "type": "audiobook",
       "date": "March 1st, 2020",
       "link": "https://www.audible.com/pd/Zero-to-One-Audiobook/B00M27LBU2",
-      "shortlink": "Zero to One - Notes on Startups, or How to Build the Future",
-      "text": ""
+      "shortlink": "Zero to One",
+      "text": "Focuses on how startups create new ideas and build unique products. Emphasizes innovation, bold thinking, and the differences between copying existing models and developing something entirely new."
    },
    {
       "id": 111,
@@ -501,7 +501,7 @@ var achievements = [
       "date": "February 24th, 2020",
       "link": "https://www.audible.com/pd/Algorithms-to-Live-By-Audiobook/B01D24NLWO",
       "shortlink": "Algorithms to Live By",
-      "text": ""
+      "text": "Applies computer science algorithms to everyday decision-making. Topics like scheduling, sorting, and probability are explained as tools for managing choices and uncertainty in daily life."
    },
    {
       "id": 110,
@@ -509,7 +509,7 @@ var achievements = [
       "date": "January 28th, 2020",
       "link": "https://www.audible.com/pd/Humble-Pi-Audiobook/0241375509",
       "shortlink": "Humble Pi - A Comedy of Maths Errors",
-      "text": ""
+      "text": "Looks at mathematical mistakes made in real life, from engineering failures to everyday slip-ups. Through humor and examples, it shows the importance of mathematical literacy."
    },
    {
       "id": 109,
@@ -517,7 +517,7 @@ var achievements = [
       "date": "January 25th, 2020",
       "link": "https://www.educative.io/courses/grokking-computer-networking",
       "shortlink": "Grokking Computer Networking for Software Engineers",
-      "text": ""
+      "text": "A course that introduces networking fundamentals from a developer’s perspective. Covers protocols, layers, communication models, and how software interacts with the underlying network."
    },
    {
       "id": 108,
@@ -525,7 +525,7 @@ var achievements = [
       "date": "December 29th, 2019",
       "link": "https://www.audible.com/pd/Packing-for-Mars-Audiobook/B003VVN1KQ",
       "shortlink": "Packing for Mars - The Curious Science of Life in the Void",
-      "text": ""
+      "text": "Explores the science and engineering behind human space travel. Everyday details of living in zero gravity are examined alongside the challenges of survival, psychology, and technology in space missions."
    },
    {
       "id": 107,
@@ -533,7 +533,7 @@ var achievements = [
       "date": "November 12th, 2019",
       "link": "https://shop.oreilly.com/product/0636920048244.do",
       "shortlink": "Building Microservice Systems with Docker and Kubernetes",
-      "text": ""
+      "text": "A course on designing microservice architectures using containerization and orchestration tools. Demonstrates how to deploy, scale, and manage distributed applications in real-world environments."
    },
    {
       "id": 106,
@@ -541,7 +541,7 @@ var achievements = [
       "date": "November 10th, 2019",
       "link": "https://www.oreilly.com/library/view/understanding-regular-expressions/9781491996300/",
       "shortlink": "Understanding Regular Expressions",
-      "text": ""
+      "text": "Introduces regex concepts through clear explanations and examples. Shows how to write expressions for searching, extracting, and transforming text across different programming languages and tools."
    },
    {
       "id": 105,
@@ -549,7 +549,7 @@ var achievements = [
       "date": "November 5th, 2019",
       "link": "https://www.audible.com/pd/Homo-Deus-Audiobook/B01N4DCBK6",
       "shortlink": "Homo Deus: A Brief History of Tomorrow",
-      "text": ""
+      "text": "Examines possible futures for humanity as technology, artificial intelligence, and biotechnology reshape society. Explores themes of immortality, data-driven power, and the shift from Homo sapiens to a new kind of species."
    },
    {
       "id": 104,
@@ -557,7 +557,7 @@ var achievements = [
       "date": "September 27th, 2019",
       "link": "https://www.audible.com/pd/Bad-Science-Audiobook/B006WRE0IS",
       "shortlink": "Bad Science - Quacks, Hacks, and Big Pharma Flacks",
-      "text": ""
+      "text": "Investigates how misinformation, pseudoscience, and misuse of medical research spread in public life. Case studies expose flawed studies, exaggerated claims, and the influence of the pharmaceutical industry."
    },
    {
       "id": 103,
@@ -565,7 +565,7 @@ var achievements = [
       "date": "September 14th, 2019",
       "link": "https://www.audible.com/pd/Pale-Blue-Dot-Audiobook/B06XTJN84L",
       "shortlink": "Pale Blue Dot - A Vision of the Human Future in Space",
-      "text": ""
+      "text": "Reflects on humanity’s place in the cosmos and the future of space exploration. Connects scientific discoveries with the challenges and responsibilities of becoming a spacefaring civilization."
    },
    {
       "id": 102,
@@ -573,7 +573,7 @@ var achievements = [
       "date": "September 8th, 2019",
       "link": "https://www.amazon.com/China-Study-Comprehensive-Nutrition-Implications/dp/1932100660",
       "shortlink": "The China Study",
-      "text": "A paradigm shifting book."
+      "text": "Presents decades of research on the relationship between nutrition and long-term health. Argues for the benefits of a plant-based diet in preventing and reversing chronic disease."
    },
    {
       "id": 101,
@@ -581,7 +581,7 @@ var achievements = [
       "date": "August 20th, 2019",
       "link": "https://www.amazon.com/Whole-Rethinking-Nutrition-Colin-Campbell/dp/1939529840",
       "shortlink": "Whole: Rethinking the Science of Nutrition",
-      "text": ""
+      "text": "Challenges reductionist views of nutrition and promotes a holistic approach to food and health. Explains how nutrients interact within whole foods and how these interactions shape well-being."
    },
    {
       "id": 100,
@@ -589,7 +589,7 @@ var achievements = [
       "date": "July 31st, 2019",
       "link": "https://frontendmasters.com/courses/angularjs-and-code-testability/",
       "shortlink": "The Psychology of Code Testability",
-      "text": ""
+      "text": "A course that examines how code design influences the ability to test software effectively. Explores principles, patterns, and mental models that make systems easier to validate and maintain."
    },
    {
       "id": 99,
