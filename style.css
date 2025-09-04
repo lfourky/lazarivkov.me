@@ -647,32 +647,44 @@ p {
     border-color: var(--primary-blue);
 }
 
-/* Expanded achievement card - highlighted state */
-.achievement-card.expanded {
-    border: 3px solid var(--primary-blue);
+
+
+/* Highlighted achievement card */
+.achievement-card.highlighted {
+    border: 3px solid var(--accent-teal);
     box-shadow: var(--shadow-glow);
     transform: translateY(-4px);
-    background: linear-gradient(135deg, #ffffff, #f8fafc);
+    background: linear-gradient(135deg, #ffffff, #f0fdfa);
     position: relative;
+    animation: highlightPulse 0.6s ease-out;
 }
 
-.achievement-card.expanded::before {
+.achievement-card.highlighted::before {
     content: '';
     position: absolute;
     top: -2px;
     left: -2px;
     right: -2px;
     bottom: -2px;
-    background: linear-gradient(135deg, var(--primary-blue), var(--accent-teal));
+    background: linear-gradient(135deg, var(--accent-teal), var(--primary-blue));
     border-radius: var(--radius-sm);
     z-index: -1;
-    opacity: 0.1;
+    opacity: 0.15;
 }
 
-.achievement-card.expanded .card-type-icon {
-    transform: scale(1.15);
-    box-shadow: 0 6px 20px rgba(59, 130, 246, 0.3);
+@keyframes highlightPulse {
+    0% {
+        transform: translateY(-4px) scale(1);
+    }
+    50% {
+        transform: translateY(-4px) scale(1.02);
+    }
+    100% {
+        transform: translateY(-4px) scale(1);
+    }
 }
+
+
 
 .card-header {
     display: flex;
@@ -788,27 +800,7 @@ p {
     color: var(--text-primary);
 }
 
-.view-more-btn {
-    background: none;
-    border: none;
-    color: var(--primary-blue);
-    font-size: 0.8rem;
-    font-weight: 400;
-    cursor: pointer;
-    padding: var(--spacing-xs) 0;
-    text-decoration: none;
-    transition: var(--transition);
-    font-style: normal;
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-}
 
-.view-more-btn:hover {
-    color: var(--dark-blue);
-    text-decoration: none;
-}
 
 /* Responsive Design */
 @media (max-width: 1024px) {

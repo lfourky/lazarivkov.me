@@ -1288,9 +1288,6 @@ function getAchievementTemplate(achievement) {
     // Use the date string as-is
     const formattedDate = achievement.date;
     
-    const hasLongText = achievement.text && achievement.text.length > 150;
-    const shortText = hasLongText ? achievement.text.substring(0, 150) + '...' : achievement.text;
-    
     return `
         <div class="achievement-card" data-type="${type}" data-id="${achievement.id}">
             <div class="card-type-icon ${type}">
@@ -1308,9 +1305,7 @@ function getAchievementTemplate(achievement) {
                 </a>
             </h3>
             <div class="card-text-container">
-                <p class="card-text">${shortText}</p>
-                ${hasLongText ? `<p class="card-text-full" style="display: none;">${achievement.text}</p>` : ''}
-                ${hasLongText ? `<button class="view-more-btn">View More</button>` : ''}
+                <p class="card-text">${achievement.text}</p>
             </div>
         </div>
     `;
@@ -1411,7 +1406,7 @@ function addCardEventListeners() {
             card.style.transform = 'translateY(0)';
         });
         
-        // Add click event listener to expand/collapse text
+        // Add click event listener to highlight card and create link (for linking functionality)
         card.addEventListener('click', (event) => {
             // Don't trigger if clicking on title link
             if (event.target.closest('.title-link')) {
@@ -1419,23 +1414,20 @@ function addCardEventListeners() {
             }
             
             const achievementId = parseInt(card.dataset.id);
-            console.log('Card clicked, toggling text for ID:', achievementId);
-            toggleText(achievementId);
+            console.log('Card clicked, highlighting card for ID:', achievementId);
+            
+            // Check if this card is already highlighted
+            if (card.classList.contains('highlighted')) {
+                // If already highlighted, deselect it
+                card.classList.remove('highlighted');
+                updateURL(null);
+                console.log('Card deselected for ID:', achievementId);
+            } else {
+                // If not highlighted, highlight it
+                updateURL(achievementId);
+                highlightCard(achievementId);
+            }
         });
-        
-        // Add event listener directly to View More button
-        const viewMoreBtn = card.querySelector('.view-more-btn');
-        if (viewMoreBtn) {
-            console.log(`Found View More button for card ${index + 1}, adding click listener`);
-            viewMoreBtn.addEventListener('click', (event) => {
-                event.stopPropagation(); // Prevent card click event
-                const achievementId = parseInt(card.dataset.id);
-                console.log('View More button clicked, toggling text for ID:', achievementId);
-                toggleText(achievementId);
-            });
-        } else {
-            console.log(`No View More button found for card ${index + 1}`);
-        }
     });
 }
 
@@ -1829,59 +1821,11 @@ var pausedProgress = [
 ];
 
 // Global variable to track which achievement is currently expanded
-let expandedAchievementId = null;
 
-// Function to toggle text expansion
-function toggleText(achievementId) {
-    const card = document.querySelector(`[data-id="${achievementId}"]`);
-    if (!card) return;
-    
-    const shortText = card.querySelector('.card-text');
-    const fullText = card.querySelector('.card-text-full');
-    const viewMoreBtn = card.querySelector('.view-more-btn');
-    
-    if (!shortText || !fullText || !viewMoreBtn) return;
-    
-    // If this achievement is already expanded, collapse it
-    if (expandedAchievementId === achievementId) {
-        shortText.style.display = 'block';
-        fullText.style.display = 'none';
-        viewMoreBtn.textContent = 'View More';
-        card.classList.remove('expanded');
-        expandedAchievementId = null;
-        
-        // Remove achievement ID from URL when collapsing
-        updateURL(null);
-        return;
-    }
-    
-    // Collapse any previously expanded achievement
-    if (expandedAchievementId !== null) {
-        const prevCard = document.querySelector(`[data-id="${expandedAchievementId}"]`);
-        if (prevCard) {
-            const prevShortText = prevCard.querySelector('.card-text-full');
-            const prevViewMoreBtn = prevCard.querySelector('.view-more-btn');
-            
-            if (prevShortText && prevViewMoreBtn) {
-                prevShortText.style.display = 'none';
-                prevViewMoreBtn.textContent = 'View More';
-                prevCard.classList.remove('expanded');
-            }
-        }
-    }
-    
-    // Expand current achievement
-    shortText.style.display = 'none';
-    fullText.style.display = 'block';
-    viewMoreBtn.textContent = 'View Less';
-    card.classList.add('expanded');
-    expandedAchievementId = achievementId;
-    
-    // Update URL with achievement ID
-    updateURL(achievementId);
-}
 
-// Function to update URL with achievement ID
+
+
+// Function to update URL with achievement ID (for linking functionality)
 function updateURL(achievementId) {
     if (achievementId) {
         // Add achievement ID to URL with shorter format
@@ -1894,22 +1838,49 @@ function updateURL(achievementId) {
     }
 }
 
-// Function to check URL and expand achievement if ID is present
+// Function to highlight a card and create link (for linking functionality)
+function highlightCard(achievementId) {
+    // Remove highlight from previously highlighted card
+    const prevHighlightedCard = document.querySelector('.achievement-card.highlighted');
+    if (prevHighlightedCard) {
+        prevHighlightedCard.classList.remove('highlighted');
+    }
+    
+    // Add highlight to current card
+    const currentCard = document.querySelector(`[data-id="${achievementId}"]`);
+    if (currentCard) {
+        currentCard.classList.add('highlighted');
+        
+        // Scroll to the card
+        currentCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        
+
+    }
+}
+
+// Function to check URL and highlight achievement if ID is present (for linking functionality)
 function checkURLForAchievement() {
     const hash = window.location.hash;
     if (hash && hash.startsWith('#a')) {
         const achievementId = parseInt(hash.replace('#a', ''));
         if (achievementId && !isNaN(achievementId)) {
-            // Wait a bit for cards to be populated, then expand
+            // Wait a bit for cards to be populated, then highlight
             setTimeout(() => {
                 const card = document.querySelector(`[data-id="${achievementId}"]`);
                 if (card) {
                     // Scroll to the card
                     card.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                    // Expand the card
-                    toggleText(achievementId);
+                    
+                    // Highlight the card
+                    highlightCard(achievementId);
                 }
             }, 500);
+        }
+    } else {
+        // If no hash, remove any highlighted states
+        const highlightedCard = document.querySelector('.achievement-card.highlighted');
+        if (highlightedCard) {
+            highlightedCard.classList.remove('highlighted');
         }
     }
 }
@@ -1928,6 +1899,11 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Check if URL contains achievement ID and expand it
     checkURLForAchievement();
+    
+    // Add event listener for browser back/forward buttons
+    window.addEventListener('popstate', function(event) {
+        checkURLForAchievement();
+    });
     
     // Add filter tab event listeners
     const filterTabs = document.querySelectorAll('.filter-tab');
