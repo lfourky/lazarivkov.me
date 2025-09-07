@@ -1,5 +1,13 @@
 var achievements = [
    {
+      "id": 174,
+      "type": "audiobook",
+      "date": "September 7th, 2025",
+      "link": "https://www.amazon.com/Not-Nice-Pleasing-Speaking-Unapologetically-ebook/dp/B076VVH14M",
+      "shortlink": "Not Nice",
+      "text": "Chronic politeness and avoiding conflict are habits that destroy self-respect. Instead of protecting relationships, they breed resentment, stress, and fake connections. The focus is on breaking free from approval-seeking and learning to set boundaries, speak directly, and live without constant guilt."
+   },
+   {
       "id": 173,
       "type": "book",
       "date": "September 1st, 2025",
