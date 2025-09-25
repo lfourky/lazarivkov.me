@@ -1,5 +1,13 @@
 var achievements = [
    {
+      "id": 175,
+      "type": "course",
+      "date": "September 25th, 2025",
+      "link": "https://www.thegreatcoursesplus.com/chemistry-and-our-universe-how-it-all-works",
+      "shortlink": "TGC - Chemistry and Our Universe",
+      "text": "A visually rich, full-spectrum chemistry course that explores atoms, bonding, acids and bases, redox, organic compounds, and the chemistry underlying Earth and cosmos. The content spans standard general chemistry plus less common topics like chemical weapons, polymers, and geochemical cycles."
+   },
+   {
       "id": 174,
       "type": "audiobook",
       "date": "September 7th, 2025",
