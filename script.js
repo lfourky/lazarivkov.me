@@ -2,7 +2,7 @@ var achievements = [
    {
       "id": 176,
       "type": "book",
-      "date": "October 23rd, 2025",
+      "date": "October 22nd, 2025",
       "link": "https://www.amazon.com/Microbiology-Very-Short-Introduction-Introductions/dp/0199681686",
       "shortlink": "VSI: Microbiology",
       "text": "A concise yet wide-ranging overview of microbes and their role in life on Earth. In this volume of the Very Short Introductions series, Nicholas P. Money guides readers through the unseen world of bacteria, archaea, fungi, protists and viruses — exploring how microbiology has evolved from microscopy to genome sequencing, and showing how microorganisms drive ecosystems, human health, biotechnology, agriculture and even our atmosphere. The book emphasises how the microbial world is not just a backdrop to life, but a fundamental engine of it."  
